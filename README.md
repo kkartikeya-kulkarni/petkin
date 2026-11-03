@@ -5,6 +5,8 @@ rigid motion correction, and PET-to-structural-MRI registration.
 
 **Version:** 0.4.0.dev1 · Regional research workflow
 
+[Download the current version](https://github.com/kkartikeya-kulkarni/petkin/releases/tag/v0.4.0-dev.1)
+
 ## Installation
 
 Requires Python 3.10 or later.

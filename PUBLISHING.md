@@ -2,7 +2,10 @@
 
 Repository: https://github.com/kkartikeya-kulkarni/petkin
 
-The initial upload is private. The historical 0.3.0rc1 release is preserved; 0.4.0.dev1 adds the regional workflow.
+The repository is private. Version 0.4.0.dev1 is the active regional workflow on
+`main` and the only downloadable GitHub release. The old 0.3.0rc1 release and tag
+were deleted at the owner's request. Historical code and validation evidence remain
+in Git history and the validation directory.
 The root README describes installation and usage. Detailed evidence and scope
 remain in VALIDATION_STATUS.md and the validation directory.
 

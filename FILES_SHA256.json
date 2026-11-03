@@ -36,13 +36,13 @@
   },
   {
     "path": "PUBLISHING.md",
-    "bytes": 1210,
-    "sha256": "fd081cbb7ec03bb7446e06a1b48203aa942cff92f6c8062ed98e3948fc1e6cea"
+    "bytes": 1386,
+    "sha256": "fccebbf9ac703b4f30aa1192e924f3ffcdcce28db9043a00b58406db24d79f8b"
   },
   {
     "path": "README.md",
-    "bytes": 8723,
-    "sha256": "04c4c56f73913d74bce6fd25c1a6fe7c37856f9fc4d8c1917664b4bebb8f4f15"
+    "bytes": 8828,
+    "sha256": "c25bee2cfbf396b11f5161bbc9dfcad96e2464a6460f9879af6c60bb540f87f4"
   },
   {
     "path": "REVIEW_HANDOFF.md",
