@@ -3,7 +3,7 @@
 A Python toolkit for dynamic PET tracer kinetic modeling, graphical analysis,
 rigid motion correction, and PET-to-structural-MRI registration.
 
-**Version:** 0.3.0rc1 · Research prerelease
+**Version:** 0.4.0.dev1 · Regional research workflow
 
 ## Installation
 
@@ -35,6 +35,57 @@ petkin logan demo/tac.csv demo/input.csv demo/logan.json \
 
 Open `demo/fit.html` or `demo/logan.html` in a browser. The generated
 `demo/truth.json` contains the simulation parameters.
+
+## Analyze a complete set of regions
+
+Run all supplied regions in one command:
+
+```sh
+petkin analyze demo/regions.json demo/input.csv demo/results \
+  --model 2t --vb 0.05 --tstar 30
+```
+
+Open `demo/results/index.html`. It links to an exportable `results.csv`, fit
+plots, residuals, held-frame prediction checks and individual JSON/HTML reports.
+Failed and flagged regions remain in the table; they are never silently dropped.
+Use a new output directory for every run.
+
+For your own extracted curves, create a region manifest with paths relative to
+that manifest:
+
+```json
+{
+  "regions": [
+    {"id": "FC", "name": "Frontal cortex", "path": "frontal.csv"},
+    {"id": "THA", "name": "Thalamus", "path": "thalamus.csv"}
+  ]
+}
+```
+
+Each regional CSV uses the TAC format below. Instead of `sigma`, a `weight`
+column may supply nonnegative frame weights. Zero-weight frames are excluded
+from compartment fitting and retained in the plotted observations. Do not supply
+both `weight` and `sigma`.
+
+## From images to regional results
+
+Supply an anatomical label image from your segmentation workflow. After rigid
+preprocessing, the labels and PET must share the same spatial grid:
+
+```sh
+petkin preprocess dynamic_pet.nii.gz T1w.nii.gz pet.json processed
+petkin extract processed/pet_in_mri.nii.gz anatomical_labels.nii.gz pet.json regions
+petkin analyze regions/regions.json input.csv regional-results \
+  --model 2t --vb 0.05 --tstar 30
+```
+
+`extract` uses the supplied positive integer label IDs, checks physical geometry,
+and reports region volumes. It performs no PET-intensity threshold segmentation
+or implicit interpolation of label images. You can replace the generated
+`region_ID` names in `regions.json` with anatomical names from your label atlas.
+Choose the model, vascular fraction, input processing and graphical start time
+for your study. Graphical methods that cannot operate on a region's timing are
+reported as unavailable while compartmental results are retained.
 
 ## Prepare your data
 

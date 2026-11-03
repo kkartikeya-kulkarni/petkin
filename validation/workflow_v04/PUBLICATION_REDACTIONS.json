@@ -1,0 +1,80 @@
+[
+  {
+    "path": "validation/workflow_v04/real_example/results.json",
+    "original_sha256": "4ceeb38b3ee0aaa406a33da5f5df25a96f8cba829e6d55bacc2b6c5284bc5210",
+    "published_sha256": "211fb68a982f78793fff769874b62653a975e22d89dec295955f2097926bbd13",
+    "purpose": "Portable local-path placeholder; numerical results unchanged"
+  },
+  {
+    "path": "validation/workflow_v04/real_example/region_0002/fit.json",
+    "original_sha256": "842d25393ed0afdf8bd954a8b942358dcb2fb3e600057af05a751372e94645b1",
+    "published_sha256": "048c7929357e3dd412bc4ef4ad9295036c90bc07b3050a28f71724267e012c89",
+    "purpose": "Portable local-path placeholder; numerical results unchanged"
+  },
+  {
+    "path": "validation/workflow_v04/real_example/region_0002/fit.html",
+    "original_sha256": "2c82684b1ad347fd6da21c5582770ed51d4f02f1fec1d039e508de609ab79eab",
+    "published_sha256": "ab106d7b8b4e337857bb7c195a8a6e5cc3f7afe71eed9b29c98e65ef23ecae91",
+    "purpose": "Portable local-path placeholder; numerical results unchanged"
+  },
+  {
+    "path": "validation/workflow_v04/real_example/region_0005/fit.json",
+    "original_sha256": "19ee791c3447d0969c0ad389b4c1544e627fc3f9c7fca4f8d09d25f95c78bf83",
+    "published_sha256": "9094d7fe2e8ad8fc4e826771d73ff2f029fac8d4069d79342fbb899c752a1bf9",
+    "purpose": "Portable local-path placeholder; numerical results unchanged"
+  },
+  {
+    "path": "validation/workflow_v04/real_example/region_0005/fit.html",
+    "original_sha256": "37ef335115fee12423f798551d5ff28c25eb0376eb8bfef6d36f546e38073dab",
+    "published_sha256": "312c47028cce00aceb0c84033f4a9968133e828cbe3d7bbb02cb9d4c7c1aa80b",
+    "purpose": "Portable local-path placeholder; numerical results unchanged"
+  },
+  {
+    "path": "validation/workflow_v04/real_example/region_0004/fit.json",
+    "original_sha256": "faa184f8ac873e252df92a2ed779adcc3a0f1b63f5a214dc7c075d63646a4172",
+    "published_sha256": "4cda16fb0faf2b8b5d436699f1a01591db7cb35c8df47bd746961f602f90a619",
+    "purpose": "Portable local-path placeholder; numerical results unchanged"
+  },
+  {
+    "path": "validation/workflow_v04/real_example/region_0004/fit.html",
+    "original_sha256": "f78e6f75a6feec31dabe853f206354a1ae3d6e3d5751a2f6c7010bccf32a5aa6",
+    "published_sha256": "6667d2f764fb7de7e4499bf275851689cf5642e0162778f8f36d6b9ceb062520",
+    "purpose": "Portable local-path placeholder; numerical results unchanged"
+  },
+  {
+    "path": "validation/workflow_v04/real_example/region_0003/fit.json",
+    "original_sha256": "103daf04acebd3e8db4157033a093d7b17204168b95cc8fd48745c42c2b28074",
+    "published_sha256": "c3970345e8eed513ed5cadb64056351cd1ce0cabb10fc9c64e4ca0abdf3e7d85",
+    "purpose": "Portable local-path placeholder; numerical results unchanged"
+  },
+  {
+    "path": "validation/workflow_v04/real_example/region_0003/fit.html",
+    "original_sha256": "66cf86051f52e9d587479e4c45cba4a9412d64670b1e2291d2da0f40cb7cb959",
+    "published_sha256": "65a447f70554f82dc0ad1f2a24bcf5442d7382bb3a17388849fff7d0e72680f0",
+    "purpose": "Portable local-path placeholder; numerical results unchanged"
+  },
+  {
+    "path": "validation/workflow_v04/real_example/region_0001/fit.json",
+    "original_sha256": "85e0cf65de04806d6f7ae65369ff6a897701514ceec6199cfe53c90bd055a4c2",
+    "published_sha256": "8d53c796997181d87f7521eb6f4f83e0c92e60dff0f434cde917e1ddc4a2b7b6",
+    "purpose": "Portable local-path placeholder; numerical results unchanged"
+  },
+  {
+    "path": "validation/workflow_v04/real_example/region_0001/fit.html",
+    "original_sha256": "4c63082c986004f73f01f13dca0150af212a68c52c32225d3b9402e18e2b71d7",
+    "published_sha256": "d959cd55c9e919cccb0d0753b6dc5561636606c88f17f71ccc60856f544cfe50",
+    "purpose": "Portable local-path placeholder; numerical results unchanged"
+  },
+  {
+    "path": "validation/workflow_v04/real_example/region_0000/fit.json",
+    "original_sha256": "419b2cba048bd492908b395857456abc45e8f1c02dbcc7d9a552cf6274b4395f",
+    "published_sha256": "4e161eca2e6e8c9f36e599678637d3bb6b8b4b7b599285975444edc956f65f43",
+    "purpose": "Portable local-path placeholder; numerical results unchanged"
+  },
+  {
+    "path": "validation/workflow_v04/real_example/region_0000/fit.html",
+    "original_sha256": "de1cc993e88fa40260cf5a60e90a744b41c8d8c65d0a7aa80d3011f6faf7dded",
+    "published_sha256": "da97b8790ee2cad2424429ad7fe731240d68518d1a6d3115a49cb2d59d825a4e",
+    "purpose": "Portable local-path placeholder; numerical results unchanged"
+  }
+]

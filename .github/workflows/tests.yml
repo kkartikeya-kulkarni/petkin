@@ -7,12 +7,19 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, macos-latest]
-        python: ['3.10', '3.12', '3.13']
+        include:
+          - os: ubuntu-latest
+            python: '3.10'
+          - os: ubuntu-latest
+            python: '3.12'
+          - os: ubuntu-latest
+            python: '3.13'
+          - os: macos-15-intel
+            python: '3.12'
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: ${{ matrix.python }}
       - name: Install build tools and test dependencies
@@ -26,7 +33,7 @@ jobs:
         run: python -m pytest tests -q --junitxml=test-results.xml
       - name: Check frozen evidence and research status
         run: python scripts/check_release.py
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: verification-${{ matrix.os }}-${{ matrix.python }}

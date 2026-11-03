@@ -1,0 +1,32 @@
+{
+  "version": "0.4.0.dev1",
+  "phase": "Before regional PBR28 workflow outcomes; 48 software tests passed",
+  "scope": "Add label extraction, regional analysis, tables and plotted reports; existing numerical engines and v03 scientific thresholds unchanged",
+  "not_new_independent_qualification": true,
+  "files": [
+    {
+      "path": "src/petkin/cli.py",
+      "sha256": "9959dc69d96b136d139b4e33ddd39bf087b856b71e7a6444403b7d12fb8ac50c"
+    },
+    {
+      "path": "src/petkin/__init__.py",
+      "sha256": "d322e7edceff7019061565cbb7fb0393371cc7d188ef07bafce9502fb7885578"
+    },
+    {
+      "path": "src/petkin/workflow.py",
+      "sha256": "b0c199faf8dd013482a48732dd8c3de5a719243ea235a9e0a6ff3e6ec929d8c0"
+    },
+    {
+      "path": "tests/test_workflow.py",
+      "sha256": "7c5d84644b56ccbf5b15505c15a1e431723ccbbf64641be873a62dbf8549ef5b"
+    },
+    {
+      "path": "examples/prepare_pbr28_regions.py",
+      "sha256": "54ac6a2dc7e72c9163886a5e3b37de82610ea08fecebe5e6ff67f3777af3d1a7"
+    },
+    {
+      "path": "examples/make_demo_data.py",
+      "sha256": "44ccbbfacd8845aa059f9f9dbec83beb696c980c30b960d6f3c88988ee290017"
+    }
+  ]
+}

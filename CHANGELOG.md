@@ -1,3 +1,15 @@
+# 0.4.0.dev1 — regional workflow
+
+- Added `petkin extract` for supplied anatomical label images with physical-grid checks.
+- Added `petkin analyze` for regional manifests, source weights, per-region error isolation,
+  CSV exports, held-frame prediction, fit/residual plots and linked HTML reports.
+- Preserved failed and flagged results; numerical models and thresholds are unchanged.
+- Completed 120 PBR28 regional development fits across 20 scans: 113 passed local QC;
+  median held-frame NRMSE 4.39%. These are exposed development data, not a new
+  independent qualification. All scientific limitations remain explicit.
+- Passed 48 tests, including independent-ODE image-to-region-to-fit recovery.
+- Updated CI actions and avoided capacity-constrained hosted macOS ARM queues.
+
 # GitHub packaging addendum — 2026-11-03
 
 Numerical core unchanged from 0.3.0rc1 and documented pre-existing amendments.
