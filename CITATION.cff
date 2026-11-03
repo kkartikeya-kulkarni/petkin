@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Cite the version and validation records used in your analysis."
 title: "petkin: auditable dynamic PET research toolkit"
-version: "0.4.0.dev1"
+version: "0.4.0.dev2"
 type: software
 license: MIT
 abstract: "Research qualification candidate for PET kinetics and rigid preprocessing. Full independent research validation remains incomplete."

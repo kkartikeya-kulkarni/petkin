@@ -11,6 +11,12 @@ def run():
  if addendum.exists():
   for item in json.loads(addendum.read_text())['files']:
    if item['path'] in ['src/petkin/cli.py','src/petkin/__init__.py']:amendments[item['path']]=item['sha256']
+ interop=ROOT/'validation/bids_interop_v04/IMPLEMENTATION_ADDENDUM.json'
+ if interop.exists():
+  for item in json.loads(interop.read_text())['files']:
+   actual=hashlib.sha256((ROOT/item['path']).read_bytes()).hexdigest()
+   if actual!=item['sha256']:raise ValueError('Interop implementation differs: '+item['path'])
+   amendments[item['path']]=item['sha256']
  for entry in freeze['files']:
   actual=hashlib.sha256((ROOT/entry['path']).read_bytes()).hexdigest()
   if actual not in {entry['sha256'],amendments.get(entry['path'])}:raise ValueError('Frozen implementation changed: '+entry['path'])

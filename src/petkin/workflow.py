@@ -37,6 +37,8 @@ def extract_regions(pet_path,labels_path,timing_path,output_dir):
         name=f'region_{key}';filename=f'{name}.csv';np.savetxt(out/filename,np.c_[frames.start,frames.end,tac],delimiter=',',header='start,end,activity',comments='')
         regions.append(dict(id=key,name=name,path=filename,voxels=int((lab==key).sum()),volume_mL=float((lab==key).sum()*volume)))
     manifest=dict(schema_version=1,role='Regional observations from supplied labels',units=checked['units'],decay_reference_seconds=checked['decay_reference_seconds'],regions=regions,provenance=file_manifest([pet_path,labels_path,timing_path]))
+    manifest['pet_metadata_sha256']=manifest['provenance']['inputs'][-1]['sha256']
+    manifest['time_origin']=checked['time_origin']
     (out/'regions.json').write_text(json.dumps(manifest,indent=2,allow_nan=False))
     return manifest
 
@@ -76,6 +78,14 @@ def analyze_regions(manifest_path,input_path,output_dir,*,model='2t',vb=0.,tstar
     if not np.isfinite(tstar) or tstar<0:raise ValueError('tstar must be finite and nonnegative')
     inp=_read_input(input_path);manifest_path=Path(manifest_path);manifest=json.loads(manifest_path.read_text());regions=manifest.get('regions',[])
     if not regions or len({str(x['id']) for x in regions})!=len(regions):raise ValueError('Manifest needs distinct region IDs')
+    input_sidecar=Path(input_path).with_suffix('.json');identity='No paired PET metadata identity supplied'
+    if input_sidecar.exists():
+        input_info=json.loads(input_sidecar.read_text())
+        if manifest.get('pet_metadata_sha256') and input_info.get('pet_metadata_sha256'):
+            if manifest['pet_metadata_sha256']!=input_info['pet_metadata_sha256']:raise ValueError('Input and regions were prepared from different PET metadata files')
+            identity='Matched PET metadata SHA256'
+        if manifest.get('units') and input_info.get('units') and manifest['units']!=input_info['units']:raise ValueError('Input and regional activity concentration units differ')
+        if manifest.get('time_origin') and input_info.get('time_origin') and manifest['time_origin']!=input_info['time_origin']:raise ValueError('Input and regional TimeZero origins differ')
     out=_new_output(output_dir);records=[]
     # Import once, before processing, so a missing plotting dependency gives a clear error.
     import matplotlib
@@ -115,7 +125,7 @@ def analyze_regions(manifest_path,input_path,output_dir,*,model='2t',vb=0.,tstar
             record.update(status='completed',local_qc_passed=bool(fit['usable_for_quantification']),qc_reasons=fit['qc_reasons'],macroparameter=macro,estimate=fit[macro],raw_estimate=fit['raw_'+macro],rmse=fit['rmse'],parameters=fit['parameters'],delay_minutes=fit['delay'],excluded_frame_indices=np.flatnonzero(~eligible).tolist(),held_frame_prediction=cv,graphical=methods)
         except (ValueError,RuntimeError,OSError,KeyError,np.linalg.LinAlgError) as exc:record.update(status='failed',error=str(exc),local_qc_passed=False)
         records.append(record)
-    summary=dict(schema_version=1,regions=len(records),completed=sum(r['status']=='completed' for r in records),failed=sum(r['status']=='failed' for r in records),local_qc_passed=sum(r['local_qc_passed'] for r in records),records=records,scope='Regional analysis and local QC; does not establish biological accuracy or full research qualification',provenance=file_manifest([manifest_path,input_path]))
+    summary=dict(schema_version=1,input_identity_check=identity,regions=len(records),completed=sum(r['status']=='completed' for r in records),failed=sum(r['status']=='failed' for r in records),local_qc_passed=sum(r['local_qc_passed'] for r in records),records=records,scope='Regional analysis and local QC; does not establish biological accuracy or full research qualification',provenance=file_manifest([manifest_path,input_path]))
     (out/'results.json').write_text(json.dumps(summary,indent=2,allow_nan=False))
     with (out/'results.csv').open('w',newline='') as file:
         fields=['id','name','status','local_qc_passed','macroparameter','estimate','raw_estimate','rmse','held_frame_normalized_RMSE','K1','k2','k3','k4','delay_minutes','qc_reasons','error'];writer=csv.DictWriter(file,fieldnames=fields);writer.writeheader()

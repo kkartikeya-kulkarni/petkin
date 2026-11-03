@@ -35,13 +35,17 @@ def validate_pet_metadata(metadata):
 
 def input_from_bids(tsv_path,metadata,*,plasma_column='plasma_radioactivity',
                     blood_column='whole_blood_radioactivity',target_units='Bq/mL',
-                    initial_policy='error',terminal_time=None,terminal_policy='error'):
-    """Read already processed input; never invent metabolite/delay correction.
+                    initial_policy='error',terminal_time=None,terminal_policy='error',
+                    plasma_mode='processed',parent_fraction_column='metabolite_parent_fraction'):
+    """Read input with an explicit processed-plasma or total-plasma convention.
 
     Missing initial samples require explicit zero/hold policy. Terminal extension
     also requires an explicit hold policy. All assumptions are returned for audit.
     Caller must establish parent correction and matching decay-reference times.
     """
+    if plasma_mode not in ('processed','total'):raise ValueError("plasma_mode must be 'processed' or 'total'")
+    if initial_policy not in ('error','zero','hold') or terminal_policy not in ('error','hold'):raise ValueError('Invalid boundary policy')
+    if terminal_time is not None and (not np.isfinite(terminal_time) or terminal_time<0):raise ValueError('terminal_time must be finite and nonnegative')
     if not isinstance(metadata,dict):metadata=json.loads(Path(metadata).read_text())
     with Path(tsv_path).open(newline='') as stream:rows=list(csv.DictReader(stream,delimiter='\t'))
     if not rows:raise ValueError('Empty input TSV')
@@ -52,6 +56,14 @@ def input_from_bids(tsv_path,metadata,*,plasma_column='plasma_radioactivity',
     factor=factors[units]/factors[target_units]
     time=np.array([float(r['time']) for r in rows])/60
     plasma=np.array([float(r[plasma_column]) for r in rows])*factor
+    parent_correction='Caller declares plasma is already processed'
+    if plasma_mode=='total':
+        if metadata.get('MetaboliteAvail') is False or parent_fraction_column not in rows[0]:raise ValueError('Total plasma requires measured parent fractions')
+        fraction=np.array([float(r[parent_fraction_column]) for r in rows])
+        if not np.isfinite(fraction).all() or np.any((fraction<0)|(fraction>1)):raise ValueError('Parent fractions must be finite and between zero and one')
+        plasma=plasma*fraction
+        parent_correction='Total plasma multiplied by '+parent_fraction_column
+    if metadata.get('WholeBloodAvail') is True and blood_column not in rows[0]:raise ValueError('WholeBloodAvail is true but the blood column is missing')
     blood=None
     if blood_column in rows[0]:
         bu=metadata.get(blood_column,{}).get('Units')
@@ -70,4 +82,43 @@ def input_from_bids(tsv_path,metadata,*,plasma_column='plasma_radioactivity',
         if blood is not None:blood=np.r_[blood,blood[-1]]
         assumptions.append('terminal_hold')
     return InputFunction(time,plasma,blood),dict(assumptions=assumptions,units=target_units,
-                                               parent_correction='Caller must verify',decay_reference='Caller must verify')
+                                               parent_correction=parent_correction,plasma_mode=plasma_mode,
+                                               dispersion_corrected=metadata.get('DispersionCorrected'),
+                                               recovery_corrected=metadata.get('MetaboliteRecoveryCorrectionApplied'),
+                                               decay_reference='Caller must verify')
+
+
+def prepare_bids_input(tsv_path,blood_json,pet_json,output_dir,*,plasma_kind,
+                       initial_policy='error',terminal_policy='error'):
+    """Create model-ready CSV in the PET concentration units, preserving TimeZero.
+
+    No clock offset, PET/blood calibration, dispersion correction, or recovery
+    correction is inferred from legacy fields or a plasma-kind declaration.
+    """
+    from .reporting import file_manifest
+    metadata=json.loads(Path(pet_json).read_text());source_units=metadata.get('Units')
+    # Explicit legacy DICOM alias found in public source data; concentration is unchanged.
+    if source_units=='BQML':metadata=dict(metadata,Units='Bq/mL')
+    checked=validate_pet_metadata(metadata)
+    if not isinstance(checked['time_origin'],str) or not checked['time_origin']:raise ValueError('PET-BIDS TimeZero must be supplied')
+    injection=metadata.get('InjectionStart')
+    if injection is None or not np.isscalar(injection) or not np.isfinite(float(injection)):raise ValueError('Explicit finite InjectionStart is required for model input preparation')
+    if float(injection)<0:raise ValueError('Injection predates TimeZero: align blood and tissue to an earlier common origin before fitting; zero initial tissue cannot be assumed at scan start')
+    if not np.isclose(checked['decay_reference_seconds'],0,rtol=0,atol=1e-9):raise ValueError('PET is not decay-corrected to TimeZero; align decay references upstream before preparing input')
+    if plasma_kind not in ('total','parent'):raise ValueError('Choose total or parent plasma explicitly')
+    inp,qc=input_from_bids(tsv_path,blood_json,target_units=checked['units'],
+        initial_policy=initial_policy,terminal_time=checked['frames'].end[-1],terminal_policy=terminal_policy,
+        plasma_mode='total' if plasma_kind=='total' else 'processed')
+    qc.update(time_origin=checked['time_origin'],pet_decay_reference_seconds=checked['decay_reference_seconds'],
+        PET_blood_cross_calibration_verified=False,blood_decay_reference_verified=False,
+        timing_source='FrameTimesStart and FrameDuration relative to TimeZero; no legacy FrameReferenceTime correction',
+        pet_source_units=source_units,provenance=file_manifest([tsv_path,blood_json,pet_json]))
+    qc['pet_metadata_sha256']=qc['provenance']['inputs'][-1]['sha256']
+    out=Path(output_dir)
+    if out.exists() and any(out.iterdir()):raise ValueError('Output directory must be empty')
+    out.mkdir(parents=True,exist_ok=True)
+    values=[inp.time,inp.plasma];names=['time','plasma']
+    if inp.blood is not None:values.append(inp.blood);names.append('blood')
+    np.savetxt(out/'input.csv',np.column_stack(values),delimiter=',',header=','.join(names),comments='')
+    (out/'input.json').write_text(json.dumps(qc,indent=2,allow_nan=False))
+    return qc

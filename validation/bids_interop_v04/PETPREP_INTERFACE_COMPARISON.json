@@ -1,0 +1,23 @@
+{
+  "interface": "Unmodified PETPrep ExtractTACs",
+  "source_sha256": "f1b02ecd6d2d21157a011e1cb6d49852adfc6e33876c8b4fc592c9f844d6d9e8",
+  "dependencies": {
+    "nipype": "1.12.0",
+    "pandas": "3.1.0",
+    "nibabel": "5.4.2"
+  },
+  "regions": 2,
+  "frames_per_region": 12,
+  "comparisons": [
+    {
+      "region": "Cortex left",
+      "max_absolute_activity_difference": 4.539746072396156e-07
+    },
+    {
+      "region": "Thalamus",
+      "max_absolute_activity_difference": 1.173543813237643e-07
+    }
+  ],
+  "passed": true,
+  "scope": "Synthetic interface compatibility only; full PETPrep was not run; no human registration or biological accuracy claim"
+}

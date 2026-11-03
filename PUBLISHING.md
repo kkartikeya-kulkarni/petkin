@@ -2,8 +2,8 @@
 
 Repository: https://github.com/kkartikeya-kulkarni/petkin
 
-The repository is private. Version 0.4.0.dev1 is the active regional workflow on
-`main` and the only downloadable GitHub release. The old 0.3.0rc1 release and tag
+The repository is private. Version 0.4.0.dev2 adds version-consistent BIDS preparation and PETPrep TAC import
+to the regional workflow. The README links the current downloadable version. The old 0.3.0rc1 release and tag
 were deleted at the owner's request. Historical code and validation evidence remain
 in Git history and the validation directory.
 The root README describes installation and usage. Detailed evidence and scope

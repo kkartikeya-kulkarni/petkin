@@ -1,3 +1,17 @@
+# 0.4.0.dev2 — BIDS and PETPrep interoperability
+
+- Added explicit total/parent plasma preparation with measured parent fractions,
+  PET-matched activity units, unchanged whole blood and documented boundary policies.
+- Added PETPrep regional TAC import with frame timing and region-name checks.
+- Bound prepared input and regions to a common PET metadata hash to catch scan mixes.
+- Added immutable OpenNeuro snapshot locks and verified retrieval of renamed images.
+- Added protection against silently discarding pre-origin injection history or
+  accepting different PET decay-reference times.
+- Verified real PS13 input preparation from one pinned 1.0.4 participant snapshot.
+- Executed an unmodified, pinned PETPrep TAC extraction interface on synthetic images
+  and verified the importer; full PETPrep preprocessing was not run.
+- New features do not resolve independent human registration or biological validation.
+
 # 0.4.0.dev1 — regional workflow
 
 - Added `petkin extract` for supplied anatomical label images with physical-grid checks.
