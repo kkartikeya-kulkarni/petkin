@@ -27,7 +27,7 @@ from 16 different subjects, not individual PS13-study parcellations or independe
 measured PET–MRI reference landmarks. It cannot close either pending gate.
 
 The user-approved request was sent to the original corresponding author on
-2026-11-03. No response or independent approval has yet been recorded.
+2026-11-03. At the time of this audit no response or independent approval had been recorded.
 Publication remains on hold at the user's instruction. Full validation remains
 incomplete. No human reviewer or anatomical truth has been invented.
 

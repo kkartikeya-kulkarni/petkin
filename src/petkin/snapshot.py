@@ -38,7 +38,6 @@ def lock_snapshot(dataset,revision,output_path,participant=None):
     for item in tree['tree']:
         name=item['path'];_safe_path(name)
         if item['type']!='blob' or name.startswith('.') or '/.' in name:continue
-        if not (name.endswith(('.json','.tsv','.csv','.nii','.nii.gz','.tfm','.h5','.lta','.mat')) or name in ('README','LICENSE','CHANGES')):continue
         if participant and name.startswith('sub-') and not name.startswith('sub-'+participant+'/'):continue
         entry=dict(path=name,git_blob_sha=item['sha'],url=base+urllib.parse.quote(name,safe='/'))
         if item['mode']=='120000':

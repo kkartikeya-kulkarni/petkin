@@ -341,8 +341,8 @@
   },
   {
     "path": "src/petkin/snapshot.py",
-    "bytes": 7804,
-    "sha256": "16dda87d188c918103766e14a1bbe001ba0794f17cb591850b8f235a9b34e116"
+    "bytes": 7653,
+    "sha256": "85f95ff538ea90548987e48a2c86ea21e8de5f1c02e6db4bd6f3523845e21b5e"
   },
   {
     "path": "src/petkin/uncertainty.py",
@@ -366,8 +366,8 @@
   },
   {
     "path": "tests/test_bids_preparation.py",
-    "bytes": 7144,
-    "sha256": "09388fc9e69ffa7c3a5be7cf519c032c07b1692d50f6f02e714a028f89bdc885"
+    "bytes": 7796,
+    "sha256": "2a280f09a8e97d0ec10f4be06da2f5063d49edfa9480f9eb57475c6e44e0a5fe"
   },
   {
     "path": "tests/test_imaging.py",
@@ -402,7 +402,7 @@
   {
     "path": "validation/bids_interop_v04/IMPLEMENTATION_ADDENDUM.json",
     "bytes": 993,
-    "sha256": "7a41baa004621763f68b0936e0c8a9faebe7bec5cc92b8b040a991ebf1a39f39"
+    "sha256": "e85b99268f5f391201b7b196c00ed26dd82b6995a1f13fe2ca2761e564681aef"
   },
   {
     "path": "validation/bids_interop_v04/PETPREP_INTERFACE_COMPARISON.json",
@@ -427,12 +427,12 @@
   {
     "path": "validation/bids_interop_v04/installed_wheel_tests.txt",
     "bytes": 99,
-    "sha256": "fd1425125607b092e8ce182a755b081938823dd35e7fe711bc5249107bde313d"
+    "sha256": "f801ae2a36a7097741949bee941f36e85709670db59d82e0edddd102beeac1aa"
   },
   {
     "path": "validation/bids_interop_v04/source_tests.txt",
     "bytes": 99,
-    "sha256": "09d216230f638fc4da27d91c8348685464c684b20bbd93826ebf1b2b7f0c5696"
+    "sha256": "c2ef05fe2d2b5e48173997bc55f1f1b3c1d4d5931a2aeb1f92587496def035c9"
   },
   {
     "path": "validation/environment.txt",
@@ -2161,8 +2161,8 @@
   },
   {
     "path": "validation/source_audit/READ_THIS_FIRST.txt",
-    "bytes": 2169,
-    "sha256": "c1e7087ead948b6dca230c336fe3e35a57c54fa7ab2b3fb2390fdb2e33af5f4c"
+    "bytes": 2191,
+    "sha256": "ec0e6b954796b8f1d3b7924ee6e57b6331cd763dd4510f1cd0e2eb8c5642e810"
   },
   {
     "path": "validation/source_audit/records.json",

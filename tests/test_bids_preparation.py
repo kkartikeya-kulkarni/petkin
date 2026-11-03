@@ -98,3 +98,15 @@ def test_different_scan_inputs_rejected_before_analysis(tmp_path):
     import_petprep_tacs(p,tmp_path/'other.json',tmp_path/'regions')
     with pytest.raises(ValueError,match='different PET metadata'):analyze_regions(tmp_path/'regions/regions.json',tmp_path/'input/input.csv',tmp_path/'out')
     assert not (tmp_path/'out').exists()
+
+
+def test_snapshot_lock_retains_reference_transforms_without_guessing_file_extensions(tmp_path,monkeypatch):
+    from petkin import snapshot
+    commit='b'*40
+    tree={'tree':[{'path':'sub-X/pet/reference_transform.dat','type':'blob','mode':'100644','sha':'c'*40,'size':20}]}
+    def read(url):
+        if '/commits/' in url:return json.dumps({'sha':commit}).encode()
+        return json.dumps(tree).encode()
+    monkeypatch.setattr(snapshot,'_read',read)
+    result=snapshot.lock_snapshot('ds004868','1.0.4',tmp_path/'lock.json',participant='X')
+    assert result['commit']==commit and result['files'][0]['path'].endswith('reference_transform.dat')
