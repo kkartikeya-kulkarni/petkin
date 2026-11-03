@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "dataset": "ds004868",
+  "requested_revision": "1.0.4",
+  "commit": "623ea3de909abd9472538f8e45cf286e1c792444",
+  "participant": "PSBB01",
+  "files": [
+    {
+      "path": "CHANGES",
+      "git_blob_sha": "aa2d06d0eedb4f28f6544ffd7ea4591038334ca8",
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004868/623ea3de909abd9472538f8e45cf286e1c792444/CHANGES",
+      "kind": "git",
+      "bytes": 347
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "0e259d42c996742e9e3cba14c677129b2c1b6311",
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004868/623ea3de909abd9472538f8e45cf286e1c792444/LICENSE",
+      "kind": "git",
+      "bytes": 7048
+    },
+    {
+      "path": "README",
+      "git_blob_sha": "ea3b4a47c995a46ef65ce355ca1df5d1c18d8587",
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004868/623ea3de909abd9472538f8e45cf286e1c792444/README",
+      "kind": "git",
+      "bytes": 2391
+    },
+    {
+      "path": "dataset_description.json",
+      "git_blob_sha": "b92ca6159f451d3f5af6aea7bbda80f966a3537c",
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004868/623ea3de909abd9472538f8e45cf286e1c792444/dataset_description.json",
+      "kind": "git",
+      "bytes": 1881
+    },
+    {
+      "path": "participants.json",
+      "git_blob_sha": "f8ec5e43579d9c7fece22643237f28cfda4dc193",
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004868/623ea3de909abd9472538f8e45cf286e1c792444/participants.json",
+      "kind": "git",
+      "bytes": 378
+    },
+    {
+      "path": "participants.tsv",
+      "git_blob_sha": "7ab6b97b2593e0806c62b3f3b63bf15702837a6f",
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004868/623ea3de909abd9472538f8e45cf286e1c792444/participants.tsv",
+      "kind": "git",
+      "bytes": 250
+    },
+    {
+      "path": "sub-PSBB01/ses-baseline/anat/sub-PSBB01_ses-baseline_T1w.json",
+      "git_blob_sha": "0ebd310fd493b2d0286757dc6e975f3953d2295d",
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004868/623ea3de909abd9472538f8e45cf286e1c792444/sub-PSBB01/ses-baseline/anat/sub-PSBB01_ses-baseline_T1w.json",
+      "kind": "git",
+      "bytes": 1321
+    },
+    {
+      "path": "sub-PSBB01/ses-baseline/anat/sub-PSBB01_ses-baseline_T1w.nii.gz",
+      "git_blob_sha": "0635a052c48bd327e88cbf7bde08997fa1268b39",
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004868/623ea3de909abd9472538f8e45cf286e1c792444/sub-PSBB01/ses-baseline/anat/sub-PSBB01_ses-baseline_T1w.nii.gz",
+      "kind": "annex",
+      "bytes": 15632037,
+      "sha256": "558a47a09f9b18192a7c124c77f87e4546566763747dbc77c92cd526b3289a00"
+    },
+    {
+      "path": "sub-PSBB01/ses-baseline/pet/sub-PSBB01_ses-baseline_pet.json",
+      "git_blob_sha": "9b7754b2cc38d1ad2b8b99b3414cbec0e3be258f",
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004868/623ea3de909abd9472538f8e45cf286e1c792444/sub-PSBB01/ses-baseline/pet/sub-PSBB01_ses-baseline_pet.json",
+      "kind": "git",
+      "bytes": 3360
+    },
+    {
+      "path": "sub-PSBB01/ses-baseline/pet/sub-PSBB01_ses-baseline_pet.nii.gz",
+      "git_blob_sha": "40375bc817750c0c66eb34360e37718f3ed38921",
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004868/623ea3de909abd9472538f8e45cf286e1c792444/sub-PSBB01/ses-baseline/pet/sub-PSBB01_ses-baseline_pet.nii.gz",
+      "kind": "annex",
+      "bytes": 145802787,
+      "sha256": "18f3352d1e7fb8c99d4cd70db97d897fa20ea1eef5764b527a75383d5e32d0a9"
+    },
+    {
+      "path": "sub-PSBB01/ses-baseline/pet/sub-PSBB01_ses-baseline_recording-manual_blood.json",
+      "git_blob_sha": "c90927e7e4e703c52d859689cf64d5929fd2fbd0",
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004868/623ea3de909abd9472538f8e45cf286e1c792444/sub-PSBB01/ses-baseline/pet/sub-PSBB01_ses-baseline_recording-manual_blood.json",
+      "kind": "git",
+      "bytes": 702
+    },
+    {
+      "path": "sub-PSBB01/ses-baseline/pet/sub-PSBB01_ses-baseline_recording-manual_blood.tsv",
+      "git_blob_sha": "3927538885a3c9b0b462521553b744864f6a0fc3",
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004868/623ea3de909abd9472538f8e45cf286e1c792444/sub-PSBB01/ses-baseline/pet/sub-PSBB01_ses-baseline_recording-manual_blood.tsv",
+      "kind": "git",
+      "bytes": 1264
+    },
+    {
+      "path": "sub-PSBB01/ses-blocked/pet/sub-PSBB01_ses-blocked_pet.json",
+      "git_blob_sha": "b10564853d67769f0e4e73156effeb5864ae8b20",
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004868/623ea3de909abd9472538f8e45cf286e1c792444/sub-PSBB01/ses-blocked/pet/sub-PSBB01_ses-blocked_pet.json",
+      "kind": "git",
+      "bytes": 3324
+    },
+    {
+      "path": "sub-PSBB01/ses-blocked/pet/sub-PSBB01_ses-blocked_pet.nii.gz",
+      "git_blob_sha": "2c9c61b527e264d41d46b1ce2511862b2d65448e",
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004868/623ea3de909abd9472538f8e45cf286e1c792444/sub-PSBB01/ses-blocked/pet/sub-PSBB01_ses-blocked_pet.nii.gz",
+      "kind": "annex",
+      "bytes": 142062601,
+      "sha256": "b2e2d71cc9cdd07663fc938df02cc0fe77dbf841e84dce656e44e2e45ad56393"
+    },
+    {
+      "path": "sub-PSBB01/ses-blocked/pet/sub-PSBB01_ses-blocked_recording-manual_blood.json",
+      "git_blob_sha": "c90927e7e4e703c52d859689cf64d5929fd2fbd0",
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004868/623ea3de909abd9472538f8e45cf286e1c792444/sub-PSBB01/ses-blocked/pet/sub-PSBB01_ses-blocked_recording-manual_blood.json",
+      "kind": "git",
+      "bytes": 702
+    },
+    {
+      "path": "sub-PSBB01/ses-blocked/pet/sub-PSBB01_ses-blocked_recording-manual_blood.tsv",
+      "git_blob_sha": "6b3a27e9c278d01ae1d2e6afe7d2991b2c0072f1",
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004868/623ea3de909abd9472538f8e45cf286e1c792444/sub-PSBB01/ses-blocked/pet/sub-PSBB01_ses-blocked_recording-manual_blood.tsv",
+      "kind": "git",
+      "bytes": 1295
+    }
+  ],
+  "policy": "Every metadata/blood file comes from this Git commit; any renamed image storage object must match the pinned annex content hash"
+}

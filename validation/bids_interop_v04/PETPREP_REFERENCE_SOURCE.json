@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/nipreps/petprep",
+  "commit": "cf9c8cc9c7d5ddb662c18b2d9653b3ea92c1e58d",
+  "path": "petprep/interfaces/tacs.py",
+  "sha256": "f1b02ecd6d2d21157a011e1cb6d49852adfc6e33876c8b4fc592c9f844d6d9e8",
+  "url": "https://raw.githubusercontent.com/nipreps/petprep/cf9c8cc9c7d5ddb662c18b2d9653b3ea92c1e58d/petprep/interfaces/tacs.py",
+  "scope": "Execute the regional TAC extraction interface only; not full PETPrep preprocessing"
+}

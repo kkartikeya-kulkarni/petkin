@@ -1,0 +1,30 @@
+{
+  "version": "0.4.0.dev2",
+  "scope": "BIDS input and PETPrep/snapshot interoperability; compartmental numerical engines unchanged; legacy qualification not extended",
+  "files": [
+    {
+      "path": "src/petkin/__init__.py",
+      "sha256": "33e4c11e5071d3df36f38d60cfa1286222fcdd0e44b231381d5f3f3bb4973fd6"
+    },
+    {
+      "path": "src/petkin/cli.py",
+      "sha256": "ba40b132316bc5440058359b32a800882175c84407eda1e269d5685f2656fc72"
+    },
+    {
+      "path": "src/petkin/bids.py",
+      "sha256": "26a64ad32f06c78a734d47ac2c992a94421f67915f8186d96a078ac56e6c2bbd"
+    },
+    {
+      "path": "src/petkin/workflow.py",
+      "sha256": "f12c02cf19795c07aa4595a30fc8c0d25c3bce3a39bcf86a908eb12095eceb13"
+    },
+    {
+      "path": "src/petkin/petprep.py",
+      "sha256": "2516271a934c420cc53e786a3e7719f0c29938d9d96ba99088b1a949731c2e3c"
+    },
+    {
+      "path": "src/petkin/snapshot.py",
+      "sha256": "85f95ff538ea90548987e48a2c86ea21e8de5f1c02e6db4bd6f3523845e21b5e"
+    }
+  ]
+}

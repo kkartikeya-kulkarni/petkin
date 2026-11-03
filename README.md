@@ -3,9 +3,9 @@
 A Python toolkit for dynamic PET tracer kinetic modeling, graphical analysis,
 rigid motion correction, and PET-to-structural-MRI registration.
 
-**Version:** 0.4.0.dev1 · Regional research workflow
+**Version:** 0.4.0.dev2 · Regional research workflow
 
-[Download the current version](https://github.com/kkartikeya-kulkarni/petkin/releases/tag/v0.4.0-dev.1)
+[Download the current version](https://github.com/kkartikeya-kulkarni/petkin/releases/tag/v0.4.0-dev.2)
 
 ## Installation
 
@@ -37,6 +37,59 @@ petkin logan demo/tac.csv demo/input.csv demo/logan.json \
 
 Open `demo/fit.html` or `demo/logan.html` in a browser. The generated
 `demo/truth.json` contains the simulation parameters.
+
+## Prepare PET-BIDS blood input
+
+Declare whether the supplied plasma is total plasma or already parent-corrected:
+
+```sh
+petkin bids-input blood.tsv blood.json pet.json prepared-input \
+  --plasma-kind total --initial zero --terminal hold
+```
+
+`total` multiplies plasma activity by the measured parent fraction once. `parent`
+uses already corrected plasma. Whole-blood activity is kept separate. Concentrations
+are converted to match the PET units, and the CSV uses minutes relative to the
+PET-BIDS `TimeZero` origin. The JSON sidecar records every boundary assumption.
+Omit `--initial zero` or `--terminal hold` when you want incomplete coverage to fail.
+
+Use `FrameTimesStart` and `FrameDuration` for frame timing. The importer does not
+infer clock corrections from legacy `FrameReferenceTime`. If injection predates
+`TimeZero`, align blood and tissue to an earlier common origin before using the
+current zero-initial-state compartment models. Nonzero PET decay-reference offsets
+also require explicit upstream alignment.
+
+## Import PETPrep regional curves
+
+PETPrep's regional TSV tables can be used directly:
+
+```sh
+petkin petprep-import subject_desc-preproc_tacs.tsv pet.json regions
+petkin analyze regions/regions.json prepared-input/input.csv regional-results \
+  --model 2t --vb 0.05 --tstar 30
+```
+
+Use the **same original PET JSON** for blood preparation and TAC import. The
+importer verifies PETPrep's `frame_start`/`frame_end` seconds against that JSON,
+preserves region names, and retains missing regional values as explicit errors.
+Analysis checks the matching PET metadata hash when both prepared inputs provide
+one. PETPrep preprocessing itself is run separately; these commands import its
+outputs. See the [PETPrep output format](https://petprep.readthedocs.io/en/latest/outputs.html).
+
+## Keep dataset versions consistent
+
+Lock an explicit OpenNeuro revision before downloading:
+
+```sh
+petkin snapshot-lock ds004868 1.0.4 ds004868-1.0.4.lock.json --participant PSBB01
+petkin snapshot-fetch ds004868-1.0.4.lock.json data/ds004868-1.0.4
+```
+
+The lock pins the Git commit, metadata, blood files and image hashes together.
+A renamed image is accepted only if its content hash matches the pinned object;
+metadata is always retrieved from the pinned commit. Add `--cache-dir EXISTING_DATA`
+to reuse verified image files. `SNAPSHOT_PROVENANCE.json` records what was retrieved.
+No subject mapping is inferred solely from a filename or file size.
 
 ## Analyze a complete set of regions
 

@@ -1,0 +1,28 @@
+{
+  "scope": "Real input-preparation check only; no new kinetic fitting or anatomical qualification",
+  "dataset": "ds004868",
+  "revision": "1.0.4",
+  "participant": "PSBB01",
+  "commit": "623ea3de909abd9472538f8e45cf286e1c792444",
+  "verified_snapshot_files": 16,
+  "checks": [
+    {
+      "session": "baseline",
+      "total_plasma_times_parent_matches": true,
+      "whole_blood_unchanged": true,
+      "BIDS_time_seconds_to_minutes_verified": true,
+      "boundary_assumptions": [
+        "initial_zero"
+      ]
+    },
+    {
+      "session": "blocked",
+      "total_plasma_times_parent_matches": true,
+      "whole_blood_unchanged": true,
+      "BIDS_time_seconds_to_minutes_verified": true,
+      "boundary_assumptions": [
+        "initial_zero"
+      ]
+    }
+  ]
+}

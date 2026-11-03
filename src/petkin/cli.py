@@ -36,6 +36,16 @@ def main():
                 q.add_argument('--absolute-sigma',action='store_true');q.add_argument('--dt',type=float,default=.025)
                 if name=='research-fit':q.add_argument('--assumptions',required=True,help='JSON study records confirming required input assumptions')
             else:q.add_argument('--tstar',type=float,required=True)
+    q=sub.add_parser('bids-input',help='Prepare parent-plasma input from PET-BIDS records')
+    q.add_argument('blood');q.add_argument('blood_json');q.add_argument('pet_json');q.add_argument('output_dir')
+    q.add_argument('--plasma-kind',choices=['total','parent'],required=True)
+    q.add_argument('--initial',choices=['error','zero','hold'],default='error');q.add_argument('--terminal',choices=['error','hold'],default='error')
+    q=sub.add_parser('petprep-import',help='Import regional PETPrep TACs with timing verification')
+    q.add_argument('tacs');q.add_argument('pet_json');q.add_argument('output_dir')
+    q=sub.add_parser('snapshot-lock',help='Lock metadata and images to one OpenNeuro Git revision')
+    q.add_argument('dataset');q.add_argument('revision');q.add_argument('output');q.add_argument('--participant')
+    q=sub.add_parser('snapshot-fetch',help='Fetch only content matching a snapshot lock')
+    q.add_argument('lock');q.add_argument('output_dir');q.add_argument('--cache-dir')
     q=sub.add_parser('extract',help='Extract regional TACs from supplied anatomical labels')
     q.add_argument('pet');q.add_argument('labels');q.add_argument('timing');q.add_argument('output_dir')
     q=sub.add_parser('analyze',help='Analyze all regions and write CSV tables, plots and an HTML index')
@@ -47,6 +57,26 @@ def main():
     q=sub.add_parser('preprocess');q.add_argument('pet');q.add_argument('mri');q.add_argument('timing');q.add_argument('output_dir')
     q.add_argument('--reference',type=int);q.add_argument('--preserve-blank',action='store_true')
     args=parser.parse_args()
+    if args.command in ('bids-input','petprep-import','snapshot-lock','snapshot-fetch'):
+        try:
+            if args.command=='bids-input':
+                from .bids import prepare_bids_input
+                prepare_bids_input(args.blood,args.blood_json,args.pet_json,args.output_dir,plasma_kind=args.plasma_kind,initial_policy=args.initial,terminal_policy=args.terminal)
+                print(f'Prepared {args.output_dir}/input.csv and input.json')
+            elif args.command=='petprep-import':
+                from .petprep import import_petprep_tacs
+                result=import_petprep_tacs(args.tacs,args.pet_json,args.output_dir)
+                print(f"Imported {len(result['regions'])} regions to {args.output_dir}/regions.json")
+            elif args.command=='snapshot-lock':
+                from .snapshot import lock_snapshot
+                result=lock_snapshot(args.dataset,args.revision,args.output,args.participant)
+                print(f"Locked {len(result['files'])} files at {result['commit']}")
+            else:
+                from .snapshot import fetch_snapshot
+                result=fetch_snapshot(args.lock,args.output_dir,args.cache_dir)
+                print(f"Verified {len(result['files'])} files from {result['commit']}")
+        except (ValueError,RuntimeError,OSError,KeyError) as exc:parser.exit(2,str(exc)+'\n')
+        return
     if args.command in ('extract','analyze'):
         from .workflow import extract_regions,analyze_regions
         try:
