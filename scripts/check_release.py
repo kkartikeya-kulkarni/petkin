@@ -7,6 +7,10 @@ def run():
  base=ROOT/'validation/v03';freeze=json.loads((base/'IMPLEMENTATION_FREEZE.json').read_text());amendments={}
  for filename,key in [('REGISTRATION_GENERATOR_AMENDMENT.json','sha256'),('VERSION_METADATA_AMENDMENT.json','current_sha256')]:
   entry=json.loads((base/filename).read_text());amendments[entry['file']]=entry[key]
+ addendum=ROOT/'validation/workflow_v04/IMPLEMENTATION_ADDENDUM.json'
+ if addendum.exists():
+  for item in json.loads(addendum.read_text())['files']:
+   if item['path'] in ['src/petkin/cli.py','src/petkin/__init__.py']:amendments[item['path']]=item['sha256']
  for entry in freeze['files']:
   actual=hashlib.sha256((ROOT/entry['path']).read_bytes()).hexdigest()
   if actual not in {entry['sha256'],amendments.get(entry['path'])}:raise ValueError('Frozen implementation changed: '+entry['path'])
@@ -19,6 +23,6 @@ def run():
  if summary['research_released']!=0 or any(r['full_research_fit']['usable_for_quantification'] for r in results):raise ValueError('Unexpected research release')
  qualification=json.loads((ext/'current_qualification.json').read_text())
  if qualification['qualified_for_declared_research_scope'] or set(qualification['incomplete_gates'])!={'EXT-01','REG-02'}:raise ValueError('Unresolved qualification claims changed')
- print('Frozen core hashes verified. All 20 external results retained and summaries consistent.')
+ print('Numerical engine hashes and documented workflow amendments verified. Historical external summaries are consistent.')
  print('Full research qualification: INCOMPLETE (EXT-01, REG-02). CI success does not certify validation.')
 if __name__=='__main__':run()

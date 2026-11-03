@@ -36,9 +36,30 @@ def main():
                 q.add_argument('--absolute-sigma',action='store_true');q.add_argument('--dt',type=float,default=.025)
                 if name=='research-fit':q.add_argument('--assumptions',required=True,help='JSON study records confirming required input assumptions')
             else:q.add_argument('--tstar',type=float,required=True)
+    q=sub.add_parser('extract',help='Extract regional TACs from supplied anatomical labels')
+    q.add_argument('pet');q.add_argument('labels');q.add_argument('timing');q.add_argument('output_dir')
+    q=sub.add_parser('analyze',help='Analyze all regions and write CSV tables, plots and an HTML index')
+    q.add_argument('manifest');q.add_argument('input');q.add_argument('output_dir')
+    q.add_argument('--model',choices=['1t','2t','2t_irreversible'],default='2t')
+    q.add_argument('--vb',type=float,default=0.);q.add_argument('--tstar',type=float,default=30.)
+    q.add_argument('--fit-delay',action='store_true');q.add_argument('--input-tail',choices=['error','hold'],default='error')
+    q.add_argument('--starts',type=int,default=8);q.add_argument('--seed',type=int,default=0);q.add_argument('--hold-every',type=int,default=5)
     q=sub.add_parser('preprocess');q.add_argument('pet');q.add_argument('mri');q.add_argument('timing');q.add_argument('output_dir')
     q.add_argument('--reference',type=int);q.add_argument('--preserve-blank',action='store_true')
     args=parser.parse_args()
+    if args.command in ('extract','analyze'):
+        from .workflow import extract_regions,analyze_regions
+        try:
+            if args.command=='extract':
+                result=extract_regions(args.pet,args.labels,args.timing,args.output_dir)
+                print(f"Extracted {len(result['regions'])} regions to {args.output_dir}/regions.json")
+            else:
+                result=analyze_regions(args.manifest,args.input,args.output_dir,model=args.model,vb=args.vb,tstar=args.tstar,
+                    fit_delay=args.fit_delay,input_tail=args.input_tail,n_starts=args.starts,seed=args.seed,hold_every=args.hold_every)
+                print(f"Processed {result['completed']}/{result['regions']} regions; {result['local_qc_passed']} pass local QC. Open {args.output_dir}/index.html")
+                if not result['completed']:parser.exit(2,'All regions failed; details are preserved in results.json.\n')
+        except (ValueError,RuntimeError,OSError,KeyError) as exc:parser.exit(2,str(exc)+'\n')
+        return
     if args.command=='preprocess':
         import SimpleITK as sitk
         from .imaging import preprocess_dynamic

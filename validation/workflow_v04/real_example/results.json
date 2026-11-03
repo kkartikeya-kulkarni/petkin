@@ -1,0 +1,554 @@
+{
+  "schema_version": 1,
+  "regions": 6,
+  "completed": 6,
+  "failed": 0,
+  "local_qc_passed": 6,
+  "records": [
+    {
+      "id": "FC",
+      "name": "Frontal cortex",
+      "folder": "region_0000",
+      "model": "2t",
+      "status": "completed",
+      "local_qc_passed": true,
+      "qc_reasons": [],
+      "macroparameter": "VT",
+      "estimate": 2.2258045648414244,
+      "raw_estimate": 2.2258045648414244,
+      "rmse": 0.31283135148529667,
+      "parameters": {
+        "K1": 0.11789134781843551,
+        "k2": 0.13002712684822998,
+        "k3": 0.06555991804843532,
+        "k4": 0.04506053971460397
+      },
+      "delay_minutes": 0.0,
+      "excluded_frame_indices": [
+        0,
+        1
+      ],
+      "held_frame_prediction": {
+        "status": "completed",
+        "held_indices": [
+          4,
+          9,
+          14,
+          19,
+          24,
+          29,
+          34
+        ],
+        "normalized_RMSE": 0.042158546618698764,
+        "training_fit_local_qc_passed": true,
+        "prediction": [
+          0.0693066502056241,
+          1.2576845146754416,
+          5.577815236011639,
+          8.429510351243863,
+          8.197360266799231,
+          7.9795086936224875,
+          8.029616841380745,
+          8.128628752046264,
+          8.305244104740954,
+          8.572473126899297,
+          8.832658935870326,
+          9.04274067055555,
+          9.172210367221417,
+          9.332844967309036,
+          9.430550782073759,
+          9.496345216591479,
+          9.488219176397052,
+          9.256615107815499,
+          8.94167921548582,
+          8.614885681201883,
+          8.316029262240193,
+          7.793104806064207,
+          7.183886818031108,
+          6.757473631476496,
+          6.411291851761196,
+          6.012713089306558,
+          5.603776026774663,
+          5.132133512485974,
+          4.568729413558496,
+          4.090264259853058,
+          3.6987913842852245,
+          3.3660000100078,
+          3.0890880159193443,
+          2.853433177866634,
+          2.650384666112861,
+          2.4813780104418015,
+          2.34056561549149
+        ]
+      },
+      "graphical": {
+        "logan": {
+          "status": "not_available",
+          "reason": "Graphical analysis requires contiguous tissue frames from zero; do not silently fill missing intervals"
+        },
+        "ma1": {
+          "status": "not_available",
+          "reason": "Graphical analysis requires contiguous tissue frames from zero; do not silently fill missing intervals"
+        }
+      }
+    },
+    {
+      "id": "TC",
+      "name": "Temporal cortex",
+      "folder": "region_0001",
+      "model": "2t",
+      "status": "completed",
+      "local_qc_passed": true,
+      "qc_reasons": [],
+      "macroparameter": "VT",
+      "estimate": 2.258274740692589,
+      "raw_estimate": 2.258274740692589,
+      "rmse": 0.2585564606019892,
+      "parameters": {
+        "K1": 0.10996266683519947,
+        "k2": 0.15021995313748068,
+        "k3": 0.10392515823117682,
+        "k4": 0.0498435269729305
+      },
+      "delay_minutes": 0.0,
+      "excluded_frame_indices": [
+        0,
+        1
+      ],
+      "held_frame_prediction": {
+        "status": "completed",
+        "held_indices": [
+          4,
+          9,
+          14,
+          19,
+          24,
+          29,
+          34
+        ],
+        "normalized_RMSE": 0.03848603688410471,
+        "training_fit_local_qc_passed": true,
+        "prediction": [
+          0.06825906175026852,
+          1.2481545937954828,
+          5.499324393839032,
+          8.2242260577966,
+          7.874283879428695,
+          7.578284518803548,
+          7.568099611780253,
+          7.616906398193274,
+          7.731902232095553,
+          7.9294712482367355,
+          8.131505094245005,
+          8.291960847569001,
+          8.381370435340425,
+          8.503965870448326,
+          8.570850677204454,
+          8.62012387996576,
+          8.608666330647338,
+          8.401507798966826,
+          8.149917047114542,
+          7.907535728773446,
+          7.701727325066997,
+          7.363218560078749,
+          6.984383493662004,
+          6.712757825944963,
+          6.462570741059646,
+          6.132501699836027,
+          5.748574280566639,
+          5.283261327602915,
+          4.727420592387816,
+          4.2407454538307645,
+          3.8306739345826295,
+          3.478093894059062,
+          3.1826312602702274,
+          2.9302479417974703,
+          2.712757308840177,
+          2.5316776011309323,
+          2.3809875012574744
+        ]
+      },
+      "graphical": {
+        "logan": {
+          "status": "not_available",
+          "reason": "Graphical analysis requires contiguous tissue frames from zero; do not silently fill missing intervals"
+        },
+        "ma1": {
+          "status": "not_available",
+          "reason": "Graphical analysis requires contiguous tissue frames from zero; do not silently fill missing intervals"
+        }
+      }
+    },
+    {
+      "id": "STR",
+      "name": "Striatum",
+      "folder": "region_0002",
+      "model": "2t",
+      "status": "completed",
+      "local_qc_passed": true,
+      "qc_reasons": [],
+      "macroparameter": "VT",
+      "estimate": 2.2306529907924695,
+      "raw_estimate": 2.2306529907924695,
+      "rmse": 0.34384101011177187,
+      "parameters": {
+        "K1": 0.11148616875396969,
+        "k2": 0.11063725059641813,
+        "k3": 0.04177569481467569,
+        "k4": 0.034421036344083014
+      },
+      "delay_minutes": 0.0,
+      "excluded_frame_indices": [
+        0,
+        1
+      ],
+      "held_frame_prediction": {
+        "status": "completed",
+        "held_indices": [
+          4,
+          9,
+          14,
+          19,
+          24,
+          29,
+          34
+        ],
+        "normalized_RMSE": 0.04919403427028749,
+        "training_fit_local_qc_passed": true,
+        "prediction": [
+          0.06830877596437325,
+          1.2483483429709574,
+          5.502353622185996,
+          8.242460147229552,
+          7.924532648158111,
+          7.670641478529539,
+          7.70652061149816,
+          7.802895098963395,
+          7.98753804160572,
+          8.273064301411122,
+          8.554987871435886,
+          8.786924783418543,
+          8.939372784015685,
+          9.127885296143027,
+          9.257080571115843,
+          9.350771239807266,
+          9.367378281456553,
+          9.17110796179103,
+          8.887611469675925,
+          8.57310708049041,
+          8.269755392175327,
+          7.70645428466283,
+          7.008643840854707,
+          6.4982958380652756,
+          6.0938462906178,
+          5.657906168105176,
+          5.259814194196001,
+          4.839698783162878,
+          4.338538584946254,
+          3.921213506125241,
+          3.588931901658517,
+          3.308886472566153,
+          3.07565467435424,
+          2.874581562252274,
+          2.6977380925799253,
+          2.5476668044337694,
+          2.4197182721399884
+        ]
+      },
+      "graphical": {
+        "logan": {
+          "status": "not_available",
+          "reason": "Graphical analysis requires contiguous tissue frames from zero; do not silently fill missing intervals"
+        },
+        "ma1": {
+          "status": "not_available",
+          "reason": "Graphical analysis requires contiguous tissue frames from zero; do not silently fill missing intervals"
+        }
+      }
+    },
+    {
+      "id": "THA",
+      "name": "Thalamus",
+      "folder": "region_0003",
+      "model": "2t",
+      "status": "completed",
+      "local_qc_passed": true,
+      "qc_reasons": [],
+      "macroparameter": "VT",
+      "estimate": 3.053938576991776,
+      "raw_estimate": 3.053938576991776,
+      "rmse": 0.34515256622361246,
+      "parameters": {
+        "K1": 0.14008595831030055,
+        "k2": 0.19233406562353486,
+        "k3": 0.1391161182928145,
+        "k4": 0.04356948403770251
+      },
+      "delay_minutes": 0.0,
+      "excluded_frame_indices": [
+        0,
+        1
+      ],
+      "held_frame_prediction": {
+        "status": "completed",
+        "held_indices": [
+          4,
+          9,
+          14,
+          19,
+          24,
+          29,
+          34
+        ],
+        "normalized_RMSE": 0.04785370371512576,
+        "training_fit_local_qc_passed": true,
+        "prediction": [
+          0.07277310524332602,
+          1.2901857756056574,
+          5.840139942977926,
+          9.077367526621842,
+          9.137672301665251,
+          9.038195255299316,
+          9.131800013089975,
+          9.235791311570745,
+          9.382660443588458,
+          9.59134890206243,
+          9.7893225964638,
+          9.94388063732771,
+          10.019843044613696,
+          10.123269684296197,
+          10.165805811364038,
+          10.193494348769192,
+          10.160109373834175,
+          9.89556595753291,
+          9.581116718209316,
+          9.30061515062493,
+          9.0814288238562,
+          8.748984133016123,
+          8.411453870411753,
+          8.183730437994015,
+          7.960064866439562,
+          7.652747937233149,
+          7.278855926054177,
+          6.781271927692804,
+          6.161721352287003,
+          5.610290609764974,
+          5.131996735065125,
+          4.709529891594229,
+          4.346002733956557,
+          4.028717293062556,
+          3.750288600940545,
+          3.5125475691771917,
+          3.309617413811774
+        ]
+      },
+      "graphical": {
+        "logan": {
+          "status": "not_available",
+          "reason": "Graphical analysis requires contiguous tissue frames from zero; do not silently fill missing intervals"
+        },
+        "ma1": {
+          "status": "not_available",
+          "reason": "Graphical analysis requires contiguous tissue frames from zero; do not silently fill missing intervals"
+        }
+      }
+    },
+    {
+      "id": "WB",
+      "name": "Whole brain",
+      "folder": "region_0004",
+      "model": "2t",
+      "status": "completed",
+      "local_qc_passed": true,
+      "qc_reasons": [],
+      "macroparameter": "VT",
+      "estimate": 2.2853017412918892,
+      "raw_estimate": 2.2853017412918892,
+      "rmse": 0.27053793617834904,
+      "parameters": {
+        "K1": 0.10852968337796967,
+        "k2": 0.14505849742767768,
+        "k3": 0.0826857207932709,
+        "k4": 0.04024642007344774
+      },
+      "delay_minutes": 0.0,
+      "excluded_frame_indices": [
+        0,
+        1
+      ],
+      "held_frame_prediction": {
+        "status": "completed",
+        "held_indices": [
+          4,
+          9,
+          14,
+          19,
+          24,
+          29,
+          34
+        ],
+        "normalized_RMSE": 0.03180925817679992,
+        "training_fit_local_qc_passed": true,
+        "prediction": [
+          0.06775026878007721,
+          1.243338114725194,
+          5.460697669115853,
+          8.130604010095542,
+          7.74224011055366,
+          7.435242899291128,
+          7.425598556023242,
+          7.480617990333407,
+          7.609567683529725,
+          7.8266970842343735,
+          8.046356218346588,
+          8.221020008514124,
+          8.32202929379753,
+          8.454468341352325,
+          8.527198074231848,
+          8.575874272691792,
+          8.558647695598353,
+          8.336695593873962,
+          8.052253717230492,
+          7.766645143758346,
+          7.512762585403664,
+          7.084948418245844,
+          6.608937033592274,
+          6.293990460843045,
+          6.041964152918278,
+          5.753930985021081,
+          5.4552245171277844,
+          5.0789945983415,
+          4.6051398957161735,
+          4.1934570606213315,
+          3.8482943508608307,
+          3.547401508363483,
+          3.2909086220260897,
+          3.06651680558222,
+          2.867785199347537,
+          2.6979917754316887,
+          2.552730739022394
+        ]
+      },
+      "graphical": {
+        "logan": {
+          "status": "not_available",
+          "reason": "Graphical analysis requires contiguous tissue frames from zero; do not silently fill missing intervals"
+        },
+        "ma1": {
+          "status": "not_available",
+          "reason": "Graphical analysis requires contiguous tissue frames from zero; do not silently fill missing intervals"
+        }
+      }
+    },
+    {
+      "id": "CBL",
+      "name": "Cerebellum",
+      "folder": "region_0005",
+      "model": "2t",
+      "status": "completed",
+      "local_qc_passed": true,
+      "qc_reasons": [],
+      "macroparameter": "VT",
+      "estimate": 2.3947443744207546,
+      "raw_estimate": 2.3947443744207546,
+      "rmse": 0.37315134734626876,
+      "parameters": {
+        "K1": 0.12620196822454957,
+        "k2": 0.3013060233323708,
+        "k3": 0.18613384388288204,
+        "k4": 0.03945662119416618
+      },
+      "delay_minutes": 0.0,
+      "excluded_frame_indices": [
+        0,
+        1
+      ],
+      "held_frame_prediction": {
+        "status": "completed",
+        "held_indices": [
+          4,
+          9,
+          14,
+          19,
+          24,
+          29,
+          34
+        ],
+        "normalized_RMSE": 0.05637651980899599,
+        "training_fit_local_qc_passed": true,
+        "prediction": [
+          0.06967970438939255,
+          1.2618674888436059,
+          5.607887616176448,
+          8.477036730121949,
+          8.207723522283413,
+          7.903930384590382,
+          7.849160192198601,
+          7.835722689720942,
+          7.845432159295312,
+          7.903425558772263,
+          7.976765693884529,
+          8.023050439249014,
+          8.009779082404286,
+          8.02304517281965,
+          7.982127823847158,
+          7.948039557579072,
+          7.872930721460094,
+          7.598382884046522,
+          7.312960209243826,
+          7.084160680188162,
+          6.9214903774889365,
+          6.698189757103019,
+          6.490742583055744,
+          6.353201696952208,
+          6.205915069148138,
+          5.9967773524151555,
+          5.7351114766354145,
+          5.369546777204401,
+          4.90870911567104,
+          4.496849079849777,
+          4.136727222952241,
+          3.8170857651047547,
+          3.5415334142843164,
+          3.2982741313007296,
+          3.0817759107621043,
+          2.8957032370845845,
+          2.73578463348368
+        ]
+      },
+      "graphical": {
+        "logan": {
+          "status": "not_available",
+          "reason": "Graphical analysis requires contiguous tissue frames from zero; do not silently fill missing intervals"
+        },
+        "ma1": {
+          "status": "not_available",
+          "reason": "Graphical analysis requires contiguous tissue frames from zero; do not silently fill missing intervals"
+        }
+      }
+    }
+  ],
+  "scope": "Regional analysis and local QC; does not establish biological accuracy or full research qualification",
+  "provenance": {
+    "petkin_version": "0.4.0.dev1",
+    "created_utc": "2026-11-03T16:14:37.458319+00:00",
+    "inputs": [
+      {
+        "path": "${WORKSPACE}/work/pbr28-regional-input/cgyu_1/regions.json",
+        "bytes": 897,
+        "sha256": "84eb83036d7600f87177723097f396e87139a3bb239fe71d1cf92aaec1336f07"
+      },
+      {
+        "path": "${WORKSPACE}/work/pbr28-regional-input/cgyu_1/input.csv",
+        "bytes": 450093,
+        "sha256": "e35e0c7808012b8b618ba3f47cd9076a6b15d2430de9015e93aa6053e95e4194"
+      }
+    ],
+    "settings": {},
+    "dependencies": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "SimpleITK": "2.5.7"
+    }
+  }
+}

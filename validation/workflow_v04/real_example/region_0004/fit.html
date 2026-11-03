@@ -1,0 +1,229 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Whole brain</title><style>body{font:16px system-ui;color:#183047;background:#f2f5f8;margin:0}main{max-width:900px;margin:36px auto;padding:28px;background:white;border-radius:12px}h1{font-size:28px}table{border-collapse:collapse;width:100%;margin:20px 0}td,th{text-align:left;padding:10px;border-bottom:1px solid #ddd}.note{padding:16px;background:#fff3da}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}a{color:#135fa4}</style><main>
+<h1>Whole brain</h1><p>Research analysis · petkin 0.4.0.dev1</p><table><tr><th>Status</th><td>Passes automated local checks</td></tr><tr><th>VT</th><td>2.2853</td></tr><tr><th>Method</th><td>2t</td></tr><tr><th>Vascular fraction</th><td>0.05</td></tr><tr><th>Input delay (minutes)</th><td>0.0</td></tr><tr><th>Optimizer converged</th><td>True</td></tr><tr><th>QC reasons</th><td>None triggered</td></tr></table>
+<p class="note">Automated checks do not establish biological accuracy. Parameter bounds, uncertain input timing, missing blood measurements and image alignment can invalidate otherwise plausible curves.</p>
+<h2>Fitted rate constants</h2><table><tr><th>K1</th><td>0.10853</td></tr><tr><th>k2</th><td>0.145058</td></tr><tr><th>k3</th><td>0.0826857</td></tr><tr><th>k4</th><td>0.0402464</td></tr></table><p>Rates use minutes. VT is mL plasma/mL tissue; Ki is mL plasma/mL tissue/min.</p>
+<details><summary>Raw numerical estimate and complete audit record</summary><p>Raw VT: 2.2853017412918892. A raw value may be unsuitable for inference.</p><pre>{
+  &quot;model&quot;: &quot;2t&quot;,
+  &quot;parameters&quot;: {
+    &quot;K1&quot;: 0.10852968337796967,
+    &quot;k2&quot;: 0.14505849742767768,
+    &quot;k3&quot;: 0.0826857207932709,
+    &quot;k4&quot;: 0.04024642007344774
+  },
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;`ftol` termination condition is satisfied.&quot;,
+  &quot;status&quot;: &quot;ok&quot;,
+  &quot;usable_for_quantification&quot;: true,
+  &quot;qc_reasons&quot;: [],
+  &quot;qc_scope&quot;: &quot;Local engineering checks only; profile, bootstrap, input and biological validation remain necessary&quot;,
+  &quot;prediction&quot;: [
+    5.457689703081237,
+    8.123168393237718,
+    7.731444767825496,
+    7.423106572457894,
+    7.413018265683639,
+    7.468080983806898,
+    7.597614869150382,
+    7.815893034163906,
+    8.03691111892805,
+    8.213007433623828,
+    8.315559452847324,
+    8.449976885419744,
+    8.52510638845493,
+    8.576139424566144,
+    8.56122695489448,
+    8.342795780640309,
+    8.06252957253782,
+    7.780356818287885,
+    7.529169028397625,
+    7.104948850772705,
+    6.631621903352183,
+    6.317367742755807,
+    6.06512650855106,
+    5.775933092231796,
+    5.475324065668668,
+    5.097303673881565,
+    4.621470391366486,
+    4.207578060081914,
+    3.8603955355794235,
+    3.5577632677819415,
+    3.2997871286214795,
+    3.074157905425295,
+    2.874411178634015,
+    2.7037965796573076,
+    2.5578780139052433
+  ],
+  &quot;residuals&quot;: [
+    0.6271172024948468,
+    0.4383516390539377,
+    0.14543273953221636,
+    -0.10465580962756604,
+    -0.3064137144211214,
+    -0.3199132894703718,
+    -0.3918191630960184,
+    -0.2331854429143636,
+    -0.1236514370895101,
+    -0.008661567548182703,
+    0.09822361517966449,
+    0.18650021719110477,
+    0.2868242345791199,
+    0.3458764774017631,
+    0.3698760350024095,
+    0.21860651024256939,
+    0.053317539730429075,
+    -0.1530770605152849,
+    -0.18404655716961482,
+    -0.3366596985552146,
+    -0.37365829978907694,
+    -0.2882253431735231,
+    -0.17605533558194963,
+    0.03474191687690542,
+    0.32956127033644833,
+    0.3950769654597446,
+    0.32557358993519614,
+    0.16369206139445414,
+    0.13863110544572343,
+    0.05369637791880155,
+    -0.021310820879450354,
+    -0.1822913074070347,
+    -0.21205539533364526,
+    -0.2647550420375122,
+    -0.31144748049759663
+  ],
+  &quot;weighted_sse&quot;: 2.286988129949467,
+  &quot;rmse&quot;: 0.27053793617834904,
+  &quot;standard_errors&quot;: {
+    &quot;K1&quot;: 0.002466348539784802,
+    &quot;k2&quot;: 0.014379910391475507,
+    &quot;k3&quot;: 0.015429878622026532,
+    &quot;k4&quot;: 0.004714060362490758
+  },
+  &quot;covariance&quot;: [
+    [
+      6.082875119698625e-06,
+      3.0659054845722255e-05,
+      2.402184468238381e-05,
+      3.138084771318929e-06
+    ],
+    [
+      3.0659054845722255e-05,
+      0.00020678182286686526,
+      0.00019775201009258962,
+      3.5317695723457713e-05
+    ],
+    [
+      2.4021844682383777e-05,
+      0.00019775201009258943,
+      0.00023808115429047142,
+      5.9367938766306095e-05
+    ],
+    [
+      3.138084771318903e-06,
+      3.531769572345755e-05,
+      5.936793876630598e-05,
+      2.2222365101206495e-05
+    ]
+  ],
+  &quot;free_parameters&quot;: [
+    &quot;K1&quot;,
+    &quot;k2&quot;,
+    &quot;k3&quot;,
+    &quot;k4&quot;
+  ],
+  &quot;jacobian_rank&quot;: 4,
+  &quot;condition_number&quot;: 26.49642728392621,
+  &quot;scaled_condition_number&quot;: 31.15127063206863,
+  &quot;at_bound&quot;: false,
+  &quot;bound_parameters&quot;: [],
+  &quot;vb&quot;: 0.05,
+  &quot;delay&quot;: 0.0,
+  &quot;macro_standard_error&quot;: 0.0670628869761567,
+  &quot;macro_local_95_interval&quot;: [
+    2.153858482818622,
+    2.4167449997651564
+  ],
+  &quot;AIC&quot;: 17.737721286202184,
+  &quot;AICc&quot;: 19.806686803443565,
+  &quot;BIC&quot;: 25.51446159364925,
+  &quot;settings&quot;: {
+    &quot;dt&quot;: 0.025,
+    &quot;fit_vb&quot;: false,
+    &quot;fit_delay&quot;: false,
+    &quot;delay_bounds&quot;: [
+      -0.5,
+      0.5
+    ],
+    &quot;input_tail&quot;: &quot;hold&quot;,
+    &quot;n_starts&quot;: 8,
+    &quot;seed&quot;: 0,
+    &quot;rate_bounds&quot;: [
+      1e-06,
+      3.0
+    ],
+    &quot;vb_bounds&quot;: [
+      0.0,
+      0.3
+    ],
+    &quot;absolute_sigma&quot;: false,
+    &quot;max_nfev&quot;: 800
+  },
+  &quot;multistart&quot;: {
+    &quot;attempted&quot;: 8,
+    &quot;converged&quot;: 8,
+    &quot;weighted_sse&quot;: [
+      2.286988129960933,
+      2.286988129949467,
+      2.286988130032362,
+      2.286988130360777,
+      2.286988130328858,
+      2.2869881300369617,
+      2.2869881300275043,
+      2.286988130042109
+    ]
+  },
+  &quot;residual_diagnostics&quot;: {
+    &quot;lag1_correlation&quot;: 0.8626299371863235,
+    &quot;durbin_watson&quot;: 0.2611313551007646,
+    &quot;weighted_sse_per_residual_dof&quot;: 0.0737738106435312,
+    &quot;interpretation&quot;: &quot;Serial structure can reflect model/input mismatch or correlated noise; no calibrated pass/fail threshold is asserted&quot;
+  },
+  &quot;raw_VT&quot;: 2.2853017412918892,
+  &quot;VT&quot;: 2.2853017412918892,
+  &quot;provenance&quot;: {
+    &quot;petkin_version&quot;: &quot;0.4.0.dev1&quot;,
+    &quot;created_utc&quot;: &quot;2026-11-03T16:14:36.926509+00:00&quot;,
+    &quot;inputs&quot;: [
+      {
+        &quot;path&quot;: &quot;${WORKSPACE}/work/pbr28-regional-input/cgyu_1/WB.csv&quot;,
+        &quot;bytes&quot;: 3726,
+        &quot;sha256&quot;: &quot;ad7eb134b08b63677c529dc47f68bb657b758f80aa712f2990e457eb8445305a&quot;
+      },
+      {
+        &quot;path&quot;: &quot;${WORKSPACE}/work/pbr28-regional-input/cgyu_1/input.csv&quot;,
+        &quot;bytes&quot;: 450093,
+        &quot;sha256&quot;: &quot;e35e0c7808012b8b618ba3f47cd9076a6b15d2430de9015e93aa6053e95e4194&quot;
+      },
+      {
+        &quot;path&quot;: &quot;${WORKSPACE}/work/pbr28-regional-input/cgyu_1/regions.json&quot;,
+        &quot;bytes&quot;: 897,
+        &quot;sha256&quot;: &quot;84eb83036d7600f87177723097f396e87139a3bb239fe71d1cf92aaec1336f07&quot;
+      }
+    ],
+    &quot;settings&quot;: {
+      &quot;model&quot;: &quot;2t&quot;,
+      &quot;vb&quot;: 0.05,
+      &quot;fit_delay&quot;: false,
+      &quot;input_tail&quot;: &quot;hold&quot;,
+      &quot;n_starts&quot;: 8,
+      &quot;seed&quot;: 0,
+      &quot;tstar&quot;: 40,
+      &quot;hold_every&quot;: 5
+    },
+    &quot;dependencies&quot;: {
+      &quot;numpy&quot;: &quot;2.5.4&quot;,
+      &quot;scipy&quot;: &quot;1.18.1&quot;,
+      &quot;SimpleITK&quot;: &quot;2.5.7&quot;
+    }
+  }
+}</pre></details></main></html>

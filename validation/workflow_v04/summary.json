@@ -1,0 +1,65 @@
+{
+  "role": "Exposed PBR28 development cohort; practical regional workflow evaluation, not new independent qualification",
+  "scans": 20,
+  "regions": 120,
+  "completed": 120,
+  "local_qc_passed": 113,
+  "median_held_frame_nrmse": 0.04393583583930834,
+  "maximum_held_frame_nrmse": 0.15045716354433863,
+  "flagged": [
+    {
+      "scan": "rbqc_1",
+      "region": "FC",
+      "reasons": [
+        "parameter_at_bound",
+        "large_local_macro_uncertainty"
+      ]
+    },
+    {
+      "scan": "rbqc_1",
+      "region": "TC",
+      "reasons": [
+        "large_local_macro_uncertainty"
+      ]
+    },
+    {
+      "scan": "rbqc_1",
+      "region": "STR",
+      "reasons": [
+        "parameter_at_bound",
+        "large_local_macro_uncertainty"
+      ]
+    },
+    {
+      "scan": "rbqc_1",
+      "region": "WB",
+      "reasons": [
+        "large_local_macro_uncertainty"
+      ]
+    },
+    {
+      "scan": "rtvg_1",
+      "region": "CBL",
+      "reasons": [
+        "parameter_at_bound"
+      ]
+    },
+    {
+      "scan": "ytdh_1",
+      "region": "FC",
+      "reasons": [
+        "large_local_macro_uncertainty"
+      ]
+    },
+    {
+      "scan": "ytdh_1",
+      "region": "STR",
+      "reasons": [
+        "large_local_macro_uncertainty"
+      ]
+    }
+  ],
+  "numerical_engine_unchanged": true,
+  "report_example_selection": "First scan alphabetically, cgyu_1; not selected for best fit",
+  "graphical_limitation": "Source tissue frames do not cover time zero contiguously. Graphical methods are reported unavailable; no missing interval is invented."
+}
