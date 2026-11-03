@@ -1,0 +1,753 @@
+{
+  "files": [
+    {
+      "path": "README",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/README",
+      "bytes": 2391,
+      "sha256": "bf5e4737b99fd0b8f1fc9e8a79a02f045f4bee72c4bed5eddac4edee1053fe58",
+      "annex_sha256": null
+    },
+    {
+      "path": "dataset_description.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/dataset_description.json",
+      "bytes": 1881,
+      "sha256": "76b7c0d0a375d44319f19ebb7398e2cde774aecbb77d6cf513d4d7b462760f4d",
+      "annex_sha256": null
+    },
+    {
+      "path": "participants.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/participants.json",
+      "bytes": 378,
+      "sha256": "f9870766f03bcbefc37cf9c5602b07214afac3485faac0ac9a20c090bce24597",
+      "annex_sha256": null
+    },
+    {
+      "path": "participants.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/participants.tsv",
+      "bytes": 269,
+      "sha256": "084472a804642688164fd874bfe3b8b4b1194ab7fc33ef783dd43413a26328bf",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-01/ses-baseline/anat/sub-01_ses-baseline_T1w.nii",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-01/ses-baseline/anat/sub-01_ses-baseline_T1w.nii",
+      "bytes": 47460704,
+      "sha256": "c311fbae953c6666d30e9f345f8908f5d02538a293541d422b5960d65481993f",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.json",
+      "bytes": 4147,
+      "sha256": "d111326c6fdadd7142779e8f62ddfe1fb30e2b87cc2d5807552846f29f510484",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+      "bytes": 140257271,
+      "sha256": "5cb36e1d1cc27dc9e8628ba6890c25f0115e216e0db8711961cf22ff792c019e",
+      "annex_sha256": "5cb36e1d1cc27dc9e8628ba6890c25f0115e216e0db8711961cf22ff792c019e"
+    },
+    {
+      "path": "sub-01/ses-baseline/pet/sub-01_ses-baseline_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-01/ses-baseline/pet/sub-01_ses-baseline_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-01/ses-baseline/pet/sub-01_ses-baseline_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-01/ses-baseline/pet/sub-01_ses-baseline_recording-manual_blood.tsv",
+      "bytes": 1265,
+      "sha256": "c258541b8a6897198b4233be001088794f887b9145b4ba96fe2751009c9c7005",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.json",
+      "bytes": 4146,
+      "sha256": "44f97b3e4b5072a639439e25caef65b1b4dbf46c484121e0852375224f7dd003",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+      "bytes": 136934968,
+      "sha256": "ad5b0d6c40247a607ed80af3f6e660b68a4d06f68471c8fbb84f23164a57da7a",
+      "annex_sha256": "ad5b0d6c40247a607ed80af3f6e660b68a4d06f68471c8fbb84f23164a57da7a"
+    },
+    {
+      "path": "sub-01/ses-rescan/pet/sub-01_ses-rescan_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-01/ses-rescan/pet/sub-01_ses-rescan_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-01/ses-rescan/pet/sub-01_ses-rescan_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-01/ses-rescan/pet/sub-01_ses-rescan_recording-manual_blood.tsv",
+      "bytes": 1272,
+      "sha256": "8981df6862bf9b0c2e6615efffe2dad3c25097e987ed031c0bf6dc75a471e942",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-02/ses-baseline/anat/sub-02_ses-baseline_T1w.nii",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-02/ses-baseline/anat/sub-02_ses-baseline_T1w.nii",
+      "bytes": 47460688,
+      "sha256": "a6fadd0e32c24b25d763d7d4315135bc665993204b1d989490314bd09ecd2674",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.json",
+      "bytes": 4153,
+      "sha256": "8eb3b4b11480fb31794a07a6a3dca3ba31890e505d8e788a9b224e177e365be1",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+      "bytes": 157783620,
+      "sha256": "5922e6539b877314034286b24a081692cfb27a4404274d7bb6c156f2c2201ee4",
+      "annex_sha256": "5922e6539b877314034286b24a081692cfb27a4404274d7bb6c156f2c2201ee4"
+    },
+    {
+      "path": "sub-02/ses-baseline/pet/sub-02_ses-baseline_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-02/ses-baseline/pet/sub-02_ses-baseline_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-02/ses-baseline/pet/sub-02_ses-baseline_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-02/ses-baseline/pet/sub-02_ses-baseline_recording-manual_blood.tsv",
+      "bytes": 1287,
+      "sha256": "47de9d7e41e75729d27ffac5b02a91798288d8cc46690debf932a2fdc7551c93",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.json",
+      "bytes": 4141,
+      "sha256": "58c676f1fe0b39bdfd9486c36249050e213f7bceb626fd1d39567091bf533f33",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+      "bytes": 144005625,
+      "sha256": "e11c74d37901983f84f2dc1df419eb3550089ffb4a9b8a255a0080c0fb032e38",
+      "annex_sha256": "e11c74d37901983f84f2dc1df419eb3550089ffb4a9b8a255a0080c0fb032e38"
+    },
+    {
+      "path": "sub-02/ses-rescan/pet/sub-02_ses-rescan_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-02/ses-rescan/pet/sub-02_ses-rescan_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-02/ses-rescan/pet/sub-02_ses-rescan_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-02/ses-rescan/pet/sub-02_ses-rescan_recording-manual_blood.tsv",
+      "bytes": 1303,
+      "sha256": "15c63c0676d0d8cfb51d0d9fc9cde79d656837056e4943b48aaaa11a0a6b184a",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-03/ses-baseline/anat/sub-03_ses-baseline_T1w.nii",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-03/ses-baseline/anat/sub-03_ses-baseline_T1w.nii",
+      "bytes": 119456096,
+      "sha256": "720dfcd21d571e25ddb90fbe4a270f6bb71aca01456ac64446ef8a388d03c2df",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-03/ses-baseline/pet/sub-03_ses-baseline_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-03/ses-baseline/pet/sub-03_ses-baseline_pet.json",
+      "bytes": 4140,
+      "sha256": "5453c2c4524edf95a44676c89edc1063c8d10999cec4221672c26042b4b61296",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-03/ses-baseline/pet/sub-03_ses-baseline_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-03/ses-baseline/pet/sub-03_ses-baseline_pet.nii.gz",
+      "bytes": 139689476,
+      "sha256": "b945651b8f32c7dc2892c00147e77e5a112c861a91cce8a90f602db1267d98b5",
+      "annex_sha256": "b945651b8f32c7dc2892c00147e77e5a112c861a91cce8a90f602db1267d98b5"
+    },
+    {
+      "path": "sub-03/ses-baseline/pet/sub-03_ses-baseline_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-03/ses-baseline/pet/sub-03_ses-baseline_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-03/ses-baseline/pet/sub-03_ses-baseline_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-03/ses-baseline/pet/sub-03_ses-baseline_recording-manual_blood.tsv",
+      "bytes": 1267,
+      "sha256": "70ba66d6426f7ece7ed63c690ff2c8e290c74ddb83a8d22ac9d8925d11d7d619",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-03/ses-rescan/pet/sub-03_ses-rescan_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-03/ses-rescan/pet/sub-03_ses-rescan_pet.json",
+      "bytes": 4147,
+      "sha256": "6fe79bef04c36e43de863c81fe0faf4ad7e4d9204831728313f46d83bbf03115",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-03/ses-rescan/pet/sub-03_ses-rescan_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-03/ses-rescan/pet/sub-03_ses-rescan_pet.nii.gz",
+      "bytes": 136490256,
+      "sha256": "a5993c26c42809a11c5a73396cc27ebb212b6d68da17aec5d7a4642cb454147b",
+      "annex_sha256": "a5993c26c42809a11c5a73396cc27ebb212b6d68da17aec5d7a4642cb454147b"
+    },
+    {
+      "path": "sub-03/ses-rescan/pet/sub-03_ses-rescan_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-03/ses-rescan/pet/sub-03_ses-rescan_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-03/ses-rescan/pet/sub-03_ses-rescan_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-03/ses-rescan/pet/sub-03_ses-rescan_recording-manual_blood.tsv",
+      "bytes": 1271,
+      "sha256": "989ee891698c049ffdc31c0f1fcfae59c74b17e0e0d4495e6af9031a26161970",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-04/ses-baseline/anat/sub-04_ses-baseline_T1w.nii",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-04/ses-baseline/anat/sub-04_ses-baseline_T1w.nii",
+      "bytes": 47460672,
+      "sha256": "b74cad097f214839deca7959b06790cf855cd369ec92dd91059b16cd19870bdf",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-04/ses-baseline/pet/sub-04_ses-baseline_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-04/ses-baseline/pet/sub-04_ses-baseline_pet.json",
+      "bytes": 4140,
+      "sha256": "22c25a74ddc8071477a3928268da1f96495e5abe47fef77657fa66894c38a38e",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-04/ses-baseline/pet/sub-04_ses-baseline_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-04/ses-baseline/pet/sub-04_ses-baseline_pet.nii.gz",
+      "bytes": 147080622,
+      "sha256": "b471c3b6c8be6947e8cd4f5649acb17aa181c9f9e251d3e47a982bd05afb30cf",
+      "annex_sha256": "b471c3b6c8be6947e8cd4f5649acb17aa181c9f9e251d3e47a982bd05afb30cf"
+    },
+    {
+      "path": "sub-04/ses-baseline/pet/sub-04_ses-baseline_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-04/ses-baseline/pet/sub-04_ses-baseline_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-04/ses-baseline/pet/sub-04_ses-baseline_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-04/ses-baseline/pet/sub-04_ses-baseline_recording-manual_blood.tsv",
+      "bytes": 1250,
+      "sha256": "f2d19c527e5b31b2c4d5849e97c5d6ce5571f7d1da92c4c5b8ae00616c7d661a",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-04/ses-rescan/pet/sub-04_ses-rescan_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-04/ses-rescan/pet/sub-04_ses-rescan_pet.json",
+      "bytes": 4147,
+      "sha256": "a311fb083ccf9a970d5b84fdb4d725da8aeb1ac54a8faafd215cb85271c70972",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-04/ses-rescan/pet/sub-04_ses-rescan_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-04/ses-rescan/pet/sub-04_ses-rescan_pet.nii.gz",
+      "bytes": 146777437,
+      "sha256": "b9dbf9475603d9591d09a37ebbdafbd411b4a03f1bd4e15f540a2aa36b3bd581",
+      "annex_sha256": "b9dbf9475603d9591d09a37ebbdafbd411b4a03f1bd4e15f540a2aa36b3bd581"
+    },
+    {
+      "path": "sub-04/ses-rescan/pet/sub-04_ses-rescan_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-04/ses-rescan/pet/sub-04_ses-rescan_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-04/ses-rescan/pet/sub-04_ses-rescan_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-04/ses-rescan/pet/sub-04_ses-rescan_recording-manual_blood.tsv",
+      "bytes": 1321,
+      "sha256": "dac2360a4d26ec79da2cf4e465fabd968bbe009e2bc48f7cedf8c1da850046f8",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS50/ses-baseline/anat/sub-PS50_ses-baseline_T1w.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS50/ses-baseline/anat/sub-PS50_ses-baseline_T1w.json",
+      "bytes": 1321,
+      "sha256": "6f4ee68aa290632e6280a005d7807a69b9b86d9386ba375cb4affbd074b50105",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS50/ses-baseline/anat/sub-PS50_ses-baseline_T1w.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS50/ses-baseline/anat/sub-PS50_ses-baseline_T1w.nii.gz",
+      "bytes": 15632037,
+      "sha256": "558a47a09f9b18192a7c124c77f87e4546566763747dbc77c92cd526b3289a00",
+      "annex_sha256": "558a47a09f9b18192a7c124c77f87e4546566763747dbc77c92cd526b3289a00"
+    },
+    {
+      "path": "sub-PS50/ses-baseline/pet/sub-PS50_ses-baseline_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS50/ses-baseline/pet/sub-PS50_ses-baseline_pet.json",
+      "bytes": 3360,
+      "sha256": "1df85401082379177eacde2334d3812e2126c6dbe3db5ff45b2660a158191da5",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS50/ses-baseline/pet/sub-PS50_ses-baseline_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS50/ses-baseline/pet/sub-PS50_ses-baseline_pet.nii.gz",
+      "bytes": 145802787,
+      "sha256": "18f3352d1e7fb8c99d4cd70db97d897fa20ea1eef5764b527a75383d5e32d0a9",
+      "annex_sha256": "18f3352d1e7fb8c99d4cd70db97d897fa20ea1eef5764b527a75383d5e32d0a9"
+    },
+    {
+      "path": "sub-PS50/ses-baseline/pet/sub-PS50_ses-baseline_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS50/ses-baseline/pet/sub-PS50_ses-baseline_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS50/ses-baseline/pet/sub-PS50_ses-baseline_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS50/ses-baseline/pet/sub-PS50_ses-baseline_recording-manual_blood.tsv",
+      "bytes": 1268,
+      "sha256": "7124dfa1cc57cc32ac483890d25ef9c2655a92fdefde67a8cd1d78d4351e25f7",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS50/ses-blocked/pet/sub-PS50_ses-blocked_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS50/ses-blocked/pet/sub-PS50_ses-blocked_pet.json",
+      "bytes": 3324,
+      "sha256": "0e855c8ab4d6a52580ceca2e2c8aba2cdc61864c527ed741184be28cb9b734ca",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS50/ses-blocked/pet/sub-PS50_ses-blocked_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS50/ses-blocked/pet/sub-PS50_ses-blocked_pet.nii.gz",
+      "bytes": 142062601,
+      "sha256": "b2e2d71cc9cdd07663fc938df02cc0fe77dbf841e84dce656e44e2e45ad56393",
+      "annex_sha256": "b2e2d71cc9cdd07663fc938df02cc0fe77dbf841e84dce656e44e2e45ad56393"
+    },
+    {
+      "path": "sub-PS50/ses-blocked/pet/sub-PS50_ses-blocked_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS50/ses-blocked/pet/sub-PS50_ses-blocked_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS50/ses-blocked/pet/sub-PS50_ses-blocked_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS50/ses-blocked/pet/sub-PS50_ses-blocked_recording-manual_blood.tsv",
+      "bytes": 1295,
+      "sha256": "be2cfb6ca2711a3034c257f421360c56d36fccbb574193315f7410296f24277f",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS51/ses-baseline/anat/sub-PS51_ses-baseline_T1w.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS51/ses-baseline/anat/sub-PS51_ses-baseline_T1w.json",
+      "bytes": 1320,
+      "sha256": "1aa93a187c9b3ff6de4bc61801da934cd09020fa8ff37e0a0cf3e9606003f56e",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS51/ses-baseline/anat/sub-PS51_ses-baseline_T1w.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS51/ses-baseline/anat/sub-PS51_ses-baseline_T1w.nii.gz",
+      "bytes": 15759774,
+      "sha256": "fab9af500ed96f8eeff3caa862efbe64cd683d9627524e6749a949f72a0f6d1e",
+      "annex_sha256": "fab9af500ed96f8eeff3caa862efbe64cd683d9627524e6749a949f72a0f6d1e"
+    },
+    {
+      "path": "sub-PS51/ses-baseline/pet/sub-PS51_ses-baseline_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS51/ses-baseline/pet/sub-PS51_ses-baseline_pet.json",
+      "bytes": 3359,
+      "sha256": "a5c595feee400e59ab7ab2d8535ef43e0eb6261f4cfc5851a213d3412d34b1f1",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS51/ses-baseline/pet/sub-PS51_ses-baseline_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS51/ses-baseline/pet/sub-PS51_ses-baseline_pet.nii.gz",
+      "bytes": 137936234,
+      "sha256": "922965674afc141f75e23a97ceeb620992e5f5e817e139d6f14fa25d4103f940",
+      "annex_sha256": "922965674afc141f75e23a97ceeb620992e5f5e817e139d6f14fa25d4103f940"
+    },
+    {
+      "path": "sub-PS51/ses-baseline/pet/sub-PS51_ses-baseline_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS51/ses-baseline/pet/sub-PS51_ses-baseline_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS51/ses-baseline/pet/sub-PS51_ses-baseline_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS51/ses-baseline/pet/sub-PS51_ses-baseline_recording-manual_blood.tsv",
+      "bytes": 1306,
+      "sha256": "5490dba493dbed1caa17aa7eb284e6d8a968a51eb4e16b68ad5d91c0593cc4bb",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS51/ses-blocked/pet/sub-PS51_ses-blocked_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS51/ses-blocked/pet/sub-PS51_ses-blocked_pet.json",
+      "bytes": 3355,
+      "sha256": "9ab0df35d62b7fcf1e752ea5daf5d90064c4289eda899ac69b08f43936054bcf",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS51/ses-blocked/pet/sub-PS51_ses-blocked_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS51/ses-blocked/pet/sub-PS51_ses-blocked_pet.nii.gz",
+      "bytes": 137416253,
+      "sha256": "7ea773121da09a3754f82df889a9fe3f1318567d6df7a010c28618c78d7970b3",
+      "annex_sha256": "7ea773121da09a3754f82df889a9fe3f1318567d6df7a010c28618c78d7970b3"
+    },
+    {
+      "path": "sub-PS51/ses-blocked/pet/sub-PS51_ses-blocked_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS51/ses-blocked/pet/sub-PS51_ses-blocked_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS51/ses-blocked/pet/sub-PS51_ses-blocked_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS51/ses-blocked/pet/sub-PS51_ses-blocked_recording-manual_blood.tsv",
+      "bytes": 1326,
+      "sha256": "1f75c22c9994542f3311902ad1eff9ee4592b27de3b35c2c94a67e1b680e1e50",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS52/ses-baseline/anat/sub-PS52_ses-baseline_T1w.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS52/ses-baseline/anat/sub-PS52_ses-baseline_T1w.json",
+      "bytes": 1664,
+      "sha256": "ef35e6b0d9e93e075cb6d15931cbe4780a26d213394f3a58aa5881abd0bdee5c",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS52/ses-baseline/anat/sub-PS52_ses-baseline_T1w.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS52/ses-baseline/anat/sub-PS52_ses-baseline_T1w.nii.gz",
+      "bytes": 15082480,
+      "sha256": "3463ed914c5b72492814743ba6adaef4732718c6a25042a44d873a23a3157ca9",
+      "annex_sha256": "3463ed914c5b72492814743ba6adaef4732718c6a25042a44d873a23a3157ca9"
+    },
+    {
+      "path": "sub-PS52/ses-baseline/pet/sub-PS52_ses-baseline_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS52/ses-baseline/pet/sub-PS52_ses-baseline_pet.json",
+      "bytes": 4152,
+      "sha256": "23bf64db5721db5fca884bfb6739bbc7cc1361fb07b3b19ca0d36efea95bd74b",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS52/ses-baseline/pet/sub-PS52_ses-baseline_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS52/ses-baseline/pet/sub-PS52_ses-baseline_pet.nii.gz",
+      "bytes": 136728269,
+      "sha256": "a563cd8615b5d025e57aa486c7ff8524edd69f6d901c9bf2fb0204f1c017211a",
+      "annex_sha256": "a563cd8615b5d025e57aa486c7ff8524edd69f6d901c9bf2fb0204f1c017211a"
+    },
+    {
+      "path": "sub-PS52/ses-baseline/pet/sub-PS52_ses-baseline_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS52/ses-baseline/pet/sub-PS52_ses-baseline_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS52/ses-baseline/pet/sub-PS52_ses-baseline_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS52/ses-baseline/pet/sub-PS52_ses-baseline_recording-manual_blood.tsv",
+      "bytes": 1271,
+      "sha256": "a8c856bdc64a62e2b4e99279c24894e873d3454157932eec08c2844c03b26e32",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS52/ses-blocked/pet/sub-PS52_ses-blocked_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS52/ses-blocked/pet/sub-PS52_ses-blocked_pet.json",
+      "bytes": 4180,
+      "sha256": "87e47981afd556cbbda98dfd12a1659cd1ae2f1c14506cf0ef47b6c7b2abf6d3",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS52/ses-blocked/pet/sub-PS52_ses-blocked_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS52/ses-blocked/pet/sub-PS52_ses-blocked_pet.nii.gz",
+      "bytes": 129926207,
+      "sha256": "50b1aae4c21a571d6d4fdb4f67b39e241d7257f3a7ab13a10828fedc0b277477",
+      "annex_sha256": "50b1aae4c21a571d6d4fdb4f67b39e241d7257f3a7ab13a10828fedc0b277477"
+    },
+    {
+      "path": "sub-PS52/ses-blocked/pet/sub-PS52_ses-blocked_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS52/ses-blocked/pet/sub-PS52_ses-blocked_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS52/ses-blocked/pet/sub-PS52_ses-blocked_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS52/ses-blocked/pet/sub-PS52_ses-blocked_recording-manual_blood.tsv",
+      "bytes": 1334,
+      "sha256": "e6d6de5c8bee81e6990a3a9596fa07a72f34f13fdd2e671045f480e1f61e5712",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS53/ses-baseline/anat/sub-PS53_ses-baseline_T1w.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS53/ses-baseline/anat/sub-PS53_ses-baseline_T1w.json",
+      "bytes": 1661,
+      "sha256": "5b804b81ae351f952a9bdcd85e811ab0e423f5418aeb4f5d6e633a0a98398027",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS53/ses-baseline/pet/sub-PS53_ses-baseline_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS53/ses-baseline/pet/sub-PS53_ses-baseline_pet.json",
+      "bytes": 4155,
+      "sha256": "052c2bcf6c2a4a93668534d70fb1884772dff0239c24bfa5c863f785a29b9b54",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS53/ses-baseline/pet/sub-PS53_ses-baseline_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS53/ses-baseline/pet/sub-PS53_ses-baseline_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS53/ses-baseline/pet/sub-PS53_ses-baseline_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS53/ses-baseline/pet/sub-PS53_ses-baseline_recording-manual_blood.tsv",
+      "bytes": 1268,
+      "sha256": "7124dfa1cc57cc32ac483890d25ef9c2655a92fdefde67a8cd1d78d4351e25f7",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS53/ses-blocked/pet/sub-PS53_ses-blocked_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS53/ses-blocked/pet/sub-PS53_ses-blocked_pet.json",
+      "bytes": 4143,
+      "sha256": "7381873e4e1b061c8e05ac5ec332ec6114f29db61213503e776ca766b3f194c9",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS53/ses-blocked/pet/sub-PS53_ses-blocked_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS53/ses-blocked/pet/sub-PS53_ses-blocked_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS53/ses-blocked/pet/sub-PS53_ses-blocked_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS53/ses-blocked/pet/sub-PS53_ses-blocked_recording-manual_blood.tsv",
+      "bytes": 876,
+      "sha256": "e7300dad11c4b356ca8ec0abeba80c0fac52f6032f8dc9606dfa2a5b2099c735",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS54/ses-baseline/anat/sub-PS54_ses-baseline_T1w.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS54/ses-baseline/anat/sub-PS54_ses-baseline_T1w.json",
+      "bytes": 1666,
+      "sha256": "bb0185e212d46b96e2f810b8d8607b3b1c8a4d4f5647e7fc58c144fe37483d2f",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS54/ses-baseline/anat/sub-PS54_ses-baseline_T1w.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS54/ses-baseline/anat/sub-PS54_ses-baseline_T1w.nii.gz",
+      "bytes": 12162885,
+      "sha256": "baf852704d65527d40940f93d3b6ca435fae1b9ca2051977cc0abc3517b9513a",
+      "annex_sha256": "baf852704d65527d40940f93d3b6ca435fae1b9ca2051977cc0abc3517b9513a"
+    },
+    {
+      "path": "sub-PS54/ses-baseline/pet/sub-PS54_ses-baseline_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS54/ses-baseline/pet/sub-PS54_ses-baseline_pet.json",
+      "bytes": 4154,
+      "sha256": "db0c507da0eec3126686fee7c45b6b990b21af3868b2faf2739d55265285ef33",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS54/ses-baseline/pet/sub-PS54_ses-baseline_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS54/ses-baseline/pet/sub-PS54_ses-baseline_pet.nii.gz",
+      "bytes": 141673150,
+      "sha256": "eb0417619d5b2ed435ff3dd90cdad92f2d85b3c3f219977cd5d7509534adb7db",
+      "annex_sha256": "eb0417619d5b2ed435ff3dd90cdad92f2d85b3c3f219977cd5d7509534adb7db"
+    },
+    {
+      "path": "sub-PS54/ses-baseline/pet/sub-PS54_ses-baseline_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS54/ses-baseline/pet/sub-PS54_ses-baseline_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS54/ses-baseline/pet/sub-PS54_ses-baseline_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS54/ses-baseline/pet/sub-PS54_ses-baseline_recording-manual_blood.tsv",
+      "bytes": 1277,
+      "sha256": "16f939a78d345a0bb3cd7c4a909d646461d95b3564378d3dae0534b2b721847d",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS54/ses-blocked/pet/sub-PS54_ses-blocked_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS54/ses-blocked/pet/sub-PS54_ses-blocked_pet.json",
+      "bytes": 4171,
+      "sha256": "852559a2036a694ad83a5b8c9fe9a71b5eb098f8119c62ec8cb41954e71b157b",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS54/ses-blocked/pet/sub-PS54_ses-blocked_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS54/ses-blocked/pet/sub-PS54_ses-blocked_pet.nii.gz",
+      "bytes": 142430033,
+      "sha256": "23aefc12ded674fde00786e6080c71e0d162a320345031376798b2c4c248082e",
+      "annex_sha256": "23aefc12ded674fde00786e6080c71e0d162a320345031376798b2c4c248082e"
+    },
+    {
+      "path": "sub-PS54/ses-blocked/pet/sub-PS54_ses-blocked_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS54/ses-blocked/pet/sub-PS54_ses-blocked_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS54/ses-blocked/pet/sub-PS54_ses-blocked_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS54/ses-blocked/pet/sub-PS54_ses-blocked_recording-manual_blood.tsv",
+      "bytes": 1336,
+      "sha256": "82f02d4aa83b546fd765ec45d4554d82dc0c6cbe53679a1fabae261de33efadf",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS55/ses-baseline/anat/sub-PS55_ses-baseline_T1w.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS55/ses-baseline/anat/sub-PS55_ses-baseline_T1w.json",
+      "bytes": 1669,
+      "sha256": "9e3c4fefff6222e3bf5688ad10a13e232a720979120fd4c62b60eb4d51a0fb19",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS55/ses-baseline/anat/sub-PS55_ses-baseline_T1w.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS55/ses-baseline/anat/sub-PS55_ses-baseline_T1w.nii.gz",
+      "bytes": 13311801,
+      "sha256": "844cbe778d07c1e0bcf5dbc4b20521130af0d58891d9cb4818b33f8fb542d8f8",
+      "annex_sha256": "844cbe778d07c1e0bcf5dbc4b20521130af0d58891d9cb4818b33f8fb542d8f8"
+    },
+    {
+      "path": "sub-PS55/ses-baseline/pet/sub-PS55_ses-baseline_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS55/ses-baseline/pet/sub-PS55_ses-baseline_pet.json",
+      "bytes": 4160,
+      "sha256": "9bdec8ef18a541db86ea136e3189bdde5e6c1d22e1a78f85eca4cb4efae04a4e",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS55/ses-baseline/pet/sub-PS55_ses-baseline_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS55/ses-baseline/pet/sub-PS55_ses-baseline_pet.nii.gz",
+      "bytes": 138172979,
+      "sha256": "1a029867a6d0fe91524f0ed47965cd245afc6bc15029b7214bd29a4655613f45",
+      "annex_sha256": "1a029867a6d0fe91524f0ed47965cd245afc6bc15029b7214bd29a4655613f45"
+    },
+    {
+      "path": "sub-PS55/ses-baseline/pet/sub-PS55_ses-baseline_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS55/ses-baseline/pet/sub-PS55_ses-baseline_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS55/ses-baseline/pet/sub-PS55_ses-baseline_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS55/ses-baseline/pet/sub-PS55_ses-baseline_recording-manual_blood.tsv",
+      "bytes": 1302,
+      "sha256": "61cc0cd043725491e875433a7b2d7ce9648ad919991a6d62954136d56fe8d8c5",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS55/ses-blocked/pet/sub-PS55_ses-blocked_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS55/ses-blocked/pet/sub-PS55_ses-blocked_pet.json",
+      "bytes": 4169,
+      "sha256": "83e3a0a1a84f3ae1d0736e5c13b3af1363d30b47a0701fa550d144649fa5ad7e",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS55/ses-blocked/pet/sub-PS55_ses-blocked_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS55/ses-blocked/pet/sub-PS55_ses-blocked_pet.nii.gz",
+      "bytes": 135351583,
+      "sha256": "783ed9e9719e52a65d285accaf4d63aa1042241eeff43136836709c29c3f5c34",
+      "annex_sha256": "783ed9e9719e52a65d285accaf4d63aa1042241eeff43136836709c29c3f5c34"
+    },
+    {
+      "path": "sub-PS55/ses-blocked/pet/sub-PS55_ses-blocked_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS55/ses-blocked/pet/sub-PS55_ses-blocked_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS55/ses-blocked/pet/sub-PS55_ses-blocked_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS55/ses-blocked/pet/sub-PS55_ses-blocked_recording-manual_blood.tsv",
+      "bytes": 1325,
+      "sha256": "8f432d50e813e5c85fcebda7a779df1788a5bafa71a16461c0eb77796c81446f",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS56/ses-baseline/anat/sub-PS56_ses-baseline_T1w.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS56/ses-baseline/anat/sub-PS56_ses-baseline_T1w.json",
+      "bytes": 1664,
+      "sha256": "5781a29f67b295505dfef45173816439cb6960c64260446dba798b23add590e5",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS56/ses-baseline/anat/sub-PS56_ses-baseline_T1w.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS56/ses-baseline/anat/sub-PS56_ses-baseline_T1w.nii.gz",
+      "bytes": 13399342,
+      "sha256": "0db2f8d289601d14b0e4f276b82f1d43be9d7c48be876b622de444a0c3680227",
+      "annex_sha256": "0db2f8d289601d14b0e4f276b82f1d43be9d7c48be876b622de444a0c3680227"
+    },
+    {
+      "path": "sub-PS56/ses-baseline/pet/sub-PS56_ses-baseline_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS56/ses-baseline/pet/sub-PS56_ses-baseline_pet.json",
+      "bytes": 4159,
+      "sha256": "4ca2a1c0a50a58b24630d353f9926b50aee098f9e51d4b98185661319f098845",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS56/ses-baseline/pet/sub-PS56_ses-baseline_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS56/ses-baseline/pet/sub-PS56_ses-baseline_pet.nii.gz",
+      "bytes": 144800368,
+      "sha256": "cb7a65488647c4ced6dc4df7c2849fb5177e385cb6c0cfb158ca3ab2eb0cae45",
+      "annex_sha256": "cb7a65488647c4ced6dc4df7c2849fb5177e385cb6c0cfb158ca3ab2eb0cae45"
+    },
+    {
+      "path": "sub-PS56/ses-baseline/pet/sub-PS56_ses-baseline_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS56/ses-baseline/pet/sub-PS56_ses-baseline_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS56/ses-baseline/pet/sub-PS56_ses-baseline_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS56/ses-baseline/pet/sub-PS56_ses-baseline_recording-manual_blood.tsv",
+      "bytes": 1284,
+      "sha256": "08c73b514976b5f2354c93ecfbd014eb0ebee5beadd7e7757922b1864f5391ff",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS56/ses-blocked/pet/sub-PS56_ses-blocked_pet.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS56/ses-blocked/pet/sub-PS56_ses-blocked_pet.json",
+      "bytes": 4156,
+      "sha256": "bacb33066bc462a433e53bc4dc42ffe6e2ca1657265e3adcd4641932c881f14f",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS56/ses-blocked/pet/sub-PS56_ses-blocked_pet.nii.gz",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS56/ses-blocked/pet/sub-PS56_ses-blocked_pet.nii.gz",
+      "bytes": 135804992,
+      "sha256": "4f9325380ff205cd75540b2030d70c7576b23a120d2e7a95c7f1bf68e2b0dab1",
+      "annex_sha256": "4f9325380ff205cd75540b2030d70c7576b23a120d2e7a95c7f1bf68e2b0dab1"
+    },
+    {
+      "path": "sub-PS56/ses-blocked/pet/sub-PS56_ses-blocked_recording-manual_blood.json",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS56/ses-blocked/pet/sub-PS56_ses-blocked_recording-manual_blood.json",
+      "bytes": 702,
+      "sha256": "b28ec061bcd8ea11fdb35c367d1410e3c0d9c5b9a7e627280b7bfd1b8003d2ee",
+      "annex_sha256": null
+    },
+    {
+      "path": "sub-PS56/ses-blocked/pet/sub-PS56_ses-blocked_recording-manual_blood.tsv",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004868/sub-PS56/ses-blocked/pet/sub-PS56_ses-blocked_recording-manual_blood.tsv",
+      "bytes": 1335,
+      "sha256": "d2ddbb7d3056d5d97cca61b8e17c328dacd550414064178452677777c89c6b89",
+      "annex_sha256": null
+    }
+  ]
+}

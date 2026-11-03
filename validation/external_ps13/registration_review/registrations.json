@@ -1,0 +1,202 @@
+[
+  {
+    "scan": "sub-01_ses-baseline",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.36364540438428783,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 165 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-01_ses-rescan",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.34230151129558195,
+    "stop": "RegularStepGradientDescentOptimizerv4: Maximum number of iterations (200) exceeded.",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-02_ses-baseline",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.32567361220738256,
+    "stop": "RegularStepGradientDescentOptimizerv4: Maximum number of iterations (200) exceeded.",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-02_ses-rescan",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.3902811595688028,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 37 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-03_ses-baseline",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.3956426362554657,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 38 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-03_ses-rescan",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.3719886579489512,
+    "stop": "RegularStepGradientDescentOptimizerv4: Maximum number of iterations (200) exceeded.",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-04_ses-baseline",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.3161394983971447,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 171 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-04_ses-rescan",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.342527983598982,
+    "stop": "RegularStepGradientDescentOptimizerv4: Maximum number of iterations (200) exceeded.",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-PS50_ses-baseline",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.46544944166399144,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 49 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-PS50_ses-blocked",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.4114899781799247,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 14 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-PS51_ses-baseline",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.44623929983549726,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-PS51_ses-blocked",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.4364056198910509,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 17 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-PS52_ses-baseline",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.47904696772539906,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 24 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-PS52_ses-blocked",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.4499568983965337,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-PS54_ses-baseline",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.5547812680133456,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 37 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-PS54_ses-blocked",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.5346013470589057,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 24 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-PS55_ses-baseline",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.5763774100524727,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-PS55_ses-blocked",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.5696093916043818,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 13 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-PS56_ses-baseline",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.5400609897713734,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 18 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  },
+  {
+    "scan": "sub-PS56_ses-blocked",
+    "accuracy_status": "not_evaluated",
+    "reference_landmarks": null,
+    "status": "completed",
+    "metric": -0.524075024893491,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 19 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+    "transform": "mri_to_pet.tfm",
+    "convention": "fixed MRI physical LPS mm -> moving PET physical LPS mm"
+  }
+]

@@ -1,0 +1,218 @@
+{
+  "parameter": "k4",
+  "confidence": 0.95,
+  "threshold": 3.8414588206941205,
+  "grid": [
+    {
+      "value": 0.005,
+      "weighted_sse": 7712.3559666741085,
+      "converged": true,
+      "likelihood_ratio": 7629.209889215815
+    },
+    {
+      "value": 0.005930067540220751,
+      "weighted_sse": 7647.488887640408,
+      "converged": true,
+      "likelihood_ratio": 7564.342810182115
+    },
+    {
+      "value": 0.007033140206315965,
+      "weighted_sse": 7568.556881968572,
+      "converged": true,
+      "likelihood_ratio": 7485.4108045102785
+    },
+    {
+      "value": 0.008341399288659158,
+      "weighted_sse": 7472.071093478025,
+      "converged": true,
+      "likelihood_ratio": 7388.925016019732
+    },
+    {
+      "value": 0.009893012232339628,
+      "weighted_sse": 7353.501779932427,
+      "converged": true,
+      "likelihood_ratio": 7270.355702474133
+    },
+    {
+      "value": 0.011733246142800819,
+      "weighted_sse": 7206.905099844768,
+      "converged": true,
+      "likelihood_ratio": 7123.7590223864745
+    },
+    {
+      "value": 0.013915788418568702,
+      "weighted_sse": 7024.401366662673,
+      "converged": true,
+      "likelihood_ratio": 6941.25528920438
+    },
+    {
+      "value": 0.016504313039506828,
+      "weighted_sse": 6795.453606402343,
+      "converged": true,
+      "likelihood_ratio": 6712.307528944049
+    },
+    {
+      "value": 0.019574338205844314,
+      "weighted_sse": 6505.904994814117,
+      "converged": true,
+      "likelihood_ratio": 6422.7589173558235
+    },
+    {
+      "value": 0.02321542952315607,
+      "weighted_sse": 6136.816081477909,
+      "converged": true,
+      "likelihood_ratio": 6053.670004019616
+    },
+    {
+      "value": 0.027533813009510064,
+      "weighted_sse": 5663.465822913587,
+      "converged": true,
+      "likelihood_ratio": 5580.319745455293
+    },
+    {
+      "value": 0.03265547415724072,
+      "weighted_sse": 5055.916627518653,
+      "converged": true,
+      "likelihood_ratio": 4972.770550060359
+    },
+    {
+      "value": 0.038729833462074176,
+      "weighted_sse": 4285.28593439595,
+      "converged": true,
+      "likelihood_ratio": 4202.139856937656
+    },
+    {
+      "value": 0.045934105650320314,
+      "weighted_sse": 3344.261429260706,
+      "converged": true,
+      "likelihood_ratio": 3261.115351802412
+    },
+    {
+      "value": 0.05447846978120705,
+      "weighted_sse": 2285.769080957046,
+      "converged": true,
+      "likelihood_ratio": 2202.623003498752
+    },
+    {
+      "value": 0.06461220105808661,
+      "weighted_sse": 1249.0751376210662,
+      "converged": true,
+      "likelihood_ratio": 1165.9290601627724
+    },
+    {
+      "value": 0.0766309432393553,
+      "weighted_sse": 435.3842811533011,
+      "converged": true,
+      "likelihood_ratio": 352.2382036950072
+    },
+    {
+      "value": 0.09088533381604,
+      "weighted_sse": 84.21578541852364,
+      "converged": true,
+      "likelihood_ratio": 1.069707960229735
+    },
+    {
+      "value": 0.09175198933788727,
+      "weighted_sse": 83.1460774582939,
+      "converged": true,
+      "likelihood_ratio": 0.0
+    },
+    {
+      "value": 0.10779123358892524,
+      "weighted_sse": 393.791553328164,
+      "converged": true,
+      "likelihood_ratio": 310.6454758698701
+    },
+    {
+      "value": 0.12784185908520773,
+      "weighted_sse": 1311.763540237246,
+      "converged": true,
+      "likelihood_ratio": 1228.6174627789521
+    },
+    {
+      "value": 0.15162217176853315,
+      "weighted_sse": 2582.538296628755,
+      "converged": true,
+      "likelihood_ratio": 2499.392219170461
+    },
+    {
+      "value": 0.17982594383647085,
+      "weighted_sse": 3952.917372776272,
+      "converged": true,
+      "likelihood_ratio": 3869.771295317978
+    },
+    {
+      "value": 0.21327599848684325,
+      "weighted_sse": 5258.7817634905405,
+      "converged": true,
+      "likelihood_ratio": 5175.635686032247
+    },
+    {
+      "value": 0.2529482151469999,
+      "weighted_sse": 6418.684287876867,
+      "converged": true,
+      "likelihood_ratio": 6335.538210418573
+    },
+    {
+      "value": 0.3,
+      "weighted_sse": 7405.00126392148,
+      "converged": true,
+      "likelihood_ratio": 7321.855186463186
+    }
+  ],
+  "interval_components": [
+    {
+      "lower": 0.0907728248073271,
+      "upper": 0.09195033150312526,
+      "open_lower": false,
+      "open_upper": false,
+      "accepted_grid_range": [
+        0.09088533381604,
+        0.09175198933788727
+      ]
+    }
+  ],
+  "closed": true,
+  "all_nuisance_fits_converged": true,
+  "profile_found_lower_objective": false,
+  "relative_weight_scale_profiled": false,
+  "warning": "Conditional on input, model, vascular fraction and preprocessing; asymptotic chi-square approximation",
+  "provenance": {
+    "petkin_version": "0.2.0",
+    "created_utc": "2026-11-03T05:58:09.962173+00:00",
+    "inputs": [
+      {
+        "path": "${WORKSPACE}/outputs/petkin/validation/synthetic_00_tac.csv",
+        "bytes": 8525,
+        "sha256": "0b839af5ff3a5eb5e9e996902d03fafdd324f0013797079127c843a11ff4e297"
+      },
+      {
+        "path": "${WORKSPACE}/outputs/petkin/validation/input.csv",
+        "bytes": 600062,
+        "sha256": "4c0c0fbb3afcb29b3f213bec76d8da459acb300a46ef45679083f1ffc0f33b76"
+      },
+      {
+        "path": "${WORKSPACE}/outputs/petkin/validation/v02/example_fit.json",
+        "bytes": 8052,
+        "sha256": "b54c9795c28172755850778bd8c3cc5ddceda05035536dd37d18bff6f0454013"
+      }
+    ],
+    "settings": {
+      "command": "profile",
+      "tac": "outputs/petkin/validation/synthetic_00_tac.csv",
+      "input": "outputs/petkin/validation/input.csv",
+      "output": "outputs/petkin/validation/v02/example_fit.json.invalid",
+      "report": null,
+      "fit_result": "outputs/petkin/validation/v02/example_fit.json",
+      "parameter": "k4",
+      "minimum": 0.005,
+      "maximum": 0.3,
+      "points": 25
+    },
+    "dependencies": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "SimpleITK": "2.5.7"
+    }
+  }
+}

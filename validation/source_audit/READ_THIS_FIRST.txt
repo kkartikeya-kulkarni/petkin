@@ -1,0 +1,38 @@
+Source audit addendum — 2026-11-03
+
+Checked all 22 available PET metadata / blood record sets. Twenty have matching
+PET images. The PS53 baseline and blocked image files are absent from the recorded
+source listing. All available basic unit, interval, nonnegative blood and parent
+fraction checks passed. This does not establish cross-calibration or common decay
+reference; those supporting records are not present.
+
+The earlier 20 exploratory uptake masks occupy 8.5–106.9 mL and carry no named
+anatomical labels. They must not be represented as verified whole-brain or named
+regional measurements. No new anatomical parameter-validation claim is made.
+
+All 22 blood metadata records state DispersionCorrected=false and
+MetaboliteRecoveryCorrectionApplied=false. These fields alone do not prove that
+additional correction is required; the study-specific source procedure must be
+confirmed. Three records end before the nominal scan end, requiring the already
+reported terminal hold assumption.
+
+The diagnostic comparison between legacy DICOM DecayFactor and FrameReferenceTime
+fields yields a different relative offset for PS50 baseline. DICOM frame-reference
+conventions are implementation dependent, so this is a clarification request, not
+a demonstrated source error or authority to alter the data. No input was shifted
+or rescaled as a result of this diagnostic.
+
+The authors' public atlas ds004401 contains group-level maps and ROI statistics
+from 16 different subjects, not individual PS13-study parcellations or independently
+measured PET–MRI reference landmarks. It cannot close either pending gate.
+
+The user-approved request was sent to the original corresponding author on
+2026-11-03. No response or independent approval has yet been recorded.
+Publication remains on hold at the user's instruction. Full validation remains
+incomplete. No human reviewer or anatomical truth has been invented.
+
+Sources:
+https://jnm.snmjournals.org/content/jnumed/early/2024/11/14/jnumed.124.267928.full.pdf
+https://github.com/OpenNeuroDatasets/ds004401
+https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_c.8.9.4.html
+https://rire.insight-journal.org/

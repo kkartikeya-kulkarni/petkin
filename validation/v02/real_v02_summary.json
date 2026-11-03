@@ -1,0 +1,20 @@
+{
+  "fixed": {
+    "median_cross_validated_nrmse": 0.06693783606296752,
+    "unusable_scans": [
+      "rbqc_1",
+      "ytdh_1"
+    ],
+    "converged": 20
+  },
+  "fitted_vascular_delay": {
+    "median_cross_validated_nrmse": 0.04398471677244443,
+    "unusable_scans": [
+      "mhco_1",
+      "rtvg_2",
+      "rwrd_1",
+      "rwrd_2"
+    ],
+    "converged": 20
+  }
+}

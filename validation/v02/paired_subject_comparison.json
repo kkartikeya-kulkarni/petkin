@@ -1,0 +1,12 @@
+{
+  "subjects": 10,
+  "metric": "Mean per-subject paired CV NRMSE difference: fixed minus fitted nuisance",
+  "mean_difference": 0.022447181692219497,
+  "subject_bootstrap_95_interval": [
+    -0.002037688097974064,
+    0.04854059174761292
+  ],
+  "seed": 20261103,
+  "resamples": 5000,
+  "limitation": "Previously exposed development cohort; descriptive bootstrap, not confirmatory inference"
+}

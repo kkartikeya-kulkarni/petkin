@@ -1,0 +1,33 @@
+{
+  "measured_registration": {
+    "status": "blocked",
+    "source": "https://rire.insight-journal.org/download_training_data",
+    "attempts": [
+      {
+        "url": "https://dweb.link/ipfs/bafybeih23xv6uamx7k27wk4uvzkxdtdryqeok22hpl3ybideggcjhipwme/rire/transformations.tar.gz",
+        "http_status": 403
+      },
+      {
+        "url": "https://dweb.link/ipfs/bafybeih23xv6uamx7k27wk4uvzkxdtdryqeok22hpl3ybideggcjhipwme/rire/pet.tar.gz",
+        "http_status": 403
+      },
+      {
+        "url": "https://dweb.link/ipfs/bafybeih23xv6uamx7k27wk4uvzkxdtdryqeok22hpl3ybideggcjhipwme/rire/mr_T1_rectified.tar.gz",
+        "http_status": 403
+      }
+    ],
+    "alternate_public_gateways": [
+      "ipfs.io: HTTP 403",
+      "gateway.pinata.cloud: HTTP 403"
+    ],
+    "user_has_images": false,
+    "reference_truth_available": false,
+    "note": "No anatomical truth was manufactured from the existing fitted registrations. MRI-derived synthetic PET is separate verification evidence."
+  },
+  "external_kinetic": {
+    "status": "blocked",
+    "untouched_external_cohort_available": false,
+    "source": "https://link.springer.com/article/10.1186/s13550-020-00664-8",
+    "note": "This independent four-tracer study states that raw participant data are institutionally restricted; no access request or communication was sent. Existing public PBR28 and FDG cases are exposed development data."
+  }
+}

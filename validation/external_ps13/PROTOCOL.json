@@ -1,0 +1,21 @@
+{
+  "protocol_id": "PETKIN-PS13-EXTERNAL-2026-11-03-A",
+  "frozen_before_kinetic_outcomes": true,
+  "role": "External technical replication and held-frame prediction, not biological ground-truth validation",
+  "cohort": "All 20 PET scans from the 10 subjects in ds004868 public S3 listing recorded in s3_objects.json; no outcome-based exclusion",
+  "source": "https://openneuro.org/datasets/ds004868/versions/1.0.4",
+  "source_identity": "PET files must match SHA256 annex hashes in GitHub commit 623ea3de909abd9472538f8e45cf286e1c792444 despite renamed subjects; current blood/metadata separately hashed",
+  "immutable_core": "Installed petkin 0.3.0rc1; no algorithm or research-screen threshold changes",
+  "roi": "Largest connected component of duration-weighted training-frame mean exceeding 35% of maximum; one binary erosion; exploratory uptake ROI, not anatomical brain segmentation",
+  "held_frames": "Zero-based frame indices with index modulo 5 equal to 4; excluded from ROI definition and fitting",
+  "input": "Seconds to minutes, plasma times supplied parent fraction; linear interpolation between product samples; zero concentration at injection; terminal hold to cover 90 min and delay; no additional dispersion or recovery correction",
+  "units": "Bq/mL; accept source BQML alias explicitly with no numeric scaling",
+  "primary_model": "Reversible 2t; vb=.05 fixed; delay=0 fixed; dt=.025 min; eight multistarts seed=0; sigma=sqrt(max(activity,1)/duration); relative weights only",
+  "secondary_model": "Same model with delay fitted in [-.5,.5] min; all cases reported, not automatic selection",
+  "graphical": "Logan and MA1 at fixed tstar=30 min and sensitivity 20,40 min; unweighted; vb=.05; no fitted-delay graphical selection",
+  "comparators": "Unmodified pinned kinfitr Logan/MA1 functions using same processed input; input sampled on .001-min grid for reference; preserve source-method integration differences",
+  "metrics": "Every scan's held-frame NRMSE, local QC, full-fit macroprofile, method disagreement, four subject-level symmetric test-retest differences. All failures retained",
+  "exploratory_targets": {"held_frame_median_nrmse_max": 0.1, "held_frame_q95_nrmse_max": 0.2},
+  "claim_limits": ["No individual true kinetic parameters", "No independent expert review yet", "No documented independent cross-calibration or blood decay-reference certificate", "Uptake ROI is not anatomical brain segmentation", "No motion correction in this kinetic-only experiment", "New external evidence alone cannot close EXT-01 or REG-02"],
+  "research_release": "Run unchanged research screen; calibration_matched, decay_reference_matched, input_tissue_timing_verified, and ROI_geometry_verified remain false pending independent review. No parameter released for research use by this experiment"
+}

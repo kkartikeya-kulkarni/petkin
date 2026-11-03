@@ -1,0 +1,13 @@
+{
+  "role": "Source-record audit, not independent human validation",
+  "metadata_scans": 22,
+  "available_image_scans": 20,
+  "missing_image_scans": [
+    "sub-PS53_ses-baseline",
+    "sub-PS53_ses-blocked"
+  ],
+  "check_failures": [],
+  "independent_calibration_records_available": false,
+  "independent_landmark_pairs_available": 0,
+  "qualified": false
+}

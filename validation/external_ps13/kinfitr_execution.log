@@ -1,0 +1,1464 @@
+                 scan tstar   ma1_VT logan_VT    status
+1 sub-01_ses-baseline    20 4.693931 4.694021 completed
+                 scan tstar   ma1_VT logan_VT    status
+1 sub-01_ses-baseline    30 4.705929 4.701226 completed
+                 scan tstar   ma1_VT logan_VT    status
+1 sub-01_ses-baseline    40 4.689915 4.687765 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+               scan tstar   ma1_VT logan_VT    status
+1 sub-01_ses-rescan    20 14.20759  14.2115 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+               scan tstar   ma1_VT logan_VT    status
+1 sub-01_ses-rescan    30 13.67947 13.62335 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+               scan tstar   ma1_VT logan_VT    status
+1 sub-01_ses-rescan    40 13.03151 12.96935 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                 scan tstar   ma1_VT logan_VT    status
+1 sub-02_ses-baseline    20 10.29505 10.05358 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                 scan tstar   ma1_VT logan_VT    status
+1 sub-02_ses-baseline    30 9.940893 9.678829 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                 scan tstar   ma1_VT logan_VT    status
+1 sub-02_ses-baseline    40 9.814577 9.432987 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+               scan tstar   ma1_VT logan_VT    status
+1 sub-02_ses-rescan    20 16.58589 16.46279 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+               scan tstar   ma1_VT logan_VT    status
+1 sub-02_ses-rescan    30 16.70305  16.5428 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+               scan tstar   ma1_VT logan_VT    status
+1 sub-02_ses-rescan    40 16.18991 16.02513 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                 scan tstar   ma1_VT logan_VT    status
+1 sub-03_ses-baseline    20 14.85584 14.25493 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                 scan tstar   ma1_VT logan_VT    status
+1 sub-03_ses-baseline    30 15.19208 14.33742 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                 scan tstar   ma1_VT logan_VT    status
+1 sub-03_ses-baseline    40 15.18233 14.17254 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+               scan tstar   ma1_VT logan_VT    status
+1 sub-03_ses-rescan    20 13.66635 12.85806 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+               scan tstar   ma1_VT logan_VT    status
+1 sub-03_ses-rescan    30 14.61562 13.52464 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+               scan tstar   ma1_VT logan_VT    status
+1 sub-03_ses-rescan    40 17.39092 16.50837 completed
+                 scan tstar   ma1_VT logan_VT    status
+1 sub-04_ses-baseline    20 6.707371 6.643076 completed
+                 scan tstar   ma1_VT logan_VT    status
+1 sub-04_ses-baseline    30 6.935156 6.866713 completed
+                 scan tstar   ma1_VT logan_VT    status
+1 sub-04_ses-baseline    40 7.191211 7.096746 completed
+               scan tstar   ma1_VT logan_VT    status
+1 sub-04_ses-rescan    20 17.86045 17.77967 completed
+               scan tstar   ma1_VT logan_VT    status
+1 sub-04_ses-rescan    30 18.15367  18.0731 completed
+               scan tstar   ma1_VT logan_VT    status
+1 sub-04_ses-rescan    40 17.91537 17.82453 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                   scan tstar   ma1_VT logan_VT    status
+1 sub-PS50_ses-baseline    20 11.51766 11.51749 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                   scan tstar   ma1_VT logan_VT    status
+1 sub-PS50_ses-baseline    30 11.71781 11.69111 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                   scan tstar   ma1_VT logan_VT    status
+1 sub-PS50_ses-baseline    40 11.87544 11.80853 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                  scan tstar   ma1_VT logan_VT    status
+1 sub-PS50_ses-blocked    20 9.825259 9.814291 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                  scan tstar   ma1_VT logan_VT    status
+1 sub-PS50_ses-blocked    30 9.879232 9.850854 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                  scan tstar   ma1_VT logan_VT    status
+1 sub-PS50_ses-blocked    40 9.930044 9.874827 completed
+                   scan tstar   ma1_VT logan_VT    status
+1 sub-PS51_ses-baseline    20 6.437176 6.402891 completed
+                   scan tstar   ma1_VT logan_VT    status
+1 sub-PS51_ses-baseline    30 6.521368 6.481694 completed
+                   scan tstar   ma1_VT logan_VT    status
+1 sub-PS51_ses-baseline    40 6.554838 6.496315 completed
+                  scan tstar   ma1_VT logan_VT    status
+1 sub-PS51_ses-blocked    20 13.44904 12.56467 completed
+                  scan tstar   ma1_VT logan_VT    status
+1 sub-PS51_ses-blocked    30 13.97143 12.62164 completed
+                  scan tstar   ma1_VT logan_VT    status
+1 sub-PS51_ses-blocked    40 14.56614 12.39968 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                   scan tstar   ma1_VT logan_VT    status
+1 sub-PS52_ses-baseline    20 6.840763 6.793697 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                   scan tstar   ma1_VT logan_VT    status
+1 sub-PS52_ses-baseline    30 6.747687  6.69592 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                   scan tstar   ma1_VT logan_VT    status
+1 sub-PS52_ses-baseline    40 6.718245 6.643525 completed
+                  scan tstar  ma1_VT logan_VT    status
+1 sub-PS52_ses-blocked    20 181.858 3.102091 completed
+                  scan tstar   ma1_VT logan_VT    status
+1 sub-PS52_ses-blocked    30 44.37456 10.35294 completed
+                  scan tstar  ma1_VT logan_VT    status
+1 sub-PS52_ses-blocked    40 31.2983 9.597299 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                   scan tstar   ma1_VT logan_VT    status
+1 sub-PS54_ses-baseline    20 15.39916 15.33978 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                   scan tstar   ma1_VT logan_VT    status
+1 sub-PS54_ses-baseline    30 15.90478 15.87566 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                   scan tstar   ma1_VT logan_VT    status
+1 sub-PS54_ses-baseline    40 16.33213 16.31515 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                  scan tstar   ma1_VT logan_VT    status
+1 sub-PS54_ses-blocked    20 12.47399 12.42875 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                  scan tstar   ma1_VT logan_VT    status
+1 sub-PS54_ses-blocked    30 12.19122 12.14826 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                  scan tstar  ma1_VT logan_VT    status
+1 sub-PS54_ses-blocked    40 12.2851 12.24409 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                   scan tstar   ma1_VT logan_VT    status
+1 sub-PS55_ses-baseline    20 3.729303  3.73742 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                   scan tstar   ma1_VT logan_VT    status
+1 sub-PS55_ses-baseline    30 3.737675  3.74665 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                   scan tstar  ma1_VT logan_VT    status
+1 sub-PS55_ses-baseline    40 3.77485 3.779951 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                  scan tstar   ma1_VT logan_VT    status
+1 sub-PS55_ses-blocked    20 16.59574 9.618431 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                  scan tstar   ma1_VT logan_VT    status
+1 sub-PS55_ses-blocked    30 13.24138 9.060422 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                  scan tstar   ma1_VT logan_VT    status
+1 sub-PS55_ses-blocked    40 10.76134 8.158568 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                   scan tstar   ma1_VT logan_VT    status
+1 sub-PS56_ses-baseline    20 8.584143 8.479923 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                   scan tstar   ma1_VT logan_VT    status
+1 sub-PS56_ses-baseline    30 8.678963 8.541118 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                   scan tstar   ma1_VT logan_VT    status
+1 sub-PS56_ses-baseline    40 8.814468 8.596172 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                  scan tstar   ma1_VT logan_VT    status
+1 sub-PS56_ses-blocked    20 38.19902 10.31754 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                  scan tstar   ma1_VT logan_VT    status
+1 sub-PS56_ses-blocked    30 32.25672 8.703734 completed
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Blood, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$Plasma, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$ParentFraction, interptime,  :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+Warning in pracma::interp1(input$Time, input$AIF, interptime, method = "linear") :
+  There are duplicated values in 'x'; mean will be tried.
+Warning in regularize.values(x, y, ties, missing(ties), na.rm = na.rm) :
+  collapsing to unique 'x' values
+                  scan tstar   ma1_VT logan_VT    status
+1 sub-PS56_ses-blocked    40 20.52585 17.18137 completed

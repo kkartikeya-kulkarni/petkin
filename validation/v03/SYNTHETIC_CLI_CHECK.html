@@ -1,0 +1,1038 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PET kinetic analysis</title><style>body{font:16px system-ui;color:#183047;background:#f2f5f8;margin:0}main{max-width:900px;margin:36px auto;padding:28px;background:white;border-radius:12px}h1{font-size:28px}table{border-collapse:collapse;width:100%;margin:20px 0}td,th{text-align:left;padding:10px;border-bottom:1px solid #ddd}.note{padding:16px;background:#fff3da}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}a{color:#135fa4}</style><main>
+<h1>PET kinetic analysis</h1><p>Research analysis · petkin 0.3.0rc1</p><table><tr><th>Status</th><td>Passes automated local checks</td></tr><tr><th>VT</th><td>0.60319</td></tr><tr><th>Method</th><td>1t</td></tr><tr><th>Vascular fraction</th><td>0.05</td></tr><tr><th>Input delay (minutes)</th><td>0.1</td></tr><tr><th>Optimizer converged</th><td>True</td></tr><tr><th>QC reasons</th><td>None triggered</td></tr></table>
+<p class="note">Automated checks do not establish biological accuracy. Parameter bounds, uncertain input timing, missing blood measurements and image alignment can invalidate otherwise plausible curves.</p>
+<h2>Fitted rate constants</h2><table><tr><th>K1</th><td>0.197376</td></tr><tr><th>k2</th><td>0.327218</td></tr></table><p>Rates use minutes. VT is mL plasma/mL tissue; Ki is mL plasma/mL tissue/min.</p>
+<details><summary>Raw numerical estimate and complete audit record</summary><p>Raw VT: 0.6031948055013311. A raw value may be unsuitable for inference.</p><pre>{
+  &quot;model&quot;: &quot;1t&quot;,
+  &quot;parameters&quot;: {
+    &quot;K1&quot;: 0.19737600332959016,
+    &quot;k2&quot;: 0.32721767748902575
+  },
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;`ftol` termination condition is satisfied.&quot;,
+  &quot;status&quot;: &quot;research_screen_passed&quot;,
+  &quot;usable_for_quantification&quot;: true,
+  &quot;qc_reasons&quot;: [],
+  &quot;qc_scope&quot;: &quot;Local engineering checks only; profile, bootstrap, input and biological validation remain necessary&quot;,
+  &quot;prediction&quot;: [
+    0.08019876243998944,
+    0.26368974896364705,
+    0.42660515388537884,
+    0.5693805460526322,
+    0.6875397338431501,
+    0.7813969443398152,
+    0.8534837293701232,
+    0.9071225438608939,
+    0.9456795062179504,
+    0.9722097258440616,
+    0.989321850214008,
+    0.9991588026104612,
+    1.0034348797635193,
+    1.0034955712241533,
+    1.0003820808881692,
+    0.9948916413333624,
+    0.9876298660867509,
+    0.9790541731846982,
+    0.9695087156411173,
+    0.9592518678608517,
+    0.9315166160574408,
+    0.8849504755268356,
+    0.8379200706811805,
+    0.7918011557366524,
+    0.7471891344356258,
+    0.7043777091999779,
+    0.6635140131222439,
+    0.6246595417629539,
+    0.5878207985036905,
+    0.5529679273678685,
+    0.520047189151077,
+    0.48898962941589197,
+    0.45971716160905807,
+    0.43214683090129924,
+    0.4061937820382582,
+    0.3702877490987033,
+    0.3270438979104835,
+    0.28881812457789113,
+    0.2550435874061012,
+    0.2252099858468064,
+    0.19886164685098784,
+    0.17559357648911345,
+    0.15504679971074253,
+    0.13690363533627448,
+    0.12088320688119936,
+    0.1067373139082175,
+    0.09424670086947451,
+    0.08321771806152256,
+    0.07347935018779594,
+    0.06488058062227964,
+    0.057288057865443776,
+    0.05058403183023685,
+    0.04466452994234693,
+    0.03943774580129933,
+    0.03482261594973579,
+    0.030747562956445762,
+    0.02714938546474599,
+    0.02397227806689628,
+    0.021166965842571273,
+    0.018689940159225316,
+    0.0165027838924221,
+    0.014571575606407094,
+    0.012866363456966567,
+    0.01136070065853545,
+    0.010031235311810605,
+    0.008857348230657536,
+    0.007820833151509277,
+    0.006905614365626533,
+    0.006097497394790707,
+    0.005383948843752151,
+    0.00475390201508219,
+    0.004197585271503712,
+    0.0037063704837585476,
+    0.0032726392138417992,
+    0.002889664557523375,
+    0.0025515068143224795,
+    0.002252921366480365,
+    0.0019892773380014717,
+    0.0017564857728320504,
+    0.0015509362174856989,
+    0.001369440725303761,
+    0.0012091844132342544,
+    0.0010676818048445114,
+    0.0009427382820330621,
+    0.0008324160478991871
+  ],
+  &quot;residuals&quot;: [
+    0.0035897514979464223,
+    0.0025027477505080165,
+    -0.015720899397253574,
+    -0.030684745321766016,
+    0.058853660769122795,
+    -0.04111932261828177,
+    0.008124206269874534,
+    -0.005235502821922422,
+    0.06469378432853967,
+    0.01097124624448842,
+    -0.05910944331061896,
+    -0.013937545652340066,
+    -0.004816539335350978,
+    0.030637717098462414,
+    0.12632591303286012,
+    0.040783014956991326,
+    -0.015275288012013277,
+    -0.0918987589245659,
+    -0.02996254413976429,
+    0.053959160696508635,
+    -0.038371076443746266,
+    -0.08862284593123404,
+    -0.05592709116996453,
+    0.025047772250586076,
+    -0.02602338780854141,
+    0.008730358460768417,
+    -0.02872814501390797,
+    -0.0405227496136622,
+    0.05549719743887516,
+    0.029469528437296333,
+    -0.01942188052131466,
+    0.013432823416601125,
+    -0.0030443735587867837,
+    0.024055174086594466,
+    0.034771183055626875,
+    0.00809221422329931,
+    0.009565305584683326,
+    -0.012253225760875064,
+    -0.01792405060816915,
+    -0.0010183165430620311,
+    0.002764324134750057,
+    0.0015601503809725137,
+    -0.0015337076803583205,
+    0.0010539090777088034,
+    0.00517570945519312,
+    0.004556784179728532,
+    -0.0004311465476644072,
+    -0.0010661792581168617,
+    0.003581029665808977,
+    8.474288099223626e-05,
+    -0.0003346272432484393,
+    -0.004175518519203766,
+    0.0002660643351649408,
+    -0.003692841354904018,
+    0.003893414257768832,
+    -0.0016981730444310394,
+    0.0022556686616421635,
+    -0.003614687068646205,
+    0.00642883315282404,
+    -0.0017414463226069106,
+    -0.001573129259966232,
+    -0.002302234718857217,
+    -0.0018942557793364123,
+    -0.0002595790642674345,
+    -0.002389533694505081,
+    -0.002360546359369463,
+    0.004632079895056113,
+    -0.002038783296733319,
+    -0.0016481762785205134,
+    0.0005283709758511571,
+    0.0007853344851701952,
+    0.0011816703707760601,
+    0.0012852809568086906,
+    -0.0013712559626122972,
+    -0.0029998827325150284,
+    -0.0044997513396882625,
+    -0.0034603946513778973,
+    0.00011758158649557635,
+    0.0017661112885976149,
+    -0.0004947876162164386,
+    -0.0009176254482870442,
+    0.002697057228650323,
+    0.00012884761009289425,
+    -0.00440471434050517,
+    0.0024149765502813514
+  ],
+  &quot;weighted_sse&quot;: 79.6992461659527,
+  &quot;rmse&quot;: 0.028507543344769744,
+  &quot;standard_errors&quot;: {
+    &quot;K1&quot;: 0.004078974493258442,
+    &quot;k2&quot;: 0.00667532387552978
+  },
+  &quot;covariance&quot;: [
+    [
+      1.663803291665296e-05,
+      2.5270642701076322e-05
+    ],
+    [
+      2.5270642701076322e-05,
+      4.455994884321793e-05
+    ]
+  ],
+  &quot;free_parameters&quot;: [
+    &quot;K1&quot;,
+    &quot;k2&quot;
+  ],
+  &quot;jacobian_rank&quot;: 2,
+  &quot;condition_number&quot;: 5.865855843223493,
+  &quot;scaled_condition_number&quot;: 5.178778824134842,
+  &quot;at_bound&quot;: false,
+  &quot;bound_parameters&quot;: [],
+  &quot;vb&quot;: 0.05,
+  &quot;delay&quot;: 0.1,
+  &quot;macro_standard_error&quot;: 0.004699457008954877,
+  &quot;macro_local_95_interval&quot;: [
+    0.5939838697637795,
+    0.6124057412388827
+  ],
+  &quot;AIC&quot;: -553.6027585689178,
+  &quot;AICc&quot;: -553.4564171055032,
+  &quot;BIC&quot;: -548.7174560559372,
+  &quot;settings&quot;: {
+    &quot;dt&quot;: 0.025,
+    &quot;fit_vb&quot;: false,
+    &quot;fit_delay&quot;: false,
+    &quot;delay_bounds&quot;: [
+      -0.5,
+      0.5
+    ],
+    &quot;input_tail&quot;: &quot;error&quot;,
+    &quot;n_starts&quot;: 8,
+    &quot;seed&quot;: 0,
+    &quot;rate_bounds&quot;: [
+      1e-06,
+      3.0
+    ],
+    &quot;vb_bounds&quot;: [
+      0.0,
+      0.3
+    ],
+    &quot;absolute_sigma&quot;: true,
+    &quot;max_nfev&quot;: 800
+  },
+  &quot;multistart&quot;: {
+    &quot;attempted&quot;: 8,
+    &quot;converged&quot;: 8,
+    &quot;weighted_sse&quot;: [
+      79.6992461659527,
+      79.69924616597027,
+      79.69924616770325,
+      79.69924616689406,
+      79.69924616654785,
+      79.69924616613704,
+      79.69924616596754,
+      79.69924616678333
+    ]
+  },
+  &quot;residual_diagnostics&quot;: {
+    &quot;lag1_correlation&quot;: -0.015017170207207206,
+    &quot;durbin_watson&quot;: 1.999735728941616,
+    &quot;weighted_sse_per_residual_dof&quot;: 0.9602318815175024,
+    &quot;interpretation&quot;: &quot;Serial structure can reflect model/input mismatch or correlated noise; no calibrated pass/fail threshold is asserted&quot;
+  },
+  &quot;raw_VT&quot;: 0.6031948055013311,
+  &quot;VT&quot;: 0.6031948055013311,
+  &quot;local_qc_passed&quot;: true,
+  &quot;research_screen&quot;: {
+    &quot;passed&quot;: true,
+    &quot;reasons&quot;: [],
+    &quot;unconfirmed_assumptions&quot;: [],
+    &quot;policy&quot;: {
+      &quot;confidence&quot;: 0.95,
+      &quot;profile_points&quot;: 41,
+      &quot;profile_span&quot;: 20.0,
+      &quot;max_relative_profile_half_width&quot;: 0.5,
+      &quot;max_absolute_residual_lag1&quot;: 0.6,
+      &quot;minimum_residual_frames&quot;: 12
+    },
+    &quot;policy_sha256&quot;: &quot;0466084e4b4fbc9fae7a9ed20ab0e563f9eedda5ebb56f9786237d135b2f3a3b&quot;,
+    &quot;scope&quot;: &quot;Per-result conditional screening; not toolbox validation or biological accuracy certification&quot;
+  },
+  &quot;macro_profile&quot;: {
+    &quot;parameter&quot;: &quot;VT&quot;,
+    &quot;confidence&quot;: 0.95,
+    &quot;threshold&quot;: 3.8414588206941205,
+    &quot;grid&quot;: [
+      {
+        &quot;value&quot;: 0.030159740275066554,
+        &quot;weighted_sse&quot;: 15110.328444315126,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.09047922082519964,
+          &quot;k2&quot;: 2.9999999999999996
+        },
+        &quot;likelihood_ratio&quot;: 15030.629198149174
+      },
+      {
+        &quot;value&quot;: 0.03503314261225155,
+        &quot;weighted_sse&quot;: 14826.764908037007,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.10509942783675467,
+          &quot;k2&quot;: 3.0000000000000004
+        },
+        &quot;likelihood_ratio&quot;: 14747.065661871055
+      },
+      {
+        &quot;value&quot;: 0.040694020243436844,
+        &quot;weighted_sse&quot;: 14503.227251277298,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.12208206073031055,
+          &quot;k2&quot;: 3.0000000000000004
+        },
+        &quot;likelihood_ratio&quot;: 14423.528005111346
+      },
+      {
+        &quot;value&quot;: 0.04726961842681283,
+        &quot;weighted_sse&quot;: 14135.298066126425,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.14180885528043852,
+          &quot;k2&quot;: 3.0000000000000004
+        },
+        &quot;likelihood_ratio&quot;: 14055.598819960473
+      },
+      {
+        &quot;value&quot;: 0.054907743517350116,
+        &quot;weighted_sse&quot;: 13718.559340032894,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.16472323055205038,
+          &quot;k2&quot;: 3.0000000000000004
+        },
+        &quot;likelihood_ratio&quot;: 13638.860093866942
+      },
+      {
+        &quot;value&quot;: 0.06378008535937277,
+        &quot;weighted_sse&quot;: 13248.841462498749,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.19134025607811828,
+          &quot;k2&quot;: 2.9999999999999996
+        },
+        &quot;likelihood_ratio&quot;: 13169.142216332797
+      },
+      {
+        &quot;value&quot;: 0.07408607653241979,
+        &quot;weighted_sse&quot;: 12721.086137275312,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.1939219231447562,
+          &quot;k2&quot;: 2.6175218370471636
+        },
+        &quot;likelihood_ratio&quot;: 12641.38689110936
+      },
+      {
+        &quot;value&quot;: 0.08605737519855743,
+        &quot;weighted_sse&quot;: 12126.367095517206,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.18646488887084098,
+          &quot;k2&quot;: 2.1667508268828386
+        },
+        &quot;likelihood_ratio&quot;: 12046.667849351254
+      },
+      {
+        &quot;value&quot;: 0.09996307231662489,
+        &quot;weighted_sse&quot;: 11458.583914766958,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.1813061689786341,
+          &quot;k2&quot;: 1.8137314587967202
+        },
+        &quot;likelihood_ratio&quot;: 11378.884668601006
+      },
+      {
+        &quot;value&quot;: 0.11611574027122185,
+        &quot;weighted_sse&quot;: 10712.598324414892,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.17842031093664992,
+          &quot;k2&quot;: 1.5365729962182366
+        },
+        &quot;likelihood_ratio&quot;: 10632.89907824894
+      },
+      {
+        &quot;value&quot;: 0.13487845887757402,
+        &quot;weighted_sse&quot;: 9884.566922183763,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.1774010801298426,
+          &quot;k2&quot;: 1.3152662152735994
+        },
+        &quot;likelihood_ratio&quot;: 9804.867676017811
+      },
+      {
+        &quot;value&quot;: 0.15667297669287808,
+        &quot;weighted_sse&quot;: 8972.645800701683,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.17759924804532262,
+          &quot;k2&quot;: 1.1335665651739404
+        },
+        &quot;likelihood_ratio&quot;: 8892.94655453573
+      },
+      {
+        &quot;value&quot;: 0.18198919108415465,
+        &quot;weighted_sse&quot;: 7977.915471995841,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.17827469621110828,
+          &quot;k2&quot;: 0.9795894753368691
+        },
+        &quot;likelihood_ratio&quot;: 7898.2162258298895
+      },
+      {
+        &quot;value&quot;: 0.21139616014566034,
+        &quot;weighted_sse&quot;: 6905.615850086239,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.17866978025649838,
+          &quot;k2&quot;: 0.8451893361420937
+        },
+        &quot;likelihood_ratio&quot;: 6825.916603920288
+      },
+      {
+        &quot;value&quot;: 0.24555489399183647,
+        &quot;weighted_sse&quot;: 5766.823228289286,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.178098047377338,
+          &quot;k2&quot;: 0.7252881198256994
+        },
+        &quot;likelihood_ratio&quot;: 5687.123982123335
+      },
+      {
+        &quot;value&quot;: 0.2852332129485933,
+        &quot;weighted_sse&quot;: 4580.924601180389,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.17618318564882468,
+          &quot;k2&quot;: 0.6176811733371935
+        },
+        &quot;likelihood_ratio&quot;: 4501.225355014438
+      },
+      {
+        &quot;value&quot;: 0.3313230066254851,
+        &quot;weighted_sse&quot;: 3379.8955678507723,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.17341303308920344,
+          &quot;k2&quot;: 0.523395688260257
+        },
+        &quot;likelihood_ratio&quot;: 3300.1963216848208
+      },
+      {
+        &quot;value&quot;: 0.38486028181835774,
+        &quot;weighted_sse&quot;: 2216.4055696252244,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.17179263542271578,
+          &quot;k2&quot;: 0.44637662949017076
+        },
+        &quot;likelihood_ratio&quot;: 2136.706323459273
+      },
+      {
+        &quot;value&quot;: 0.44704844987940134,
+        &quot;weighted_sse&quot;: 1177.0273629955423,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.17427306157598446,
+          &quot;k2&quot;: 0.3898303676547754
+        },
+        &quot;likelihood_ratio&quot;: 1097.3281168295907
+      },
+      {
+        &quot;value&quot;: 0.519285377008324,
+        &quot;weighted_sse&quot;: 397.7125763146697,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.18273302209591202,
+          &quot;k2&quot;: 0.3518932559754766
+        },
+        &quot;likelihood_ratio&quot;: 318.0133301487183
+      },
+      {
+        &quot;value&quot;: 0.5591636697731133,
+        &quot;weighted_sse&quot;: 167.39761090705207,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.18921564306793132,
+          &quot;k2&quot;: 0.338390445045737
+        },
+        &quot;likelihood_ratio&quot;: 87.69836474110062
+      },
+      {
+        &quot;value&quot;: 0.5827345337790965,
+        &quot;weighted_sse&quot;: 98.64981060482157,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.19347398119334447,
+          &quot;k2&quot;: 0.33201049530846366
+        },
+        &quot;likelihood_ratio&quot;: 18.950564438870117
+      },
+      {
+        &quot;value&quot;: 0.5926425041814627,
+        &quot;weighted_sse&quot;: 84.7414539286845,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.19534167137494804,
+          &quot;k2&quot;: 0.32961130866701366
+        },
+        &quot;likelihood_ratio&quot;: 5.042207762733057
+      },
+      {
+        &quot;value&quot;: 0.5939844213352246,
+        &quot;weighted_sse&quot;: 83.54072630012617,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.19559791673752108,
+          &quot;k2&quot;: 0.32929805852118854
+        },
+        &quot;likelihood_ratio&quot;: 3.8414801341747165
+      },
+      {
+        &quot;value&quot;: 0.5939847183275097,
+        &quot;weighted_sse&quot;: 83.54047859675156,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.19559795713113157,
+          &quot;k2&quot;: 0.3292979618766611
+        },
+        &quot;likelihood_ratio&quot;: 3.8412324308001047
+      },
+      {
+        &quot;value&quot;: 0.5939999950276011,
+        &quot;weighted_sse&quot;: 83.5277479939725,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.19560077093572426,
+          &quot;k2&quot;: 0.3292942299210547
+        },
+        &quot;likelihood_ratio&quot;: 3.8285018280210465
+      },
+      {
+        &quot;value&quot;: 0.5942144200016509,
+        &quot;weighted_sse&quot;: 83.35128946429165,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.195641958823629,
+          &quot;k2&quot;: 0.32924471745920514
+        },
+        &quot;likelihood_ratio&quot;: 3.652043298340203
+      },
+      {
+        &quot;value&quot;: 0.5969149366641737,
+        &quot;weighted_sse&quot;: 81.48524172561284,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.19615992444438568,
+          &quot;k2&quot;: 0.3286229115669556
+        },
+        &quot;likelihood_ratio&quot;: 1.7859955596613872
+      },
+      {
+        &quot;value&quot;: 0.6001822692732022,
+        &quot;weighted_sse&quot;: 80.11028532626116,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.19679083009133547,
+          &quot;k2&quot;: 0.32788511118404357
+        },
+        &quot;likelihood_ratio&quot;: 0.41103916030971277
+      },
+      {
+        &quot;value&quot;: 0.6021043985398482,
+        &quot;weighted_sse&quot;: 79.75310011883688,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.19716379630929934,
+          &quot;k2&quot;: 0.3274578242368557
+        },
+        &quot;likelihood_ratio&quot;: 0.05385395288543293
+      },
+      {
+        &quot;value&quot;: 0.6031948055013311,
+        &quot;weighted_sse&quot;: 79.69924616595145,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.19737600332959018,
+          &quot;k2&quot;: 0.32721767748902575
+        },
+        &quot;likelihood_ratio&quot;: 0.0
+      },
+      {
+        &quot;value&quot;: 0.6040001677204027,
+        &quot;weighted_sse&quot;: 79.72862610057881,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.1975331029068904,
+          &quot;k2&quot;: 0.32704147029033664
+        },
+        &quot;likelihood_ratio&quot;: 0.02937993462735733
+      },
+      {
+        &quot;value&quot;: 0.6056843758808474,
+        &quot;weighted_sse&quot;: 79.98000602335142,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.19786256062945454,
+          &quot;k2&quot;: 0.3266760189111743
+        },
+        &quot;likelihood_ratio&quot;: 0.2807598573999712
+      },
+      {
+        &quot;value&quot;: 0.6085484819114891,
+        &quot;weighted_sse&quot;: 80.99769088661637,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.19842481065691384,
+          &quot;k2&quot;: 0.3260624527952958
+        },
+        &quot;likelihood_ratio&quot;: 1.298444720664918
+      },
+      {
+        &quot;value&quot;: 0.6118003996881033,
+        &quot;weighted_sse&quot;: 83.05444575930039,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.19906708880112461,
+          &quot;k2&quot;: 0.32537914146935715
+        },
+        &quot;likelihood_ratio&quot;: 3.3551995933489422
+      },
+      {
+        &quot;value&quot;: 0.6123235996468434,
+        &quot;weighted_sse&quot;: 83.4748762823589,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.19917074512217298,
+          &quot;k2&quot;: 0.3252704047942042
+        },
+        &quot;likelihood_ratio&quot;: 3.7756301164074557
+      },
+      {
+        &quot;value&quot;: 0.6124028242848415,
+        &quot;weighted_sse&quot;: 83.54070259029143,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.19918649637735059,
+          &quot;k2&quot;: 0.32525404599490343
+        },
+        &quot;likelihood_ratio&quot;: 3.841456424339981
+      },
+      {
+        &quot;value&quot;: 0.6124031304863303,
+        &quot;weighted_sse&quot;: 83.54095811153206,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.19918658592946245,
+          &quot;k2&quot;: 0.3252540295985776
+        },
+        &quot;likelihood_ratio&quot;: 3.841711945580613
+      },
+      {
+        &quot;value&quot;: 0.6124034817557974,
+        &quot;weighted_sse&quot;: 83.5412512515374,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.1991865634616513,
+          &quot;k2&quot;: 0.32525380634769013
+        },
+        &quot;likelihood_ratio&quot;: 3.842005085585953
+      },
+      {
+        &quot;value&quot;: 0.6150536087133602,
+        &quot;weighted_sse&quot;: 86.07123965643878,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.19971342203397346,
+          &quot;k2&quot;: 0.3247089671610202
+        },
+        &quot;likelihood_ratio&quot;: 6.371993490487327
+      },
+      {
+        &quot;value&quot;: 0.6277109770166073,
+        &quot;weighted_sse&quot;: 106.94117369575426,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.2022629504662531,
+          &quot;k2&quot;: 0.3222230578594802
+        },
+        &quot;likelihood_ratio&quot;: 27.24192752980281
+      },
+      {
+        &quot;value&quot;: 0.6505386078254346,
+        &quot;weighted_sse&quot;: 181.345312368951,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.20698787491904352,
+          &quot;k2&quot;: 0.3181792324531592
+        },
+        &quot;likelihood_ratio&quot;: 101.64606620299955
+      },
+      {
+        &quot;value&quot;: 0.7006628522450312,
+        &quot;weighted_sse&quot;: 510.94545543481263,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.2178324432992306,
+          &quot;k2&quot;: 0.31089480853917406
+        },
+        &quot;likelihood_ratio&quot;: 431.2462092688612
+      },
+      {
+        &quot;value&quot;: 0.813880404868737,
+        &quot;weighted_sse&quot;: 2098.0349066069966,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.24392222670419367,
+          &quot;k2&quot;: 0.29970278832739994
+        },
+        &quot;likelihood_ratio&quot;: 2018.335660441045
+      },
+      {
+        &quot;value&quot;: 0.9453923685362566,
+        &quot;weighted_sse&quot;: 5411.032202069036,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.2758051503414287,
+          &quot;k2&quot;: 0.2917361716897034
+        },
+        &quot;likelihood_ratio&quot;: 5331.332955903085
+      },
+      {
+        &quot;value&quot;: 1.0981548703470019,
+        &quot;weighted_sse&quot;: 11244.709681519478,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.3139362661133262,
+          &quot;k2&quot;: 0.2858761314914777
+        },
+        &quot;likelihood_ratio&quot;: 11165.010435353526
+      },
+      {
+        &quot;value&quot;: 1.2756017071874557,
+        &quot;weighted_sse&quot;: 20701.636310447124,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.35901234195213055,
+          &quot;k2&quot;: 0.2814454856318031
+        },
+        &quot;likelihood_ratio&quot;: 20621.937064281174
+      },
+      {
+        &quot;value&quot;: 1.481721530648396,
+        &quot;weighted_sse&quot;: 35304.85704263847,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.4119490255164777,
+          &quot;k2&quot;: 0.27802054366869483
+        },
+        &quot;likelihood_ratio&quot;: 35225.157796472515
+      },
+      {
+        &quot;value&quot;: 1.7211475039711486,
+        &quot;weighted_sse&quot;: 57150.65173616473,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.47387410657530643,
+          &quot;k2&quot;: 0.2753245177894119
+        },
+        &quot;likelihood_ratio&quot;: 57070.952489998774
+      },
+      {
+        &quot;value&quot;: 1.9992614463324982,
+        &quot;weighted_sse&quot;: 89115.53481401755,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.54614011689723,
+          &quot;k2&quot;: 0.27317093414624927
+        },
+        &quot;likelihood_ratio&quot;: 89035.8355678516
+      },
+      {
+        &quot;value&quot;: 2.3223148054244365,
+        &quot;weighted_sse&quot;: 135136.6113992497,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.6303449384920933,
+          &quot;k2&quot;: 0.27142958268178835
+        },
+        &quot;likelihood_ratio&quot;: 135056.91215308374
+      },
+      {
+        &quot;value&quot;: 2.697569177551481,
+        &quot;weighted_sse&quot;: 200591.0984604111,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.7283641505618591,
+          &quot;k2&quot;: 0.2700075892856167
+        },
+        &quot;likelihood_ratio&quot;: 200511.39921424515
+      },
+      {
+        &quot;value&quot;: 3.13345953385756,
+        &quot;weighted_sse&quot;: 292809.85744583013,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.8423893658140887,
+          &quot;k2&quot;: 0.26883684206287944
+        },
+        &quot;likelihood_ratio&quot;: 292730.1581996642
+      },
+      {
+        &quot;value&quot;: 3.6397838216830936,
+        &quot;weighted_sse&quot;: 421771.9863051352,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.974975299901338,
+          &quot;k2&quot;: 0.26786626559884374
+        },
+        &quot;likelihood_ratio&quot;: 421692.28705896926
+      },
+      {
+        &quot;value&quot;: 4.2279232029132086,
+        &quot;weighted_sse&quot;: 601043.9884478522,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 1.1290968431326434,
+          &quot;k2&quot;: 0.2670570842806819
+        },
+        &quot;likelihood_ratio&quot;: 600964.2892016863
+      },
+      {
+        &quot;value&quot;: 4.911097879836729,
+        &quot;weighted_sse&quot;: 849049.2652223094,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 1.3082144135106373,
+          &quot;k2&quot;: 0.2663792181543996
+        },
+        &quot;likelihood_ratio&quot;: 848969.5659761435
+      },
+      {
+        &quot;value&quot;: 5.704664258971866,
+        &quot;weighted_sse&quot;: 1190783.6792778065,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 1.516350953193905,
+          &quot;k2&quot;: 0.26580897391272457
+        },
+        &quot;likelihood_ratio&quot;: 1190703.9800316405
+      },
+      {
+        &quot;value&quot;: 6.6264601325097,
+        &quot;weighted_sse&quot;: 1660133.4242336403,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 1.7581833186659985,
+          &quot;k2&quot;: 0.2653276837870457
+        },
+        &quot;likelihood_ratio&quot;: 1660053.7249874743
+      },
+      {
+        &quot;value&quot;: 7.697205636367156,
+        &quot;weighted_sse&quot;: 2303006.075713881,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 2.0391472775992514,
+          &quot;k2&quot;: 0.26492046255914586
+        },
+        &quot;likelihood_ratio&quot;: 2302926.376467715
+      },
+      {
+        &quot;value&quot;: 8.940968997588033,
+        &quot;weighted_sse&quot;: 3181559.4344218066,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 2.365554035654776,
+          &quot;k2&quot;: 0.2645746827097735
+        },
+        &quot;likelihood_ratio&quot;: 3181479.735175641
+      },
+      {
+        &quot;value&quot;: 10.385707540166475,
+        &quot;weighted_sse&quot;: 14808.465497764559,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.0006545842562032341,
+          &quot;k2&quot;: 6.302741085974597e-05
+        },
+        &quot;likelihood_ratio&quot;: 14728.766251598607
+      },
+      {
+        &quot;value&quot;: 12.063896110026622,
+        &quot;weighted_sse&quot;: 14809.476306288932,
+        &quot;converged&quot;: true,
+        &quot;message&quot;: &quot;Optimization terminated successfully&quot;,
+        &quot;parameters&quot;: {
+          &quot;K1&quot;: 0.0006538783239872669,
+          &quot;k2&quot;: 5.420125621305802e-05
+        },
+        &quot;likelihood_ratio&quot;: 14729.77706012298
+      }
+    ],
+    &quot;interval_components&quot;: [
+      {
+        &quot;lower&quot;: 0.5939844213352246,
+        &quot;upper&quot;: 0.6124028242848415,
+        &quot;open_lower&quot;: false,
+        &quot;open_upper&quot;: false,
+        &quot;accepted_grid_range&quot;: [
+          0.6031948055013311,
+          0.6031948055013311
+        ]
+      }
+    ],
+    &quot;closed&quot;: true,
+    &quot;all_nuisance_fits_converged&quot;: true,
+    &quot;profile_found_lower_objective&quot;: false,
+    &quot;interval_method&quot;: &quot;Nuisance-refitted log-coordinate Brent crossing refinement; no endpoint extrapolation&quot;,
+    &quot;relative_weight_scale_profiled&quot;: false,
+    &quot;warning&quot;: &quot;Exact macro constraint; conditional, asymptotic likelihood interval, not a guarantee of biological accuracy&quot;
+  },
+  &quot;provenance&quot;: {
+    &quot;petkin_version&quot;: &quot;0.3.0rc1&quot;,
+    &quot;created_utc&quot;: &quot;2026-11-03T15:07:59.873720+00:00&quot;,
+    &quot;inputs&quot;: [
+      {
+        &quot;path&quot;: &quot;${WORKSPACE}/work/v03_tac.csv&quot;,
+        &quot;bytes&quot;: 8528,
+        &quot;sha256&quot;: &quot;f2866f723cf82859e024428d14e3c5bb676ce1133ca743c5ee31ee7064af97e4&quot;
+      },
+      {
+        &quot;path&quot;: &quot;${WORKSPACE}/work/v03_input.csv&quot;,
+        &quot;bytes&quot;: 900093,
+        &quot;sha256&quot;: &quot;93808447068d6a8312ff9e6f19cc74bd65318c0cfb91d27b6dbaa06757d09fe8&quot;
+      },
+      {
+        &quot;path&quot;: &quot;${WORKSPACE}/work/v03_synthetic_assumptions.json&quot;,
+        &quot;bytes&quot;: 235,
+        &quot;sha256&quot;: &quot;511a0638fcdc5f57e3eafe6ebea20102566871f34cc1856a5a1c7e277d27d305&quot;
+      }
+    ],
+    &quot;settings&quot;: {
+      &quot;command&quot;: &quot;research-fit&quot;,
+      &quot;tac&quot;: &quot;work/v03_tac.csv&quot;,
+      &quot;input&quot;: &quot;work/v03_input.csv&quot;,
+      &quot;output&quot;: &quot;outputs/petkin/validation/v03/SYNTHETIC_CLI_CHECK.json&quot;,
+      &quot;report&quot;: &quot;outputs/petkin/validation/v03/SYNTHETIC_CLI_CHECK.html&quot;,
+      &quot;vb&quot;: 0.05,
+      &quot;delay&quot;: 0.1,
+      &quot;input_tail&quot;: &quot;error&quot;,
+      &quot;model&quot;: &quot;1t&quot;,
+      &quot;fit_vb&quot;: false,
+      &quot;fit_delay&quot;: false,
+      &quot;starts&quot;: 8,
+      &quot;seed&quot;: 0,
+      &quot;absolute_sigma&quot;: true,
+      &quot;dt&quot;: 0.025,
+      &quot;assumptions&quot;: &quot;work/v03_synthetic_assumptions.json&quot;
+    },
+    &quot;dependencies&quot;: {
+      &quot;numpy&quot;: &quot;2.5.4&quot;,
+      &quot;scipy&quot;: &quot;1.18.1&quot;,
+      &quot;SimpleITK&quot;: &quot;2.5.7&quot;
+    }
+  }
+}</pre></details></main></html>

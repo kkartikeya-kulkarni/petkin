@@ -1,0 +1,114 @@
+{
+  "scans": 20,
+  "people": 10,
+  "region": "Frontal cortex",
+  "fixed_vb": 0.05,
+  "median_cross_validated_nrmse": 0.06693787082102014,
+  "max_cross_validated_nrmse": 0.19238289416062349,
+  "converged_full_fits": 20,
+  "full_fits_at_bounds": [
+    "rbqc_1"
+  ],
+  "fold_fits_at_bounds": [
+    {
+      "scan": "rbqc_1",
+      "fold": 0
+    },
+    {
+      "scan": "rbqc_1",
+      "fold": 1
+    },
+    {
+      "scan": "rbqc_1",
+      "fold": 4
+    },
+    {
+      "scan": "rtvg_1",
+      "fold": 1
+    }
+  ],
+  "median_absolute_logan_vs_compartment_difference": 0.05855761396303605,
+  "median_absolute_test_retest_difference": 0.08508381983406613,
+  "pairs": [
+    {
+      "subject": "cgyu",
+      "VTs": [
+        2.225797893267795,
+        2.469297838865727
+      ],
+      "absolute_test_retest_difference": 0.1037252313861904
+    },
+    {
+      "subject": "flfp",
+      "VTs": [
+        7.00409539001726,
+        7.210708029066942
+      ],
+      "absolute_test_retest_difference": 0.02907006631865099
+    },
+    {
+      "subject": "jdcs",
+      "VTs": [
+        3.4213879560301454,
+        2.579420902797838
+      ],
+      "absolute_test_retest_difference": 0.2806178543726359
+    },
+    {
+      "subject": "kzcp",
+      "VTs": [
+        2.3906278818208326,
+        3.3945221509408765
+      ],
+      "absolute_test_retest_difference": 0.34705902645045345
+    },
+    {
+      "subject": "mhco",
+      "VTs": [
+        3.8058754302765463,
+        5.015813336385011
+      ],
+      "absolute_test_retest_difference": 0.2743098148465622
+    },
+    {
+      "subject": "rbqc",
+      "VTs": [
+        10124.427779663909,
+        2.061709512816771
+      ],
+      "absolute_test_retest_difference": 1.9991856172802944
+    },
+    {
+      "subject": "rtvg",
+      "VTs": [
+        1.2719019305186345,
+        1.3593140952496778
+      ],
+      "absolute_test_retest_difference": 0.06644240828194184
+    },
+    {
+      "subject": "rwrd",
+      "VTs": [
+        3.6954617934231093,
+        3.69192186224463
+      ],
+      "absolute_test_retest_difference": 0.0009583720958537927
+    },
+    {
+      "subject": "xehk",
+      "VTs": [
+        4.415967365852402,
+        4.466035489176085
+      ],
+      "absolute_test_retest_difference": 0.011274061524386368
+    },
+    {
+      "subject": "ytdh",
+      "VTs": [
+        2.9837333158694004,
+        2.939196269968854
+      ],
+      "absolute_test_retest_difference": 0.015038857124702194
+    }
+  ]
+}

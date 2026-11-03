@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "petkin"
+version = "0.3.0rc1"
+description = "Auditable PET kinetic modeling, uncertainty, graphical analysis and rigid preprocessing"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["PET", "kinetic modeling", "Logan", "neuroimaging"]
+dependencies = ["numpy>=1.24", "scipy>=1.10", "SimpleITK>=2.3"]
+[project.optional-dependencies]
+dev = ["pytest>=8", "matplotlib>=3.8", "nibabel>=5"]
+benchmarks = ["niftypad==2.0.0", "scikit-learn>=1.4", "matplotlib>=3.8", "nibabel>=5"]
+[project.scripts]
+petkin = "petkin.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]

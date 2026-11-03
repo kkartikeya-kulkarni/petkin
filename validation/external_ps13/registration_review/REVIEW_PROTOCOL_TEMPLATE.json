@@ -1,0 +1,12 @@
+{
+  "protocol_id": "REQUIRES_INDEPENDENT_REVIEW",
+  "reviewed_by": null,
+  "locked_at": null,
+  "reviewer_statement": null,
+  "coordinate_convention": "LPS_mm",
+  "independent_of_algorithm_outputs": false,
+  "limits": {
+    "mean_of_pair_mean_TRE_mm": null,
+    "maximum_landmark_TRE_mm": null
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "version": "0.3.0rc1",
+  "created_utc": "2026-11-03T15:09:12.971494+00:00",
+  "fully_research_qualified": false,
+  "qualification": "qualification.json",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "b1f732475216e94cfbbaa2d584ed1b80c14c9abe0f0afd2eb5d0db72b0448647"
+    },
+    {
+      "path": "LITERATURE_REVIEW.md",
+      "sha256": "f530ef265925596d5c2f14cd2ec9c616c1b266af4534ddedeb5776762f1ec862"
+    },
+    {
+      "path": "README.md",
+      "sha256": "9452ed03b4617c0654aa108217b6155c830d6bdc1125e134b257e8846d8c7ac3"
+    },
+    {
+      "path": "examples/QUALIFICATION_REPRODUCE.md",
+      "sha256": "1086af6b03e2a7ca26ee1e510f403d18d94a30068806ddabae151df4c8bf6755"
+    },
+    {
+      "path": "examples/REPRODUCE.md",
+      "sha256": "6869cf7074c43d00cd9b067378e0db29453be642bfa124f4ffef3692d37972ec"
+    },
+    {
+      "path": "examples/RESEARCH_ASSUMPTIONS_TEMPLATE.json",
+      "sha256": "a5d067b24fba0a8124fd5c3a46a534198787d9f04c9ba950900908f7232bea49"
+    },
+    {
+      "path": "examples/audit_v02_uncertainty.py",
+      "sha256": "ee3e53a954d70350f9ffc3f6e2a589f1be9ca2eba9b42fed1ec009de30c15dbb"
+    },
+    {
+      "path": "examples/benchmark_niftypad.py",
+      "sha256": "077fa581b3e47fb333fd9b928a9e40721ff9824b4795c7b62a5053b7be7ed357"
+    },
+    {
+      "path": "examples/benchmark_v02_real.py",
+      "sha256": "12394ca571895df1bbfb10ca475f6d864b7fb442e1deedbcec3e9a7858131c2e"
+    },
+    {
+      "path": "examples/challenge_v02.py",
+      "sha256": "194295ae7111429c62f6a9a4f46995a7eace17c374fbc32c12503f3bbbaec300"
+    },
+    {
+      "path": "examples/export_pbr28.R",
+      "sha256": "5a625e5a44e2c0776f01cda47903dc96baef5f3ecf527afc28ddcfbe7f2cece5"
+    },
+    {
+      "path": "examples/extended_sources.json",
+      "sha256": "2b8715fcf5371659a0dd6d4cfa6990b9ca27f2c120809222a6cc7c250acbbcab"
+    },
+    {
+      "path": "examples/fetch_extended.py",
+      "sha256": "828f4bba749dd50691ffdb1b2a2eab75bfadeb3ae7dfee2519aa11e3b60fb771"
+    },
+    {
+      "path": "examples/fetch_kinfitr_reference.py",
+      "sha256": "b63300f2060e201e94ce36e702d6b513908a582ec120e97d8e7284e811749fa6"
+    },
+    {
+      "path": "examples/fetch_pbr28.py",
+      "sha256": "64dad53a65b6ad75da71168fbf5e5e4201e87026f2beb026f40029d7c28d9096"
+    },
+    {
+      "path": "examples/fetch_public.py",
+      "sha256": "2e99b1b8254484d850cac70334deaaf4432732e963a9f9061a210bb7ba4809da"
+    },
+    {
+      "path": "examples/kinfitr_reference_sources.json",
+      "sha256": "d12e0daa40c26d5023f8e8939707f52529e2f50c595b40b99091e32736dddb9b"
+    },
+    {
+      "path": "examples/pbr28_source.json",
+      "sha256": "80903d3ee2e025a41ad5b1b92bbb23a86b56c8e521e097ac43ca67bc3a307a01"
+    },
+    {
+      "path": "examples/plot_pbr28_results.py",
+      "sha256": "1b6cca74288c920b1f2025b37e0b0fe896efdf299a7a672f894555d68124b972"
+    },
+    {
+      "path": "examples/public_overlays.py",
+      "sha256": "6614769aef63d327a4415657fc7663bd88143f66cac374de8477957db19adc98"
+    },
+    {
+      "path": "examples/qualification_holdout.py",
+      "sha256": "1ca077d2b8322055ffbfc8c3035a7afdd6a58318f05b9c580ab454ef0a41d9da"
+    },
+    {
+      "path": "examples/qualification_known_failures.py",
+      "sha256": "b3d0dbcdcfd3549811a8272b7dc819a527361e55e999896eb86b83479def4925"
+    },
+    {
+      "path": "examples/qualification_registration.py",
+      "sha256": "0cc4560e55be4fd9b7fa1d9bc1ac1b124d1e756e26e91466ed44c1e60ff1492c"
+    },
+    {
+      "path": "examples/qualification_report.py",
+      "sha256": "41ee9fc67d3eced90b1597b4fbec440c75a91abac212e57aefdb7423d629003a"
+    },
+    {
+      "path": "examples/reference_kinfitr.R",
+      "sha256": "6e599c4ba7722dd72a9dcc97b1e6f9ac49a063069448b6bb5edcd8aff69e30f2"
+    },
+    {
+      "path": "examples/stress_real_data.py",
+      "sha256": "76a4d6c591af2f213ac528ad6db24746a6ecb8dc3ef288f81b3ec59795c0141a"
+    },
+    {
+      "path": "examples/validate_pbr28.py",
+      "sha256": "8df3a4fed079bff6ca710b0734a46a98de8b7a1691d1d74600a39d1bfe806a5b"
+    },
+    {
+      "path": "examples/validate_public.py",
+      "sha256": "9bb0bf855e0bbd84824aae92b0c086be546ea80d594965b33d38fe468445fe79"
+    },
+    {
+      "path": "examples/validate_registration.py",
+      "sha256": "0db4136f5fb9d26d83081149d9a60a3c99191a44da0d9e21e9f8f46222e57cc8"
+    },
+    {
+      "path": "examples/validate_simulation.py",
+      "sha256": "aef6bfd8a8b86b2f76e3b818ffa3b1ba27762f25370495bdb55094ef9dda3ca6"
+    },
+    {
+      "path": "examples/validate_v02_fdg.py",
+      "sha256": "3f1fc1605c136664db501fa5b6a5272fff4b062864b96f5a895e8c0df0174a54"
+    },
+    {
+      "path": "examples/validate_v02_imaging.py",
+      "sha256": "425ce4c47878935f0ca79e28d54028ec7768918d8299c38eff40a68429ae58a6"
+    },
+    {
+      "path": "examples/validate_v02_simulation.py",
+      "sha256": "2b6b339302980ef5e13a9508763dccf16bc8d5c33af9a248efd836c8a7380212"
+    },
+    {
+      "path": "examples/write_real_report.py",
+      "sha256": "dc8cbadefc9c0d62eb4c50c41be8b93ea74d6b68d8219a711c9971344848bbfd"
+    },
+    {
+      "path": "examples/write_v02_report.py",
+      "sha256": "6265754e30e8670507aee11b4884a5fbb0b1bcaa54c544592492e8bfbb23f557"
+    },
+    {
+      "path": "examples/write_validation_report.py",
+      "sha256": "77cb06aa09fb31949e20ba20359784a4d4d938ced4c3f90e73b945c6f1d11c3c"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "bae04d830157d8fa17351cdd6f8c8e0a9f397e6c7169478fdd3e01e4855bd1f1"
+    },
+    {
+      "path": "src/petkin/__init__.py",
+      "sha256": "24bb308bb167875d60c8ea3306f6257458d86746fc33a7cbe31be037b75cb939"
+    },
+    {
+      "path": "src/petkin/bids.py",
+      "sha256": "b4304aa2bdaf647928dab1a83fd4f4cc2402da52cff9f7018d2fd9881ace64ba"
+    },
+    {
+      "path": "src/petkin/cli.py",
+      "sha256": "391c8391de6ecfbf53dd8933634cbad1b3d2e6be8d26c92379abad96c2a9710e"
+    },
+    {
+      "path": "src/petkin/fitting.py",
+      "sha256": "b5886e497371b51277590d2996de0612eb4d132bb073c31052effddc78de7a1a"
+    },
+    {
+      "path": "src/petkin/graphical.py",
+      "sha256": "acbab5cde994333a14ef234a04fe83b221f4517a52d8f92b2f3d8188a3adf546"
+    },
+    {
+      "path": "src/petkin/imaging.py",
+      "sha256": "3e4d2f0f5446ea2a738d58fa84bf802aeb7245f773d06325c6ab883fff90e214"
+    },
+    {
+      "path": "src/petkin/kinetics.py",
+      "sha256": "a270b67fd71a9a55a651e19eaa9769ff7ac51c9a93c25d97cd2bffed06bbc877"
+    },
+    {
+      "path": "src/petkin/reference.py",
+      "sha256": "5655aae04e0352f3b4793cc782e698a40ec19a2345f045007f68380936779fe9"
+    },
+    {
+      "path": "src/petkin/reporting.py",
+      "sha256": "2221c73b6c98b23b2b59426b07c8c0d4bc4d6e25eab62fdc2e0a667765fb1308"
+    },
+    {
+      "path": "src/petkin/uncertainty.py",
+      "sha256": "49a1b58c35a0a1aec1055416aaae43e80ff4ea889a46072c7a1d40babac7e278"
+    },
+    {
+      "path": "src/petkin/validation.py",
+      "sha256": "428102a83060e3d2d5ecd04a43de7bf4145b8a2eb26eccd2a934c67fbbb6dc49"
+    },
+    {
+      "path": "tests/test_advanced.py",
+      "sha256": "f46c398ab4d70bb12e42c0086f96451694ecbf562ab0ba913d1216ee15b8355b"
+    },
+    {
+      "path": "tests/test_imaging.py",
+      "sha256": "cb2e17d0cac2e789934db81598adb766ae0a1618021eec3206ae40d00dfce28c"
+    },
+    {
+      "path": "tests/test_kinetics.py",
+      "sha256": "4bd1ea0127c8e0781dbfc96d1d004a4dfdece376b102d823986e6019720a4e21"
+    },
+    {
+      "path": "tests/test_validation.py",
+      "sha256": "83da030a4543fe13a4d842601ff87de31e3375fbfd385327ba05b8a960b57a61"
+    }
+  ],
+  "wheel_sha256": "733eb30eae3fa24953242d74bd4d6c656c0640ba8088fa5a4a01e44803b226cb"
+}

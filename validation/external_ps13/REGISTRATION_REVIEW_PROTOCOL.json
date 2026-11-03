@@ -1,0 +1,11 @@
+{
+ "role":"Prepare measured PET/MRI images for independent review; not a registration accuracy benchmark",
+ "frozen_before_registration_outputs":true,
+ "cohort":"All 20 scans, baseline MRI from same subject",
+ "PET_summary":"Duration-weighted mean of frames starting at >=20 min",
+ "geometry":"Original NIfTI physical coordinates converted RAS to LPS; 4mm reduced images; frozen 0.3.0rc1 multimodal rigid registration",
+ "output":"Every automatic transform, resampled PET mean, MRI, overlays, failures",
+ "truth":"No independent reference is available; never use the automatic transform as ground truth",
+ "pending":"An expert must annotate identifiable paired landmarks independently of these overlays; tolerance must be reviewed and locked before landmark errors are calculated",
+ "REG-02":"Remains blocked until at least 10 independently referenced measured pairs and reviewed tolerance exist"
+}

@@ -1,0 +1,275 @@
+[
+  {
+    "subject": "s028",
+    "role": "Held out from simulation and implementation development; interleaved frames held out of fitting",
+    "model": "2t_irreversible",
+    "vb": 0,
+    "fit": {
+      "parameters": {
+        "K1": 0.21982628478756389,
+        "k2": 1.4249174768705886,
+        "k3": 0.3360372232088559
+      },
+      "model": "2t_irreversible",
+      "success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "prediction": [
+        840.3101130563301,
+        3338.959416800214,
+        5078.647044829856,
+        6323.040202322475,
+        7432.424278807927,
+        7585.60072300783,
+        7617.737908605033,
+        7591.1910378292605,
+        7492.764286860122,
+        7436.282338822752,
+        7428.460472602754,
+        7497.722162638987,
+        7782.949624753113,
+        7964.653105722209,
+        8158.53810162055,
+        8461.54546104619,
+        9275.401266403016,
+        9673.288097744124,
+        10062.934072838922,
+        10444.13371439495,
+        11182.335266857772,
+        11890.18600491253,
+        12907.654107993518,
+        14186.526530814275,
+        17105.345866404452,
+        18444.738750792912,
+        19722.969710286405
+      ],
+      "residuals": [
+        628.3481532174629,
+        -47.88042694978594,
+        -1208.233814545144,
+        55.909342947475125,
+        588.9330678704273,
+        768.7613675390803,
+        772.4927914175332,
+        796.8868386105105,
+        399.9796188913724,
+        57.950795854001626,
+        -326.7309336472463,
+        -565.0151420485126,
+        -761.6499846218867,
+        -843.3566599027909,
+        -887.0790858794498,
+        -937.8334452038107,
+        -916.450296096984,
+        -838.8613163183763,
+        -785.2602630985784,
+        -750.6289809175505,
+        -632.8532097047282,
+        -560.2173153999702,
+        -419.87323575648225,
+        -107.89827387322475,
+        756.190592966952,
+        1199.1000789179125,
+        1638.5947102864047
+      ],
+      "weighted_sse": 15897404.956484362,
+      "rmse": 767.328336610924,
+      "standard_errors": {
+        "K1": 0.037091912396938334,
+        "k2": 0.3989885285212754,
+        "k3": 0.03781731924493767
+      },
+      "jacobian_rank": 3,
+      "condition_number": 130.11517981202468,
+      "at_bound": false,
+      "vb": 0.0,
+      "Ki": 0.04194873060902675
+    },
+    "held_out_frame_indices": [
+      4,
+      9,
+      14,
+      19,
+      24,
+      29
+    ],
+    "held_out_normalized_rmse": 0.06607403993251024,
+    "registration_metric": -0.4181180211385714,
+    "registration_stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+    "motion_qc": [
+      {
+        "frame": 0,
+        "metric": -0.1152640531610119,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 109 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 1,
+        "metric": -0.1751522744492819,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 23 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 2,
+        "metric": -0.2600139238356164,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 32 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 3,
+        "metric": -0.33691878075257925,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 25 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 4,
+        "metric": -0.4793946640317302,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 5,
+        "metric": -0.5158820918874449,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 6,
+        "metric": -0.5556266049877413,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 14 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 7,
+        "metric": -0.575162244552165,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 8,
+        "metric": -0.5860631473063973,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 21 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 9,
+        "metric": -0.6043200714632655,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 10,
+        "metric": -0.6176664075237689,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 14 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 11,
+        "metric": -0.7094596004627741,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 13 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 12,
+        "metric": -0.7133147195551323,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 13,
+        "metric": -0.7300363642315891,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 20 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 14,
+        "metric": -0.6910760488273482,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 15,
+        "metric": -0.7455967486779307,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 13 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 16,
+        "metric": -0.7598080512064337,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 17,
+        "metric": -0.7526208688907704,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 23 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 18,
+        "metric": -0.8193712698559255,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 14 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 19,
+        "metric": -0.8408805228853876,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 12 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 20,
+        "metric": -0.8493571717525457,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 21,
+        "metric": -0.847177138669616,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 18 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 22,
+        "metric": -0.8588308894580334,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 17 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 23,
+        "metric": -0.8657810278417986,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 17 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 24,
+        "metric": -0.8594549139884521,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 25,
+        "metric": -0.8642073901210562,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 26,
+        "metric": -0.9303541846773434,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 27,
+        "metric": -0.9352721394309071,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 28,
+        "metric": -0.952995132894175,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 17 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 29,
+        "metric": -0.9606746547753013,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 30,
+        "metric": -0.9642088186086182,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 31,
+        "metric": -0.9630828853649487,
+        "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 13 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+      },
+      {
+        "frame": 32,
+        "reference": true
+      }
+    ],
+    "roi_voxels": 20663,
+    "limitations": [
+      "No true kinetic parameters",
+      "Frame-midpoint plasma interpolation and assumed boundaries",
+      "No whole blood: fixed vb=0",
+      "PET uptake threshold ROI, not anatomical brain segmentation",
+      "4-mm resampling; rigid registration requires visual review",
+      "FDG is not a reversible Logan validation",
+      "Plasma decay convention not independently verified"
+    ]
+  }
+]

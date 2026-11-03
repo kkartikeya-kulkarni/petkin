@@ -1,0 +1,32 @@
+[
+  {
+    "path": "sub-s030/ses-open/pet/sub-s030_ses-open_task-rest_pet.json",
+    "bytes": 2001,
+    "sha256": "e8e86d4fdaa520743d24d6a225adfc0caed4a53ebdaed8057686dc79d3150aff",
+    "url": "https://s3.amazonaws.com/openneuro.org/ds004513/sub-s030/ses-open/pet/sub-s030_ses-open_task-rest_pet.json"
+  },
+  {
+    "path": "sub-s030/ses-open/pet/sub-s030_ses-open_task-rest_recording-autosampler_blood.json",
+    "bytes": 732,
+    "sha256": "8625d3fc3bec2b7bea5fd24337647e0060de620882c3772bbd752a8a3029418f",
+    "url": "https://s3.amazonaws.com/openneuro.org/ds004513/sub-s030/ses-open/pet/sub-s030_ses-open_task-rest_recording-autosampler_blood.json"
+  },
+  {
+    "path": "sub-s030/ses-open/pet/sub-s030_ses-open_task-rest_recording-autosampler_blood.tsv",
+    "bytes": 438,
+    "sha256": "acb919680c39df6ba07a499b300c0bbf5d3f40d26b12da4e167a56705c85f3dd",
+    "url": "https://s3.amazonaws.com/openneuro.org/ds004513/sub-s030/ses-open/pet/sub-s030_ses-open_task-rest_recording-autosampler_blood.tsv"
+  },
+  {
+    "path": "sub-s030/ses-open/pet/sub-s030_ses-open_task-rest_pet.nii.gz",
+    "bytes": 1089379303,
+    "sha256": "53d36d0dabd4b0ff405b3efce1876dbbe2f0761ef74741194eabf631c49883c9",
+    "url": "https://s3.amazonaws.com/openneuro.org/ds004513/sub-s030/ses-open/pet/sub-s030_ses-open_task-rest_pet.nii.gz"
+  },
+  {
+    "path": "sub-s030/ses-open/anat/sub-s030_ses-open_T1w.nii.gz",
+    "bytes": 9892802,
+    "sha256": "f0526f9e10a65ba789e26fc2520881b74d5f9c1292166be0097d68dbd5733e68",
+    "url": "https://s3.amazonaws.com/openneuro.org/ds004513/sub-s030/ses-open/anat/sub-s030_ses-open_T1w.nii.gz"
+  }
+]

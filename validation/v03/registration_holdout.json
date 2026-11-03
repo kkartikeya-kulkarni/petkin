@@ -1,0 +1,576 @@
+{
+  "summary": {
+    "cases": 12,
+    "landmarks_per_case": 7,
+    "mean_landmark_error_mm": 0.20283188001668273,
+    "maximum_landmark_error_mm": 0.3778187501136455,
+    "measured_human_PET_truth": false,
+    "scope": "Intensity-transformed, blurred MRI-derived synthetic PET with Poisson noise and known rigid poses; not biological PET-MRI accuracy"
+  },
+  "cases": [
+    {
+      "subject": "s028",
+      "pose": 0,
+      "rotation_radians": [
+        -0.061312758454173444,
+        0.07068848281285298,
+        -0.05038936680419789
+      ],
+      "translation_mm": [
+        6.659585093448587,
+        2.798814160341978,
+        3.132519967706541
+      ],
+      "errors": {
+        "landmarks": 7,
+        "errors_mm": [
+          0.2966531197329434,
+          0.30966850510365534,
+          0.2901679025252767,
+          0.2935299308947155,
+          0.3006565565457687,
+          0.3013626813069645,
+          0.29953881437897356
+        ],
+        "mean_error_mm": 0.298796787212614,
+        "rms_error_mm": 0.29885309828586804,
+        "maximum_error_mm": 0.30966850510365534,
+        "unregistered_rms_error_mm": 8.240750023727285,
+        "convention": "Fixed-to-moving physical LPS millimeters",
+        "limitation": "Accuracy depends on independent anatomical landmark quality"
+      },
+      "candidates": [
+        {
+          "initialization": "geometry",
+          "metric": -0.7452746193722998,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 13 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        },
+        {
+          "initialization": "moments",
+          "metric": -0.7452832247102325,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 13 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        }
+      ],
+      "metric": -0.7452832247102325
+    },
+    {
+      "subject": "s028",
+      "pose": 1,
+      "rotation_radians": [
+        -0.0164132014753707,
+        -0.030620477724164007,
+        0.07432233886636831
+      ],
+      "translation_mm": [
+        -0.49633661841629895,
+        3.4132612966334595,
+        -1.6618052502370695
+      ],
+      "errors": {
+        "landmarks": 7,
+        "errors_mm": [
+          0.2604231835668616,
+          0.22719364969369057,
+          0.29778861595382755,
+          0.26767743938362737,
+          0.2600495681281536,
+          0.2582592090637368,
+          0.26481507180973535
+        ],
+        "mean_error_mm": 0.262315248228519,
+        "rms_error_mm": 0.26300925555532717,
+        "maximum_error_mm": 0.29778861595382755,
+        "unregistered_rms_error_mm": 4.25873378498852,
+        "convention": "Fixed-to-moving physical LPS millimeters",
+        "limitation": "Accuracy depends on independent anatomical landmark quality"
+      },
+      "candidates": [
+        {
+          "initialization": "geometry",
+          "metric": -0.737897972606476,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 14 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        },
+        {
+          "initialization": "moments",
+          "metric": -0.737908400662146,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 14 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        }
+      ],
+      "metric": -0.737908400662146
+    },
+    {
+      "subject": "s028",
+      "pose": 2,
+      "rotation_radians": [
+        -0.06616517641095346,
+        0.011926906924020401,
+        0.014607434443579748
+      ],
+      "translation_mm": [
+        -6.445089432663487,
+        -7.8579588018485484,
+        -5.301209208549492
+      ],
+      "errors": {
+        "landmarks": 7,
+        "errors_mm": [
+          0.32448576796123496,
+          0.27788927559090865,
+          0.3778187501136455,
+          0.31091526767958244,
+          0.3429748250298149,
+          0.3611061691020985,
+          0.2937916916322015
+        ],
+        "mean_error_mm": 0.32699739244421233,
+        "rms_error_mm": 0.32869258950129593,
+        "maximum_error_mm": 0.3778187501136455,
+        "unregistered_rms_error_mm": 11.567925997336628,
+        "convention": "Fixed-to-moving physical LPS millimeters",
+        "limitation": "Accuracy depends on independent anatomical landmark quality"
+      },
+      "candidates": [
+        {
+          "initialization": "geometry",
+          "metric": -0.7403324244250921,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        },
+        {
+          "initialization": "moments",
+          "metric": -0.7402980610011206,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        }
+      ],
+      "metric": -0.7403324244250921
+    },
+    {
+      "subject": "s028",
+      "pose": 3,
+      "rotation_radians": [
+        -0.07448058296748594,
+        -0.023598169043791053,
+        0.03853854229159489
+      ],
+      "translation_mm": [
+        -4.264102351577698,
+        -7.411700384215624,
+        -0.9357043027334893
+      ],
+      "errors": {
+        "landmarks": 7,
+        "errors_mm": [
+          0.2844207346760124,
+          0.26570807464784746,
+          0.3042825811373097,
+          0.283632895570571,
+          0.2870666284994575,
+          0.28612823098450996,
+          0.2833490950282191
+        ],
+        "mean_error_mm": 0.284941177220561,
+        "rms_error_mm": 0.28513023773550017,
+        "maximum_error_mm": 0.3042825811373097,
+        "unregistered_rms_error_mm": 8.827590991306,
+        "convention": "Fixed-to-moving physical LPS millimeters",
+        "limitation": "Accuracy depends on independent anatomical landmark quality"
+      },
+      "candidates": [
+        {
+          "initialization": "geometry",
+          "metric": -0.7438392865025064,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 14 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        },
+        {
+          "initialization": "moments",
+          "metric": -0.7438074021451929,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 12 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        }
+      ],
+      "metric": -0.7438392865025064
+    },
+    {
+      "subject": "s029",
+      "pose": 0,
+      "rotation_radians": [
+        -0.029033497987338473,
+        0.03906015142214947,
+        0.001882540064241073
+      ],
+      "translation_mm": [
+        -4.0333597050177445,
+        5.416393334208669,
+        -5.4205233889010564
+      ],
+      "errors": {
+        "landmarks": 7,
+        "errors_mm": [
+          0.19408071683791603,
+          0.20211259646091403,
+          0.18607764614243977,
+          0.18914491254245586,
+          0.2045709990654134,
+          0.16234455747180251,
+          0.22612024076490106
+        ],
+        "mean_error_mm": 0.19492166704083466,
+        "rms_error_mm": 0.1957596656668614,
+        "maximum_error_mm": 0.22612024076490106,
+        "unregistered_rms_error_mm": 8.729602910750005,
+        "convention": "Fixed-to-moving physical LPS millimeters",
+        "limitation": "Accuracy depends on independent anatomical landmark quality"
+      },
+      "candidates": [
+        {
+          "initialization": "geometry",
+          "metric": -0.7541477063832313,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        },
+        {
+          "initialization": "moments",
+          "metric": -0.754155691798726,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        }
+      ],
+      "metric": -0.754155691798726
+    },
+    {
+      "subject": "s029",
+      "pose": 1,
+      "rotation_radians": [
+        0.0264207828506648,
+        -0.0038960280295454552,
+        0.05389649519503833
+      ],
+      "translation_mm": [
+        4.7332025213436,
+        0.12216408553019598,
+        1.5219361559082927
+      ],
+      "errors": {
+        "landmarks": 7,
+        "errors_mm": [
+          0.18611192447954858,
+          0.2169818075964467,
+          0.1560746280408616,
+          0.18266703677045815,
+          0.19645268550023856,
+          0.1674194554126785,
+          0.206691280610087
+        ],
+        "mean_error_mm": 0.18748554548718843,
+        "rms_error_mm": 0.18852415770667053,
+        "maximum_error_mm": 0.2169818075964467,
+        "unregistered_rms_error_mm": 5.156708194074603,
+        "convention": "Fixed-to-moving physical LPS millimeters",
+        "limitation": "Accuracy depends on independent anatomical landmark quality"
+      },
+      "candidates": [
+        {
+          "initialization": "geometry",
+          "metric": -0.7469404223239806,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        },
+        {
+          "initialization": "moments",
+          "metric": -0.7467178819251448,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 13 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        }
+      ],
+      "metric": -0.7469404223239806
+    },
+    {
+      "subject": "s029",
+      "pose": 2,
+      "rotation_radians": [
+        -0.052026796699499535,
+        0.04028187725634192,
+        0.08649814526304091
+      ],
+      "translation_mm": [
+        -3.789397563820822,
+        7.2538278208200495,
+        -3.3347482074788104
+      ],
+      "errors": {
+        "landmarks": 7,
+        "errors_mm": [
+          0.2031546676271263,
+          0.21412051994205192,
+          0.19240939774890684,
+          0.20147559660005507,
+          0.20849390480518964,
+          0.1792394801648433,
+          0.227365718468153
+        ],
+        "mean_error_mm": 0.2037513264794752,
+        "rms_error_mm": 0.20424945460028812,
+        "maximum_error_mm": 0.227365718468153,
+        "unregistered_rms_error_mm": 9.169073459708414,
+        "convention": "Fixed-to-moving physical LPS millimeters",
+        "limitation": "Accuracy depends on independent anatomical landmark quality"
+      },
+      "candidates": [
+        {
+          "initialization": "geometry",
+          "metric": -0.7594044761823309,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 18 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        },
+        {
+          "initialization": "moments",
+          "metric": -0.7594595142597601,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        }
+      ],
+      "metric": -0.7594595142597601
+    },
+    {
+      "subject": "s029",
+      "pose": 3,
+      "rotation_radians": [
+        0.024544106096861883,
+        -0.027236661471271482,
+        0.029796853321190062
+      ],
+      "translation_mm": [
+        -0.8702516519084913,
+        1.9088385745523357,
+        5.31482651347279
+      ],
+      "errors": {
+        "landmarks": 7,
+        "errors_mm": [
+          0.2086884125174852,
+          0.23194940614257756,
+          0.1900684778342787,
+          0.20382545265997562,
+          0.21697375062649202,
+          0.19556821647942726,
+          0.22859971241956353
+        ],
+        "mean_error_mm": 0.2108104898114,
+        "rms_error_mm": 0.21132391732105904,
+        "maximum_error_mm": 0.23194940614257756,
+        "unregistered_rms_error_mm": 5.812555135342129,
+        "convention": "Fixed-to-moving physical LPS millimeters",
+        "limitation": "Accuracy depends on independent anatomical landmark quality"
+      },
+      "candidates": [
+        {
+          "initialization": "geometry",
+          "metric": -0.7485810253676304,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 17 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        },
+        {
+          "initialization": "moments",
+          "metric": -0.7485206677111564,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 19 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        }
+      ],
+      "metric": -0.7485810253676304
+    },
+    {
+      "subject": "s030",
+      "pose": 0,
+      "rotation_radians": [
+        -0.046490080590919816,
+        0.024844859215950605,
+        0.07382840383982978
+      ],
+      "translation_mm": [
+        -7.229104948808441,
+        -1.9165637653211522,
+        1.3520893037384187
+      ],
+      "errors": {
+        "landmarks": 7,
+        "errors_mm": [
+          0.11131034283287984,
+          0.08818790229674721,
+          0.13874290892581767,
+          0.11261851316324478,
+          0.11995662069574678,
+          0.08438917505701443,
+          0.14081053378626268
+        ],
+        "mean_error_mm": 0.11371657096538763,
+        "rms_error_mm": 0.1155349996186007,
+        "maximum_error_mm": 0.14081053378626268,
+        "unregistered_rms_error_mm": 7.870583986745056,
+        "convention": "Fixed-to-moving physical LPS millimeters",
+        "limitation": "Accuracy depends on independent anatomical landmark quality"
+      },
+      "candidates": [
+        {
+          "initialization": "geometry",
+          "metric": -0.7477320470673958,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 14 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        },
+        {
+          "initialization": "moments",
+          "metric": -0.7476955945944005,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 13 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        }
+      ],
+      "metric": -0.7477320470673958
+    },
+    {
+      "subject": "s030",
+      "pose": 1,
+      "rotation_radians": [
+        0.02233560339803731,
+        -0.0749259893828121,
+        0.016469785081376056
+      ],
+      "translation_mm": [
+        2.4709018533075415,
+        -4.099121540668605,
+        -2.2937567104980463
+      ],
+      "errors": {
+        "landmarks": 7,
+        "errors_mm": [
+          0.10851054219452155,
+          0.0934463185715889,
+          0.12896362236317122,
+          0.1150832616685561,
+          0.10634240774191156,
+          0.1093224540549756,
+          0.11226513649311669
+        ],
+        "mean_error_mm": 0.11056196329826308,
+        "rms_error_mm": 0.11099941618122094,
+        "maximum_error_mm": 0.12896362236317122,
+        "unregistered_rms_error_mm": 5.606834672400716,
+        "convention": "Fixed-to-moving physical LPS millimeters",
+        "limitation": "Accuracy depends on independent anatomical landmark quality"
+      },
+      "candidates": [
+        {
+          "initialization": "geometry",
+          "metric": -0.74707918569757,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 13 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        },
+        {
+          "initialization": "moments",
+          "metric": -0.7470892636478871,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 14 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        }
+      ],
+      "metric": -0.7470892636478871
+    },
+    {
+      "subject": "s030",
+      "pose": 2,
+      "rotation_radians": [
+        0.008704783295483357,
+        0.04343893124807955,
+        0.07428222643115436
+      ],
+      "translation_mm": [
+        -2.5661746435362556,
+        -5.808967546514397,
+        5.229003545752434
+      ],
+      "errors": {
+        "landmarks": 7,
+        "errors_mm": [
+          0.11312960278240829,
+          0.08401509048150974,
+          0.1459284428700836,
+          0.11299596616389568,
+          0.12418552091437536,
+          0.09906521523436601,
+          0.12896708675163743
+        ],
+        "mean_error_mm": 0.1154695607426109,
+        "rms_error_mm": 0.11697894267256069,
+        "maximum_error_mm": 0.1459284428700836,
+        "unregistered_rms_error_mm": 8.457572997243448,
+        "convention": "Fixed-to-moving physical LPS millimeters",
+        "limitation": "Accuracy depends on independent anatomical landmark quality"
+      },
+      "candidates": [
+        {
+          "initialization": "geometry",
+          "metric": -0.7482460543298034,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 12 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        },
+        {
+          "initialization": "moments",
+          "metric": -0.7482507515512413,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        }
+      ],
+      "metric": -0.7482507515512413
+    },
+    {
+      "subject": "s030",
+      "pose": 3,
+      "rotation_radians": [
+        0.030546655273482475,
+        -0.07931594857448454,
+        -0.038984853022009956
+      ],
+      "translation_mm": [
+        -7.575131332138076,
+        3.8491499741207456,
+        -7.766720627010388
+      ],
+      "errors": {
+        "landmarks": 7,
+        "errors_mm": [
+          0.12128040337237565,
+          0.08329666923506772,
+          0.1635177733443629,
+          0.11963643774553466,
+          0.1348641778109092,
+          0.10553530436068166,
+          0.14137305301495462
+        ],
+        "mean_error_mm": 0.12421483126912665,
+        "rms_error_mm": 0.12649709077718826,
+        "maximum_error_mm": 0.1635177733443629,
+        "unregistered_rms_error_mm": 11.707344258902937,
+        "convention": "Fixed-to-moving physical LPS millimeters",
+        "limitation": "Accuracy depends on independent anatomical landmark quality"
+      },
+      "candidates": [
+        {
+          "initialization": "geometry",
+          "metric": -0.7542026035100978,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 13 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        },
+        {
+          "initialization": "moments",
+          "metric": -0.7541813645836323,
+          "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 14 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+          "status": "completed"
+        }
+      ],
+      "metric": -0.7542026035100978
+    }
+  ]
+}

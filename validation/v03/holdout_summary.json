@@ -1,0 +1,20 @@
+{
+  "routine": {
+    "total": 90,
+    "released": 89,
+    "retention": 0.9888888888888889,
+    "large_errors_released": 0,
+    "median_absolute_error": 0.004364028742940951,
+    "q95_absolute_error": 0.01616352415390291,
+    "one_sided_95_large_error_risk_upper": 0.03309972123627414
+  },
+  "stress": {
+    "total": 40,
+    "released": 8,
+    "retention": 0.2,
+    "large_errors_released": 0,
+    "median_absolute_error": 0.04192359889383568,
+    "q95_absolute_error": 0.24968642316471057,
+    "one_sided_95_large_error_risk_upper": 0.3123439780663678
+  }
+}

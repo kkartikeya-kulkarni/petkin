@@ -1,0 +1,42 @@
+Independent PS13 external technical evaluation — 2026-11-03
+
+This adds evidence to 0.3.0rc1; it does not change numerical algorithms, pass the
+full research qualification, or provide measured registration ground truth.
+The previous v03 qualification record is preserved as a historical frozen record.
+
+Python needs petkin 0.3.0rc1 plus nibabel and matplotlib (the project's dev extra).
+From the toolkit directory, choose DATA and RESULT directories with enough space
+for approximately 3 GB of source images and a temporary uncompressed PET scan.
+Do not use the reference source directory as RESULT. Run:
+
+python examples/fetch_ps13_manifest.py validation/external_ps13/source_manifest.json DATA
+python examples/validate_ps13_external.py DATA RESULT
+python examples/ps13_registration_review.py DATA RESULT/registration_review
+
+The shipped native review images supplement the registration script's outputs;
+the original script preserves the source PET geometry through to_sitk. All plots
+use native grid slices; a plane index is not necessarily an anatomical axial view.
+
+For the independent graphical comparator, follow the toolkit's pinned kinfitr
+source-fetch instructions. Required R dependencies are pracma, purrr, minpack.lm,
+and tibble (plus dependencies). Run with R library and fetched source directories:
+
+Rscript examples/reference_ps13_kinfitr.R R_LIBRARY KINFITR_SOURCE RESULT
+python examples/report_ps13_external.py RESULT
+
+The comparator runs unmodified pinned upstream functions. Its execution log
+retains internal interpolation warnings about duplicate time values. This is
+calculation agreement, not an independent kinetic truth or independent human
+review. A missing upstream standard-error dependency in older comparisons does
+not affect this graphical point-estimate comparison.
+
+Primary analysis uses fixed zero delay. Fitted-delay results are a prespecified
+secondary sensitivity analysis, not a selected replacement. Neither model is
+released for quantification by the unchanged research screen.
+
+No independent registration errors have been calculated. Native measured images,
+a blank landmark form, and instructions are in registration_review/. Do not use
+automatic alignment results to fill independent landmark truth.
+
+This cohort is now exposed to development. A model change informed by these
+results requires a new untouched cohort for subsequent confirmatory validation.

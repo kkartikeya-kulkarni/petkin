@@ -1,0 +1,89 @@
+{
+  "core_files": [
+    {
+      "path": "examples/qualification_holdout.py",
+      "sha256": "1ca077d2b8322055ffbfc8c3035a7afdd6a58318f05b9c580ab454ef0a41d9da",
+      "matches_freeze": true,
+      "matches_preexisting_documented_amendment": false
+    },
+    {
+      "path": "examples/qualification_registration.py",
+      "sha256": "0cc4560e55be4fd9b7fa1d9bc1ac1b124d1e756e26e91466ed44c1e60ff1492c",
+      "matches_freeze": false,
+      "matches_preexisting_documented_amendment": true
+    },
+    {
+      "path": "src/petkin/__init__.py",
+      "sha256": "24bb308bb167875d60c8ea3306f6257458d86746fc33a7cbe31be037b75cb939",
+      "matches_freeze": false,
+      "matches_preexisting_documented_amendment": true
+    },
+    {
+      "path": "src/petkin/bids.py",
+      "sha256": "b4304aa2bdaf647928dab1a83fd4f4cc2402da52cff9f7018d2fd9881ace64ba",
+      "matches_freeze": true,
+      "matches_preexisting_documented_amendment": false
+    },
+    {
+      "path": "src/petkin/cli.py",
+      "sha256": "391c8391de6ecfbf53dd8933634cbad1b3d2e6be8d26c92379abad96c2a9710e",
+      "matches_freeze": true,
+      "matches_preexisting_documented_amendment": false
+    },
+    {
+      "path": "src/petkin/fitting.py",
+      "sha256": "b5886e497371b51277590d2996de0612eb4d132bb073c31052effddc78de7a1a",
+      "matches_freeze": true,
+      "matches_preexisting_documented_amendment": false
+    },
+    {
+      "path": "src/petkin/graphical.py",
+      "sha256": "acbab5cde994333a14ef234a04fe83b221f4517a52d8f92b2f3d8188a3adf546",
+      "matches_freeze": true,
+      "matches_preexisting_documented_amendment": false
+    },
+    {
+      "path": "src/petkin/imaging.py",
+      "sha256": "3e4d2f0f5446ea2a738d58fa84bf802aeb7245f773d06325c6ab883fff90e214",
+      "matches_freeze": true,
+      "matches_preexisting_documented_amendment": false
+    },
+    {
+      "path": "src/petkin/kinetics.py",
+      "sha256": "a270b67fd71a9a55a651e19eaa9769ff7ac51c9a93c25d97cd2bffed06bbc877",
+      "matches_freeze": true,
+      "matches_preexisting_documented_amendment": false
+    },
+    {
+      "path": "src/petkin/reference.py",
+      "sha256": "5655aae04e0352f3b4793cc782e698a40ec19a2345f045007f68380936779fe9",
+      "matches_freeze": true,
+      "matches_preexisting_documented_amendment": false
+    },
+    {
+      "path": "src/petkin/reporting.py",
+      "sha256": "2221c73b6c98b23b2b59426b07c8c0d4bc4d6e25eab62fdc2e0a667765fb1308",
+      "matches_freeze": true,
+      "matches_preexisting_documented_amendment": false
+    },
+    {
+      "path": "src/petkin/uncertainty.py",
+      "sha256": "49a1b58c35a0a1aec1055416aaae43e80ff4ea889a46072c7a1d40babac7e278",
+      "matches_freeze": true,
+      "matches_preexisting_documented_amendment": false
+    },
+    {
+      "path": "src/petkin/validation.py",
+      "sha256": "428102a83060e3d2d5ecd04a43de7bf4145b8a2eb26eccd2a934c67fbbb6dc49",
+      "matches_freeze": true,
+      "matches_preexisting_documented_amendment": false
+    }
+  ],
+  "all_core_files_match_original_freeze_or_preexisting_amendments": true,
+  "all_20_PET_hashes_match_pinned_annex": true,
+  "automatic_registrations": 20,
+  "native_review_pairs": 20,
+  "independent_truth_pairs": 0,
+  "independent_graphical_comparisons": 60,
+  "all_research_results_withheld": true
+}

@@ -1,0 +1,90 @@
+{
+  "protocol_id": "PETKIN-RESEARCH-2026-11-03-A",
+  "qualified_for_declared_research_scope": false,
+  "overall_status": "not_qualified",
+  "missing_gates": [],
+  "incomplete_gates": [
+    "EXT-01",
+    "REG-02"
+  ],
+  "gates": [
+    {
+      "id": "SW-01",
+      "status": "passed",
+      "frozen_source_matches": true,
+      "evidence": [
+        "test_results.txt",
+        "wheel_test_results.txt"
+      ]
+    },
+    {
+      "id": "NUM-01",
+      "status": "passed",
+      "observed": {
+        "total": 90,
+        "released": 89,
+        "retention": 0.9888888888888889,
+        "large_errors_released": 0,
+        "median_absolute_error": 0.004364028742940951,
+        "q95_absolute_error": 0.01616352415390291,
+        "one_sided_95_large_error_risk_upper": 0.03309972123627414
+      }
+    },
+    {
+      "id": "NUM-02",
+      "status": "passed",
+      "observed": 0.03309972123627414
+    },
+    {
+      "id": "ROB-01",
+      "status": "passed",
+      "observed": {
+        "total": 40,
+        "released": 8,
+        "retention": 0.2,
+        "large_errors_released": 0,
+        "median_absolute_error": 0.04192359889383568,
+        "q95_absolute_error": 0.24968642316471057,
+        "one_sided_95_large_error_risk_upper": 0.3123439780663678
+      }
+    },
+    {
+      "id": "REG-01",
+      "status": "passed",
+      "observed": {
+        "cases": 12,
+        "landmarks_per_case": 7,
+        "mean_landmark_error_mm": 0.20283188001668273,
+        "maximum_landmark_error_mm": 0.3778187501136455,
+        "measured_human_PET_truth": false,
+        "scope": "Intensity-transformed, blurred MRI-derived synthetic PET with Poisson noise and known rigid poses; not biological PET-MRI accuracy"
+      }
+    },
+    {
+      "id": "EXT-01",
+      "status": "blocked",
+      "evidence": "summary.json",
+      "reason": "Independent PS13 cohort acquired and analyzed, but calibration/decay/timing certification, anatomical region verification and independent expert review remain incomplete"
+    },
+    {
+      "id": "REG-02",
+      "status": "blocked",
+      "evidence": "registration_review/registrations.json",
+      "reason": "20 measured PET/MRI alignments prepared; 0 independent reference pairs. RIRE truth sequestered and former evaluation service not maintained"
+    }
+  ],
+  "claim": "Full research validation is not established",
+  "protocol_sha256": "33335f0256ba2e1cba785b614feb3a1d98ffeda136960d577158a3349a5bc7a6",
+  "scope": {
+    "models": [
+      "1t",
+      "2t",
+      "2t_irreversible"
+    ],
+    "observations": "Frame averaged tissue, processed plasma, known input timing and vascular fraction for confirmatory simulation",
+    "qualification_environment": "Recorded macOS/Python 3.13 environment only",
+    "imaging": "Rigid brain PET/MRI; no intraframe or attenuation correction"
+  },
+  "status_caveat": "Local software-generated qualification record, not an independent certification or public preregistration",
+  "external_addendum": "New PS13 evidence; original frozen v03 record preserved"
+}

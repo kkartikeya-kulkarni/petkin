@@ -1,0 +1,18 @@
+[
+  {
+    "path": "sub-s028/ses-open/pet/sub-s028_ses-open_task-rest_pet.nii.gz",
+    "matches_git_annex": true
+  },
+  {
+    "path": "sub-s028/ses-open/anat/sub-s028_ses-open_T1w.nii.gz",
+    "matches_git_annex": true
+  },
+  {
+    "path": "sub-s029/ses-open/pet/sub-s029_ses-open_task-rest_pet.nii.gz",
+    "matches_git_annex": true
+  },
+  {
+    "path": "sub-s029/ses-open/anat/sub-s029_ses-open_T1w.nii.gz",
+    "matches_git_annex": true
+  }
+]

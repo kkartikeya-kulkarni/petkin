@@ -1,0 +1,6 @@
+include README.md LICENSE CHANGELOG.md
+recursive-include src *.py
+prune validation
+prune tests
+prune examples
+prune scripts

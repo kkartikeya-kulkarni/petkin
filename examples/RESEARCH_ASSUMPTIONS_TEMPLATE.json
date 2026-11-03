@@ -1,0 +1,9 @@
+{
+  "calibration_matched": false,
+  "decay_reference_matched": false,
+  "parent_correction_appropriate": false,
+  "frame_timing_verified": false,
+  "input_tissue_timing_verified": false,
+  "vascular_model_justified": false,
+  "ROI_geometry_verified": false
+}

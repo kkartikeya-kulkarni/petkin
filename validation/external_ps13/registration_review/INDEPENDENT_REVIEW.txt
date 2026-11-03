@@ -1,0 +1,7 @@
+Independent measured-human registration assessment is pending.
+
+Raters must mark identifiable correspondences independently in pet_mean_native.nii.gz and mri_4mm.nii.gz, before seeing automatic transforms, registered PET, or overlays. Use physical LPS millimetres, not voxel coordinates or RAS. Do not fill the template by applying the automatic transform. At least three well-spaced non-collinear pairs per scan are required; document localization uncertainty and landmark definitions.
+
+A reviewer must specify and lock the acceptable error tolerance before errors are calculated. REG-02 requires at least ten measured pairs; report subject clustering and every failure. The landmark template is empty and is NOT ground truth. MRI-only fiducials or plausible overlays cannot substitute for independently identifiable PET–MRI correspondences.
+
+Use petkin.imaging.landmark_registration_error with fixed=MRI, moving=PET, transform=mri_to_pet.tfm after independent truth is available. Independent kinetic review must separately verify calibration, blood decay conventions, input timing, vascular assumptions and anatomical ROI geometry before any research release.

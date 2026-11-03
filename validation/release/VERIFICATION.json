@@ -1,0 +1,24 @@
+{
+  "version": "0.3.0rc1",
+  "installation": "Fresh isolated virtual environment; installed built wheel, not source tree",
+  "all_installed_core_files_match_repository": true,
+  "python": "3.13.7",
+  "system": "Darwin",
+  "machine": "arm64",
+  "tests_passed": 45,
+  "tests_failed": 0,
+  "dependencies": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "SimpleITK": "2.5.7",
+    "matplotlib": "3.11.2",
+    "nibabel": "5.4.2",
+    "pytest": "9.2.0"
+  },
+  "remote_GitHub_Actions_executed": false,
+  "full_research_qualification": false,
+  "remaining_gates": [
+    "EXT-01",
+    "REG-02"
+  ]
+}

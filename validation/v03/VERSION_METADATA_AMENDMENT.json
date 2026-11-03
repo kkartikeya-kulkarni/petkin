@@ -1,0 +1,7 @@
+{
+  "file": "src/petkin/__init__.py",
+  "change": "Version string only: 0.2.0 to 0.3.0rc1",
+  "normalized_frozen_hash_matches": true,
+  "numerical_code_or_thresholds_changed": false,
+  "current_sha256": "24bb308bb167875d60c8ea3306f6257458d86746fc33a7cbe31be037b75cb939"
+}

@@ -1,0 +1,45 @@
+{
+  "commit": "b28d84060b6de450e57bd3ce78a23523c41c7884",
+  "files": [
+    {
+      "path": "kinfitr_miscfuncs.R",
+      "url": "https://raw.githubusercontent.com/mathesong/kinfitr/b28d84060b6de450e57bd3ce78a23523c41c7884/R/kinfitr_miscfuncs.R",
+      "sha256": "81bdb36d1c59d29cb20d8fbf02ee089197283db0262dcc3b0a3bf12a6281da3b"
+    },
+    {
+      "path": "kinfitr_weights.R",
+      "url": "https://raw.githubusercontent.com/mathesong/kinfitr/b28d84060b6de450e57bd3ce78a23523c41c7884/R/kinfitr_weights.R",
+      "sha256": "20821a65c6c81aef6d34e8aa0926e3de15ec73db94c5b545afbf671499c3d954"
+    },
+    {
+      "path": "kinfitr_1tcm.R",
+      "url": "https://raw.githubusercontent.com/mathesong/kinfitr/b28d84060b6de450e57bd3ce78a23523c41c7884/R/kinfitr_1tcm.R",
+      "sha256": "4de4fc02be9215938121b86aed32d8beea35619b8a3c3aa23064ca8e595c5c47"
+    },
+    {
+      "path": "kinfitr_2tcm.R",
+      "url": "https://raw.githubusercontent.com/mathesong/kinfitr/b28d84060b6de450e57bd3ce78a23523c41c7884/R/kinfitr_2tcm.R",
+      "sha256": "60e9bd3d9dac4b4c0cc03df22238d0c31a8c64c99ed3b8ebaa36464b4158f61d"
+    },
+    {
+      "path": "kinfitr_ma1.R",
+      "url": "https://raw.githubusercontent.com/mathesong/kinfitr/b28d84060b6de450e57bd3ce78a23523c41c7884/R/kinfitr_ma1.R",
+      "sha256": "25b6fe43007a21080151a0629ad3fddee566a4c9ec735b613182a3df3e144c30"
+    },
+    {
+      "path": "kinfitr_loganplot.R",
+      "url": "https://raw.githubusercontent.com/mathesong/kinfitr/b28d84060b6de450e57bd3ce78a23523c41c7884/R/kinfitr_loganplot.R",
+      "sha256": "ec597f6c6a830d34a13cad8740315b0c8b16e2ae1011be8056a693f290d3af28"
+    },
+    {
+      "path": "kinfitr_bloodfuncs.R",
+      "url": "https://raw.githubusercontent.com/mathesong/kinfitr/b28d84060b6de450e57bd3ce78a23523c41c7884/R/kinfitr_bloodfuncs.R",
+      "sha256": "6b3715f92eb345cbe632f4a7abc8ec3ea325090208044e8ecda44f26dabf031c"
+    },
+    {
+      "path": "kinfitr_methods.R",
+      "url": "https://raw.githubusercontent.com/mathesong/kinfitr/b28d84060b6de450e57bd3ce78a23523c41c7884/R/kinfitr_methods.R",
+      "sha256": "1735637cf4a6e9f144c908295eed4332b2913a07325f71bc7c6b7ba667bfd074"
+    }
+  ]
+}

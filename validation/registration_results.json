@@ -1,0 +1,37 @@
+{
+  "PET_motion": {
+    "landmark_errors_mm": [
+      0.42286042101287497,
+      0.027399943235923794,
+      0.2605895100421415
+    ],
+    "mean_error_mm": 0.23694995809698008,
+    "passed": true,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 18 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+  },
+  "PET_MRI_contrast_surrogate": {
+    "landmark_errors_mm": [
+      0.6345162912302322,
+      0.06703539118559389,
+      0.34654560965463255
+    ],
+    "mean_error_mm": 0.34936576402348624,
+    "passed": true,
+    "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 13 iterations. Current step (0.000976562) is less than minimum step (0.001)."
+  },
+  "dynamic_pipeline": {
+    "output_size": [
+      40,
+      40,
+      40,
+      2
+    ],
+    "fixed_size": [
+      40,
+      40,
+      40
+    ],
+    "passed": true
+  },
+  "scope": "Asymmetric Gaussian phantom; contrast surrogate is not biological MRI validation"
+}

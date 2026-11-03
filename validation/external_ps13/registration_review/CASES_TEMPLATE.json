@@ -1,0 +1,145 @@
+{
+  "protocol_sha256": "FILL_WITH_SHA256_OF_APPROVED_LOCKED_PROTOCOL",
+  "cases": [
+    {
+      "scan": "sub-01_ses-baseline",
+      "subject": "sub-01",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-01_ses-baseline/mri_to_pet.tfm",
+      "transform_sha256": "18e97d5274f969ab5cdfc73c5478c301d775956c6df42fed848655f874a13192"
+    },
+    {
+      "scan": "sub-01_ses-rescan",
+      "subject": "sub-01",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-01_ses-rescan/mri_to_pet.tfm",
+      "transform_sha256": "0c1b49c242ba7deff8832a48dfaf1274820359dabb483671812af0cafbb9863f"
+    },
+    {
+      "scan": "sub-02_ses-baseline",
+      "subject": "sub-02",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-02_ses-baseline/mri_to_pet.tfm",
+      "transform_sha256": "b9f910b1b983da23bc6a78a32a4e135d4b5136d1d1999ff71c543d25bcdd8382"
+    },
+    {
+      "scan": "sub-02_ses-rescan",
+      "subject": "sub-02",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-02_ses-rescan/mri_to_pet.tfm",
+      "transform_sha256": "d5a8b724d47d09d5c197511b30739965cb68e066bcf04599a9089fb860bc41cf"
+    },
+    {
+      "scan": "sub-03_ses-baseline",
+      "subject": "sub-03",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-03_ses-baseline/mri_to_pet.tfm",
+      "transform_sha256": "0717884c117f2c5250bfcb1d01f1cb68d5f9695502b3c00e18cfa2e830794f19"
+    },
+    {
+      "scan": "sub-03_ses-rescan",
+      "subject": "sub-03",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-03_ses-rescan/mri_to_pet.tfm",
+      "transform_sha256": "4158eb9f9f944c5c24f0defe425bebc8df461a3fcf9d052a1ec04c4b8d36113e"
+    },
+    {
+      "scan": "sub-04_ses-baseline",
+      "subject": "sub-04",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-04_ses-baseline/mri_to_pet.tfm",
+      "transform_sha256": "5b41f283f030f9f40433a54a1c36ee3026970386ce94372f0a70e9226afb5565"
+    },
+    {
+      "scan": "sub-04_ses-rescan",
+      "subject": "sub-04",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-04_ses-rescan/mri_to_pet.tfm",
+      "transform_sha256": "ffa541fb4f7957c1a513ae49db00be005741e41e9841171cf3fcb484de0d152a"
+    },
+    {
+      "scan": "sub-PS50_ses-baseline",
+      "subject": "sub-PS50",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-PS50_ses-baseline/mri_to_pet.tfm",
+      "transform_sha256": "a3443f8bbd0080511689480019d7f62c5b052c201591ec52fa9f2dd765cb17b2"
+    },
+    {
+      "scan": "sub-PS50_ses-blocked",
+      "subject": "sub-PS50",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-PS50_ses-blocked/mri_to_pet.tfm",
+      "transform_sha256": "3e0fd3da955ac746b68d05c531f5375fe608aac78fab057a8df6c5e5847ce756"
+    },
+    {
+      "scan": "sub-PS51_ses-baseline",
+      "subject": "sub-PS51",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-PS51_ses-baseline/mri_to_pet.tfm",
+      "transform_sha256": "9f79c0b1a21b95b37abdeb8d46ed66dafc8354761584badf7f0d837223e54472"
+    },
+    {
+      "scan": "sub-PS51_ses-blocked",
+      "subject": "sub-PS51",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-PS51_ses-blocked/mri_to_pet.tfm",
+      "transform_sha256": "69cdc4a817e4d6e2192c054c13552c57ca70886dd7f0a0069add53f1e7c2937f"
+    },
+    {
+      "scan": "sub-PS52_ses-baseline",
+      "subject": "sub-PS52",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-PS52_ses-baseline/mri_to_pet.tfm",
+      "transform_sha256": "121d35fc277195990389475382e0292f573618dadcaba59e6853c73c5cd5b48d"
+    },
+    {
+      "scan": "sub-PS52_ses-blocked",
+      "subject": "sub-PS52",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-PS52_ses-blocked/mri_to_pet.tfm",
+      "transform_sha256": "3383e93e7163810c7c0d5cd9d2f673dbe4a6d869b8df0a568fe5621075de13c7"
+    },
+    {
+      "scan": "sub-PS54_ses-baseline",
+      "subject": "sub-PS54",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-PS54_ses-baseline/mri_to_pet.tfm",
+      "transform_sha256": "4f11699cb51670c1e84a367ef1538279cf3dbe52453e9060edd9a9c6de1bc7cb"
+    },
+    {
+      "scan": "sub-PS54_ses-blocked",
+      "subject": "sub-PS54",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-PS54_ses-blocked/mri_to_pet.tfm",
+      "transform_sha256": "35de0d1808bef8c97770646e70cadeefb9ca9cbd64eac8f209a4b0847be81b24"
+    },
+    {
+      "scan": "sub-PS55_ses-baseline",
+      "subject": "sub-PS55",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-PS55_ses-baseline/mri_to_pet.tfm",
+      "transform_sha256": "77c73d4446d8ac384a5552f3f25189158120cdad7e92138fb6120ae2dc77c472"
+    },
+    {
+      "scan": "sub-PS55_ses-blocked",
+      "subject": "sub-PS55",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-PS55_ses-blocked/mri_to_pet.tfm",
+      "transform_sha256": "37415460416e6851c807cc850c87c98163de6ed6272ddfd31a52c2f570fec41d"
+    },
+    {
+      "scan": "sub-PS56_ses-baseline",
+      "subject": "sub-PS56",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-PS56_ses-baseline/mri_to_pet.tfm",
+      "transform_sha256": "59e431ea7a93caf9c8f42002f11c15270d2f3426a3e19f4638066318c9a9a7d4"
+    },
+    {
+      "scan": "sub-PS56_ses-blocked",
+      "subject": "sub-PS56",
+      "measured_PET_and_MRI": true,
+      "transform_path": "sub-PS56_ses-blocked/mri_to_pet.tfm",
+      "transform_sha256": "aac247c4f6fda5af9ded714abd69697edb9a749e45809463330ce789e1276ed5"
+    }
+  ]
+}

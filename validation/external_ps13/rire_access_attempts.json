@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://bafybeih23xv6uamx7k27wk4uvzkxdtdryqeok22hpl3ybideggcjhipwme.ipfs.w3s.link/rire/transformations.tar.gz",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+    "url": "https://bafybeih23xv6uamx7k27wk4uvzkxdtdryqeok22hpl3ybideggcjhipwme.ipfs.w3s.link/rire/training_001/transformations.tar.gz",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+    "url": "https://bafybeih23xv6uamx7k27wk4uvzkxdtdryqeok22hpl3ybideggcjhipwme.ipfs.dweb.link/rire/transformations.tar.gz",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://bafybeih23xv6uamx7k27wk4uvzkxdtdryqeok22hpl3ybideggcjhipwme.ipfs.dweb.link/rire/training_001/transformations.tar.gz",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://ipfs.io/ipfs/bafybeih23xv6uamx7k27wk4uvzkxdtdryqeok22hpl3ybideggcjhipwme/rire/transformations.tar.gz",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://ipfs.io/ipfs/bafybeih23xv6uamx7k27wk4uvzkxdtdryqeok22hpl3ybideggcjhipwme/rire/training_001/transformations.tar.gz",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://gateway.lighthouse.storage/ipfs/bafybeih23xv6uamx7k27wk4uvzkxdtdryqeok22hpl3ybideggcjhipwme/rire/transformations.tar.gz",
+    "error": "HTTP Error 402: Payment Required"
+  },
+  {
+    "url": "https://gateway.lighthouse.storage/ipfs/bafybeih23xv6uamx7k27wk4uvzkxdtdryqeok22hpl3ybideggcjhipwme/rire/training_001/transformations.tar.gz",
+    "error": "HTTP Error 402: Payment Required"
+  },
+  {
+    "url": "https://dweb.link/ipfs/bafybeih23xv6uamx7k27wk4uvzkxdtdryqeok22hpl3ybideggcjhipwme/rire/transformations.tar.gz",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://dweb.link/ipfs/bafybeih23xv6uamx7k27wk4uvzkxdtdryqeok22hpl3ybideggcjhipwme/rire/training_001/transformations.tar.gz",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

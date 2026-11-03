@@ -1,0 +1,293 @@
+{
+  "motion_qc": [
+    {
+      "frame": 0,
+      "metric": -0.1152640531610119,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 109 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 12.029883803779175,
+      "maximum_landmark_displacement_mm": 17.207242317443438,
+      "relative_to_previous_mm": null
+    },
+    {
+      "frame": 1,
+      "metric": -0.1751522744492819,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 23 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 3.686658941322918,
+      "maximum_landmark_displacement_mm": 3.9924899625855725,
+      "relative_to_previous_mm": 9.877546713370297
+    },
+    {
+      "frame": 2,
+      "metric": -0.2600139238356164,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 32 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 2.6482700571762634,
+      "maximum_landmark_displacement_mm": 2.8498031462549376,
+      "relative_to_previous_mm": 1.1433298945068306
+    },
+    {
+      "frame": 3,
+      "metric": -0.33691878075257925,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 25 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 1.0477585411409847,
+      "maximum_landmark_displacement_mm": 1.6041195371517036,
+      "relative_to_previous_mm": 2.057035581222322
+    },
+    {
+      "frame": 4,
+      "metric": -0.4793946640317302,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 1.9312123568788557,
+      "maximum_landmark_displacement_mm": 2.227940202724736,
+      "relative_to_previous_mm": 1.4877414264552662
+    },
+    {
+      "frame": 5,
+      "metric": -0.5158820918874449,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 1.7639904535848832,
+      "maximum_landmark_displacement_mm": 1.8633952207157176,
+      "relative_to_previous_mm": 0.4280552071791504
+    },
+    {
+      "frame": 6,
+      "metric": -0.5556266049877413,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 14 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 1.7920289777325196,
+      "maximum_landmark_displacement_mm": 2.102820571439567,
+      "relative_to_previous_mm": 0.38936234655311336
+    },
+    {
+      "frame": 7,
+      "metric": -0.575162244552165,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 1.6825749408080732,
+      "maximum_landmark_displacement_mm": 1.9409481136610671,
+      "relative_to_previous_mm": 0.2521219246638805
+    },
+    {
+      "frame": 8,
+      "metric": -0.5860631473063973,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 21 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 1.606756500732365,
+      "maximum_landmark_displacement_mm": 1.7163276008513677,
+      "relative_to_previous_mm": 0.29446158594016286
+    },
+    {
+      "frame": 9,
+      "metric": -0.6043200714632655,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 1.5979533129622736,
+      "maximum_landmark_displacement_mm": 1.7769301595972251,
+      "relative_to_previous_mm": 0.21096241888042086
+    },
+    {
+      "frame": 10,
+      "metric": -0.6176664075237689,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 14 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 1.6737607719630891,
+      "maximum_landmark_displacement_mm": 1.9070716637320573,
+      "relative_to_previous_mm": 0.2217034535087785
+    },
+    {
+      "frame": 11,
+      "metric": -0.7094596004627741,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 13 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 1.2978234051593063,
+      "maximum_landmark_displacement_mm": 1.8293988103384324,
+      "relative_to_previous_mm": 0.5006256792165217
+    },
+    {
+      "frame": 12,
+      "metric": -0.7133147195551323,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 1.1553455211073107,
+      "maximum_landmark_displacement_mm": 1.6105588245031972,
+      "relative_to_previous_mm": 0.22421706034296
+    },
+    {
+      "frame": 13,
+      "metric": -0.7300363642315891,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 20 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 1.272828547410039,
+      "maximum_landmark_displacement_mm": 1.676051089402417,
+      "relative_to_previous_mm": 0.2794259485384667
+    },
+    {
+      "frame": 14,
+      "metric": -0.6910760488273482,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 0.7946200823289703,
+      "maximum_landmark_displacement_mm": 1.3174571824669679,
+      "relative_to_previous_mm": 0.8481781095636272
+    },
+    {
+      "frame": 15,
+      "metric": -0.7455967486779307,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 13 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 1.198147022907605,
+      "maximum_landmark_displacement_mm": 1.3776351286532262,
+      "relative_to_previous_mm": 0.8621777072807228
+    },
+    {
+      "frame": 16,
+      "metric": -0.7598080512064337,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 1.2148834707356213,
+      "maximum_landmark_displacement_mm": 1.3666466649370128,
+      "relative_to_previous_mm": 0.1337253011621799
+    },
+    {
+      "frame": 17,
+      "metric": -0.7526208688907704,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 23 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 0.8661248297131543,
+      "maximum_landmark_displacement_mm": 1.190135520807727,
+      "relative_to_previous_mm": 0.5152594341115608
+    },
+    {
+      "frame": 18,
+      "metric": -0.8193712698559255,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 14 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 0.923883060618692,
+      "maximum_landmark_displacement_mm": 1.1422896159262705,
+      "relative_to_previous_mm": 0.29430002221955803
+    },
+    {
+      "frame": 19,
+      "metric": -0.8408805228853876,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 12 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 1.0148882549921738,
+      "maximum_landmark_displacement_mm": 1.4174044963242454,
+      "relative_to_previous_mm": 0.18527534234037882
+    },
+    {
+      "frame": 20,
+      "metric": -0.8493571717525457,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 0.8595329740669903,
+      "maximum_landmark_displacement_mm": 1.2218071667058072,
+      "relative_to_previous_mm": 0.18407400804971583
+    },
+    {
+      "frame": 21,
+      "metric": -0.847177138669616,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 18 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 0.7419412290629118,
+      "maximum_landmark_displacement_mm": 1.0468643871644467,
+      "relative_to_previous_mm": 0.134830951110293
+    },
+    {
+      "frame": 22,
+      "metric": -0.8588308894580334,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 17 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 0.6962093068474443,
+      "maximum_landmark_displacement_mm": 1.0054441848033213,
+      "relative_to_previous_mm": 0.07530524176245137
+    },
+    {
+      "frame": 23,
+      "metric": -0.8657810278417986,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 17 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 0.6415680105085249,
+      "maximum_landmark_displacement_mm": 0.8850406300534234,
+      "relative_to_previous_mm": 0.13162478958562243
+    },
+    {
+      "frame": 24,
+      "metric": -0.8594549139884521,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 0.5012387124563783,
+      "maximum_landmark_displacement_mm": 0.622512820586346,
+      "relative_to_previous_mm": 0.27180230771083963
+    },
+    {
+      "frame": 25,
+      "metric": -0.8642073901210562,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 0.54709233357548,
+      "maximum_landmark_displacement_mm": 0.6005955482224686,
+      "relative_to_previous_mm": 0.13543637460286903
+    },
+    {
+      "frame": 26,
+      "metric": -0.9303541846773434,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 0.5392565401922512,
+      "maximum_landmark_displacement_mm": 0.7272844232628128,
+      "relative_to_previous_mm": 0.17488621246937455
+    },
+    {
+      "frame": 27,
+      "metric": -0.9352721394309071,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 0.4150544594496524,
+      "maximum_landmark_displacement_mm": 0.5104184189907888,
+      "relative_to_previous_mm": 0.14459300568129452
+    },
+    {
+      "frame": 28,
+      "metric": -0.952995132894175,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 17 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 0.3094132218954941,
+      "maximum_landmark_displacement_mm": 0.44230115508016143,
+      "relative_to_previous_mm": 0.18707596485422778
+    },
+    {
+      "frame": 29,
+      "metric": -0.9606746547753013,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 16 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 0.356344543106867,
+      "maximum_landmark_displacement_mm": 0.5947069223552274,
+      "relative_to_previous_mm": 0.11648629637440996
+    },
+    {
+      "frame": 30,
+      "metric": -0.9642088186086182,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 0.4466633313596162,
+      "maximum_landmark_displacement_mm": 0.6475113615272429,
+      "relative_to_previous_mm": 0.14587184303930137
+    },
+    {
+      "frame": 31,
+      "metric": -0.9630828853649487,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 13 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "mean_landmark_displacement_mm": 0.22685116352057147,
+      "maximum_landmark_displacement_mm": 0.3262448729858695,
+      "relative_to_previous_mm": 0.269439055764643
+    },
+    {
+      "frame": 32,
+      "reference": true,
+      "mean_landmark_displacement_mm": 0.0,
+      "maximum_landmark_displacement_mm": 0.0,
+      "relative_to_previous_mm": 0.22685116352057147
+    }
+  ],
+  "registration_metric": -0.4182307684810476,
+  "registration_stop": "RegularStepGradientDescentOptimizerv4: Step too small after 29 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+  "registration_candidates": [
+    {
+      "initialization": "geometry",
+      "metric": -0.41811863827882084,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 15 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "status": "completed"
+    },
+    {
+      "initialization": "moments",
+      "metric": -0.4182307684810476,
+      "stop": "RegularStepGradientDescentOptimizerv4: Step too small after 29 iterations. Current step (0.000976562) is less than minimum step (0.001).",
+      "status": "completed"
+    }
+  ],
+  "final_interpolations_per_frame": 1,
+  "limitations": [
+    "Rigid interframe motion only",
+    "No intraframe or attenuation mismatch correction",
+    "Human alignment requires independent landmarks/segmentation review"
+  ],
+  "subject": "s028",
+  "input_resolution": "Downsampled to >=4 mm before pipeline",
+  "frames": 33,
+  "human_ground_truth": false
+}

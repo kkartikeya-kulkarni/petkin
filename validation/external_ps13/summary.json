@@ -1,0 +1,80 @@
+{
+  "protocol_id": "PETKIN-PS13-EXTERNAL-2026-11-03-A",
+  "scans_expected": 20,
+  "scans_completed": 20,
+  "failures": [],
+  "subjects": 10,
+  "cohort_role": "Independent tracer/people, now exposed for future studies",
+  "research_released": 0,
+  "local_qc_passed": 7,
+  "closed_profiles": 5,
+  "structured_residuals": 10,
+  "measured_registration_pairs_completed": 20,
+  "registration_accuracy_status": "Unmeasured: independent references absent",
+  "EXT_01": "Not passed: input certification, anatomical ROI verification and independent review absent",
+  "REG_02": "Blocked: no independent measured-human reference transforms or landmarks",
+  "fixed_delay": {
+    "median_nrmse": 0.043377529511649124,
+    "q95_nrmse": 0.18683063282426443,
+    "maximum_nrmse": 0.3758834625951369,
+    "n": 20,
+    "exploratory_prediction_targets_met": true
+  },
+  "fitted_delay": {
+    "median_nrmse": 0.03118088903883605,
+    "q95_nrmse": 0.1737400262616084,
+    "maximum_nrmse": 0.4111895034456946,
+    "n": 20,
+    "exploratory_prediction_targets_met": true
+  },
+  "reference_comparison": {
+    "logan": {
+      "n": 20,
+      "median_absolute_relative_difference": 1.017577015046453e-05,
+      "maximum_absolute_relative_difference": 0.0001185980386715567
+    },
+    "ma1": {
+      "n": 20,
+      "median_absolute_relative_difference": 8.607940853179552e-06,
+      "maximum_absolute_relative_difference": 0.0001133581640628903
+    }
+  },
+  "test_retest": {
+    "n_subjects": 4,
+    "pairs": [
+      {
+        "subject": "sub-01",
+        "baseline_raw_VT": 4.670328150094414,
+        "rescan_raw_VT": 18.67255828035629,
+        "symmetric_absolute_difference": 1.199699974720866,
+        "both_local_qc_passed": false,
+        "released": false
+      },
+      {
+        "subject": "sub-02",
+        "baseline_raw_VT": 10.398575186915094,
+        "rescan_raw_VT": 16.62314615387085,
+        "symmetric_absolute_difference": 0.4607086934584389,
+        "both_local_qc_passed": false,
+        "released": false
+      },
+      {
+        "subject": "sub-03",
+        "baseline_raw_VT": 16.44792937365113,
+        "rescan_raw_VT": 13.599246658933442,
+        "symmetric_absolute_difference": 0.1896140064296521,
+        "both_local_qc_passed": false,
+        "released": false
+      },
+      {
+        "subject": "sub-04",
+        "baseline_raw_VT": 20319.555347695416,
+        "rescan_raw_VT": 18.323006185836856,
+        "symmetric_absolute_difference": 1.9963962797166912,
+        "both_local_qc_passed": false,
+        "released": false
+      }
+    ],
+    "interpretation": "Descriptive raw withheld estimates from separate uptake masks, uncorrected motion, and uncertain calibration; not validated reproducibility"
+  }
+}

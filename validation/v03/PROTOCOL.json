@@ -1,0 +1,104 @@
+{
+  "protocol_id": "PETKIN-RESEARCH-2026-11-03-A",
+  "intended_use": "Regional brain PET research analysis; not clinical decision support",
+  "scope": {
+    "models": [
+      "1t",
+      "2t",
+      "2t_irreversible"
+    ],
+    "observations": "Frame averaged tissue, processed plasma, known input timing and vascular fraction for confirmatory simulation",
+    "qualification_environment": "Recorded macOS/Python 3.13 environment only",
+    "imaging": "Rigid brain PET/MRI; no intraframe or attenuation correction"
+  },
+  "development": {
+    "known_exposed": [
+      "v0.1/v0.2 simulations",
+      "24-case seed-1742 challenge",
+      "20 PBR28 scans",
+      "3 FDG scans"
+    ],
+    "statement": "These are regression/development evidence, not untouched external validation"
+  },
+  "policy": {
+    "profile_confidence": 0.95,
+    "profile_grid_points": 41,
+    "profile_span_factor": 20.0,
+    "maximum_profile_relative_half_width": 0.5,
+    "require_closed_macro_profile": true,
+    "require_local_QC": true,
+    "maximum_absolute_residual_lag1": 0.6,
+    "minimum_residual_frames_for_correlation": 12
+  },
+  "holdout": {
+    "seed": 61820427,
+    "routine_cases_per_model": 30,
+    "stress_cases": 40,
+    "registration_seed": 309715,
+    "registration_poses_per_mri": 4
+  },
+  "required_gates": [
+    {
+      "id": "SW-01",
+      "title": "Automated regression and input contracts",
+      "criterion": "All tests pass, source and installed wheel",
+      "evidence": "test logs"
+    },
+    {
+      "id": "NUM-01",
+      "title": "Routine simulation released macro accuracy",
+      "criterion": "At least 80% retained; median absolute macro error <=5%; 95th percentile <=20%",
+      "limits": {
+        "min_retention": 0.8,
+        "max_median_error": 0.05,
+        "max_q95_error": 0.2
+      }
+    },
+    {
+      "id": "NUM-02",
+      "title": "Large-error risk on routine simulations",
+      "criterion": "One-sided 95% exact binomial upper bound for >50% error among released results <=5%",
+      "limits": {
+        "max_binomial_upper": 0.05
+      }
+    },
+    {
+      "id": "ROB-01",
+      "title": "Fresh short/noisy/slow-dissociation challenge",
+      "criterion": "No >50% error among released results; at least 10% retained",
+      "limits": {
+        "max_large_errors": 0,
+        "min_retention": 0.1
+      }
+    },
+    {
+      "id": "REG-01",
+      "title": "Known-transform MRI-derived synthetic PET",
+      "criterion": "Mean landmark error <=2 mm and maximum <=5 mm across fresh poses",
+      "limits": {
+        "max_mean_mm": 2.0,
+        "max_error_mm": 5.0
+      }
+    },
+    {
+      "id": "EXT-01",
+      "title": "Untouched external kinetic cohort",
+      "criterion": "Independent people and site/tracer with calibrated processed input, prospectively frozen analysis and independent review",
+      "availability": "Not available; prior PBR28/FDG cohorts are exposed"
+    },
+    {
+      "id": "REG-02",
+      "title": "Independent measured human PET/MRI registration truth",
+      "criterion": "At least 10 measured pairs with independent reference landmarks/transforms; reviewed error tolerance fixed before evaluation",
+      "availability": "RIRE download HTTP 403; no user-supplied images"
+    }
+  ],
+  "rules": [
+    "Freeze protocol before generating new test outcomes",
+    "Retain all failures and withheld estimates",
+    "Do not change thresholds after viewing holdout results; changes require a new protocol and new holdout",
+    "Qualification requires every mandatory gate to pass",
+    "Not-run or inaccessible evidence is blocked, never passed",
+    "Geometric synthetic truth does not replace measured-human anatomical truth"
+  ]
+}

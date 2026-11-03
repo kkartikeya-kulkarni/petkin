@@ -1,0 +1,38 @@
+[
+  {
+    "file": "validation/v03/SYNTHETIC_CLI_CHECK.json",
+    "purpose": "Replace local workspace path with portable placeholder; numerical results unchanged",
+    "original_sha256": "5aa190ab9d3f19d8dd202bafb913c1c6bb5c529cc443e7c38261eabbdef3691a",
+    "published_sha256": "23761ee1437851242212a917f8ce895ca701386fd49e44ddcdec59253d727f0a"
+  },
+  {
+    "file": "validation/v03/SYNTHETIC_CLI_CHECK.html",
+    "purpose": "Replace local workspace path with portable placeholder; numerical results unchanged",
+    "original_sha256": "19aee16a712f09e0f09a17cf967fd2f95e9471bf375747c4e1e043a9d6b4d5f6",
+    "published_sha256": "012caac9cd26de2b546a78ac98dc3089618253cf80b796a603143ecfb1c5fdbf"
+  },
+  {
+    "file": "validation/v02/example_profile.json",
+    "purpose": "Replace local workspace path with portable placeholder; numerical results unchanged",
+    "original_sha256": "6ab3f337d70a87edf42df10de7592caba4b4d76c1e72657363709010a59fce4d",
+    "published_sha256": "ed774169da733f81914a0e9800a73b072678a1280aae24ea14d7eed068c1d33d"
+  },
+  {
+    "file": "validation/v02/example_qc.html",
+    "purpose": "Replace local workspace path with portable placeholder; numerical results unchanged",
+    "original_sha256": "6e053ccc4a72aa846ab152789b0dd188ee9a4199ad2e161c1ab35a745a36b1c7",
+    "published_sha256": "920091e6cee514da6afc4c3542dc1c5639597ca3811a678b539deba73bcb418d"
+  },
+  {
+    "file": "validation/v02/example_ma1.json",
+    "purpose": "Replace local workspace path with portable placeholder; numerical results unchanged",
+    "original_sha256": "ebb7b111f4c02c4b184a64320d3b6fe332e038eabaebaa4455496209d5ff72ed",
+    "published_sha256": "1dbcc7307a6eeb0ce3f933f75d91df4beff309be8e16ff30990f23019f4d688a"
+  },
+  {
+    "file": "validation/v02/example_fit.json",
+    "purpose": "Replace local workspace path with portable placeholder; numerical results unchanged",
+    "original_sha256": "b54c9795c28172755850778bd8c3cc5ddceda05035536dd37d18bff6f0454013",
+    "published_sha256": "802c899f0d049e22f630a119597445a02c68ee3518b3377c0d0159c3d33bffcd"
+  }
+]

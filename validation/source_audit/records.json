@@ -1,0 +1,1269 @@
+[
+  {
+    "scan": "sub-01_ses-baseline",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 22.2,
+    "last_blood_seconds": 5436.0,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": -36.0,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "d111326c6fdadd7142779e8f62ddfe1fb30e2b87cc2d5807552846f29f510484",
+    "source_blood_sha256": "c258541b8a6897198b4233be001088794f887b9145b4ba96fe2751009c9c7005",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 6.129006133885923,
+      "range": [
+        4.01380008641334,
+        6.134175150359624
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 89.01964907938621
+  },
+  {
+    "scan": "sub-01_ses-rescan",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 13.8,
+    "last_blood_seconds": 5410.2,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": -10.199999999999818,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "44f97b3e4b5072a639439e25caef65b1b4dbf46c484121e0852375224f7dd003",
+    "source_blood_sha256": "8981df6862bf9b0c2e6615efffe2dad3c25097e987ed031c0bf6dc75a471e942",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 6.129006133885923,
+      "range": [
+        4.01380008641334,
+        6.134175150359624
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 30.322914099900867
+  },
+  {
+    "scan": "sub-02_ses-baseline",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 6.0,
+    "last_blood_seconds": 5395.2,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": 4.800000000000182,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "terminal_input_hold_assumed",
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "8eb3b4b11480fb31794a07a6a3dca3ba31890e505d8e788a9b224e177e365be1",
+    "source_blood_sha256": "47de9d7e41e75729d27ffac5b02a91798288d8cc46690debf932a2fdc7551c93",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 7.126549483371264,
+      "range": [
+        5.014355433818764,
+        7.134627422548874
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 46.45477075315775
+  },
+  {
+    "scan": "sub-02_ses-rescan",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 7.199999999999999,
+    "last_blood_seconds": 5409.0,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": -9.0,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "58c676f1fe0b39bdfd9486c36249050e213f7bceb626fd1d39567091bf533f33",
+    "source_blood_sha256": "15c63c0676d0d8cfb51d0d9fc9cde79d656837056e4943b48aaaa11a0a6b184a",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 7.126549483371264,
+      "range": [
+        5.014355433818764,
+        7.134627422548874
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 19.830986765006283
+  },
+  {
+    "scan": "sub-03_ses-baseline",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 6.0,
+    "last_blood_seconds": 5425.2,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": -25.199999999999818,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "5453c2c4524edf95a44676c89edc1063c8d10999cec4221672c26042b4b61296",
+    "source_blood_sha256": "70ba66d6426f7ece7ed63c690ff2c8e290c74ddb83a8d22ac9d8925d11d7d619",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 7.126549483371264,
+      "range": [
+        5.014355433818764,
+        7.134627422548874
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 17.740895311730842
+  },
+  {
+    "scan": "sub-03_ses-rescan",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 7.199999999999999,
+    "last_blood_seconds": 5400.0,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": 0.0,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "6fe79bef04c36e43de863c81fe0faf4ad7e4d9204831728313f46d83bbf03115",
+    "source_blood_sha256": "989ee891698c049ffdc31c0f1fcfae59c74b17e0e0d4495e6af9031a26161970",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 6.129006133885923,
+      "range": [
+        4.01380008641334,
+        6.134175150359624
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 22.626069383077013
+  },
+  {
+    "scan": "sub-04_ses-baseline",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 42.0,
+    "last_blood_seconds": 5442.0,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": -42.0,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "22c25a74ddc8071477a3928268da1f96495e5abe47fef77657fa66894c38a38e",
+    "source_blood_sha256": "f2d19c527e5b31b2c4d5849e97c5d6ce5571f7d1da92c4c5b8ae00616c7d661a",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 8.128615937658651,
+      "range": [
+        6.014205441954573,
+        8.134511368934
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 22.559717273449223
+  },
+  {
+    "scan": "sub-04_ses-rescan",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 10.799999999999999,
+    "last_blood_seconds": 5449.8,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": -49.80000000000018,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "a311fb083ccf9a970d5b84fdb4d725da8aeb1ac54a8faafd215cb85271c70972",
+    "source_blood_sha256": "dac2360a4d26ec79da2cf4e465fabd968bbe009e2bc48f7cedf8c1da850046f8",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 6.129006133885923,
+      "range": [
+        4.01380008641334,
+        6.134175150359624
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 11.528679047828831
+  },
+  {
+    "scan": "sub-PS50_ses-baseline",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 16.200000000000003,
+    "last_blood_seconds": 5409.0,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": -9.0,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "1df85401082379177eacde2334d3812e2126c6dbe3db5ff45b2660a158191da5",
+    "source_blood_sha256": "7124dfa1cc57cc32ac483890d25ef9c2655a92fdefde67a8cd1d78d4351e25f7",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 47.12787468968577,
+      "range": [
+        45.0148916350896,
+        47.137809904448204
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 17.035904146935554
+  },
+  {
+    "scan": "sub-PS50_ses-blocked",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 15.0,
+    "last_blood_seconds": 5416.2,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": -16.199999999999818,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "0e855c8ab4d6a52580ceca2e2c8aba2cdc61864c527ed741184be28cb9b734ca",
+    "source_blood_sha256": "be2cfb6ca2711a3034c257f421360c56d36fccbb574193315f7410296f24277f",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 6.129006133885923,
+      "range": [
+        4.01380008641334,
+        6.134175150359624
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 9.289295347890857
+  },
+  {
+    "scan": "sub-PS51_ses-baseline",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 16.8,
+    "last_blood_seconds": 5476.2,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": -76.19999999999982,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "a5c595feee400e59ab7ab2d8535ef43e0eb6261f4cfc5851a213d3412d34b1f1",
+    "source_blood_sha256": "5490dba493dbed1caa17aa7eb284e6d8a968a51eb4e16b68ad5d91c0593cc4bb",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 6.129006133885923,
+      "range": [
+        4.01380008641334,
+        6.134175150359624
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 48.072103425335186
+  },
+  {
+    "scan": "sub-PS51_ses-blocked",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 22.2,
+    "last_blood_seconds": 5473.2,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": -73.19999999999982,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "9ab0df35d62b7fcf1e752ea5daf5d90064c4289eda899ac69b08f43936054bcf",
+    "source_blood_sha256": "1f75c22c9994542f3311902ad1eff9ee4592b27de3b35c2c94a67e1b680e1e50",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 6.129006133885923,
+      "range": [
+        4.01380008641334,
+        6.134175150359624
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 9.91964038935488
+  },
+  {
+    "scan": "sub-PS52_ses-baseline",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 25.8,
+    "last_blood_seconds": 5425.8,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": -25.800000000000182,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "23bf64db5721db5fca884bfb6739bbc7cc1361fb07b3b19ca0d36efea95bd74b",
+    "source_blood_sha256": "a8c856bdc64a62e2b4e99279c24894e873d3454157932eec08c2844c03b26e32",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 8.128615937658651,
+      "range": [
+        6.014205441954573,
+        8.134511368934
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 9.164885142338747
+  },
+  {
+    "scan": "sub-PS52_ses-blocked",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 28.799999999999997,
+    "last_blood_seconds": 5497.200000000001,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": -97.20000000000073,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "87e47981afd556cbbda98dfd12a1659cd1ae2f1c14506cf0ef47b6c7b2abf6d3",
+    "source_blood_sha256": "e6d6de5c8bee81e6990a3a9596fa07a72f34f13fdd2e671045f480e1f61e5712",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 6.129006133885923,
+      "range": [
+        4.01380008641334,
+        6.134175150359624
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 11.69455932189831
+  },
+  {
+    "scan": "sub-PS53_ses-baseline",
+    "image_present": false,
+    "blood_samples": 19,
+    "first_blood_seconds": 16.200000000000003,
+    "last_blood_seconds": 5409.0,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": -9.0,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": null
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected",
+      "metadata_without_PET_image"
+    ],
+    "source_json_sha256": "052c2bcf6c2a4a93668534d70fb1884772dff0239c24bfa5c863f785a29b9b54",
+    "source_blood_sha256": "7124dfa1cc57cc32ac483890d25ef9c2655a92fdefde67a8cd1d78d4351e25f7",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 7.126549483371264,
+      "range": [
+        5.014355433818764,
+        7.134627422548874
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ]
+  },
+  {
+    "scan": "sub-PS53_ses-blocked",
+    "image_present": false,
+    "blood_samples": 19,
+    "first_blood_seconds": 13.2,
+    "last_blood_seconds": 5385.0,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": 15.0,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": null
+    },
+    "flags": [
+      "terminal_input_hold_assumed",
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected",
+      "metadata_without_PET_image"
+    ],
+    "source_json_sha256": "7381873e4e1b061c8e05ac5ec332ec6114f29db61213503e776ca766b3f194c9",
+    "source_blood_sha256": "e7300dad11c4b356ca8ec0abeba80c0fac52f6032f8dc9606dfa2a5b2099c735",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 7.126549483371264,
+      "range": [
+        5.014355433818764,
+        7.134627422548874
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ]
+  },
+  {
+    "scan": "sub-PS54_ses-baseline",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 25.2,
+    "last_blood_seconds": 5400.0,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": 0.0,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "db0c507da0eec3126686fee7c45b6b990b21af3868b2faf2739d55265285ef33",
+    "source_blood_sha256": "16f939a78d345a0bb3cd7c4a909d646461d95b3564378d3dae0534b2b721847d",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 7.126549483371264,
+      "range": [
+        5.014355433818764,
+        7.134627422548874
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 29.178340208821457
+  },
+  {
+    "scan": "sub-PS54_ses-blocked",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 16.200000000000003,
+    "last_blood_seconds": 5401.8,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": -1.800000000000182,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "852559a2036a694ad83a5b8c9fe9a71b5eb098f8119c62ec8cb41954e71b157b",
+    "source_blood_sha256": "82f02d4aa83b546fd765ec45d4554d82dc0c6cbe53679a1fabae261de33efadf",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 6.129006133885923,
+      "range": [
+        4.01380008641334,
+        6.134175150359624
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 8.501364046060829
+  },
+  {
+    "scan": "sub-PS55_ses-baseline",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 7.199999999999999,
+    "last_blood_seconds": 5395.8,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": 4.199999999999818,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "terminal_input_hold_assumed",
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "9bdec8ef18a541db86ea136e3189bdde5e6c1d22e1a78f85eca4cb4efae04a4e",
+    "source_blood_sha256": "61cc0cd043725491e875433a7b2d7ce9648ad919991a6d62954136d56fe8d8c5",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 6.129006133885923,
+      "range": [
+        4.01380008641334,
+        6.134175150359624
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 106.90154262407611
+  },
+  {
+    "scan": "sub-PS55_ses-blocked",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 7.199999999999999,
+    "last_blood_seconds": 5403.0,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": -3.0,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "83e3a0a1a84f3ae1d0736e5c13b3af1363d30b47a0701fa550d144649fa5ad7e",
+    "source_blood_sha256": "8f432d50e813e5c85fcebda7a779df1788a5bafa71a16461c0eb77796c81446f",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 5.128062073374167,
+      "range": [
+        3.0195007712737123,
+        5.138358770259856
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 23.15688626009935
+  },
+  {
+    "scan": "sub-PS56_ses-baseline",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 7.800000000000001,
+    "last_blood_seconds": 5428.8,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": -28.800000000000182,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "4ca2a1c0a50a58b24630d353f9926b50aee098f9e51d4b98185661319f098845",
+    "source_blood_sha256": "08c73b514976b5f2354c93ecfbd014eb0ebee5beadd7e7757922b1864f5391ff",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 6.129006133885923,
+      "range": [
+        4.01380008641334,
+        6.134175150359624
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 25.479210097072063
+  },
+  {
+    "scan": "sub-PS56_ses-blocked",
+    "image_present": true,
+    "blood_samples": 19,
+    "first_blood_seconds": 7.199999999999999,
+    "last_blood_seconds": 5407.799999999999,
+    "scan_end_seconds": 5400.0,
+    "terminal_sample_gap_seconds": -7.799999999999272,
+    "checks": {
+      "PET_units_are_Bq_per_mL": true,
+      "blood_plasma_units_are_Bq_per_mL": true,
+      "blood_time_units_are_seconds": true,
+      "PET_decay_corrected_to_time_zero": true,
+      "frame_intervals_contiguous_from_zero": true,
+      "blood_sampling_times_increase": true,
+      "blood_concentrations_nonnegative_finite": true,
+      "parent_fractions_in_zero_one": true,
+      "image_frames_match_timing": true,
+      "physical_affine_invertible": true
+    },
+    "flags": [
+      "source_blood_not_dispersion_corrected",
+      "source_metabolite_recovery_not_corrected"
+    ],
+    "source_json_sha256": "bacb33066bc462a433e53bc4dc42ffe6e2ca1657265e3adcd4641932c881f14f",
+    "source_blood_sha256": "d2ddbb7d3056d5d97cca61b8e17c328dacd550414064178452677777c89c6b89",
+    "diagnostic_decay_factor_to_frame_reference_offset_seconds": {
+      "median": 6.129006133885923,
+      "range": [
+        4.01380008641334,
+        6.134175150359624
+      ],
+      "caveat": "Implementation-dependent legacy DICOM fields; do not shift or rescale without source confirmation."
+    },
+    "unresolved": [
+      "PET_blood_cross_calibration",
+      "blood_decay_reference",
+      "input_to_tissue_timing_alignment",
+      "vascular_fraction_justification",
+      "expert_anatomical_ROI_verification"
+    ],
+    "shape": [
+      200,
+      200,
+      111,
+      27
+    ],
+    "voxel_spacing_mm": [
+      2.0364201068878174,
+      2.0364201068878174,
+      2.0
+    ],
+    "native_orientation": [
+      "L",
+      "A",
+      "S"
+    ],
+    "exploratory_ROI_volume_mL": 13.303597980372261
+  }
+]

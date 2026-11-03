@@ -1,0 +1,13 @@
+{
+  "demo_generated": true,
+  "fit_command_passed": true,
+  "fit_status": "ok",
+  "simulated_truth_VT": 1.9499999999999995,
+  "estimated_VT": 1.925197503888625,
+  "logan_command_passed": true,
+  "html_reports_written": true,
+  "profile_command_passed": true,
+  "bootstrap_100_samples_command_passed": true,
+  "automated_tests_passed": 45,
+  "numerical_core_changed": false
+}

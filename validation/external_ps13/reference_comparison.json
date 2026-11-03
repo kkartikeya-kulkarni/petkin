@@ -1,0 +1,322 @@
+[
+  {
+    "scan": "sub-01_ses-baseline",
+    "method": "logan",
+    "petkin_raw_VT": 4.701423277821748,
+    "kinfitr_VT": 4.701225514124,
+    "absolute_relative_difference": 4.206641377946333e-05,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-01_ses-baseline",
+    "method": "ma1",
+    "petkin_raw_VT": 4.70613018940043,
+    "kinfitr_VT": 4.7059293652405,
+    "absolute_relative_difference": 4.267470765995959e-05,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-01_ses-rescan",
+    "method": "logan",
+    "petkin_raw_VT": 13.621897061073764,
+    "kinfitr_VT": 13.6233501526076,
+    "absolute_relative_difference": 0.00010666183556605447,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-01_ses-rescan",
+    "method": "ma1",
+    "petkin_raw_VT": 13.677914413503046,
+    "kinfitr_VT": 13.6794650925513,
+    "absolute_relative_difference": 0.0001133581640628903,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-02_ses-baseline",
+    "method": "logan",
+    "petkin_raw_VT": 9.678647172451328,
+    "kinfitr_VT": 9.6788288631554,
+    "absolute_relative_difference": 1.8771971964984318e-05,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-02_ses-baseline",
+    "method": "ma1",
+    "petkin_raw_VT": 9.94075981283563,
+    "kinfitr_VT": 9.94089326907606,
+    "absolute_relative_difference": 1.3424974679631273e-05,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-02_ses-rescan",
+    "method": "logan",
+    "petkin_raw_VT": 16.54281229765796,
+    "kinfitr_VT": 16.5428042824364,
+    "absolute_relative_difference": 4.845140777463161e-07,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-02_ses-rescan",
+    "method": "ma1",
+    "petkin_raw_VT": 16.70307054859704,
+    "kinfitr_VT": 16.7030500708466,
+    "absolute_relative_difference": 1.2259886878434415e-06,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-03_ses-baseline",
+    "method": "logan",
+    "petkin_raw_VT": 14.337234678337609,
+    "kinfitr_VT": 14.3374217159887,
+    "absolute_relative_difference": 1.304541742557072e-05,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-03_ses-baseline",
+    "method": "ma1",
+    "petkin_raw_VT": 15.19200912906114,
+    "kinfitr_VT": 15.1920753296388,
+    "absolute_relative_difference": 4.357573025743047e-06,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-03_ses-rescan",
+    "method": "logan",
+    "petkin_raw_VT": 13.524577638592756,
+    "kinfitr_VT": 13.5246355289716,
+    "absolute_relative_difference": 4.2803651692051995e-06,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-03_ses-rescan",
+    "method": "ma1",
+    "petkin_raw_VT": 14.615615610365582,
+    "kinfitr_VT": 14.6156154994948,
+    "absolute_relative_difference": 7.585775828644426e-09,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-04_ses-baseline",
+    "method": "logan",
+    "petkin_raw_VT": 6.866750459383319,
+    "kinfitr_VT": 6.86671287024152,
+    "absolute_relative_difference": 5.474110030317571e-06,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-04_ses-baseline",
+    "method": "ma1",
+    "petkin_raw_VT": 6.935208755287067,
+    "kinfitr_VT": 6.93515637317145,
+    "absolute_relative_difference": 7.553126821953762e-06,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-04_ses-rescan",
+    "method": "logan",
+    "petkin_raw_VT": 18.073148032371826,
+    "kinfitr_VT": 18.073095094713,
+    "absolute_relative_difference": 2.9290864983552193e-06,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-04_ses-rescan",
+    "method": "ma1",
+    "petkin_raw_VT": 18.153737713419055,
+    "kinfitr_VT": 18.1536698628352,
+    "absolute_relative_difference": 3.7375684567514647e-06,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS50_ses-baseline",
+    "method": "logan",
+    "petkin_raw_VT": 11.691618134870904,
+    "kinfitr_VT": 11.6911063164167,
+    "absolute_relative_difference": 4.3778444943636534e-05,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS50_ses-baseline",
+    "method": "ma1",
+    "petkin_raw_VT": 11.718311039583659,
+    "kinfitr_VT": 11.7178055836736,
+    "absolute_relative_difference": 4.3135713973853854e-05,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS50_ses-blocked",
+    "method": "logan",
+    "petkin_raw_VT": 9.850912048394882,
+    "kinfitr_VT": 9.85085448648615,
+    "absolute_relative_difference": 5.843341693029427e-06,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS50_ses-blocked",
+    "method": "ma1",
+    "petkin_raw_VT": 9.879292822057808,
+    "kinfitr_VT": 9.87923239402664,
+    "absolute_relative_difference": 6.11667270868988e-06,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS51_ses-baseline",
+    "method": "logan",
+    "petkin_raw_VT": 6.481627039664856,
+    "kinfitr_VT": 6.48169357790895,
+    "absolute_relative_difference": 1.0265564592695381e-05,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS51_ses-baseline",
+    "method": "ma1",
+    "petkin_raw_VT": 6.521334265707689,
+    "kinfitr_VT": 6.52136779532453,
+    "absolute_relative_difference": 5.141500662676975e-06,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS51_ses-blocked",
+    "method": "logan",
+    "petkin_raw_VT": 12.621637577004389,
+    "kinfitr_VT": 12.6216419246595,
+    "absolute_relative_difference": 3.4446034331700703e-07,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS51_ses-blocked",
+    "method": "ma1",
+    "petkin_raw_VT": 13.97158100662305,
+    "kinfitr_VT": 13.9714288235967,
+    "absolute_relative_difference": 1.0892445452145585e-05,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS52_ses-baseline",
+    "method": "logan",
+    "petkin_raw_VT": 6.6960375437673925,
+    "kinfitr_VT": 6.69592044374136,
+    "absolute_relative_difference": 1.7488264237326968e-05,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS52_ses-baseline",
+    "method": "ma1",
+    "petkin_raw_VT": 6.747804471914629,
+    "kinfitr_VT": 6.74768744020612,
+    "absolute_relative_difference": 1.734397296040305e-05,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS52_ses-blocked",
+    "method": "logan",
+    "petkin_raw_VT": 10.352802704031125,
+    "kinfitr_VT": 10.3529381077834,
+    "absolute_relative_difference": 1.3078775403158405e-05,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS52_ses-blocked",
+    "method": "ma1",
+    "petkin_raw_VT": 44.37521089715368,
+    "kinfitr_VT": 44.3745635609219,
+    "absolute_relative_difference": 1.4588002220921474e-05,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS54_ses-baseline",
+    "method": "logan",
+    "petkin_raw_VT": 15.875874287330932,
+    "kinfitr_VT": 15.8756649606824,
+    "absolute_relative_difference": 1.3185378316470144e-05,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS54_ses-baseline",
+    "method": "ma1",
+    "petkin_raw_VT": 15.904930560415949,
+    "kinfitr_VT": 15.9047768764555,
+    "absolute_relative_difference": 9.662754884405343e-06,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS54_ses-blocked",
+    "method": "logan",
+    "petkin_raw_VT": 12.148342161201715,
+    "kinfitr_VT": 12.1482586342837,
+    "absolute_relative_difference": 6.8756288888459535e-06,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS54_ses-blocked",
+    "method": "ma1",
+    "petkin_raw_VT": 12.19130785921495,
+    "kinfitr_VT": 12.1912207914224,
+    "absolute_relative_difference": 7.141843629976285e-06,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS55_ses-baseline",
+    "method": "logan",
+    "petkin_raw_VT": 3.7466877786109065,
+    "kinfitr_VT": 3.74664998999012,
+    "absolute_relative_difference": 1.0085975708233678e-05,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS55_ses-baseline",
+    "method": "ma1",
+    "petkin_raw_VT": 3.7377138912345003,
+    "kinfitr_VT": 3.73767529402181,
+    "absolute_relative_difference": 1.0326529100087522e-05,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS55_ses-blocked",
+    "method": "logan",
+    "petkin_raw_VT": 9.0603721224065,
+    "kinfitr_VT": 9.0604222290773,
+    "absolute_relative_difference": 5.530279884669254e-06,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS55_ses-blocked",
+    "method": "ma1",
+    "petkin_raw_VT": 13.24136768571473,
+    "kinfitr_VT": 13.2413816321395,
+    "absolute_relative_difference": 1.0532454360158088e-06,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS56_ses-baseline",
+    "method": "logan",
+    "petkin_raw_VT": 8.541112908307325,
+    "kinfitr_VT": 8.54111841462004,
+    "absolute_relative_difference": 6.446828680636157e-07,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS56_ses-baseline",
+    "method": "ma1",
+    "petkin_raw_VT": 8.678982462535838,
+    "kinfitr_VT": 8.67896294599779,
+    "absolute_relative_difference": 2.2487177522610655e-06,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS56_ses-blocked",
+    "method": "logan",
+    "petkin_raw_VT": 8.702702067963047,
+    "kinfitr_VT": 8.70373431378178,
+    "absolute_relative_difference": 0.0001185980386715567,
+    "status": "completed"
+  },
+  {
+    "scan": "sub-PS56_ses-blocked",
+    "method": "ma1",
+    "petkin_raw_VT": 32.25742591988495,
+    "kinfitr_VT": 32.2567239488413,
+    "absolute_relative_difference": 2.1762006729731348e-05,
+    "status": "completed"
+  }
+]

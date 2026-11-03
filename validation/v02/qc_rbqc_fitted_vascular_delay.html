@@ -1,0 +1,214 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>rbqc_1: fitted vascular fraction and delay</title><style>body{font:16px system-ui;color:#183047;background:#f2f5f8;margin:0}main{max-width:900px;margin:36px auto;padding:28px;background:white;border-radius:12px}h1{font-size:28px}table{border-collapse:collapse;width:100%;margin:20px 0}td,th{text-align:left;padding:10px;border-bottom:1px solid #ddd}.note{padding:16px;background:#fff3da}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}a{color:#135fa4}</style><main>
+<h1>rbqc_1: fitted vascular fraction and delay</h1><p>Research analysis · petkin 0.2.0</p><table><tr><th>Status</th><td>Passes automated local checks</td></tr><tr><th>VT</th><td>2.8373</td></tr><tr><th>Method</th><td>2t</td></tr><tr><th>Vascular fraction</th><td>0.037496798610124504</td></tr><tr><th>Input delay (minutes)</th><td>0.41364009465451945</td></tr><tr><th>Optimizer converged</th><td>True</td></tr><tr><th>QC reasons</th><td>None triggered</td></tr></table>
+<p class="note">Automated checks do not establish biological accuracy. Parameter bounds, uncertain input timing, missing blood measurements and image alignment can invalidate otherwise plausible curves.</p>
+<h2>Fitted rate constants</h2><table><tr><th>K1</th><td>0.119265</td></tr><tr><th>k2</th><td>0.159264</td></tr><tr><th>k3</th><td>0.0205587</td></tr><tr><th>k4</th><td>0.00737158</td></tr></table><p>Rates use minutes. VT is mL plasma/mL tissue; Ki is mL plasma/mL tissue/min.</p>
+<details><summary>Raw numerical estimate and complete audit record</summary><p>Raw VT: 2.8373301419425054. A raw value may be unsuitable for inference.</p><pre>{
+  &quot;model&quot;: &quot;2t&quot;,
+  &quot;parameters&quot;: {
+    &quot;K1&quot;: 0.11926504649169443,
+    &quot;k2&quot;: 0.15926420932167687,
+    &quot;k3&quot;: 0.02055871726771048,
+    &quot;k4&quot;: 0.007371582193920725
+  },
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;`ftol` termination condition is satisfied.&quot;,
+  &quot;status&quot;: &quot;ok&quot;,
+  &quot;usable_for_quantification&quot;: true,
+  &quot;qc_reasons&quot;: [],
+  &quot;prediction&quot;: [
+    8.449112721894348,
+    9.957550626827587,
+    10.597073742704817,
+    11.741220614425238,
+    12.483657096968884,
+    12.602151746691234,
+    12.823690268088889,
+    13.101866656483274,
+    13.309742069795332,
+    13.444002270000018,
+    13.473439725543203,
+    13.430096748986484,
+    13.304961639084652,
+    13.132909858203973,
+    12.890926667062033,
+    12.481950533947007,
+    11.926032447559493,
+    11.386923362096596,
+    10.824390378342429,
+    9.727879840934733,
+    8.417409750203092,
+    7.4739664602821945,
+    6.738541703763407,
+    6.041303654227723,
+    5.533637166696765,
+    5.210051738321947,
+    4.943730532642415,
+    4.76822573811387,
+    4.653174527594605,
+    4.567419406046478,
+    4.501076979219539,
+    4.430850041446547,
+    4.332124356012088,
+    4.225522267639207,
+    4.127446033809993
+  ],
+  &quot;residuals&quot;: [
+    -0.09701662704485159,
+    -0.022432878749892637,
+    0.48195576887881586,
+    0.11116669002953827,
+    -0.08420259453771628,
+    -0.14452814209776577,
+    -0.3792422700946112,
+    -0.23267878883022597,
+    -0.3499603839986687,
+    -0.10285304025328124,
+    0.06750285784570309,
+    0.005800940048684922,
+    0.20834069338915207,
+    0.3398509064071735,
+    0.32963693833333174,
+    0.22260064226400722,
+    0.014118475794893115,
+    0.09496522119959572,
+    0.0075590500229285595,
+    -0.16758018575457712,
+    -0.1893651887218475,
+    -0.23929165707730515,
+    -0.22276598047902318,
+    -0.15022347297280714,
+    0.07640458911395509,
+    0.14325700175235667,
+    0.16488891711795528,
+    0.13131739070392,
+    0.05642973169854493,
+    0.060710290714037995,
+    0.1173755691978684,
+    0.10705700744421698,
+    -0.05399678719753265,
+    -0.09698414232275354,
+    -0.25171649548074715
+  ],
+  &quot;weighted_sse&quot;: 1.114040267715896,
+  &quot;rmse&quot;: 0.19394462408639715,
+  &quot;standard_errors&quot;: {
+    &quot;K1&quot;: 0.0012776063650721673,
+    &quot;k2&quot;: 0.0040768697574791405,
+    &quot;k3&quot;: 0.0016147313970549873,
+    &quot;k4&quot;: 0.0015470993461099058,
+    &quot;vb&quot;: 0.002335224347302839,
+    &quot;delay&quot;: 0.015063898666048478
+  },
+  &quot;covariance&quot;: [
+    [
+      1.632278024072916e-06,
+      4.480804650113157e-06,
+      1.113423151883185e-06,
+      7.096857326180561e-07,
+      -1.872434377666316e-06,
+      -8.007210014379954e-06
+    ],
+    [
+      4.480804650113195e-06,
+      1.6620867019448024e-05,
+      5.124052332215474e-06,
+      3.504664318179287e-06,
+      -4.304050523160971e-06,
+      -1.566748472748916e-05
+    ],
+    [
+      1.1134231518831937e-06,
+      5.1240523322154675e-06,
+      2.607357484635151e-06,
+      2.2451935637879284e-06,
+      -1.1442719176536611e-06,
+      -4.39810341734825e-06
+    ],
+    [
+      7.096857326180599e-07,
+      3.5046643181792716e-06,
+      2.2451935637879233e-06,
+      2.3935163867336982e-06,
+      -6.283204591022969e-07,
+      -2.262909773871794e-06
+    ],
+    [
+      -1.8724343776663182e-06,
+      -4.304050523160938e-06,
+      -1.1442719176536563e-06,
+      -6.283204591022974e-07,
+      5.453272752235972e-06,
+      2.9269619824724133e-05
+    ],
+    [
+      -8.007210014379905e-06,
+      -1.5667484727488885e-05,
+      -4.398103417348181e-06,
+      -2.262909773871761e-06,
+      2.9269619824724092e-05,
+      0.0002269210430209771
+    ]
+  ],
+  &quot;free_parameters&quot;: [
+    &quot;K1&quot;,
+    &quot;k2&quot;,
+    &quot;k3&quot;,
+    &quot;k4&quot;,
+    &quot;vb&quot;,
+    &quot;delay&quot;
+  ],
+  &quot;jacobian_rank&quot;: 6,
+  &quot;condition_number&quot;: 48.777848869114614,
+  &quot;scaled_condition_number&quot;: 61.358542212814825,
+  &quot;at_bound&quot;: false,
+  &quot;bound_parameters&quot;: [],
+  &quot;vb&quot;: 0.037496798610124504,
+  &quot;delay&quot;: 0.41364009465451945,
+  &quot;macro_standard_error&quot;: 0.32378806655015324,
+  &quot;macro_local_95_interval&quot;: [
+    2.202705531504205,
+    3.471954752380806
+  ],
+  &quot;AIC&quot;: -2.0486289163369236,
+  &quot;AICc&quot;: 2.0995192318112244,
+  &quot;BIC&quot;: 8.83880751408897,
+  &quot;settings&quot;: {
+    &quot;dt&quot;: 0.025,
+    &quot;fit_vb&quot;: true,
+    &quot;fit_delay&quot;: true,
+    &quot;delay_bounds&quot;: [
+      -0.5,
+      0.5
+    ],
+    &quot;input_tail&quot;: &quot;hold&quot;,
+    &quot;n_starts&quot;: 8,
+    &quot;seed&quot;: 0,
+    &quot;rate_bounds&quot;: [
+      1e-06,
+      3.0
+    ],
+    &quot;vb_bounds&quot;: [
+      0.0,
+      0.3
+    ],
+    &quot;absolute_sigma&quot;: false,
+    &quot;max_nfev&quot;: 800
+  },
+  &quot;multistart&quot;: {
+    &quot;attempted&quot;: 8,
+    &quot;converged&quot;: 8,
+    &quot;weighted_sse&quot;: [
+      1.736282815199092,
+      1.7362807331775916,
+      1.7362765160373028,
+      1.114040267715896,
+      1.7362776344429427,
+      1.7363569054527015,
+      1.1140403942042776,
+      1.114040394188478
+    ]
+  },
+  &quot;raw_VT&quot;: 2.8373301419425054,
+  &quot;VT&quot;: 2.8373301419425054
+}</pre></details></main></html>

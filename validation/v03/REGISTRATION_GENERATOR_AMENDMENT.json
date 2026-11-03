@@ -1,0 +1,8 @@
+{
+  "reason": "Initial generator failed before any registration case: recursive Gaussian produced tiny negative values before fractional power. Clamp the nonnegative synthetic intensity field before power/count generation.",
+  "evaluated_registration_cases_before_amendment": 0,
+  "protocol_thresholds_changed": false,
+  "seed_changed": false,
+  "file": "examples/qualification_registration.py",
+  "sha256": "0cc4560e55be4fd9b7fa1d9bc1ac1b124d1e756e26e91466ed44c1e60ff1492c"
+}

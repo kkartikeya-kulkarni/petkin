@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "packaged_modules_imported": true,
+  "public_symbols": [
+    "Frames",
+    "InputFunction",
+    "predict",
+    "fit_compartment",
+    "logan",
+    "ma1",
+    "patlak",
+    "graphical_stability",
+    "profile_likelihood",
+    "parametric_bootstrap",
+    "ReferenceCurve",
+    "predict_srtm",
+    "fit_srtm",
+    "logan_reference"
+  ],
+  "local_screen_does_not_establish_accuracy": true
+}

@@ -1,0 +1,4655 @@
+[
+  {
+    "scan": "cgyu_1",
+    "variant": "fixed",
+    "profile_k4": {
+      "parameter": "k4",
+      "confidence": 0.95,
+      "threshold": 3.8414588206941205,
+      "grid": [
+        {
+          "value": 1e-06,
+          "weighted_sse": 5.8954615679712425,
+          "converged": true,
+          "likelihood_ratio": 23.108164826866318
+        },
+        {
+          "value": 1.347542356810575e-06,
+          "weighted_sse": 5.895416962309605,
+          "converged": true,
+          "likelihood_ratio": 23.10790001230593
+        },
+        {
+          "value": 1.815870403398599e-06,
+          "weighted_sse": 5.8953568546443,
+          "converged": true,
+          "likelihood_ratio": 23.10754316239627
+        },
+        {
+          "value": 2.446962283058318e-06,
+          "weighted_sse": 5.895275857661572,
+          "converged": true,
+          "likelihood_ratio": 23.107062290086073
+        },
+        {
+          "value": 3.297385321938991e-06,
+          "weighted_sse": 5.895166711881467,
+          "converged": true,
+          "likelihood_ratio": 23.10641429027076
+        },
+        {
+          "value": 4.443366388038265e-06,
+          "weighted_sse": 5.895019635330168,
+          "converged": true,
+          "likelihood_ratio": 23.10554107603238
+        },
+        {
+          "value": 5.987624414709975e-06,
+          "weighted_sse": 5.894821447216728,
+          "converged": true,
+          "likelihood_ratio": 23.104364370778686
+        },
+        {
+          "value": 8.06857751549482e-06,
+          "weighted_sse": 5.894554386978348,
+          "converged": true,
+          "likelihood_ratio": 23.102778687452215
+        },
+        {
+          "value": 1.0872749961338704e-05,
+          "weighted_sse": 5.894194524196972,
+          "converged": true,
+          "likelihood_ratio": 23.10064187082358
+        },
+        {
+          "value": 1.4651491107914446e-05,
+          "weighted_sse": 5.893709615935823,
+          "converged": true,
+          "likelihood_ratio": 23.09776234466727
+        },
+        {
+          "value": 1.9743504858348216e-05,
+          "weighted_sse": 5.89305622166127,
+          "converged": true,
+          "likelihood_ratio": 23.09388192489006
+        },
+        {
+          "value": 2.6605209068519594e-05,
+          "weighted_sse": 5.892175818121573,
+          "converged": true,
+          "likelihood_ratio": 23.088652647461718
+        },
+        {
+          "value": 3.585164613163098e-05,
+          "weighted_sse": 5.8909895696418815,
+          "converged": true,
+          "likelihood_ratio": 23.081605526325223
+        },
+        {
+          "value": 4.831161172375664e-05,
+          "weighted_sse": 5.889391290406341,
+          "converged": true,
+          "likelihood_ratio": 23.07210841850643
+        },
+        {
+          "value": 6.510194312354856e-05,
+          "weighted_sse": 5.887237979354642,
+          "converged": true,
+          "likelihood_ratio": 23.059309189470177
+        },
+        {
+          "value": 8.772762586965446e-05,
+          "weighted_sse": 5.884337097986564,
+          "converged": true,
+          "likelihood_ratio": 23.04205901703855
+        },
+        {
+          "value": 0.00011821669172179068,
+          "weighted_sse": 5.8804294868215345,
+          "converged": true,
+          "likelihood_ratio": 23.018808849715718
+        },
+        {
+          "value": 0.000159301999377131,
+          "weighted_sse": 5.875166454683024,
+          "converged": true,
+          "likelihood_ratio": 22.987469538961616
+        },
+        {
+          "value": 0.00021466619168529586,
+          "weighted_sse": 5.868079107350734,
+          "converged": true,
+          "likelihood_ratio": 22.945222753703234
+        },
+        {
+          "value": 0.00028927178587115425,
+          "weighted_sse": 5.858537388662628,
+          "converged": true,
+          "likelihood_ratio": 22.88826510903231
+        },
+        {
+          "value": 0.0003898059840916192,
+          "weighted_sse": 5.845695576335135,
+          "converged": true,
+          "likelihood_ratio": 22.81146150931478
+        },
+        {
+          "value": 0.0005252800745016861,
+          "weighted_sse": 5.828420119301202,
+          "converged": true,
+          "likelihood_ratio": 22.707874830322275
+        },
+        {
+          "value": 0.0007078371495796364,
+          "weighted_sse": 5.8051948079717075,
+          "converged": true,
+          "likelihood_ratio": 22.568126870369557
+        },
+        {
+          "value": 0.0009538405407826229,
+          "weighted_sse": 5.773997561735324,
+          "converged": true,
+          "likelihood_ratio": 22.37952887053334
+        },
+        {
+          "value": 0.0012853405303476877,
+          "weighted_sse": 5.732143170762455,
+          "converged": true,
+          "likelihood_ratio": 22.12489785578755
+        },
+        {
+          "value": 0.0017320508075688776,
+          "weighted_sse": 5.676088449688889,
+          "converged": true,
+          "likelihood_ratio": 21.780947786786687
+        },
+        {
+          "value": 0.002334011827347025,
+          "weighted_sse": 5.601203352286638,
+          "converged": true,
+          "likelihood_ratio": 21.316116871809896
+        },
+        {
+          "value": 0.0031451797986469673,
+          "weighted_sse": 5.501529995865877,
+          "converged": true,
+          "likelihood_ratio": 20.68768401872335
+        },
+        {
+          "value": 0.004238262998461744,
+          "weighted_sse": 5.369594754290598,
+          "converged": true,
+          "likelihood_ratio": 19.83810123932982
+        },
+        {
+          "value": 0.0057112389097301935,
+          "weighted_sse": 5.196434225849649,
+          "converged": true,
+          "likelihood_ratio": 18.690809067043226
+        },
+        {
+          "value": 0.007696136340726084,
+          "weighted_sse": 4.972195376510475,
+          "converged": true,
+          "likelihood_ratio": 17.146917195169316
+        },
+        {
+          "value": 0.010370869702917541,
+          "weighted_sse": 4.688047360950905,
+          "converged": true,
+          "likelihood_ratio": 15.087331225577314
+        },
+        {
+          "value": 0.013975186201644892,
+          "weighted_sse": 4.340713747186405,
+          "converged": true,
+          "likelihood_ratio": 12.393123543399204
+        },
+        {
+          "value": 0.018832155351031186,
+          "weighted_sse": 3.941307260825978,
+          "converged": true,
+          "likelihood_ratio": 9.014701919870513
+        },
+        {
+          "value": 0.025377127005551448,
+          "weighted_sse": 3.5288660174438813,
+          "converged": true,
+          "likelihood_ratio": 5.145946030688787
+        },
+        {
+          "value": 0.03419675353414209,
+          "weighted_sse": 3.1849580804368998,
+          "converged": true,
+          "likelihood_ratio": 1.557135265304785
+        },
+        {
+          "value": 0.04506053971460397,
+          "weighted_sse": 3.0463664372516117,
+          "converged": true,
+          "likelihood_ratio": 0.0
+        },
+        {
+          "value": 0.04608157385266819,
+          "weighted_sse": 3.0475084161154844,
+          "converged": true,
+          "likelihood_ratio": 0.013117847565029294
+        },
+        {
+          "value": 0.062096872634965064,
+          "weighted_sse": 3.3372709575389883,
+          "converged": true,
+          "likelihood_ratio": 3.192134611620124
+        },
+        {
+          "value": 0.08367816610108691,
+          "weighted_sse": 4.358947148176828,
+          "converged": true,
+          "likelihood_ratio": 12.53983500187317
+        },
+        {
+          "value": 0.11275987316144544,
+          "weighted_sse": 6.295174786427879,
+          "converged": true,
+          "likelihood_ratio": 25.404185962896797
+        },
+        {
+          "value": 0.15194870523363568,
+          "weighted_sse": 8.869716109995853,
+          "converged": true,
+          "likelihood_ratio": 37.404263463046185
+        },
+        {
+          "value": 0.20475731636484878,
+          "weighted_sse": 11.512030698925964,
+          "converged": true,
+          "likelihood_ratio": 46.530508076505974
+        },
+        {
+          "value": 0.27591915666849687,
+          "weighted_sse": 13.795117902820387,
+          "converged": true,
+          "likelihood_ratio": 52.86278221145218
+        },
+        {
+          "value": 0.3718127506662526,
+          "weighted_sse": 15.556544360573518,
+          "converged": true,
+          "likelihood_ratio": 57.06861513217157
+        },
+        {
+          "value": 0.5010334303250247,
+          "weighted_sse": 16.811177809205148,
+          "converged": true,
+          "likelihood_ratio": 59.78330619031141
+        },
+        {
+          "value": 0.6751637695410708,
+          "weighted_sse": 17.651146603614592,
+          "converged": true,
+          "likelihood_ratio": 61.48979186967201
+        },
+        {
+          "value": 0.9098117772404865,
+          "weighted_sse": 18.184815674316365,
+          "converged": true,
+          "likelihood_ratio": 62.532308785739616
+        },
+        {
+          "value": 1.226009906556663,
+          "weighted_sse": 18.508339683114272,
+          "converged": true,
+          "likelihood_ratio": 63.149515653652905
+        },
+        {
+          "value": 1.6521002789544752,
+          "weighted_sse": 18.696132957901966,
+          "converged": true,
+          "likelihood_ratio": 63.50285061435572
+        },
+        {
+          "value": 2.226275103589722,
+          "weighted_sse": 18.800781361505557,
+          "converged": true,
+          "likelihood_ratio": 63.698210883437056
+        },
+        {
+          "value": 3.0,
+          "weighted_sse": 18.856918646068102,
+          "converged": true,
+          "likelihood_ratio": 63.80256172880111
+        }
+      ],
+      "interval_components": [
+        {
+          "lower": 0.028582949422951913,
+          "upper": 0.0635959853285314,
+          "open_lower": false,
+          "open_upper": false,
+          "accepted_grid_range": [
+            0.03419675353414209,
+            0.062096872634965064
+          ]
+        }
+      ],
+      "closed": true,
+      "relative_weight_scale_profiled": true,
+      "warning": "Conditional on input, model, vascular fraction and preprocessing; asymptotic chi-square approximation"
+    },
+    "bootstrap": {
+      "method": "conditional_parametric_Gaussian_bootstrap",
+      "n": 100,
+      "seed": 20261103,
+      "draws": [
+        {
+          "raw_estimate": 2.1995333992198396,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1156942312662033,
+            "k2": 0.11771637045978771,
+            "k3": 0.052389158506559626,
+            "k4": 0.042318344050837564
+          }
+        },
+        {
+          "raw_estimate": 2.159096859388819,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11558404021127454,
+            "k2": 0.11945613362000287,
+            "k3": 0.05067350429424413,
+            "k4": 0.04115022572342538
+          }
+        },
+        {
+          "raw_estimate": 2.2361819668266523,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11974904090222548,
+            "k2": 0.13582466497378468,
+            "k3": 0.0634696168880121,
+            "k4": 0.041311236097675126
+          }
+        },
+        {
+          "raw_estimate": 2.118471908639873,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12001389800797402,
+            "k2": 0.14906589927735572,
+            "k3": 0.08658998403861004,
+            "k4": 0.053080531711092734
+          }
+        },
+        {
+          "raw_estimate": 2.274846288317251,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1206536733724133,
+            "k2": 0.14355698382133888,
+            "k3": 0.07378734214828868,
+            "k4": 0.04323460368487037
+          }
+        },
+        {
+          "raw_estimate": 2.186899521458232,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11610917060181294,
+            "k2": 0.1204105370074512,
+            "k3": 0.05504033113502114,
+            "k4": 0.04341010644259422
+          }
+        },
+        {
+          "raw_estimate": 2.165742488733666,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12227873215729812,
+            "k2": 0.14843174102753592,
+            "k3": 0.08462476971715263,
+            "k4": 0.051950435093689566
+          }
+        },
+        {
+          "raw_estimate": 2.2791610514709406,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1173406187493739,
+            "k2": 0.1263673513670203,
+            "k3": 0.06235425389471846,
+            "k4": 0.042870141251832854
+          }
+        },
+        {
+          "raw_estimate": 2.3053744070883133,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11777835759366717,
+            "k2": 0.13035457246237234,
+            "k3": 0.06251071138668318,
+            "k4": 0.040289482706236425
+          }
+        },
+        {
+          "raw_estimate": 2.3165265374925332,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12369000060729402,
+            "k2": 0.14345081390978323,
+            "k3": 0.07048847777959745,
+            "k4": 0.04179282651103652
+          }
+        },
+        {
+          "raw_estimate": 2.1782765038722767,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.116586047475618,
+            "k2": 0.12957778751999446,
+            "k3": 0.07574129696152779,
+            "k4": 0.05330094555334923
+          }
+        },
+        {
+          "raw_estimate": 2.2186715697237367,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11561324319591372,
+            "k2": 0.12255485202297223,
+            "k3": 0.0638603994174951,
+            "k4": 0.04723806742753706
+          }
+        },
+        {
+          "raw_estimate": 2.351474970450778,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11509146502852223,
+            "k2": 0.10879345773570395,
+            "k3": 0.037336499292510476,
+            "k4": 0.0305336575928557
+          }
+        },
+        {
+          "raw_estimate": 2.3909607814268026,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11845783869399513,
+            "k2": 0.1313824901537801,
+            "k3": 0.0555326643454522,
+            "k4": 0.0336188169626034
+          }
+        },
+        {
+          "raw_estimate": 2.2731522542518667,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11265271232804895,
+            "k2": 0.11006501505557989,
+            "k3": 0.04328745972121546,
+            "k4": 0.035454304579002976
+          }
+        },
+        {
+          "raw_estimate": 2.2455661235877566,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11848726307306752,
+            "k2": 0.11925078022876509,
+            "k3": 0.0518820695438756,
+            "k4": 0.04117506035693395
+          }
+        },
+        {
+          "raw_estimate": 2.272198278155865,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11583324301865476,
+            "k2": 0.12463267888481658,
+            "k3": 0.05937677778578521,
+            "k4": 0.041096627030509245
+          }
+        },
+        {
+          "raw_estimate": 2.169827300575349,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11885962166181469,
+            "k2": 0.12888052385293794,
+            "k3": 0.06403087654039774,
+            "k4": 0.0473334152520295
+          }
+        },
+        {
+          "raw_estimate": 2.220179548871951,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11811382606890494,
+            "k2": 0.13394975420836736,
+            "k3": 0.07745431158078152,
+            "k4": 0.051029074664797204
+          }
+        },
+        {
+          "raw_estimate": 2.1745101653433254,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12032768124263471,
+            "k2": 0.13961227106439403,
+            "k3": 0.07573458896324305,
+            "k4": 0.0497268175263942
+          }
+        },
+        {
+          "raw_estimate": 2.371128160378827,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11530830709554096,
+            "k2": 0.12019539000258665,
+            "k3": 0.04693901545797463,
+            "k4": 0.031896085255004
+          }
+        },
+        {
+          "raw_estimate": 2.1149108823830645,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11703434156016108,
+            "k2": 0.12284018833549204,
+            "k3": 0.05471046985475303,
+            "k4": 0.044850988660230864
+          }
+        },
+        {
+          "raw_estimate": 2.2676857220892264,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11656272625259978,
+            "k2": 0.1188912860727543,
+            "k3": 0.04852225138769691,
+            "k4": 0.0369556217566946
+          }
+        },
+        {
+          "raw_estimate": 2.32953950159251,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1138941858755622,
+            "k2": 0.12123789930266174,
+            "k3": 0.0525751051221981,
+            "k4": 0.03552985453584928
+          }
+        },
+        {
+          "raw_estimate": 2.163356192881806,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11970935389656968,
+            "k2": 0.14038102857681808,
+            "k3": 0.07188463474701617,
+            "k4": 0.04677159495118887
+          }
+        },
+        {
+          "raw_estimate": 2.1633448383522866,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11530551708609209,
+            "k2": 0.1249893523810701,
+            "k3": 0.06939329712137114,
+            "k4": 0.051592320952059276
+          }
+        },
+        {
+          "raw_estimate": 2.3019813217387153,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11580233432587593,
+            "k2": 0.12082704523035008,
+            "k3": 0.04646927463877784,
+            "k4": 0.033148175290722816
+          }
+        },
+        {
+          "raw_estimate": 2.2451861329895526,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11428595554670025,
+            "k2": 0.12727088725589303,
+            "k3": 0.07561167211048682,
+            "k4": 0.050398390680643876
+          }
+        },
+        {
+          "raw_estimate": 2.4237804334981243,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11728757853117511,
+            "k2": 0.12304210937345421,
+            "k3": 0.04783049092437894,
+            "k4": 0.031004413751398684
+          }
+        },
+        {
+          "raw_estimate": 2.2224245298615677,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1124156466354081,
+            "k2": 0.10664314690536653,
+            "k3": 0.0477413161407083,
+            "k4": 0.043076015856284185
+          }
+        },
+        {
+          "raw_estimate": 2.247771806737906,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11958957102956315,
+            "k2": 0.14938229517309093,
+            "k3": 0.0985480066708359,
+            "k4": 0.05451425606777207
+          }
+        },
+        {
+          "raw_estimate": 2.196956699801288,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12111579750433264,
+            "k2": 0.147960861494129,
+            "k3": 0.08643336681659224,
+            "k4": 0.051329044581747946
+          }
+        },
+        {
+          "raw_estimate": 2.282274058280561,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11622182339040744,
+            "k2": 0.12712384720989486,
+            "k3": 0.06511058502569148,
+            "k4": 0.04351266047609532
+          }
+        },
+        {
+          "raw_estimate": 2.1999626783350834,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12231043681657545,
+            "k2": 0.14571401695898042,
+            "k3": 0.07126683600357778,
+            "k4": 0.0439670096791172
+          }
+        },
+        {
+          "raw_estimate": 2.24634773624025,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11887936551217894,
+            "k2": 0.12833801671695258,
+            "k3": 0.060642686420691275,
+            "k4": 0.042553921967892525
+          }
+        },
+        {
+          "raw_estimate": 2.2526603696170007,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11899475820702844,
+            "k2": 0.12755195828176538,
+            "k3": 0.06034501022804584,
+            "k4": 0.042657062575589176
+          }
+        },
+        {
+          "raw_estimate": 2.217550941612594,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11682922953517211,
+            "k2": 0.12767860431589897,
+            "k3": 0.07106285446032294,
+            "k4": 0.04992176734205828
+          }
+        },
+        {
+          "raw_estimate": 2.159042086614039,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1243414459851502,
+            "k2": 0.16766905952155509,
+            "k3": 0.09856438989665212,
+            "k4": 0.05156727417613405
+          }
+        },
+        {
+          "raw_estimate": 2.1892261028630444,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12055819587252524,
+            "k2": 0.1412766633195653,
+            "k3": 0.07379587165972529,
+            "k4": 0.04714022312101066
+          }
+        },
+        {
+          "raw_estimate": 2.2114000703449475,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.122224811344802,
+            "k2": 0.1569705414985962,
+            "k3": 0.09664680705371842,
+            "k4": 0.05252399006852225
+          }
+        },
+        {
+          "raw_estimate": 2.1710922891851863,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12008411476077992,
+            "k2": 0.15897045159842987,
+            "k3": 0.10519351910934081,
+            "k4": 0.05612871423128057
+          }
+        },
+        {
+          "raw_estimate": 2.160616679040176,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11435697462036269,
+            "k2": 0.10977558683510029,
+            "k3": 0.04229659849582203,
+            "k4": 0.039380192012851145
+          }
+        },
+        {
+          "raw_estimate": 2.3357710527988758,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11941770423133108,
+            "k2": 0.12709020108287902,
+            "k3": 0.05267466284274644,
+            "k4": 0.035451038964758985
+          }
+        },
+        {
+          "raw_estimate": 2.264251498934627,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12009832038146966,
+            "k2": 0.13122496329932326,
+            "k3": 0.06119181654994084,
+            "k4": 0.0415134013313119
+          }
+        },
+        {
+          "raw_estimate": 2.1753773279720043,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11975487272108971,
+            "k2": 0.1421594331841946,
+            "k3": 0.08021458949492272,
+            "k4": 0.05069295139831506
+          }
+        },
+        {
+          "raw_estimate": 2.270769673208822,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1177806316215555,
+            "k2": 0.12551254437152504,
+            "k3": 0.0666695330527492,
+            "k4": 0.04695572352101763
+          }
+        },
+        {
+          "raw_estimate": 2.2442945793364517,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11352490723800365,
+            "k2": 0.11650264157970232,
+            "k3": 0.05766622046938073,
+            "k4": 0.04425100070852245
+          }
+        },
+        {
+          "raw_estimate": 2.287881147354566,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11460516135055135,
+            "k2": 0.10925451018931202,
+            "k3": 0.033365002928213816,
+            "k4": 0.028249923632259193
+          }
+        },
+        {
+          "raw_estimate": 2.1495711098500188,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11871431543891074,
+            "k2": 0.13960813759578103,
+            "k3": 0.08013587025715765,
+            "k4": 0.05244846013077228
+          }
+        },
+        {
+          "raw_estimate": 2.255593831389545,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11771455581766485,
+            "k2": 0.1354468314652943,
+            "k3": 0.08312106488625652,
+            "k4": 0.052101375595446316
+          }
+        },
+        {
+          "raw_estimate": 2.304900164495696,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11929500862074828,
+            "k2": 0.13789994844833653,
+            "k3": 0.07994119449369132,
+            "k4": 0.04803100687940657
+          }
+        },
+        {
+          "raw_estimate": 2.1278869422283475,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11908568283336425,
+            "k2": 0.1534611975266596,
+            "k3": 0.09327539147695062,
+            "k4": 0.053541094315504155
+          }
+        },
+        {
+          "raw_estimate": 2.2538687485552305,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11644482369327554,
+            "k2": 0.12200245046879442,
+            "k3": 0.0537611323467463,
+            "k4": 0.039488421658283604
+          }
+        },
+        {
+          "raw_estimate": 2.285478625221029,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11362852719443776,
+            "k2": 0.10766376566499515,
+            "k3": 0.04510921551224679,
+            "k4": 0.03870355287627124
+          }
+        },
+        {
+          "raw_estimate": 2.194248208291087,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11872807210667119,
+            "k2": 0.13271910418887767,
+            "k3": 0.07132428110306584,
+            "k4": 0.049093661639494746
+          }
+        },
+        {
+          "raw_estimate": 2.1833709576736813,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12094060747997623,
+            "k2": 0.13419735941510516,
+            "k3": 0.059385179641305845,
+            "k4": 0.041741228730122315
+          }
+        },
+        {
+          "raw_estimate": 2.3036382297371873,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11874018124740607,
+            "k2": 0.1441660484865205,
+            "k3": 0.08750504527949929,
+            "k4": 0.048697324197368885
+          }
+        },
+        {
+          "raw_estimate": 2.338708598746506,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11547181733742444,
+            "k2": 0.12620999693259966,
+            "k3": 0.0635423494194404,
+            "k4": 0.04083188589038131
+          }
+        },
+        {
+          "raw_estimate": 2.3428954305759127,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11629046651580625,
+            "k2": 0.12695664460771267,
+            "k3": 0.0629377920554262,
+            "k4": 0.04040207494751303
+          }
+        },
+        {
+          "raw_estimate": 2.2963370716884515,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11632168354137921,
+            "k2": 0.1224694755881331,
+            "k3": 0.05969564515242444,
+            "k4": 0.042107321772856594
+          }
+        },
+        {
+          "raw_estimate": 2.2040557014519844,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11667260625085817,
+            "k2": 0.12563287463360118,
+            "k3": 0.060080048215118254,
+            "k4": 0.04374791696127601
+          }
+        },
+        {
+          "raw_estimate": 2.3633011551992134,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11112012386307484,
+            "k2": 0.1085782280320023,
+            "k3": 0.044162449002357204,
+            "k4": 0.03373135855138943
+          }
+        },
+        {
+          "raw_estimate": 2.225188140710905,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12366957758867353,
+            "k2": 0.17174164527408098,
+            "k3": 0.11720970387874174,
+            "k4": 0.05607718915610959
+          }
+        },
+        {
+          "raw_estimate": 2.3157098284468822,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11550248921352066,
+            "k2": 0.1165226925268104,
+            "k3": 0.05768659700882805,
+            "k4": 0.04317329446593684
+          }
+        },
+        {
+          "raw_estimate": 2.237776491852005,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11470766044995209,
+            "k2": 0.12258767489136005,
+            "k3": 0.06542976928488284,
+            "k4": 0.047020902631171875
+          }
+        },
+        {
+          "raw_estimate": 2.2842797046525827,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1207138060121063,
+            "k2": 0.13529891828490237,
+            "k3": 0.065067025035891,
+            "k4": 0.04170227267196261
+          }
+        },
+        {
+          "raw_estimate": 2.247020038963594,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12061006079054083,
+            "k2": 0.13569188761907328,
+            "k3": 0.06672023982660306,
+            "k4": 0.043665041239394485
+          }
+        },
+        {
+          "raw_estimate": 2.3842819855879624,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11400220909393068,
+            "k2": 0.11551765395745651,
+            "k3": 0.0597173504606883,
+            "k4": 0.04217396917682328
+          }
+        },
+        {
+          "raw_estimate": 2.265342651696668,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1196377370147067,
+            "k2": 0.14051701344595496,
+            "k3": 0.08253457482934272,
+            "k4": 0.049698902013386906
+          }
+        },
+        {
+          "raw_estimate": 2.1715584899964417,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11705538593661452,
+            "k2": 0.14099440552351908,
+            "k3": 0.0810757813612339,
+            "k4": 0.050181080032400086
+          }
+        },
+        {
+          "raw_estimate": 2.2096431739577387,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12185300592529383,
+            "k2": 0.1464264800210515,
+            "k3": 0.08500969039183993,
+            "k4": 0.05135759400843972
+          }
+        },
+        {
+          "raw_estimate": 2.1896966537441616,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11941044026774501,
+            "k2": 0.13597542113339509,
+            "k3": 0.07399445535146905,
+            "k4": 0.0495457203447436
+          }
+        },
+        {
+          "raw_estimate": 2.28559022424681,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11810338291809468,
+            "k2": 0.14044810077053335,
+            "k3": 0.08178860041242358,
+            "k4": 0.04760644369469164
+          }
+        },
+        {
+          "raw_estimate": 2.218143764045845,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11800076974950315,
+            "k2": 0.13289904874175743,
+            "k3": 0.06533550308628075,
+            "k4": 0.04360941386450839
+          }
+        },
+        {
+          "raw_estimate": 2.26219318456977,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11722219294008562,
+            "k2": 0.13437565054684117,
+            "k3": 0.06760446046821307,
+            "k4": 0.042432426501637074
+          }
+        },
+        {
+          "raw_estimate": 2.1418713473496336,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12087057501470536,
+            "k2": 0.15513503269563622,
+            "k3": 0.09160447113415186,
+            "k4": 0.05237383683923296
+          }
+        },
+        {
+          "raw_estimate": 2.244005966634214,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11719209799362756,
+            "k2": 0.1254070861568661,
+            "k3": 0.05777882999887955,
+            "k4": 0.04123208861405195
+          }
+        },
+        {
+          "raw_estimate": 2.279489883949262,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11649332405869849,
+            "k2": 0.12834892195296307,
+            "k3": 0.05936559947429921,
+            "k4": 0.03927660073254515
+          }
+        },
+        {
+          "raw_estimate": 2.327413676395685,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11482255013088873,
+            "k2": 0.11229372758144358,
+            "k3": 0.04453445717525687,
+            "k4": 0.0348973645904695
+          }
+        },
+        {
+          "raw_estimate": 2.2084422143343643,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11743673738697662,
+            "k2": 0.13296018336750862,
+            "k3": 0.07489081793577118,
+            "k4": 0.04991501669437907
+          }
+        },
+        {
+          "raw_estimate": 2.2221798364653136,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11394522433523378,
+            "k2": 0.11437209181695833,
+            "k3": 0.05416538251465862,
+            "k4": 0.04401883498567334
+          }
+        },
+        {
+          "raw_estimate": 2.2155712987304366,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1168251334556309,
+            "k2": 0.12042943804357616,
+            "k3": 0.05402006844414986,
+            "k4": 0.042074116129558976
+          }
+        },
+        {
+          "raw_estimate": 2.114798111064714,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11246375720358992,
+            "k2": 0.1114025650576906,
+            "k3": 0.054953024771002765,
+            "k4": 0.05019259931746865
+          }
+        },
+        {
+          "raw_estimate": 2.2145304013239393,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1147778840732893,
+            "k2": 0.11086332969340737,
+            "k3": 0.05175873699738238,
+            "k4": 0.045442151289466624
+          }
+        },
+        {
+          "raw_estimate": 2.1724521103529244,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11764780160802057,
+            "k2": 0.13305376267861363,
+            "k3": 0.07333589116090379,
+            "k4": 0.05033575471014731
+          }
+        },
+        {
+          "raw_estimate": 2.245540072390992,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11856944699970641,
+            "k2": 0.13365904750643326,
+            "k3": 0.06530189414693578,
+            "k4": 0.04264429480378177
+          }
+        },
+        {
+          "raw_estimate": 2.294637273728882,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11707305779691593,
+            "k2": 0.12171541897847224,
+            "k3": 0.05467071701395853,
+            "k4": 0.039455558273146174
+          }
+        },
+        {
+          "raw_estimate": 2.1772208440529317,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11363836439965457,
+            "k2": 0.1201411998099537,
+            "k3": 0.06647676997693486,
+            "k4": 0.05106487857203472
+          }
+        },
+        {
+          "raw_estimate": 2.2816560136957076,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11603203933230426,
+            "k2": 0.11819759238280243,
+            "k3": 0.05357623444224744,
+            "k4": 0.04045811577596481
+          }
+        },
+        {
+          "raw_estimate": 2.205523764263238,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11382266076802097,
+            "k2": 0.11342345675488293,
+            "k3": 0.04929924919109758,
+            "k4": 0.041158561138268115
+          }
+        },
+        {
+          "raw_estimate": 2.191318829931998,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1163790231975251,
+            "k2": 0.12554045162698402,
+            "k3": 0.06624408361961721,
+            "k4": 0.04857242511777294
+          }
+        },
+        {
+          "raw_estimate": 2.1995646286999495,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1219781095420123,
+            "k2": 0.1539448182477943,
+            "k3": 0.09127909294309748,
+            "k4": 0.051395803839072315
+          }
+        },
+        {
+          "raw_estimate": 2.134403909335474,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11880923086717517,
+            "k2": 0.13282781028280655,
+            "k3": 0.0658218443262565,
+            "k4": 0.047482038635870326
+          }
+        },
+        {
+          "raw_estimate": 2.280542400486191,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11743238868998522,
+            "k2": 0.12744746637221038,
+            "k3": 0.06003192544616291,
+            "k4": 0.04069862623732365
+          }
+        },
+        {
+          "raw_estimate": 2.189345016221177,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11535728347127247,
+            "k2": 0.11941507240271149,
+            "k3": 0.05298544604254219,
+            "k4": 0.04184084235437442
+          }
+        },
+        {
+          "raw_estimate": 2.2641333779825024,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11519499863165668,
+            "k2": 0.11831745975637158,
+            "k3": 0.051799822911749706,
+            "k4": 0.039079320667605104
+          }
+        },
+        {
+          "raw_estimate": 2.178089052046023,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12007819838260403,
+            "k2": 0.13753289210143568,
+            "k3": 0.07043307464321479,
+            "k4": 0.047121931582364045
+          }
+        },
+        {
+          "raw_estimate": 2.388750825576683,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11836107865810308,
+            "k2": 0.1234304862406818,
+            "k3": 0.053643896609519154,
+            "k4": 0.03597699483147186
+          }
+        },
+        {
+          "raw_estimate": 2.3252834248042866,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11830639326330895,
+            "k2": 0.12857155850930113,
+            "k3": 0.0577125821032424,
+            "k4": 0.037793691063654475
+          }
+        },
+        {
+          "raw_estimate": 2.1768663018836483,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11706988455518635,
+            "k2": 0.12383311137524146,
+            "k3": 0.05546813721846458,
+            "k4": 0.04258179181348596
+          }
+        }
+      ],
+      "raw_percentile_95_interval": [
+        2.1229440495943983,
+        2.386628126582041
+      ],
+      "unusable_fraction": 0.0,
+      "warning": "Percentiles retain boundary/invalid estimates; conditional noise model excludes input and registration uncertainty"
+    }
+  },
+  {
+    "scan": "rbqc_1",
+    "variant": "fixed",
+    "profile_k4": {
+      "parameter": "k4",
+      "confidence": 0.95,
+      "threshold": 3.8414588206941205,
+      "grid": [
+        {
+          "value": 1e-06,
+          "weighted_sse": 14.750184359707172,
+          "converged": true,
+          "likelihood_ratio": 9.325873406851302e-14
+        },
+        {
+          "value": 1.0000000001680545e-06,
+          "weighted_sse": 14.75018435970713,
+          "converged": true,
+          "likelihood_ratio": 0.0
+        },
+        {
+          "value": 1.347542356810575e-06,
+          "weighted_sse": 14.750189366147099,
+          "converged": true,
+          "likelihood_ratio": 1.1879537559327817e-05
+        },
+        {
+          "value": 1.815870403398599e-06,
+          "weighted_sse": 14.75019611702458,
+          "converged": true,
+          "likelihood_ratio": 2.7898359547019368e-05
+        },
+        {
+          "value": 2.446962283058318e-06,
+          "weighted_sse": 14.750205222278957,
+          "converged": true,
+          "likelihood_ratio": 4.950375397026875e-05
+        },
+        {
+          "value": 3.297385321938991e-06,
+          "weighted_sse": 14.750217506821173,
+          "converged": true,
+          "likelihood_ratio": 7.865309745064083e-05
+        },
+        {
+          "value": 4.443366388038265e-06,
+          "weighted_sse": 14.750234087674313,
+          "converged": true,
+          "likelihood_ratio": 0.00011799689244937314
+        },
+        {
+          "value": 5.987624414709975e-06,
+          "weighted_sse": 14.750256479949186,
+          "converged": true,
+          "likelihood_ratio": 0.00017113022043842464
+        },
+        {
+          "value": 8.06857751549482e-06,
+          "weighted_sse": 14.750286743232117,
+          "converged": true,
+          "likelihood_ratio": 0.00024294007794267337
+        },
+        {
+          "value": 1.0872749961338704e-05,
+          "weighted_sse": 14.750327685429536,
+          "converged": true,
+          "likelihood_ratio": 0.0003400890314369477
+        },
+        {
+          "value": 1.4651491107914446e-05,
+          "weighted_sse": 14.750383149390416,
+          "converged": true,
+          "likelihood_ratio": 0.0004716952589429927
+        },
+        {
+          "value": 1.9743504858348216e-05,
+          "weighted_sse": 14.750458420765652,
+          "converged": true,
+          "likelihood_ratio": 0.0006503002066685234
+        },
+        {
+          "value": 2.6605209068519594e-05,
+          "weighted_sse": 14.75056081694187,
+          "converged": true,
+          "likelihood_ratio": 0.0008932657895714693
+        },
+        {
+          "value": 3.585164613163098e-05,
+          "weighted_sse": 14.750700552037419,
+          "converged": true,
+          "likelihood_ratio": 0.0012248264156126253
+        },
+        {
+          "value": 4.831161172375664e-05,
+          "weighted_sse": 14.750892032073654,
+          "converged": true,
+          "likelihood_ratio": 0.0016791612959580664
+        },
+        {
+          "value": 6.510194312354856e-05,
+          "weighted_sse": 14.751155835540953,
+          "converged": true,
+          "likelihood_ratio": 0.002305092173512665
+        },
+        {
+          "value": 8.772762586965446e-05,
+          "weighted_sse": 14.751521809365011,
+          "converged": true,
+          "likelihood_ratio": 0.0031734258208432346
+        },
+        {
+          "value": 0.00011821669172179068,
+          "weighted_sse": 14.75203401598636,
+          "converged": true,
+          "likelihood_ratio": 0.004388684880128955
+        },
+        {
+          "value": 0.000159301999377131,
+          "weighted_sse": 14.752758806526849,
+          "converged": true,
+          "likelihood_ratio": 0.0061082474661049435
+        },
+        {
+          "value": 0.00021466619168529586,
+          "weighted_sse": 14.753798252084001,
+          "converged": true,
+          "likelihood_ratio": 0.008574180339467741
+        },
+        {
+          "value": 0.00028927178587115425,
+          "weighted_sse": 14.755312872228114,
+          "converged": true,
+          "likelihood_ratio": 0.012167084569433545
+        },
+        {
+          "value": 0.0003898059840916192,
+          "weighted_sse": 14.757560654049602,
+          "converged": true,
+          "likelihood_ratio": 0.0174984775857157
+        },
+        {
+          "value": 0.0005252800745016861,
+          "weighted_sse": 14.76096483030588,
+          "converged": true,
+          "likelihood_ratio": 0.025571114517468546
+        },
+        {
+          "value": 0.0007078371495796364,
+          "weighted_sse": 14.766232703013081,
+          "converged": true,
+          "likelihood_ratio": 0.03805963778488488
+        },
+        {
+          "value": 0.0009538405407826229,
+          "weighted_sse": 14.774565376301968,
+          "converged": true,
+          "likelihood_ratio": 0.05780477615676599
+        },
+        {
+          "value": 0.0012853405303476877,
+          "weighted_sse": 14.788029598248762,
+          "converged": true,
+          "likelihood_ratio": 0.0896861317094496
+        },
+        {
+          "value": 0.0017320508075688776,
+          "weighted_sse": 14.810218292473897,
+          "converged": true,
+          "likelihood_ratio": 0.14216251113766706
+        },
+        {
+          "value": 0.002334011827347025,
+          "weighted_sse": 14.84742264438933,
+          "converged": true,
+          "likelihood_ratio": 0.22997482249895074
+        },
+        {
+          "value": 0.0031451797986469673,
+          "weighted_sse": 14.91070089073537,
+          "converged": true,
+          "likelihood_ratio": 0.3788243934474513
+        },
+        {
+          "value": 0.004238262998461744,
+          "weighted_sse": 15.019486227799662,
+          "converged": true,
+          "likelihood_ratio": 0.6332500372747094
+        },
+        {
+          "value": 0.0057112389097301935,
+          "weighted_sse": 15.207732466067965,
+          "converged": true,
+          "likelihood_ratio": 1.0691951095933199
+        },
+        {
+          "value": 0.007696136340726084,
+          "weighted_sse": 15.533923478514174,
+          "converged": true,
+          "likelihood_ratio": 1.811973178747107
+        },
+        {
+          "value": 0.010370869702917541,
+          "weighted_sse": 16.096006983688333,
+          "converged": true,
+          "likelihood_ratio": 3.0560476143252715
+        },
+        {
+          "value": 0.013975186201644892,
+          "weighted_sse": 17.049814280309178,
+          "converged": true,
+          "likelihood_ratio": 5.07093052720799
+        },
+        {
+          "value": 0.018832155351031186,
+          "weighted_sse": 18.62154952355836,
+          "converged": true,
+          "likelihood_ratio": 8.157236673312301
+        },
+        {
+          "value": 0.025377127005551448,
+          "weighted_sse": 21.089326429631775,
+          "converged": true,
+          "likelihood_ratio": 12.512901604246103
+        },
+        {
+          "value": 0.03419675353414209,
+          "weighted_sse": 24.697116712942822,
+          "converged": true,
+          "likelihood_ratio": 18.040082300791454
+        },
+        {
+          "value": 0.04608157385266819,
+          "weighted_sse": 29.49663616434366,
+          "converged": true,
+          "likelihood_ratio": 24.255722639603135
+        },
+        {
+          "value": 0.062096872634965064,
+          "weighted_sse": 35.21125090211421,
+          "converged": true,
+          "likelihood_ratio": 30.453852721739825
+        },
+        {
+          "value": 0.08367816610108691,
+          "weighted_sse": 41.271797484610225,
+          "converged": true,
+          "likelihood_ratio": 36.01233353943358
+        },
+        {
+          "value": 0.11275987316144544,
+          "weighted_sse": 47.037713642201425,
+          "converged": true,
+          "likelihood_ratio": 40.58929406676136
+        },
+        {
+          "value": 0.15194870523363568,
+          "weighted_sse": 52.026560502437455,
+          "converged": true,
+          "likelihood_ratio": 44.11745748901424
+        },
+        {
+          "value": 0.20475731636484878,
+          "weighted_sse": 56.001211045848564,
+          "converged": true,
+          "likelihood_ratio": 46.69412071271942
+        },
+        {
+          "value": 0.27591915666849687,
+          "weighted_sse": 58.93211706233764,
+          "converged": true,
+          "likelihood_ratio": 48.47957245491662
+        },
+        {
+          "value": 0.3718127506662526,
+          "weighted_sse": 60.92474282474777,
+          "converged": true,
+          "likelihood_ratio": 49.64343288288068
+        },
+        {
+          "value": 0.5010334303250247,
+          "weighted_sse": 62.15914920917753,
+          "converged": true,
+          "likelihood_ratio": 50.34548530143182
+        },
+        {
+          "value": 0.6751637695410708,
+          "weighted_sse": 62.84187385311151,
+          "converged": true,
+          "likelihood_ratio": 50.72781177463968
+        },
+        {
+          "value": 0.9098117772404865,
+          "weighted_sse": 63.166130383945756,
+          "converged": true,
+          "likelihood_ratio": 50.90794324642248
+        },
+        {
+          "value": 1.226009906556663,
+          "weighted_sse": 63.28547701603227,
+          "converged": true,
+          "likelihood_ratio": 50.97401015453414
+        },
+        {
+          "value": 1.6521002789544752,
+          "weighted_sse": 63.30538847665571,
+          "converged": true,
+          "likelihood_ratio": 50.98502044544029
+        },
+        {
+          "value": 2.226275103589722,
+          "weighted_sse": 63.30538940571296,
+          "converged": true,
+          "likelihood_ratio": 50.985020959093305
+        },
+        {
+          "value": 3.0,
+          "weighted_sse": 63.30538850691318,
+          "converged": true,
+          "likelihood_ratio": 50.98502046216891
+        }
+      ],
+      "interval_components": [
+        {
+          "lower": null,
+          "upper": 0.01177584988876389,
+          "open_lower": true,
+          "open_upper": false,
+          "accepted_grid_range": [
+            1e-06,
+            0.010370869702917541
+          ]
+        }
+      ],
+      "closed": false,
+      "relative_weight_scale_profiled": true,
+      "warning": "Conditional on input, model, vascular fraction and preprocessing; asymptotic chi-square approximation"
+    },
+    "bootstrap": {
+      "method": "conditional_parametric_Gaussian_bootstrap",
+      "n": 100,
+      "seed": 20261103,
+      "draws": [
+        {
+          "raw_estimate": 9361.336677510797,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10518149321753259,
+            "k2": 0.11804015071569823,
+            "k3": 0.01050477967462699,
+            "k4": 1.0000000011565686e-06
+          }
+        },
+        {
+          "raw_estimate": 8777.126348689822,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10416443437701053,
+            "k2": 0.12031543935638446,
+            "k3": 0.010137045862254813,
+            "k4": 1.000000000000805e-06
+          }
+        },
+        {
+          "raw_estimate": 10439.650363955372,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.1073611718490428,
+            "k2": 0.1279448690994029,
+            "k3": 0.01244018032930203,
+            "k4": 1.0000000000593912e-06
+          }
+        },
+        {
+          "raw_estimate": 9180.558320065133,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10457447411175895,
+            "k2": 0.12224904860607623,
+            "k3": 0.010731203339624705,
+            "k4": 1.0000000000010308e-06
+          }
+        },
+        {
+          "raw_estimate": 9.541985744391223,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10756355005826355,
+            "k2": 0.12967484183382638,
+            "k3": 0.014441722956506925,
+            "k4": 0.0013749460694827283
+          }
+        },
+        {
+          "raw_estimate": 9270.154154972568,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.1042930261525476,
+            "k2": 0.11723125965706635,
+            "k3": 0.01041917754121645,
+            "k4": 1.000000000016247e-06
+          }
+        },
+        {
+          "raw_estimate": 3.1749995632931394,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10857818300590201,
+            "k2": 0.12689271748334743,
+            "k3": 0.013881932641858068,
+            "k4": 0.005121452868666559
+          }
+        },
+        {
+          "raw_estimate": 10821.409339155041,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10456101132487593,
+            "k2": 0.11728249670191272,
+            "k3": 0.012137003344154318,
+            "k4": 1.0000000000000023e-06
+          }
+        },
+        {
+          "raw_estimate": 11449.273735628814,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.1058340869553471,
+            "k2": 0.12483011123203872,
+            "k3": 0.013503289166756012,
+            "k4": 1.0000000000000023e-06
+          }
+        },
+        {
+          "raw_estimate": 2.7422261164780632,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11359553455188535,
+            "k2": 0.13969564693236636,
+            "k3": 0.01985255570575916,
+            "k4": 0.008368520795757351
+          }
+        },
+        {
+          "raw_estimate": 3.8845282989314396,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10180470181972968,
+            "k2": 0.11101422399515562,
+            "k3": 0.011668835435082672,
+            "k4": 0.0036060188765153728
+          }
+        },
+        {
+          "raw_estimate": 9905.688304738746,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10291178721512897,
+            "k2": 0.11338456591678159,
+            "k3": 0.010912736891626482,
+            "k4": 1.000000000154245e-06
+          }
+        },
+        {
+          "raw_estimate": 10382.276633934407,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10512258681138796,
+            "k2": 0.11873660310276948,
+            "k3": 0.011725844795020748,
+            "k4": 1.0000000000013097e-06
+          }
+        },
+        {
+          "raw_estimate": 12250.661992789583,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10687026445083199,
+            "k2": 0.13258219186482517,
+            "k3": 0.015197049964097223,
+            "k4": 1.0000000000005406e-06
+          }
+        },
+        {
+          "raw_estimate": 10070.409489911506,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10125296745444155,
+            "k2": 0.11617742354764841,
+            "k3": 0.01155376484315511,
+            "k4": 1.0000000000000023e-06
+          }
+        },
+        {
+          "raw_estimate": 9647.68200112299,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10675767182781423,
+            "k2": 0.11557718944190976,
+            "k3": 0.010443701080776824,
+            "k4": 1.000000000001878e-06
+          }
+        },
+        {
+          "raw_estimate": 10828.4093119522,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10455938841867139,
+            "k2": 0.12220198601455985,
+            "k3": 0.012654517056245356,
+            "k4": 1.0000000001692678e-06
+          }
+        },
+        {
+          "raw_estimate": 9111.03370926983,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.1068496591378586,
+            "k2": 0.11901678884746783,
+            "k3": 0.010147520699325186,
+            "k4": 1.0000000021379293e-06
+          }
+        },
+        {
+          "raw_estimate": 3.509357676900761,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10344200306705179,
+            "k2": 0.11452334004120752,
+            "k3": 0.013252746505339657,
+            "k4": 0.004593193058527605
+          }
+        },
+        {
+          "raw_estimate": 2.583086401063972,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10769254546748525,
+            "k2": 0.1265222636539494,
+            "k3": 0.014976556730592108,
+            "k4": 0.007360459201176851
+          }
+        },
+        {
+          "raw_estimate": 11580.293521016321,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10606684355552888,
+            "k2": 0.13150790883978178,
+            "k3": 0.014356928771384675,
+            "k4": 1.0000000000500103e-06
+          }
+        },
+        {
+          "raw_estimate": 8165.402541156143,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10534209867961528,
+            "k2": 0.11988649361436778,
+            "k3": 0.009291785049398244,
+            "k4": 1.0000000000746873e-06
+          }
+        },
+        {
+          "raw_estimate": 10057.99608137608,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.106096942463776,
+            "k2": 0.12270078639907016,
+            "k3": 0.011631041415935134,
+            "k4": 1.000000000047907e-06
+          }
+        },
+        {
+          "raw_estimate": 11358.085180684458,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10163500480353133,
+            "k2": 0.12358453405801921,
+            "k3": 0.013810025745383687,
+            "k4": 1.0000000022282874e-06
+          }
+        },
+        {
+          "raw_estimate": 3.6207568000560157,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10768943102507555,
+            "k2": 0.1310815025212985,
+            "k3": 0.013842454023111829,
+            "k4": 0.004062647045700688
+          }
+        },
+        {
+          "raw_estimate": 2.8757905990275967,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1014686063519886,
+            "k2": 0.11351273389703734,
+            "k3": 0.012681360536567474,
+            "k4": 0.005719689600744562
+          }
+        },
+        {
+          "raw_estimate": 10549.996594570985,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10460994516049776,
+            "k2": 0.12695920545527944,
+            "k3": 0.01280293736129228,
+            "k4": 1.0000000000004463e-06
+          }
+        },
+        {
+          "raw_estimate": 4.04374645525308,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10073196961768623,
+            "k2": 0.11468052828447224,
+            "k3": 0.014413342211921977,
+            "k4": 0.003999604165506034
+          }
+        },
+        {
+          "raw_estimate": 12206.562652007775,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10741584447606167,
+            "k2": 0.1313088826700027,
+            "k3": 0.014920728827759237,
+            "k4": 1.0000000000000165e-06
+          }
+        },
+        {
+          "raw_estimate": 9305.90878347327,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10018482556038369,
+            "k2": 0.10598378928677084,
+            "k3": 0.009843559497116263,
+            "k4": 1.0000000003121862e-06
+          }
+        },
+        {
+          "raw_estimate": 2.0267689661193873,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10654077206708257,
+            "k2": 0.13378017216354166,
+            "k3": 0.02706586744162242,
+            "k4": 0.017518867800161462
+          }
+        },
+        {
+          "raw_estimate": 2.3899980421194247,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10727115369031937,
+            "k2": 0.12857954013105785,
+            "k3": 0.01756371050349835,
+            "k4": 0.00941881058726878
+          }
+        },
+        {
+          "raw_estimate": 11103.270226735749,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.103433461401488,
+            "k2": 0.11856152151234871,
+            "k3": 0.012726221868766685,
+            "k4": 1.0000000000506729e-06
+          }
+        },
+        {
+          "raw_estimate": 10172.045408952517,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.11011910960993872,
+            "k2": 0.13307287902284196,
+            "k3": 0.012291391330765015,
+            "k4": 1.0000028224329408e-06
+          }
+        },
+        {
+          "raw_estimate": 2.531196082716409,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10870772349162973,
+            "k2": 0.12994942874735477,
+            "k3": 0.016988434700400557,
+            "k4": 0.008386050594853532
+          }
+        },
+        {
+          "raw_estimate": 10150.054477200218,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10664686549232788,
+            "k2": 0.11889410954659571,
+            "k3": 0.011314678931069749,
+            "k4": 1.0000000000000059e-06
+          }
+        },
+        {
+          "raw_estimate": 10028.61027876815,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10351820245102368,
+            "k2": 0.11272997088754347,
+            "k3": 0.010920025655427023,
+            "k4": 1.0000000000028888e-06
+          }
+        },
+        {
+          "raw_estimate": 1.9133961470849306,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11151764902020533,
+            "k2": 0.14983592819430666,
+            "k3": 0.024880411113331592,
+            "k4": 0.015838789740161174
+          }
+        },
+        {
+          "raw_estimate": 9866.164119874027,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10614069187297849,
+            "k2": 0.12245122246430372,
+            "k3": 0.011381287449338291,
+            "k4": 1.0000000061736345e-06
+          }
+        },
+        {
+          "raw_estimate": 2.1165807075740637,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10815191695716747,
+            "k2": 0.13627515195537493,
+            "k3": 0.022981583968130243,
+            "k4": 0.013786484103684861
+          }
+        },
+        {
+          "raw_estimate": 2.318896869931303,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10462317688811157,
+            "k2": 0.1294050108778294,
+            "k3": 0.018945129640531532,
+            "k4": 0.010141018931655258
+          }
+        },
+        {
+          "raw_estimate": 8195.530248412677,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.102681913649895,
+            "k2": 0.11301017471120123,
+            "k3": 0.009018877726371511,
+            "k4": 1.0000000006563607e-06
+          }
+        },
+        {
+          "raw_estimate": 11173.809268183948,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10892728630257086,
+            "k2": 0.12850966984101617,
+            "k3": 0.013181578843820414,
+            "k4": 1.0000000000043418e-06
+          }
+        },
+        {
+          "raw_estimate": 10520.89635357397,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10871935594256729,
+            "k2": 0.12456991985607181,
+            "k3": 0.012053773729479998,
+            "k4": 1.0000000155086082e-06
+          }
+        },
+        {
+          "raw_estimate": 2.863633845552486,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10583980142089361,
+            "k2": 0.12478590597085296,
+            "k3": 0.014747470873285453,
+            "k4": 0.006206206988838328
+          }
+        },
+        {
+          "raw_estimate": 10453.407028123025,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10469547368755354,
+            "k2": 0.11198706292844854,
+            "k3": 0.011180441847619462,
+            "k4": 1.0000000000608726e-06
+          }
+        },
+        {
+          "raw_estimate": 4.475203271482677,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10080738238182664,
+            "k2": 0.11325171558295033,
+            "k3": 0.012926655899131395,
+            "k4": 0.0032094767787855887
+          }
+        },
+        {
+          "raw_estimate": 9431.978211472004,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10694466282791347,
+            "k2": 0.1277118574385126,
+            "k3": 0.011262539711616752,
+            "k4": 1.0000000000008284e-06
+          }
+        },
+        {
+          "raw_estimate": 9275.552254125923,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.1041332421725632,
+            "k2": 0.11733805351058238,
+            "k3": 0.010450756079728087,
+            "k4": 1.0000000002242585e-06
+          }
+        },
+        {
+          "raw_estimate": 2.4925793274435413,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10355133245202262,
+            "k2": 0.1182670994687408,
+            "k3": 0.01788428933355073,
+            "k4": 0.009683924186925095
+          }
+        },
+        {
+          "raw_estimate": 4.409797607839059,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10594679192091191,
+            "k2": 0.12055438557049504,
+            "k3": 0.01547462723554619,
+            "k4": 0.0038515118681347097
+          }
+        },
+        {
+          "raw_estimate": 2.6769041527876403,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10425204114611666,
+            "k2": 0.13048292289997726,
+            "k3": 0.015945613167448205,
+            "k4": 0.006784095168832843
+          }
+        },
+        {
+          "raw_estimate": 10237.028241099315,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.1044014180847593,
+            "k2": 0.11983495584725783,
+            "k3": 0.011749355980210414,
+            "k4": 1.0000000000451892e-06
+          }
+        },
+        {
+          "raw_estimate": 10050.957388464576,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10266900552399655,
+            "k2": 0.11051923271935041,
+            "k3": 0.010818468767663845,
+            "k4": 1.0000000000053987e-06
+          }
+        },
+        {
+          "raw_estimate": 3.1887664193368046,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1066718281549002,
+            "k2": 0.1225730912263865,
+            "k3": 0.013799400760620336,
+            "k4": 0.0051797478335180195
+          }
+        },
+        {
+          "raw_estimate": 9351.286953955736,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10947273542581916,
+            "k2": 0.12858898832664023,
+            "k3": 0.010983219260476034,
+            "k4": 1.0000000000000023e-06
+          }
+        },
+        {
+          "raw_estimate": 2.182966028466958,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10615912887244183,
+            "k2": 0.13619216609337995,
+            "k3": 0.02773078458065006,
+            "k4": 0.015401372218702154
+          }
+        },
+        {
+          "raw_estimate": 11978.789735045644,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10231278404434682,
+            "k2": 0.1185687063857652,
+            "k3": 0.01388103454942635,
+            "k4": 1.000000000000123e-06
+          }
+        },
+        {
+          "raw_estimate": 27.54166497438369,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10375779233652938,
+            "k2": 0.1208590700532236,
+            "k3": 0.014121940877654114,
+            "k4": 0.00045435839821243495
+          }
+        },
+        {
+          "raw_estimate": 12.334250568905182,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10468562716162783,
+            "k2": 0.11819949004436221,
+            "k3": 0.012865606787337452,
+            "k4": 0.0009952909347364094
+          }
+        },
+        {
+          "raw_estimate": 9757.071174292645,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10408709251041517,
+            "k2": 0.11939872688664628,
+            "k3": 0.011191376002206235,
+            "k4": 1.0000000000000468e-06
+          }
+        },
+        {
+          "raw_estimate": 11299.935566859627,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.09986436717719782,
+            "k2": 0.11591237829966566,
+            "k3": 0.013114813409868229,
+            "k4": 1.0000000000023026e-06
+          }
+        },
+        {
+          "raw_estimate": 1.9838587036862358,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10928989110194401,
+            "k2": 0.14332802239147102,
+            "k3": 0.029207246393578905,
+            "k4": 0.01823483798770774
+          }
+        },
+        {
+          "raw_estimate": 10874.161879498784,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10266174898065826,
+            "k2": 0.10879370258328959,
+            "k3": 0.011522672109114502,
+            "k4": 1.0000000000343126e-06
+          }
+        },
+        {
+          "raw_estimate": 10327.039276196894,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10138850699782355,
+            "k2": 0.11238149102585918,
+            "k3": 0.011445741908175754,
+            "k4": 1.0000000002738046e-06
+          }
+        },
+        {
+          "raw_estimate": 3.6595059796538925,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10924268002464982,
+            "k2": 0.13004517451678077,
+            "k3": 0.01579223591339377,
+            "k4": 0.004705159107468763
+          }
+        },
+        {
+          "raw_estimate": 10477.891829209973,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.1078229958600416,
+            "k2": 0.12310059530715274,
+            "k3": 0.01196151978952311,
+            "k4": 1.000000000001331e-06
+          }
+        },
+        {
+          "raw_estimate": 12076.218709694185,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10014444158448974,
+            "k2": 0.10650680305541205,
+            "k3": 0.012842443214616603,
+            "k4": 1.0000000007638623e-06
+          }
+        },
+        {
+          "raw_estimate": 2.996520957872768,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10526476031704472,
+            "k2": 0.1211220236907725,
+            "k3": 0.016597159447363063,
+            "k4": 0.006780101440240752
+          }
+        },
+        {
+          "raw_estimate": 4.066962172105967,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10247198424579851,
+            "k2": 0.12314977584084366,
+            "k3": 0.013889315172098494,
+            "k4": 0.0035726917106987297
+          }
+        },
+        {
+          "raw_estimate": 7.414302944389306,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10763731650219252,
+            "k2": 0.12152521582371868,
+            "k3": 0.012358402537595549,
+            "k4": 0.0016766401927357042
+          }
+        },
+        {
+          "raw_estimate": 9677.648454312954,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10580292482568285,
+            "k2": 0.11821312896485232,
+            "k3": 0.010811792967444566,
+            "k4": 1.0000000145849525e-06
+          }
+        },
+        {
+          "raw_estimate": 11458.390867239004,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10288273699451689,
+            "k2": 0.11708262011628359,
+            "k3": 0.01303888510155542,
+            "k4": 1.0000004802839765e-06
+          }
+        },
+        {
+          "raw_estimate": 10269.716387630322,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10492123509452264,
+            "k2": 0.12331970625877456,
+            "k3": 0.01206956329669423,
+            "k4": 1.0000000008625372e-06
+          }
+        },
+        {
+          "raw_estimate": 4.6140995043218975,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10538946824932616,
+            "k2": 0.12961543647107296,
+            "k3": 0.015554253574425603,
+            "k4": 0.0033272934508344516
+          }
+        },
+        {
+          "raw_estimate": 2.465949446901559,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10558010587313647,
+            "k2": 0.13046476652825176,
+            "k3": 0.016342491558212248,
+            "k4": 0.007983004881427606
+          }
+        },
+        {
+          "raw_estimate": 10266.106498599542,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10570971274873989,
+            "k2": 0.12243792671557002,
+            "k3": 0.011889684048365594,
+            "k4": 1.0000000000071468e-06
+          }
+        },
+        {
+          "raw_estimate": 47.911540767362666,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10588497706517395,
+            "k2": 0.12863123674933058,
+            "k3": 0.013498508737825172,
+            "k4": 0.0002359717431496357
+          }
+        },
+        {
+          "raw_estimate": 10708.475243562407,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10451605918948505,
+            "k2": 0.1186750847774429,
+            "k3": 0.012158176467445473,
+            "k4": 1.0000000000000059e-06
+          }
+        },
+        {
+          "raw_estimate": 3.181524276229292,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10337605646275046,
+            "k2": 0.11800461935287064,
+            "k3": 0.014139069784676285,
+            "k4": 0.005372525582022835
+          }
+        },
+        {
+          "raw_estimate": 9655.663495590856,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10089373077304196,
+            "k2": 0.10943051827995891,
+            "k3": 0.010471645352992876,
+            "k4": 1.0000000000634395e-06
+          }
+        },
+        {
+          "raw_estimate": 9627.389900307793,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10528260790783894,
+            "k2": 0.11770902894812589,
+            "k3": 0.010762702941961851,
+            "k4": 1.0000000000042336e-06
+          }
+        },
+        {
+          "raw_estimate": 2.7655653237132642,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.09999977414699747,
+            "k2": 0.10890758022311393,
+            "k3": 0.010436217060117093,
+            "k4": 0.005187200399234354
+          }
+        },
+        {
+          "raw_estimate": 9089.275568335599,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10320264561881744,
+            "k2": 0.10796505009487542,
+            "k3": 0.00950771061682388,
+            "k4": 1.0000000000188352e-06
+          }
+        },
+        {
+          "raw_estimate": 2.8152569282731705,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10507836851643901,
+            "k2": 0.12237597670586436,
+            "k3": 0.014225429579217058,
+            "k4": 0.0062427994218214895
+          }
+        },
+        {
+          "raw_estimate": 32.41293344627765,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10648260099584586,
+            "k2": 0.1260071784948682,
+            "k3": 0.012730597100671736,
+            "k4": 0.0003407898871705283
+          }
+        },
+        {
+          "raw_estimate": 10724.98496150472,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10522829711105273,
+            "k2": 0.1192599525924288,
+            "k3": 0.012154106878852634,
+            "k4": 1.0000000000007358e-06
+          }
+        },
+        {
+          "raw_estimate": 3.330095954658778,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10088579354295467,
+            "k2": 0.11246163575836522,
+            "k3": 0.012424092327481186,
+            "k4": 0.004580820593196901
+          }
+        },
+        {
+          "raw_estimate": 10469.069370336689,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10443064896833995,
+            "k2": 0.11622383949491802,
+            "k3": 0.01165032506935911,
+            "k4": 1.0000000001439085e-06
+          }
+        },
+        {
+          "raw_estimate": 9307.881364889976,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10203268174871827,
+            "k2": 0.11413635061285385,
+            "k3": 0.010411032622471757,
+            "k4": 1.0000000000000023e-06
+          }
+        },
+        {
+          "raw_estimate": 9441.320583495353,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10265445129203092,
+            "k2": 0.11264458836634472,
+            "k3": 0.010359132049456765,
+            "k4": 1.0000000000822227e-06
+          }
+        },
+        {
+          "raw_estimate": 2.083132428267209,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1098152523822474,
+            "k2": 0.13996995009445456,
+            "k3": 0.022711653126593286,
+            "k4": 0.0137218114930191
+          }
+        },
+        {
+          "raw_estimate": 8832.112811358296,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10589251935920216,
+            "k2": 0.121579339433014,
+            "k3": 0.010139493850944004,
+            "k4": 1.000000000018773e-06
+          }
+        },
+        {
+          "raw_estimate": 10782.833160790959,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10490080118271906,
+            "k2": 0.121182309290507,
+            "k3": 0.012455421765958555,
+            "k4": 1.0000000000000059e-06
+          }
+        },
+        {
+          "raw_estimate": 9401.97730114362,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10390014172725583,
+            "k2": 0.11876652287211098,
+            "k3": 0.01074624378250217,
+            "k4": 1.0000000000000023e-06
+          }
+        },
+        {
+          "raw_estimate": 10170.527398136786,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.1031976412813378,
+            "k2": 0.11780894457438297,
+            "k3": 0.011609527955740856,
+            "k4": 1.0000000004374923e-06
+          }
+        },
+        {
+          "raw_estimate": 2.673409407661739,
+          "usable": false,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.10750610240041952,
+            "k2": 0.12782608260771408,
+            "k3": 0.014856096101755702,
+            "k4": 0.006818736712152144
+          }
+        },
+        {
+          "raw_estimate": 11819.848036503072,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10728188232885956,
+            "k2": 0.12256136177580056,
+            "k3": 0.01350227417729753,
+            "k4": 1.000000000004365e-06
+          }
+        },
+        {
+          "raw_estimate": 11452.710257986353,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10719241131592172,
+            "k2": 0.12735096269117996,
+            "k3": 0.013605501233376926,
+            "k4": 1.0000000000007005e-06
+          }
+        },
+        {
+          "raw_estimate": 9088.957724242258,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.10397155903829372,
+            "k2": 0.11782971646138791,
+            "k3": 0.010299406394917577,
+            "k4": 1.0000000000285606e-06
+          }
+        }
+      ],
+      "raw_percentile_95_interval": [
+        2.0535416106396025,
+        12029.939946736127
+      ],
+      "unusable_fraction": 0.88,
+      "warning": "Percentiles retain boundary/invalid estimates; conditional noise model excludes input and registration uncertainty"
+    }
+  },
+  {
+    "scan": "rbqc_1",
+    "variant": "fitted_vascular_delay",
+    "profile_k4": {
+      "parameter": "k4",
+      "confidence": 0.95,
+      "threshold": 3.8414588206941205,
+      "grid": [
+        {
+          "value": 1e-06,
+          "weighted_sse": 1.9006905849279878,
+          "converged": true,
+          "likelihood_ratio": 18.69783993257844
+        },
+        {
+          "value": 1.347542356810575e-06,
+          "weighted_sse": 1.9006164974667712,
+          "converged": true,
+          "likelihood_ratio": 18.696475632832744
+        },
+        {
+          "value": 1.815870403398599e-06,
+          "weighted_sse": 1.9005166676944378,
+          "converged": true,
+          "likelihood_ratio": 18.69463721156169
+        },
+        {
+          "value": 2.446962283058318e-06,
+          "weighted_sse": 1.9003821520092798,
+          "converged": true,
+          "likelihood_ratio": 18.692159877012244
+        },
+        {
+          "value": 3.297385321938991e-06,
+          "weighted_sse": 1.9002009026145354,
+          "converged": true,
+          "likelihood_ratio": 18.688821584582016
+        },
+        {
+          "value": 4.443366388038265e-06,
+          "weighted_sse": 1.8999567009513774,
+          "converged": true,
+          "likelihood_ratio": 18.684323319449913
+        },
+        {
+          "value": 5.987624414709975e-06,
+          "weighted_sse": 1.8996276805147403,
+          "converged": true,
+          "likelihood_ratio": 18.678261753681166
+        },
+        {
+          "value": 8.06857751549482e-06,
+          "weighted_sse": 1.8991844370995459,
+          "converged": true,
+          "likelihood_ratio": 18.670094190178737
+        },
+        {
+          "value": 1.0872749961338704e-05,
+          "weighted_sse": 1.8985873311696897,
+          "converged": true,
+          "likelihood_ratio": 18.659088416797733
+        },
+        {
+          "value": 1.4651491107914446e-05,
+          "weighted_sse": 1.8977830681151215,
+          "converged": true,
+          "likelihood_ratio": 18.644258879966287
+        },
+        {
+          "value": 1.9743504858348216e-05,
+          "weighted_sse": 1.8966999029917582,
+          "converged": true,
+          "likelihood_ratio": 18.62427682674
+        },
+        {
+          "value": 2.6605209068519594e-05,
+          "weighted_sse": 1.8952415156328195,
+          "converged": true,
+          "likelihood_ratio": 18.597354701926093
+        },
+        {
+          "value": 3.585164613163098e-05,
+          "weighted_sse": 1.8932783824805177,
+          "converged": true,
+          "likelihood_ratio": 18.561082137268578
+        },
+        {
+          "value": 4.831161172375664e-05,
+          "weighted_sse": 1.8906367850639607,
+          "converged": true,
+          "likelihood_ratio": 18.512214273954772
+        },
+        {
+          "value": 6.510194312354856e-05,
+          "weighted_sse": 1.887084058640467,
+          "converged": true,
+          "likelihood_ratio": 18.446383331635243
+        },
+        {
+          "value": 8.772762586965446e-05,
+          "weighted_sse": 1.8823093809433793,
+          "converged": true,
+          "likelihood_ratio": 18.35771452512524
+        },
+        {
+          "value": 0.00011821669172179068,
+          "weighted_sse": 1.875898134613484,
+          "converged": true,
+          "likelihood_ratio": 18.238299171771324
+        },
+        {
+          "value": 0.000159301999377131,
+          "weighted_sse": 1.8673000875918824,
+          "converged": true,
+          "likelihood_ratio": 18.077510371850337
+        },
+        {
+          "value": 0.00021466619168529586,
+          "weighted_sse": 1.8557890526226293,
+          "converged": true,
+          "likelihood_ratio": 17.861083908493814
+        },
+        {
+          "value": 0.00028927178587115425,
+          "weighted_sse": 1.8404139798555053,
+          "converged": true,
+          "likelihood_ratio": 17.569903664387752
+        },
+        {
+          "value": 0.0003898059840916192,
+          "weighted_sse": 1.8199433692942768,
+          "converged": true,
+          "likelihood_ratio": 17.178423395686014
+        },
+        {
+          "value": 0.0005252800745016861,
+          "weighted_sse": 1.7928123168445254,
+          "converged": true,
+          "likelihood_ratio": 16.652727904415734
+        },
+        {
+          "value": 0.0007078371495796364,
+          "weighted_sse": 1.757072918296772,
+          "converged": true,
+          "likelihood_ratio": 15.947960774303555
+        },
+        {
+          "value": 0.0009538405407826229,
+          "weighted_sse": 1.7104019923983969,
+          "converged": true,
+          "likelihood_ratio": 15.005729842184172
+        },
+        {
+          "value": 0.0012853405303476877,
+          "weighted_sse": 1.650224460281225,
+          "converged": true,
+          "likelihood_ratio": 13.75213095836343
+        },
+        {
+          "value": 0.0017320508075688776,
+          "weighted_sse": 1.5741658412733606,
+          "converged": true,
+          "likelihood_ratio": 12.10062768515962
+        },
+        {
+          "value": 0.002334011827347025,
+          "weighted_sse": 1.4809032551635246,
+          "converged": true,
+          "likelihood_ratio": 9.963062247054523
+        },
+        {
+          "value": 0.0031451797986469673,
+          "weighted_sse": 1.371830895174287,
+          "converged": true,
+          "likelihood_ratio": 7.285354287697354
+        },
+        {
+          "value": 0.004238262998461744,
+          "weighted_sse": 1.2553313905489782,
+          "converged": true,
+          "likelihood_ratio": 4.179220714506032
+        },
+        {
+          "value": 0.0057112389097301935,
+          "weighted_sse": 1.1536434795518609,
+          "converged": true,
+          "likelihood_ratio": 1.22261612705903
+        },
+        {
+          "value": 0.007371582193920725,
+          "weighted_sse": 1.1140402677143488,
+          "converged": true,
+          "likelihood_ratio": 0.0
+        },
+        {
+          "value": 0.007696136340726084,
+          "weighted_sse": 1.1155578857216522,
+          "converged": true,
+          "likelihood_ratio": 0.04764682674043082
+        },
+        {
+          "value": 0.010370869702917541,
+          "weighted_sse": 1.2403713982011098,
+          "converged": true,
+          "likelihood_ratio": 3.759614657297469
+        },
+        {
+          "value": 0.013975186201644892,
+          "weighted_sse": 1.708870387018726,
+          "converged": true,
+          "likelihood_ratio": 14.974374520978163
+        },
+        {
+          "value": 0.018832155351031186,
+          "weighted_sse": 2.81813337940749,
+          "converged": true,
+          "likelihood_ratio": 32.482850952099014
+        },
+        {
+          "value": 0.025377127005551448,
+          "weighted_sse": 4.97927768876771,
+          "converged": true,
+          "likelihood_ratio": 52.40520426008519
+        },
+        {
+          "value": 0.03419675353414209,
+          "weighted_sse": 8.616423226465805,
+          "converged": true,
+          "likelihood_ratio": 71.59868701394227
+        },
+        {
+          "value": 0.04608157385266819,
+          "weighted_sse": 13.928417004562492,
+          "converged": true,
+          "likelihood_ratio": 88.40782489778688
+        },
+        {
+          "value": 0.062096872634965064,
+          "weighted_sse": 20.6645826969156,
+          "converged": true,
+          "likelihood_ratio": 102.21497881818732
+        },
+        {
+          "value": 0.08367816610108691,
+          "weighted_sse": 28.135151294306002,
+          "converged": true,
+          "likelihood_ratio": 113.01592548747497
+        },
+        {
+          "value": 0.11275987316144544,
+          "weighted_sse": 35.507376021353636,
+          "converged": true,
+          "likelihood_ratio": 121.16115068175503
+        },
+        {
+          "value": 0.15194870523363568,
+          "weighted_sse": 42.14333504941605,
+          "converged": true,
+          "likelihood_ratio": 127.15791408471271
+        },
+        {
+          "value": 0.20475731636484878,
+          "weighted_sse": 47.65163478442297,
+          "converged": true,
+          "likelihood_ratio": 131.45732774550763
+        },
+        {
+          "value": 0.27591915666849687,
+          "weighted_sse": 51.916950774995954,
+          "converged": true,
+          "likelihood_ratio": 134.45782187472014
+        },
+        {
+          "value": 0.3718127506662526,
+          "weighted_sse": 54.96593841888342,
+          "converged": true,
+          "likelihood_ratio": 136.4552141434521
+        },
+        {
+          "value": 0.5010334303250247,
+          "weighted_sse": 56.99138459064852,
+          "converged": true,
+          "likelihood_ratio": 137.72173873729272
+        },
+        {
+          "value": 0.6751637695410708,
+          "weighted_sse": 58.2353195211954,
+          "converged": true,
+          "likelihood_ratio": 138.47745616187873
+        },
+        {
+          "value": 0.9098117772404865,
+          "weighted_sse": 58.93853683372109,
+          "converged": true,
+          "likelihood_ratio": 138.89756525802156
+        },
+        {
+          "value": 1.226009906556663,
+          "weighted_sse": 59.30071412684737,
+          "converged": true,
+          "likelihood_ratio": 139.111982125543
+        },
+        {
+          "value": 1.6521002789544752,
+          "weighted_sse": 59.46647590709431,
+          "converged": true,
+          "likelihood_ratio": 139.20968025368913
+        },
+        {
+          "value": 2.226275103589722,
+          "weighted_sse": 59.529908500228494,
+          "converged": true,
+          "likelihood_ratio": 139.24699468103148
+        },
+        {
+          "value": 3.0,
+          "weighted_sse": 59.54569928139058,
+          "converged": true,
+          "likelihood_ratio": 139.25627747797387
+        }
+      ],
+      "interval_components": [
+        {
+          "lower": 0.004406535460542633,
+          "upper": 0.010397173633812257,
+          "open_lower": false,
+          "open_upper": false,
+          "accepted_grid_range": [
+            0.0057112389097301935,
+            0.010370869702917541
+          ]
+        }
+      ],
+      "closed": true,
+      "relative_weight_scale_profiled": true,
+      "warning": "Conditional on input, model, vascular fraction and preprocessing; asymptotic chi-square approximation"
+    },
+    "bootstrap": {
+      "method": "conditional_parametric_Gaussian_bootstrap",
+      "n": 100,
+      "seed": 20261103,
+      "draws": [
+        {
+          "raw_estimate": 3.420032446592232,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11674988948474511,
+            "k2": 0.15086407781362052,
+            "k3": 0.017489720612785878,
+            "k4": 0.005114907374362754
+          }
+        },
+        {
+          "raw_estimate": 3.0163117438400344,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11894983155599739,
+            "k2": 0.15788466157254902,
+            "k3": 0.019036483196465472,
+            "k4": 0.00633785676621187
+          }
+        },
+        {
+          "raw_estimate": 3.0257606357056708,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12025829085618484,
+            "k2": 0.16226275843078625,
+            "k3": 0.020287283065906988,
+            "k4": 0.006581193234495351
+          }
+        },
+        {
+          "raw_estimate": 2.747755334922615,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11907186181653348,
+            "k2": 0.16054432396710325,
+            "k3": 0.020384575117270418,
+            "k4": 0.007536465829886538
+          }
+        },
+        {
+          "raw_estimate": 2.870177483024355,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12035491858083774,
+            "k2": 0.16356370750639368,
+            "k3": 0.021594913899098032,
+            "k4": 0.007444971565189341
+          }
+        },
+        {
+          "raw_estimate": 3.172900767614054,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11799066325009334,
+            "k2": 0.15463699156045735,
+            "k3": 0.01844991658405943,
+            "k4": 0.005841610180699517
+          }
+        },
+        {
+          "raw_estimate": 2.5757569388363786,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12033467780908465,
+            "k2": 0.16227204265489134,
+            "k3": 0.02154783466983899,
+            "k4": 0.008711743712058245
+          }
+        },
+        {
+          "raw_estimate": 3.2734327015822924,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11850710383430457,
+            "k2": 0.15598513858236765,
+            "k3": 0.019345068507776262,
+            "k4": 0.0058467980245433555
+          }
+        },
+        {
+          "raw_estimate": 3.3264905240567915,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11833654119208396,
+            "k2": 0.15731489665423093,
+            "k3": 0.019547794411489447,
+            "k4": 0.005712073831516065
+          }
+        },
+        {
+          "raw_estimate": 2.6622570636650393,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12150248653862261,
+            "k2": 0.1645970199994969,
+            "k3": 0.022489959517948323,
+            "k4": 0.008628389926271539
+          }
+        },
+        {
+          "raw_estimate": 2.5709526009827917,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11867371763638175,
+            "k2": 0.15811427840051445,
+            "k3": 0.021370727688976295,
+            "k4": 0.008811237317979068
+          }
+        },
+        {
+          "raw_estimate": 2.898594680752594,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11765191467961006,
+            "k2": 0.15457548604203164,
+            "k3": 0.019767381342921938,
+            "k4": 0.007038958546369831
+          }
+        },
+        {
+          "raw_estimate": 4.245563319721399,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11909420385942843,
+            "k2": 0.15521524130150574,
+            "k3": 0.017598182563130463,
+            "k4": 0.0038820368312589017
+          }
+        },
+        {
+          "raw_estimate": 3.3751374867425685,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12175509839902456,
+            "k2": 0.1656409834911244,
+            "k3": 0.021464551074969862,
+            "k4": 0.005976178150201333
+          }
+        },
+        {
+          "raw_estimate": 3.589141007072105,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1176512795176642,
+            "k2": 0.15461159266535537,
+            "k3": 0.018339914736996848,
+            "k4": 0.0049344956107310045
+          }
+        },
+        {
+          "raw_estimate": 2.9761702958008733,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12073844061654893,
+            "k2": 0.1588668229057607,
+            "k3": 0.019846628331055344,
+            "k4": 0.006806056247270116
+          }
+        },
+        {
+          "raw_estimate": 3.2350277476117038,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11750321074457874,
+            "k2": 0.1551811458694064,
+            "k3": 0.01927417156558182,
+            "k4": 0.005890001982586104
+          }
+        },
+        {
+          "raw_estimate": 2.9057744705729225,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11841353843340505,
+            "k2": 0.15517012279908637,
+            "k3": 0.0189289295805901,
+            "k4": 0.006741667335059282
+          }
+        },
+        {
+          "raw_estimate": 2.584367039554625,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11961254379515798,
+            "k2": 0.1604805739347919,
+            "k3": 0.02203024093650687,
+            "k4": 0.008928640158363388
+          }
+        },
+        {
+          "raw_estimate": 2.7061751991109797,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.12184802716489841,
+            "k2": 0.1616767246002871,
+            "k3": 0.02321951438510124,
+            "k4": 0.008962475574362149
+          }
+        },
+        {
+          "raw_estimate": 3.671083584594248,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11812064853545115,
+            "k2": 0.15753724144170728,
+            "k3": 0.019023794730928786,
+            "k4": 0.004882758983775716
+          }
+        },
+        {
+          "raw_estimate": 2.8179472282811604,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1187174814272284,
+            "k2": 0.15703801862271896,
+            "k3": 0.018921635074117003,
+            "k4": 0.006937238257281083
+          }
+        },
+        {
+          "raw_estimate": 3.1090062762062645,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11836960274260719,
+            "k2": 0.15621293392981273,
+            "k3": 0.01904253773836658,
+            "k4": 0.006136873533958016
+          }
+        },
+        {
+          "raw_estimate": 3.131976461692745,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11871352979540406,
+            "k2": 0.16110198456199107,
+            "k3": 0.020694499316272454,
+            "k4": 0.006366958652909436
+          }
+        },
+        {
+          "raw_estimate": 2.672723286306494,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12008098976451174,
+            "k2": 0.16285243638253635,
+            "k3": 0.021178826223561313,
+            "k4": 0.008068996904443846
+          }
+        },
+        {
+          "raw_estimate": 2.5229776547882876,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11878597897490865,
+            "k2": 0.1592469885169858,
+            "k3": 0.021565503738777202,
+            "k4": 0.00905217113614959
+          }
+        },
+        {
+          "raw_estimate": 3.5061634300779394,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11907789612535309,
+            "k2": 0.15979325864680102,
+            "k3": 0.01899140105014132,
+            "k4": 0.005125886796734599
+          }
+        },
+        {
+          "raw_estimate": 2.7135400057180137,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11750624723110631,
+            "k2": 0.15682000768314586,
+            "k3": 0.021639204932693553,
+            "k4": 0.008254821093651686
+          }
+        },
+        {
+          "raw_estimate": 4.053582478855306,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12015281062549342,
+            "k2": 0.1594591359306467,
+            "k3": 0.019483472614662517,
+            "k4": 0.004448631055030602
+          }
+        },
+        {
+          "raw_estimate": 3.1523241420793005,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11716251437321229,
+            "k2": 0.15164365966903834,
+            "k3": 0.018583570211376573,
+            "k4": 0.006033511146156575
+          }
+        },
+        {
+          "raw_estimate": 2.3696225970782656,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11982851929477506,
+            "k2": 0.16420170083778723,
+            "k3": 0.024947910879980852,
+            "k4": 0.011102233873839514
+          }
+        },
+        {
+          "raw_estimate": 2.4918009400577534,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12060124069880732,
+            "k2": 0.1641897516839904,
+            "k3": 0.02292405082321389,
+            "k4": 0.00958201338451189
+          }
+        },
+        {
+          "raw_estimate": 3.0262644800567684,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11758469815926592,
+            "k2": 0.15597109983953342,
+            "k3": 0.02008932614543759,
+            "k4": 0.006664870357751577
+          }
+        },
+        {
+          "raw_estimate": 2.8949319896290358,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12027702029028078,
+            "k2": 0.16238995477034665,
+            "k3": 0.02032913064233989,
+            "k4": 0.006989455694999463
+          }
+        },
+        {
+          "raw_estimate": 2.6281875151079603,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11968073785037735,
+            "k2": 0.16024454519265963,
+            "k3": 0.02134151168849903,
+            "k4": 0.00847232272293203
+          }
+        },
+        {
+          "raw_estimate": 3.0714483313032512,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11864290701446921,
+            "k2": 0.15577482724965294,
+            "k3": 0.019154906946602795,
+            "k4": 0.006316069135809067
+          }
+        },
+        {
+          "raw_estimate": 3.1132846374929297,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11662120495884216,
+            "k2": 0.1512809157527516,
+            "k3": 0.018613564184659596,
+            "k4": 0.006125805085421321
+          }
+        },
+        {
+          "raw_estimate": 2.330668650038694,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12127654408976628,
+            "k2": 0.16938009236530338,
+            "k3": 0.02428133341009161,
+            "k4": 0.010767235164528146
+          }
+        },
+        {
+          "raw_estimate": 2.788917636323785,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12051604297762758,
+            "k2": 0.16299142095836813,
+            "k3": 0.02087005044921734,
+            "k4": 0.007529258344925303
+          }
+        },
+        {
+          "raw_estimate": 2.3883707013207736,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12190688443224938,
+            "k2": 0.16966437974472892,
+            "k3": 0.025031716190287698,
+            "k4": 0.010770850072058386
+          }
+        },
+        {
+          "raw_estimate": 2.47173546351299,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11939020278007287,
+            "k2": 0.16379792168965548,
+            "k3": 0.023203944549169894,
+            "k4": 0.009704262485185734
+          }
+        },
+        {
+          "raw_estimate": 2.989822188904511,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11980173641359615,
+            "k2": 0.1580470784938862,
+            "k3": 0.01898078004130272,
+            "k4": 0.006446643153105631
+          }
+        },
+        {
+          "raw_estimate": 3.236252538180468,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12053330681045815,
+            "k2": 0.16112403733810793,
+            "k3": 0.01999621521435154,
+            "k4": 0.006011926362418002
+          }
+        },
+        {
+          "raw_estimate": 3.0561552429497514,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12020808771575378,
+            "k2": 0.1594676992721599,
+            "k3": 0.02000315813589002,
+            "k4": 0.006549207860979832
+          }
+        },
+        {
+          "raw_estimate": 2.5281426784896586,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12066958376788448,
+            "k2": 0.1644750395102659,
+            "k3": 0.02254504591391795,
+            "k4": 0.009217451998946484
+          }
+        },
+        {
+          "raw_estimate": 2.892241637233601,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11883786871650948,
+            "k2": 0.1557315530731386,
+            "k3": 0.020317228109043597,
+            "k4": 0.007281770570935131
+          }
+        },
+        {
+          "raw_estimate": 2.760803672972637,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11736756741204614,
+            "k2": 0.15566440856838776,
+            "k3": 0.020521676959864052,
+            "k4": 0.007710135579628756
+          }
+        },
+        {
+          "raw_estimate": 5.842946598171965,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.1183498288932688,
+            "k2": 0.1495073622555135,
+            "k3": 0.01689654483791476,
+            "k4": 0.002647864012195358
+          }
+        },
+        {
+          "raw_estimate": 2.8050587340003523,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11836220762663113,
+            "k2": 0.1572286074936896,
+            "k3": 0.019857568877149265,
+            "k4": 0.007284104080541974
+          }
+        },
+        {
+          "raw_estimate": 2.493832254184955,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12015039735386808,
+            "k2": 0.162824752807898,
+            "k3": 0.02377580752467299,
+            "k4": 0.009991607388375635
+          }
+        },
+        {
+          "raw_estimate": 2.786489683223844,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11887855414149248,
+            "k2": 0.1583552991753105,
+            "k3": 0.021635750140480862,
+            "k4": 0.007978323096660583
+          }
+        },
+        {
+          "raw_estimate": 2.522407730737362,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11953509671400256,
+            "k2": 0.16468335664347358,
+            "k3": 0.02257372200334724,
+            "k4": 0.009120260758698697
+          }
+        },
+        {
+          "raw_estimate": 3.372063333468738,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11855774239946582,
+            "k2": 0.15659696222210603,
+            "k3": 0.018831448450225545,
+            "k4": 0.005452087059159445
+          }
+        },
+        {
+          "raw_estimate": 3.365519655142807,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11710397254071257,
+            "k2": 0.1510312671530892,
+            "k3": 0.018220612509747998,
+            "k4": 0.005454332503387793
+          }
+        },
+        {
+          "raw_estimate": 2.8414015551511618,
+          "usable": false,
+          "success": true,
+          "at_bound": true,
+          "parameters": {
+            "K1": 0.12026484074865294,
+            "k2": 0.15684506780563082,
+            "k3": 0.022175922545457315,
+            "k4": 0.008196143047309838
+          }
+        },
+        {
+          "raw_estimate": 2.849124906620169,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12149710701189566,
+            "k2": 0.1635099798994689,
+            "k3": 0.020399199165631193,
+            "k4": 0.007197178240525871
+          }
+        },
+        {
+          "raw_estimate": 2.4190753775764837,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12077981274010298,
+            "k2": 0.16793226006348821,
+            "k3": 0.025788196433062967,
+            "k4": 0.010911100728533324
+          }
+        },
+        {
+          "raw_estimate": 3.291343428655095,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11845550429636584,
+            "k2": 0.15821644672241383,
+            "k3": 0.020439391425655765,
+            "k4": 0.0060184530731661615
+          }
+        },
+        {
+          "raw_estimate": 3.032953621150406,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11835911781059312,
+            "k2": 0.15847927210850768,
+            "k3": 0.020907374794004795,
+            "k4": 0.006830169702589916
+          }
+        },
+        {
+          "raw_estimate": 2.981292676002753,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11893054385088977,
+            "k2": 0.15658852632706424,
+            "k3": 0.02079544259608744,
+            "k4": 0.007108861451833042
+          }
+        },
+        {
+          "raw_estimate": 2.8958784196164644,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.119256479683314,
+            "k2": 0.15945961980591683,
+            "k3": 0.020165525872449762,
+            "k4": 0.007021123726458388
+          }
+        },
+        {
+          "raw_estimate": 3.424540390961667,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11731674787195506,
+            "k2": 0.1553617437982841,
+            "k3": 0.019529981139392843,
+            "k4": 0.005524599068690973
+          }
+        },
+        {
+          "raw_estimate": 2.4045293171850686,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12195533315334274,
+            "k2": 0.16842549609032126,
+            "k3": 0.02628129211043977,
+            "k4": 0.011324447387379356
+          }
+        },
+        {
+          "raw_estimate": 3.090289324328115,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11785580539748033,
+            "k2": 0.1535051408828588,
+            "k3": 0.019658960873772703,
+            "k4": 0.006498726477743244
+          }
+        },
+        {
+          "raw_estimate": 2.913504652440305,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11752094607434302,
+            "k2": 0.1552592353331011,
+            "k3": 0.02017443877961046,
+            "k4": 0.007081015503046765
+          }
+        },
+        {
+          "raw_estimate": 2.734454329052823,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1215599908883618,
+            "k2": 0.16467392309956275,
+            "k3": 0.02221224333199147,
+            "k4": 0.008213709539959339
+          }
+        },
+        {
+          "raw_estimate": 3.11953823883109,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11931462605264426,
+            "k2": 0.15805496933403457,
+            "k3": 0.01942718014079615,
+            "k4": 0.006201965482539456
+          }
+        },
+        {
+          "raw_estimate": 3.057271775063566,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11821018478788403,
+            "k2": 0.15606925002948377,
+            "k3": 0.02105982426281676,
+            "k4": 0.0069357384467456425
+          }
+        },
+        {
+          "raw_estimate": 2.556762214294958,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12117469243190948,
+            "k2": 0.16520122511387153,
+            "k3": 0.023734782925048697,
+            "k4": 0.009548479260791845
+          }
+        },
+        {
+          "raw_estimate": 2.658546873834905,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11855116584349566,
+            "k2": 0.16114354029300174,
+            "k3": 0.02158090381943299,
+            "k4": 0.008256858884461152
+          }
+        },
+        {
+          "raw_estimate": 2.7365479623064997,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1195893835623196,
+            "k2": 0.15931053842058684,
+            "k3": 0.020871452872836344,
+            "k4": 0.007889471151335344
+          }
+        },
+        {
+          "raw_estimate": 2.7795343648520014,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1190468491295789,
+            "k2": 0.15807023354310099,
+            "k3": 0.020255118072805892,
+            "k4": 0.007527931920160291
+          }
+        },
+        {
+          "raw_estimate": 2.8715407331943217,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11915541306173072,
+            "k2": 0.16046083343362294,
+            "k3": 0.021766434698953476,
+            "k4": 0.007592152058496718
+          }
+        },
+        {
+          "raw_estimate": 2.914000519868231,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12006716431627483,
+            "k2": 0.16224525350367647,
+            "k3": 0.02079708390569557,
+            "k4": 0.007079491154693664
+          }
+        },
+        {
+          "raw_estimate": 2.884770332786089,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11814954676909989,
+            "k2": 0.15932004770515468,
+            "k3": 0.020748560465607347,
+            "k4": 0.007179432474568852
+          }
+        },
+        {
+          "raw_estimate": 2.446089629039875,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12201605667807126,
+            "k2": 0.16998031725945914,
+            "k3": 0.024051758957885232,
+            "k4": 0.009989755419882123
+          }
+        },
+        {
+          "raw_estimate": 3.0920081864502516,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11824095923472995,
+            "k2": 0.1564693447987548,
+            "k3": 0.019290232504498794,
+            "k4": 0.006239395814271974
+          }
+        },
+        {
+          "raw_estimate": 3.173044786189632,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11765668990398219,
+            "k2": 0.15670939967704528,
+            "k3": 0.019593729434196534,
+            "k4": 0.006073231330188246
+          }
+        },
+        {
+          "raw_estimate": 3.500972399181526,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11780623917186359,
+            "k2": 0.1539233860936088,
+            "k3": 0.01847751835271273,
+            "k4": 0.005169543340328948
+          }
+        },
+        {
+          "raw_estimate": 2.6412647491461607,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1204432525141849,
+            "k2": 0.16144071755149567,
+            "k3": 0.022821105328924104,
+            "k4": 0.008983554745889875
+          }
+        },
+        {
+          "raw_estimate": 3.1355067675733275,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11787661848773726,
+            "k2": 0.15449464603378674,
+            "k3": 0.019058399142002583,
+            "k4": 0.006129003650728165
+          }
+        },
+        {
+          "raw_estimate": 3.3007668450427277,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11857972936983381,
+            "k2": 0.1550499089467331,
+            "k3": 0.018470808244091013,
+            "k4": 0.005570299819586195
+          }
+        },
+        {
+          "raw_estimate": 2.549196102102326,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11693271108881671,
+            "k2": 0.15342534062621171,
+            "k3": 0.019784852466991527,
+            "k4": 0.008437918558749133
+          }
+        },
+        {
+          "raw_estimate": 2.8541989307612043,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11798255836477191,
+            "k2": 0.15250221756367063,
+            "k3": 0.01932393437636416,
+            "k4": 0.007185519951090091
+          }
+        },
+        {
+          "raw_estimate": 2.598180131368645,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11879242104481491,
+            "k2": 0.15893621973076622,
+            "k3": 0.021160465195876516,
+            "k4": 0.008545576969091284
+          }
+        },
+        {
+          "raw_estimate": 2.929942772599137,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11932005972028675,
+            "k2": 0.16019251456674113,
+            "k3": 0.020522675519570904,
+            "k4": 0.00699578037633196
+          }
+        },
+        {
+          "raw_estimate": 2.9832560640776404,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11994480122365787,
+            "k2": 0.15989622843781762,
+            "k3": 0.020569921102223526,
+            "k4": 0.006909789809112304
+          }
+        },
+        {
+          "raw_estimate": 2.651168062047496,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11707099192991646,
+            "k2": 0.15443266707591288,
+            "k3": 0.02052551549757486,
+            "k4": 0.008219235333874251
+          }
+        },
+        {
+          "raw_estimate": 3.088112320820907,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11869808629033071,
+            "k2": 0.15623254964317965,
+            "k3": 0.019665268845338913,
+            "k4": 0.0064168517793279116
+          }
+        },
+        {
+          "raw_estimate": 3.1040521597478037,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11780290868498142,
+            "k2": 0.15468723671348653,
+            "k3": 0.01882327548331296,
+            "k4": 0.006119525400153984
+          }
+        },
+        {
+          "raw_estimate": 2.7557975369499,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1188387628467444,
+            "k2": 0.15773626187031028,
+            "k3": 0.020505888520668633,
+            "k4": 0.007715342836910696
+          }
+        },
+        {
+          "raw_estimate": 2.428101960198717,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12098747044115267,
+            "k2": 0.16625882366491587,
+            "k3": 0.023868706099374436,
+            "k4": 0.010214906447122241
+          }
+        },
+        {
+          "raw_estimate": 2.744610089759748,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.1203365976782792,
+            "k2": 0.16151977344277288,
+            "k3": 0.02041066889096146,
+            "k4": 0.007604835443673465
+          }
+        },
+        {
+          "raw_estimate": 3.013280170883008,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11924340255749705,
+            "k2": 0.15954364879265584,
+            "k3": 0.020346904473018533,
+            "k4": 0.00671145716906126
+          }
+        },
+        {
+          "raw_estimate": 3.5525293393795807,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11720488859873326,
+            "k2": 0.15288769603785757,
+            "k3": 0.017630620690046693,
+            "k4": 0.004851453792627821
+          }
+        },
+        {
+          "raw_estimate": 2.996844574928798,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11833942152165285,
+            "k2": 0.15729043289427547,
+            "k3": 0.019723837095876808,
+            "k4": 0.0066115364662389
+          }
+        },
+        {
+          "raw_estimate": 2.5644758401745564,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12003361853717066,
+            "k2": 0.1622380661958462,
+            "k3": 0.021403211712033146,
+            "k4": 0.008678764082763081
+          }
+        },
+        {
+          "raw_estimate": 3.291606037827345,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12097682499267781,
+            "k2": 0.1587796697984527,
+            "k3": 0.021298171492978562,
+            "k4": 0.006414788701696425
+          }
+        },
+        {
+          "raw_estimate": 3.135173941250437,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.11995373757262036,
+            "k2": 0.1610406388252481,
+            "k3": 0.020509239745162108,
+            "k4": 0.006391077054404374
+          }
+        },
+        {
+          "raw_estimate": 2.971171201683253,
+          "usable": true,
+          "success": true,
+          "at_bound": false,
+          "parameters": {
+            "K1": 0.12039357930250492,
+            "k2": 0.16115282523906566,
+            "k3": 0.01979128586649748,
+            "k4": 0.006647927104021209
+          }
+        }
+      ],
+      "raw_percentile_95_interval": [
+        2.396046043856314,
+        3.8718955040813
+      ],
+      "unusable_fraction": 0.03,
+      "warning": "Percentiles retain boundary/invalid estimates; conditional noise model excludes input and registration uncertainty"
+    }
+  }
+]

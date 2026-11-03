@@ -1,0 +1,116 @@
+{
+  "protocol_id": "PETKIN-RESEARCH-2026-11-03-A",
+  "qualified_for_declared_research_scope": false,
+  "overall_status": "not_qualified",
+  "missing_gates": [],
+  "incomplete_gates": [
+    "EXT-01",
+    "REG-02"
+  ],
+  "gates": [
+    {
+      "id": "SW-01",
+      "status": "passed",
+      "frozen_source_matches": true,
+      "evidence": [
+        "test_results.txt",
+        "wheel_test_results.txt"
+      ]
+    },
+    {
+      "id": "NUM-01",
+      "status": "passed",
+      "observed": {
+        "total": 90,
+        "released": 89,
+        "retention": 0.9888888888888889,
+        "large_errors_released": 0,
+        "median_absolute_error": 0.004364028742940951,
+        "q95_absolute_error": 0.01616352415390291,
+        "one_sided_95_large_error_risk_upper": 0.03309972123627414
+      }
+    },
+    {
+      "id": "NUM-02",
+      "status": "passed",
+      "observed": 0.03309972123627414
+    },
+    {
+      "id": "ROB-01",
+      "status": "passed",
+      "observed": {
+        "total": 40,
+        "released": 8,
+        "retention": 0.2,
+        "large_errors_released": 0,
+        "median_absolute_error": 0.04192359889383568,
+        "q95_absolute_error": 0.24968642316471057,
+        "one_sided_95_large_error_risk_upper": 0.3123439780663678
+      }
+    },
+    {
+      "id": "REG-01",
+      "status": "passed",
+      "observed": {
+        "cases": 12,
+        "landmarks_per_case": 7,
+        "mean_landmark_error_mm": 0.20283188001668273,
+        "maximum_landmark_error_mm": 0.3778187501136455,
+        "measured_human_PET_truth": false,
+        "scope": "Intensity-transformed, blurred MRI-derived synthetic PET with Poisson noise and known rigid poses; not biological PET-MRI accuracy"
+      }
+    },
+    {
+      "id": "EXT-01",
+      "status": "blocked",
+      "evidence": {
+        "status": "blocked",
+        "untouched_external_cohort_available": false,
+        "source": "https://link.springer.com/article/10.1186/s13550-020-00664-8",
+        "note": "This independent four-tracer study states that raw participant data are institutionally restricted; no access request or communication was sent. Existing public PBR28 and FDG cases are exposed development data."
+      }
+    },
+    {
+      "id": "REG-02",
+      "status": "blocked",
+      "evidence": {
+        "status": "blocked",
+        "source": "https://rire.insight-journal.org/download_training_data",
+        "attempts": [
+          {
+            "url": "https://dweb.link/ipfs/bafybeih23xv6uamx7k27wk4uvzkxdtdryqeok22hpl3ybideggcjhipwme/rire/transformations.tar.gz",
+            "http_status": 403
+          },
+          {
+            "url": "https://dweb.link/ipfs/bafybeih23xv6uamx7k27wk4uvzkxdtdryqeok22hpl3ybideggcjhipwme/rire/pet.tar.gz",
+            "http_status": 403
+          },
+          {
+            "url": "https://dweb.link/ipfs/bafybeih23xv6uamx7k27wk4uvzkxdtdryqeok22hpl3ybideggcjhipwme/rire/mr_T1_rectified.tar.gz",
+            "http_status": 403
+          }
+        ],
+        "alternate_public_gateways": [
+          "ipfs.io: HTTP 403",
+          "gateway.pinata.cloud: HTTP 403"
+        ],
+        "user_has_images": false,
+        "reference_truth_available": false,
+        "note": "No anatomical truth was manufactured from the existing fitted registrations. MRI-derived synthetic PET is separate verification evidence."
+      }
+    }
+  ],
+  "claim": "Full research validation is not established",
+  "protocol_sha256": "33335f0256ba2e1cba785b614feb3a1d98ffeda136960d577158a3349a5bc7a6",
+  "scope": {
+    "models": [
+      "1t",
+      "2t",
+      "2t_irreversible"
+    ],
+    "observations": "Frame averaged tissue, processed plasma, known input timing and vascular fraction for confirmatory simulation",
+    "qualification_environment": "Recorded macOS/Python 3.13 environment only",
+    "imaging": "Rigid brain PET/MRI; no intraframe or attenuation correction"
+  },
+  "status_caveat": "Local software-generated qualification record, not an independent certification or public preregistration"
+}

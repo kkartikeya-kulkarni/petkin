@@ -1,0 +1,40 @@
+Processing sub-01_ses-baseline
+sub-01_ses-baseline NRMSE 0.021787893947835226 screen False
+Processing sub-01_ses-rescan
+sub-01_ses-rescan NRMSE 0.3758834625951369 screen False
+Processing sub-02_ses-baseline
+sub-02_ses-baseline NRMSE 0.03499593408493752 screen False
+Processing sub-02_ses-rescan
+sub-02_ses-rescan NRMSE 0.07683719236905485 screen False
+Processing sub-03_ses-baseline
+sub-03_ses-baseline NRMSE 0.02856399903872781 screen False
+Processing sub-03_ses-rescan
+sub-03_ses-rescan NRMSE 0.027291098128282353 screen False
+Processing sub-04_ses-baseline
+sub-04_ses-baseline NRMSE 0.031897887405778765 screen False
+Processing sub-04_ses-rescan
+sub-04_ses-rescan NRMSE 0.016877499426806466 screen False
+Processing sub-PS50_ses-baseline
+sub-PS50_ses-baseline NRMSE 0.1725027526990534 screen False
+Processing sub-PS50_ses-blocked
+sub-PS50_ses-blocked NRMSE 0.07973341454592225 screen False
+Processing sub-PS51_ses-baseline
+sub-PS51_ses-baseline NRMSE 0.022655916697477716 screen False
+Processing sub-PS51_ses-blocked
+sub-PS51_ses-blocked NRMSE 0.047501539912005876 screen False
+Processing sub-PS52_ses-baseline
+sub-PS52_ses-baseline NRMSE 0.023868916060340487 screen False
+Processing sub-PS52_ses-blocked
+sub-PS52_ses-blocked NRMSE 0.17688048388895522 screen False
+Processing sub-PS54_ses-baseline
+sub-PS54_ses-baseline NRMSE 0.033279072718170814 screen False
+Processing sub-PS54_ses-blocked
+sub-PS54_ses-blocked NRMSE 0.04359890818285682 screen False
+Processing sub-PS55_ses-baseline
+sub-PS55_ses-baseline NRMSE 0.04315615084044143 screen False
+Processing sub-PS55_ses-blocked
+sub-PS55_ses-blocked NRMSE 0.07569604087078935 screen False
+Processing sub-PS56_ses-baseline
+sub-PS56_ses-baseline NRMSE 0.05435006652347358 screen False
+Processing sub-PS56_ses-blocked
+sub-PS56_ses-blocked NRMSE 0.07206243623813306 screen False

@@ -1,0 +1,191 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>rbqc_1: fixed vascular fraction and delay</title><style>body{font:16px system-ui;color:#183047;background:#f2f5f8;margin:0}main{max-width:900px;margin:36px auto;padding:28px;background:white;border-radius:12px}h1{font-size:28px}table{border-collapse:collapse;width:100%;margin:20px 0}td,th{text-align:left;padding:10px;border-bottom:1px solid #ddd}.note{padding:16px;background:#fff3da}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}a{color:#135fa4}</style><main>
+<h1>rbqc_1: fixed vascular fraction and delay</h1><p>Research analysis · petkin 0.2.0</p><table><tr><th>Status</th><td>Review required</td></tr><tr><th>VT</th><td>Withheld — review QC</td></tr><tr><th>Method</th><td>2t</td></tr><tr><th>Vascular fraction</th><td>0.05</td></tr><tr><th>Input delay (minutes)</th><td>0.0</td></tr><tr><th>Optimizer converged</th><td>True</td></tr><tr><th>QC reasons</th><td>parameter_at_bound, large_local_macro_uncertainty</td></tr></table>
+<p class="note">Automated checks do not establish biological accuracy. Parameter bounds, uncertain input timing, missing blood measurements and image alignment can invalidate otherwise plausible curves.</p>
+<h2>Fitted rate constants</h2><table><tr><th>K1</th><td>0.104955</td></tr><tr><th>k2</th><td>0.11933</td></tr><tr><th>k3</th><td>0.0115101</td></tr><tr><th>k4</th><td>1e-06</td></tr></table><p>Rates use minutes. VT is mL plasma/mL tissue; Ki is mL plasma/mL tissue/min.</p>
+<details><summary>Raw numerical estimate and complete audit record</summary><p>Raw VT: 10124.427987911493. A raw value may be unsuitable for inference.</p><pre>{
+  &quot;model&quot;: &quot;2t&quot;,
+  &quot;parameters&quot;: {
+    &quot;K1&quot;: 0.1049547129556527,
+    &quot;k2&quot;: 0.11932981885800131,
+    &quot;k3&quot;: 0.011510118691276503,
+    &quot;k4&quot;: 1.0000000001680545e-06
+  },
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;`ftol` termination condition is satisfied.&quot;,
+  &quot;status&quot;: &quot;review_required&quot;,
+  &quot;usable_for_quantification&quot;: false,
+  &quot;qc_reasons&quot;: [
+    &quot;parameter_at_bound&quot;,
+    &quot;large_local_macro_uncertainty&quot;
+  ],
+  &quot;prediction&quot;: [
+    10.953375350080302,
+    11.930147098802951,
+    11.952668874067179,
+    11.920859757571284,
+    12.01342124355027,
+    12.127115621622,
+    12.316659807695848,
+    12.535642550012897,
+    12.722898014281569,
+    12.793671588850904,
+    12.849727788367298,
+    12.853667535912646,
+    12.831613781483654,
+    12.723286347845928,
+    12.572258394364042,
+    12.31378356976947,
+    11.958688563492473,
+    11.561060233111277,
+    11.11324391715307,
+    10.16895805535681,
+    8.93367301923332,
+    7.919936819046787,
+    7.063334357283139,
+    6.177254521428314,
+    5.456685025968645,
+    5.010515434071077,
+    4.694959785453837,
+    4.5165486971615865,
+    4.434364279283045,
+    4.405570542673985,
+    4.412298892663354,
+    4.420027728289123,
+    4.403404596868455,
+    4.381252554175944,
+    4.368838664611189
+  ],
+  &quot;residuals&quot;: [
+    2.407246001141102,
+    1.9501635932254722,
+    1.8375509002411778,
+    0.2908058331755843,
+    -0.5544384479563291,
+    -0.6195642671670001,
+    -0.8862727304876525,
+    -0.7989028953006034,
+    -0.9368044395124322,
+    -0.7531837214023955,
+    -0.5562090793302019,
+    -0.5706282730251537,
+    -0.26500716421184656,
+    -0.06977260395087193,
+    0.010968665635340713,
+    0.05443367808647004,
+    0.046774591727873016,
+    0.2691020922142773,
+    0.29641258883357047,
+    0.2734980286675004,
+    0.3268980803083803,
+    0.20667870168728708,
+    0.10202667304070889,
+    -0.014272605772215563,
+    -0.0005475516141650871,
+    -0.05627930249851332,
+    -0.08388183007062278,
+    -0.12035965024836326,
+    -0.16238051661301522,
+    -0.1011385726584555,
+    0.02859748264168349,
+    0.09623469428679332,
+    0.01728345365883488,
+    0.05874614421398405,
+    -0.01032386467955071
+  ],
+  &quot;weighted_sse&quot;: 14.75018435970713,
+  &quot;rmse&quot;: 0.7132391420862421,
+  &quot;standard_errors&quot;: {
+    &quot;K1&quot;: 0.002820526959613622,
+    &quot;k2&quot;: 0.009237651442860043,
+    &quot;k3&quot;: 0.004046015219061753,
+    &quot;k4&quot;: 0.006778749419765563
+  },
+  &quot;covariance&quot;: [
+    [
+      7.955372329907263e-06,
+      2.1017964528202037e-05,
+      5.178648917237437e-06,
+      6.736394782568731e-06
+    ],
+    [
+      2.1017964528201986e-05,
+      8.533420417977425e-05,
+      2.7823553096591935e-05,
+      3.6650460295299736e-05
+    ],
+    [
+      5.178648917237415e-06,
+      2.7823553096591884e-05,
+      1.6370239152879325e-05,
+      2.5565057672813285e-05
+    ],
+    [
+      6.736394782568744e-06,
+      3.665046029529979e-05,
+      2.5565057672813292e-05,
+      4.595144369597196e-05
+    ]
+  ],
+  &quot;free_parameters&quot;: [
+    &quot;K1&quot;,
+    &quot;k2&quot;,
+    &quot;k3&quot;,
+    &quot;k4&quot;
+  ],
+  &quot;jacobian_rank&quot;: 4,
+  &quot;condition_number&quot;: 12.807421166530267,
+  &quot;scaled_condition_number&quot;: 515132.0617949075,
+  &quot;at_bound&quot;: true,
+  &quot;bound_parameters&quot;: [
+    &quot;k4&quot;
+  ],
+  &quot;vb&quot;: 0.05,
+  &quot;delay&quot;: 0.0,
+  &quot;macro_standard_error&quot;: 68622044.02526258,
+  &quot;macro_local_95_interval&quot;: [
+    -134489081.86152676,
+    134509330.71750256
+  ],
+  &quot;AIC&quot;: 84.36555136865462,
+  &quot;AICc&quot;: 86.434516885896,
+  &quot;BIC&quot;: 92.14229167610169,
+  &quot;settings&quot;: {
+    &quot;dt&quot;: 0.025,
+    &quot;fit_vb&quot;: false,
+    &quot;fit_delay&quot;: false,
+    &quot;delay_bounds&quot;: [
+      -0.5,
+      0.5
+    ],
+    &quot;input_tail&quot;: &quot;error&quot;,
+    &quot;n_starts&quot;: 8,
+    &quot;seed&quot;: 0,
+    &quot;rate_bounds&quot;: [
+      1e-06,
+      3.0
+    ],
+    &quot;vb_bounds&quot;: [
+      0.0,
+      0.3
+    ],
+    &quot;absolute_sigma&quot;: false,
+    &quot;max_nfev&quot;: 800
+  },
+  &quot;multistart&quot;: {
+    &quot;attempted&quot;: 8,
+    &quot;converged&quot;: 8,
+    &quot;weighted_sse&quot;: [
+      14.750184359707255,
+      14.750184359707209,
+      14.750184359707191,
+      14.75018435970713,
+      14.750184359707369,
+      14.750184359707713,
+      14.750184359707362,
+      14.750184359707308
+    ]
+  },
+  &quot;raw_VT&quot;: 10124.427987911493,
+  &quot;VT&quot;: null
+}</pre></details></main></html>
