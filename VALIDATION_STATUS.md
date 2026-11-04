@@ -13,6 +13,25 @@ kinfitr graphical comparisons, and 20 measured PET/MRI automatic alignments.
 See the machine-readable records in `validation/v03/` and
 `validation/external_ps13/`.
 
+## PS13 extraction correction and anatomical follow-up
+
+The historical intensity-threshold PS13 experiment is not anatomical brain
+validation. In the first audited baseline scan (PSBB01 / S3 alias PS50), the old
+mask has zero overlap with the FSL-estimated MRI brain mask after independent
+FSL rigid alignment. Its original numerical records remain available, but those
+results cannot establish regional brain kinetic performance. The reproduction
+script now requires an explicit historical-experiment flag.
+
+A separate exploratory workflow used MRI-defined Harvard–Oxford atlas regions
+with FSL brain extraction, MRI normalization and PET alignment. All 96 regional
+analyses completed: 2/48 baseline and 45/48 blocked regions passed local checks
+with source timing unchanged. Timing sensitivity suggests a scan-specific
+baseline alignment question; no fitted or hypothetical clock offset has been
+adopted as verified timing. No motion correction was added in this exploratory
+comparison, and these atlas-derived regions are not expert-labelled truth.
+See `validation/ps13_anatomical_fsl/` for all reported hypotheses and scope.
+PETPrep is an optional comparison pipeline, not a requirement to use PetKin.
+
 ## Outstanding EXT-01: external kinetic qualification
 
 A reviewer independent of development must verify the source records supporting

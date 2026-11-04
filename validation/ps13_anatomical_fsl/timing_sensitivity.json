@@ -1,0 +1,105 @@
+{
+  "scope": "Exploratory timing sensitivity; source timing has not been changed or independently verified",
+  "records": [
+    {
+      "session": "baseline",
+      "region": "Frontal Pole",
+      "diagnostic": "fixed",
+      "raw_VT": 1.8184263910160594,
+      "delay_seconds": 0.0,
+      "local_qc_passed": false,
+      "qc_reasons": [
+        "parameter_at_bound"
+      ],
+      "rmse": 2745.2910064281705,
+      "parameters": {
+        "K1": 0.5885745889507318,
+        "k2": 2.9999999999999996,
+        "k3": 0.5019479118167173,
+        "k4": 0.06070509947071138
+      }
+    },
+    {
+      "session": "baseline",
+      "region": "Frontal Pole",
+      "diagnostic": "delay_30s",
+      "raw_VT": 1.7987881330848117,
+      "delay_seconds": -29.999999999999996,
+      "local_qc_passed": false,
+      "qc_reasons": [
+        "parameter_at_bound"
+      ],
+      "rmse": 1111.38322797073,
+      "parameters": {
+        "K1": 0.47640424635941286,
+        "k2": 2.9999999999999996,
+        "k3": 0.7578070437506963,
+        "k4": 0.07337914990052732
+      }
+    },
+    {
+      "session": "baseline",
+      "region": "Frontal Pole",
+      "diagnostic": "delay_90s_diagnostic",
+      "raw_VT": 1.941372035759768,
+      "delay_seconds": -57.05903300255771,
+      "local_qc_passed": true,
+      "qc_reasons": [],
+      "rmse": 145.74391597454442,
+      "parameters": {
+        "K1": 0.17434248671605226,
+        "k2": 0.1873391808055171,
+        "k3": 0.056670983653986366,
+        "k4": 0.052178646064054264
+      }
+    },
+    {
+      "session": "blocked",
+      "region": "Frontal Pole",
+      "diagnostic": "fixed",
+      "raw_VT": 1.522919708203799,
+      "delay_seconds": 0.0,
+      "local_qc_passed": true,
+      "qc_reasons": [],
+      "rmse": 417.7196716239008,
+      "parameters": {
+        "K1": 0.1117530754876706,
+        "k2": 0.14579434123884968,
+        "k3": 0.04301799161667905,
+        "k4": 0.04359260844050331
+      }
+    },
+    {
+      "session": "blocked",
+      "region": "Frontal Pole",
+      "diagnostic": "delay_30s",
+      "raw_VT": 1.5481856986445277,
+      "delay_seconds": -5.01547116873401,
+      "local_qc_passed": true,
+      "qc_reasons": [],
+      "rmse": 306.9153146877058,
+      "parameters": {
+        "K1": 0.10721939147313879,
+        "k2": 0.1272676655337046,
+        "k3": 0.031225899236662722,
+        "k4": 0.03727703907829309
+      }
+    },
+    {
+      "session": "blocked",
+      "region": "Frontal Pole",
+      "diagnostic": "delay_90s_diagnostic",
+      "raw_VT": 1.5481847345297763,
+      "delay_seconds": -5.015450968502586,
+      "local_qc_passed": true,
+      "qc_reasons": [],
+      "rmse": 306.91531468875087,
+      "parameters": {
+        "K1": 0.10721945336991337,
+        "k2": 0.12726798471592313,
+        "k3": 0.031226164842432923,
+        "k4": 0.03727724919455548
+      }
+    }
+  ]
+}

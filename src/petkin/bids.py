@@ -18,7 +18,9 @@ def frames_from_bids(metadata):
 def validate_pet_metadata(metadata):
     """Fail instead of assuming concentration units or an unknown decay origin."""
     frames=frames_from_bids(metadata)
-    if metadata.get('Units') not in ('Bq/mL','kBq/mL','kBq/ml','Bq/ml'):
+    source_units=metadata.get('Units')
+    aliases={'Bq/mL':'Bq/mL','Bq/ml':'Bq/mL','BQML':'Bq/mL','kBq/mL':'kBq/mL','kBq/ml':'kBq/mL'}
+    if source_units not in aliases:
         raise ValueError('Supported PET concentration units are Bq/mL or kBq/mL')
     if metadata.get('ImageDecayCorrected') is not True:
         raise ValueError('Decay-corrected PET is required; perform and document correction upstream')
@@ -29,7 +31,8 @@ def validate_pet_metadata(metadata):
         if not np.isfinite(origin):raise ValueError
     except (TypeError,ValueError):
         raise ValueError('Explicit finite ImageDecayCorrectionTime required') from None
-    return dict(frames=frames,units=metadata['Units'],decay_reference_seconds=float(origin),
+    return dict(frames=frames,units=aliases[source_units],source_units=source_units,
+                unit_alias_applied=source_units!=aliases[source_units],decay_reference_seconds=float(origin),
                 time_origin=metadata.get('TimeZero'),tracer=metadata.get('TracerName'))
 
 

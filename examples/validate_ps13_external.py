@@ -1,4 +1,8 @@
-"""Frozen external PS13 technical evaluation. See validation/external_ps13/PROTOCOL.json.
+"""Historical PS13 PET-threshold experiment; not regional brain validation.
+At least one tested mask was subsequently found outside the estimated brain.
+Use anatomical labels with petkin extract/analyze for regional brain analysis.
+
+Original frozen external PS13 technical evaluation. See validation/external_ps13/PROTOCOL.json.
 No individual kinetic truth; this does not establish full research qualification.
 """
 import sys,json,hashlib,gzip,shutil
@@ -51,4 +55,13 @@ def run(data,out):
   except Exception as exc:record.update(status='failed',error=str(exc));print('FAILED',scan,str(exc),flush=True)
   results.append(record);(out/'results.json').write_text(json.dumps(results,indent=2,allow_nan=False))
  return results
-if __name__=='__main__':run(sys.argv[1],sys.argv[2])
+if __name__=='__main__':
+ import argparse
+ parser=argparse.ArgumentParser(description=__doc__)
+ parser.add_argument('data_dir');parser.add_argument('output_dir')
+ parser.add_argument('--reproduce-historical-experiment',action='store_true')
+ args=parser.parse_args()
+ if not args.reproduce_historical_experiment:
+  parser.error('This historical PET-threshold experiment is not brain-PET validation. Use anatomical labels with petkin extract/analyze. Pass --reproduce-historical-experiment only to reproduce the historical records.')
+ run(args.data_dir,args.output_dir)
+

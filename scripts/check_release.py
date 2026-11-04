@@ -15,7 +15,14 @@ def run():
  if interop.exists():
   for item in json.loads(interop.read_text())['files']:
    actual=hashlib.sha256((ROOT/item['path']).read_bytes()).hexdigest()
-   if actual!=item['sha256']:raise ValueError('Interop implementation differs: '+item['path'])
+   newer=ROOT/'validation/ps13_anatomical_fsl/IMPLEMENTATION_ADDENDUM.json'
+   allowed={x['path']:x['sha256'] for x in json.loads(newer.read_text())['files']} if newer.exists() else {}
+   if actual not in {item['sha256'],allowed.get(item['path'])}:raise ValueError('Interop implementation differs: '+item['path'])
+   amendments[item['path']]=item['sha256']
+ anatomical=ROOT/'validation/ps13_anatomical_fsl/IMPLEMENTATION_ADDENDUM.json'
+ if anatomical.exists():
+  for item in json.loads(anatomical.read_text())['files']:
+   if hashlib.sha256((ROOT/item['path']).read_bytes()).hexdigest()!=item['sha256']:raise ValueError('Anatomical audit implementation differs: '+item['path'])
    amendments[item['path']]=item['sha256']
  for entry in freeze['files']:
   actual=hashlib.sha256((ROOT/entry['path']).read_bytes()).hexdigest()

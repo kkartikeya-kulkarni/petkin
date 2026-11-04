@@ -1,0 +1,18 @@
+{
+  "version": "0.4.0.dev3",
+  "scope": "Explicit concentration-unit aliases and historical-experiment reproduction guard; no numerical model or threshold changes; no new qualification",
+  "files": [
+    {
+      "path": "src/petkin/__init__.py",
+      "sha256": "bb8c00b5bec68cc6d4abb57d1966ec73f6e9809fda8c9d3af965ca4e54826cf6"
+    },
+    {
+      "path": "src/petkin/bids.py",
+      "sha256": "d94aee48815fb5c2a28bc954b02a832fb4c6d8c0ef13c36d25b24fc69d0b754c"
+    },
+    {
+      "path": "examples/validate_ps13_external.py",
+      "sha256": "b0a36984a5ccc61b206efe466d058b1c67c1af8b89b4c2b71bf85d254fc13794"
+    }
+  ]
+}
