@@ -110,3 +110,12 @@ def test_snapshot_lock_retains_reference_transforms_without_guessing_file_extens
     monkeypatch.setattr(snapshot,'_read',read)
     result=snapshot.lock_snapshot('ds004868','1.0.4',tmp_path/'lock.json',participant='X')
     assert result['commit']==commit and result['files'][0]['path'].endswith('reference_transform.dat')
+
+
+def test_legacy_dicom_units_normalized_without_rewriting_pinned_metadata(tmp_path):
+    from petkin.bids import validate_pet_metadata
+    pet,_=records(tmp_path);pet['Units']='BQML';(tmp_path/'pet.json').write_text(json.dumps(pet));before=(tmp_path/'pet.json').read_bytes()
+    checked=validate_pet_metadata(pet)
+    assert checked['units']=='Bq/mL' and checked['source_units']=='BQML' and checked['unit_alias_applied']
+    prepare_bids_input(tmp_path/'blood.tsv',tmp_path/'blood.json',tmp_path/'pet.json',tmp_path/'out',plasma_kind='total',initial_policy='zero',terminal_policy='hold')
+    assert (tmp_path/'pet.json').read_bytes()==before

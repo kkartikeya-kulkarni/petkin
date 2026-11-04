@@ -49,3 +49,11 @@ def test_rejects_geometry_mismatch_before_writing_TACS(tmp_path):
     (tmp_path/'timing.json').write_text(json.dumps(dict(FrameTimesStart=[0,60,120,180,240],FrameDuration=[60]*5,Units='Bq/mL',ImageDecayCorrected=True,ImageDecayCorrectionTime=0)))
     with pytest.raises(ValueError,match='grid'):extract_regions(tmp_path/'pet.nii.gz',tmp_path/'labels.nii.gz',tmp_path/'timing.json',tmp_path/'regions')
     assert not (tmp_path/'regions').exists()
+
+
+def test_historical_pet_threshold_experiment_cannot_be_run_as_default_brain_analysis(tmp_path):
+    import subprocess,sys
+    script=Path(__file__).parents[1]/'examples/validate_ps13_external.py'
+    result=subprocess.run([sys.executable,str(script),str(tmp_path/'missing-data'),str(tmp_path/'out')],capture_output=True,text=True)
+    assert result.returncode==2 and 'not brain-PET validation' in result.stderr
+    assert not (tmp_path/'out').exists()

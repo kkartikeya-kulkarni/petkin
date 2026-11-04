@@ -1,3 +1,13 @@
+# 0.4.0.dev3 — PS13 anatomical audit and input compatibility
+
+- Accept the explicit legacy DICOM concentration alias BQML consistently during
+  image extraction while preserving original metadata and content hashes.
+- Require an explicit reproduction flag for the historical PS13 threshold-mask
+  experiment after an audited mask was found outside the estimated brain.
+- Preserve historical outcomes and add an MRI-atlas/FSL follow-up with all failures
+  and exploratory timing hypotheses retained. No timing offset was adopted.
+- Numerical fitting equations, default bounds and scientific thresholds are unchanged.
+
 # 0.4.0.dev2 — BIDS and PETPrep interoperability
 
 - Added explicit total/parent plasma preparation with measured parent fractions,

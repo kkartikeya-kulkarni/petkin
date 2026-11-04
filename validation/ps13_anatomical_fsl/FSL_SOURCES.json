@@ -1,0 +1,30 @@
+{
+  "FSL_version": "6.0.7.18",
+  "files": [
+    {
+      "path": "data/atlases/HarvardOxford/HarvardOxford-cort-maxprob-thr25-2mm.nii.gz",
+      "sha256": "7397ffdbae7559e0f0aa6237f998dc0f6aca3f9db9009f6ffa637c0c62b686ca"
+    },
+    {
+      "path": "data/atlases/HarvardOxford-Cortical.xml",
+      "sha256": "b8eb5ba5e787a4d3b442f75041f533f31b278a83e467bd2ab22438c1cff36581"
+    },
+    {
+      "path": "etc/flirtsch/T1_2_MNI152_2mm.cnf",
+      "sha256": "49df13ca10b8f95700fedb100d0abacf5ff98f1cbfc10cdbcb4bbb4c8d155acd"
+    }
+  ],
+  "pipeline": [
+    "BET -R -m",
+    "FLIRT MRI-to-MNI 12 DOF, corratio",
+    "FNIRT default T1_2_MNI152_2mm config",
+    "invwarp into T1 grid",
+    "applywarp atlas with nearest-neighbor interpolation",
+    "Duration-weighted PET mean of frames starting >=1200 seconds",
+    "FLIRT PET-to-T1 6 DOF, normmi cost and searchcost",
+    "Inverse affine atlas propagation with nearest neighbor",
+    "petkin extract using original pinned PET JSON",
+    "petkin analyze fixed-delay 2t, vb=0.05, tstar=30, input-tail=hold"
+  ],
+  "source_clock_modified": false
+}

@@ -1,0 +1,10 @@
+{
+  "scope": "One baseline scan in the historical PS13 experiment; not an audit of every mask",
+  "scan": "PSBB01 baseline / S3 alias PS50 baseline",
+  "original_mask_sha256": "b4327578414311956743bf94988c2c440a0b778fdccfecd6271968cb943649d6",
+  "overlap_with_FSL_brain_mask_fraction": 0.0,
+  "method": "Original PET threshold mask transformed by independently estimated 6-DOF FSL alignment to MRI; nearest-neighbor interpolation, compared with FSL BET brain mask",
+  "visual_review": "Mask is outside the brain on the generated anatomical overlays",
+  "independent_expert_reviewed": false,
+  "interpretation": "Historical uptake-mask experiment cannot establish anatomical brain kinetic performance; all original outcomes retained"
+}

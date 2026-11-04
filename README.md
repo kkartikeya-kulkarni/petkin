@@ -3,9 +3,9 @@
 A Python toolkit for dynamic PET tracer kinetic modeling, graphical analysis,
 rigid motion correction, and PET-to-structural-MRI registration.
 
-**Version:** 0.4.0.dev2 · Regional research workflow
+**Version:** 0.4.0.dev3 · Regional research workflow
 
-[Download the current version](https://github.com/kkartikeya-kulkarni/petkin/releases/tag/v0.4.0-dev.2)
+[Download the current version](https://github.com/kkartikeya-kulkarni/petkin/releases/tag/v0.4.0-dev.3)
 
 ## Installation
 

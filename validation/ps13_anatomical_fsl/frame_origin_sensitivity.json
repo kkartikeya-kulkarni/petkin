@@ -1,0 +1,89 @@
+{
+  "scope": "Hypothetical clock-alignment diagnostic only; includes pre-scan tissue history through shifted observation intervals. Original BIDS metadata and production results are unchanged. No offset is verified or automatically adopted.",
+  "records": [
+    {
+      "session": "baseline",
+      "region": "Frontal Pole",
+      "hypothetical_frame_offset_seconds": 0,
+      "raw_VT": 1.8184263910160594,
+      "rmse": 2745.2910064281705,
+      "local_qc_passed": false,
+      "qc_reasons": [
+        "parameter_at_bound"
+      ]
+    },
+    {
+      "session": "baseline",
+      "region": "Frontal Pole",
+      "hypothetical_frame_offset_seconds": 30,
+      "raw_VT": 1.7978317417590528,
+      "rmse": 1102.844157801537,
+      "local_qc_passed": false,
+      "qc_reasons": [
+        "parameter_at_bound"
+      ]
+    },
+    {
+      "session": "baseline",
+      "region": "Frontal Pole",
+      "hypothetical_frame_offset_seconds": 45,
+      "raw_VT": 1.896269106781141,
+      "rmse": 344.12969038673157,
+      "local_qc_passed": true,
+      "qc_reasons": []
+    },
+    {
+      "session": "baseline",
+      "region": "Frontal Pole",
+      "hypothetical_frame_offset_seconds": 60,
+      "raw_VT": 1.9343672971946908,
+      "rmse": 582.7305944640825,
+      "local_qc_passed": true,
+      "qc_reasons": []
+    },
+    {
+      "session": "blocked",
+      "region": "Frontal Pole",
+      "hypothetical_frame_offset_seconds": 0,
+      "raw_VT": 1.522919708203799,
+      "rmse": 417.7196716239008,
+      "local_qc_passed": true,
+      "qc_reasons": []
+    },
+    {
+      "session": "blocked",
+      "region": "Frontal Pole",
+      "hypothetical_frame_offset_seconds": 30,
+      "raw_VT": 1.854139660141646,
+      "rmse": 1399.9215678869446,
+      "local_qc_passed": false,
+      "qc_reasons": [
+        "large_local_macro_uncertainty"
+      ]
+    },
+    {
+      "session": "blocked",
+      "region": "Frontal Pole",
+      "hypothetical_frame_offset_seconds": 45,
+      "raw_VT": 4509.185102012513,
+      "rmse": 2107.594917561009,
+      "local_qc_passed": false,
+      "qc_reasons": [
+        "parameter_at_bound",
+        "large_local_macro_uncertainty"
+      ]
+    },
+    {
+      "session": "blocked",
+      "region": "Frontal Pole",
+      "hypothetical_frame_offset_seconds": 60,
+      "raw_VT": 3687.3281686785367,
+      "rmse": 2702.003120629001,
+      "local_qc_passed": false,
+      "qc_reasons": [
+        "parameter_at_bound",
+        "large_local_macro_uncertainty"
+      ]
+    }
+  ]
+}

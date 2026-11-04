@@ -1,0 +1,10 @@
+{
+ "role":"Exploratory anatomical processing of exposed PS13 data; not independent human registration truth",
+ "dataset":"ds004868 1.0.4 pinned commit 623ea3de909abd9472538f8e45cf286e1c792444",
+ "participant":"PSBB01, selected before processing as first pinned participant",
+ "anatomical_pipeline":"Installed FSL BET robust brain extraction, 12-DOF FLIRT MRI-to-MNI initialization, FNIRT T1-to-MNI default 2mm configuration; inverse warp Harvard-Oxford cortical maxprob threshold25 atlas to subject MRI",
+ "PET_pipeline":"Duration-weighted 20–90 minute PET mean; independent FSL FLIRT 6-DOF normalized mutual information PET-to-MRI; propagate supplied atlas labels with nearest-neighbor interpolation",
+ "regions":"All nonzero Harvard-Oxford cortical atlas labels; no PET intensity threshold ROI",
+ "outcomes":"Region volumes, anatomical QC overlays, regional TACs and fits with all failures retained",
+ "limits":["Expert anatomical review pending","Atlas labels are estimated from registration, not individual ground truth","This is not full PETPrep","PET motion correction not added in this exploratory comparison","No qualification gate is passed from successful execution or visual similarity"]
+}
