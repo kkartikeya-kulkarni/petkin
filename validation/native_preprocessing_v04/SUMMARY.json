@@ -1,0 +1,16 @@
+{
+  "version": "0.4.0.dev4",
+  "source_tests_passed": 75,
+  "installed_wheel_tests_passed": 75,
+  "full_research_qualification": false,
+  "unresolved_gates": [
+    "EXT-01",
+    "REG-02"
+  ],
+  "native_pipeline_executes_petprep": false,
+  "copied_petprep_implementation": false,
+  "synthetic_benchmark": "SYNTHETIC_RESULTS.json",
+  "measured_development_run": "MEASURED_EXECUTION.json",
+  "measured_scope": "All 27 frames, reduced spatial resolution, one exposed development scan; not independent qualification",
+  "measured_gtm_psf_verified": false
+}

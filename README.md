@@ -3,9 +3,9 @@
 A Python toolkit for dynamic PET tracer kinetic modeling, graphical analysis,
 rigid motion correction, and PET-to-structural-MRI registration.
 
-**Version:** 0.4.0.dev3 · Regional research workflow
+**Version:** 0.4.0.dev4 · Native preprocessing and regional research workflow
 
-[Download the current version](https://github.com/kkartikeya-kulkarni/petkin/releases/tag/v0.4.0-dev.3)
+[Download the current version](https://github.com/kkartikeya-kulkarni/petkin/releases/tag/v0.4.0-dev.4)
 
 ## Installation
 
@@ -58,6 +58,54 @@ infer clock corrections from legacy `FrameReferenceTime`. If injection predates
 `TimeZero`, align blood and tissue to an earlier common origin before using the
 current zero-initial-state compartment models. Nonzero PET decay-reference offsets
 also require explicit upstream alignment.
+
+## Native image preprocessing
+
+Run PetKin's own preprocessing directly from dynamic PET, T1-weighted MRI and
+the original PET timing JSON. No PETPrep installation, Docker, FSL or FreeSurfer
+is needed for this command.
+
+```sh
+petkin preprocess-native pet.nii.gz T1w.nii.gz pet.json preprocessed \
+  --brain-mask brain_mask_in_T1w.nii.gz --labels regions_in_T1w.nii.gz
+```
+
+This performs N4 MRI bias correction, brain masking, three candidate tissue
+classes, rigid PET motion correction, PET-to-MRI registration and regional TAC
+extraction. Open `preprocessed/index.html` to inspect overlays, regions and motion.
+The original frame timing and concentration units are preserved. Final PET frames
+are sampled directly from their original images once per output grid.
+
+Then fit the extracted regions using your prepared blood input:
+
+```sh
+petkin analyze preprocessed/regions/regions.json prepared-input/input.csv results \
+  --model 2t --vb 0.05 --tstar 30
+```
+
+For template-based brain extraction, atlas propagation and standard-space output:
+
+```sh
+petkin preprocess-native pet.nii.gz T1w.nii.gz pet.json preprocessed-standard \
+  --template template_T1w.nii.gz --template-mask template_brain_mask.nii.gz \
+  --atlas-labels atlas_regions.nii.gz --normalize
+```
+
+Template images, masks and atlas labels must share their respective grids. The
+anatomical mappings use affine plus B-spline registration; `--affine-only` disables
+the deformable stage. Supply your own appropriate, licensed template and atlas.
+Candidate CSF/GM/WM intensity classes are separate from anatomical region labels.
+
+Optional regional geometric-transfer-matrix (GTM) partial-volume correction uses
+`--pvc-fwhm X Y Z`, with your scanner's measured resolution in millimetres. It
+writes a separate `regions_gtm/regions.json`; uncorrected curves are retained.
+Read the assumptions before using corrected estimates: homogeneous activity per
+region, including the fitted label-zero background, and a spatially invariant
+Gaussian point-spread function. No scanner resolution is guessed.
+
+Use an empty output directory. Failed runs retain `preprocessing.json` with their
+failure status. Review masks, registration, candidate tissue classes and regional
+coverage before analysis. See [native methods and limitations](docs/NATIVE_PREPROCESSING.md).
 
 ## Import PETPrep regional curves
 

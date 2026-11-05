@@ -1,0 +1,52 @@
+{
+  "repository": "https://github.com/nipreps/petprep",
+  "commit": "cf9c8cc9c7d5ddb662c18b2d9653b3ea92c1e58d",
+  "files": [
+    {
+      "file": "petprep_workflows_base.py",
+      "sha256": "025b6adb14056fd943da5c719f7cbadcef515693ee9f7fed5e5041690f5f7ce2"
+    },
+    {
+      "file": "LICENSE",
+      "sha256": "daa3ef7c1f3f71a0155455743ef87e6ef0e65beacaefc3393e924a524059305e"
+    },
+    {
+      "file": "petprep_workflows_pet_registration.py",
+      "sha256": "ca79456f9381797e2ae451d7cabe2ac207e3c46e35f79cdc0f26be9d8a4bf3c6"
+    },
+    {
+      "file": "petprep_cli_parser.py",
+      "sha256": "1223e4cd93a26dcc3a31abfd2818d5309b17a7c02e0ddf6ab099be2934744618"
+    },
+    {
+      "file": "petprep_data_pvc_config.json",
+      "sha256": "4a9faa110848d6e842e92eee7f6e4362b850d7e66c1a5ef92cdac68c9f15b1c7"
+    },
+    {
+      "file": "docs_installation.rst",
+      "sha256": "512a9473928d2da79e4c85f80e5d260acb53e75e54a5e1ea21fc7ec1a734ecca"
+    },
+    {
+      "file": "petprep_workflows_pet_base.py",
+      "sha256": "e417dc43b632307e4ceaf652bdbe079d87e6845984db7d3b5ec4b53089525227"
+    },
+    {
+      "file": "docs_usage.rst",
+      "sha256": "07708db19523a4475ddc1ac87a6caf807fec20945166401cd693ad442c1de0d4"
+    },
+    {
+      "file": "petprep_workflows_pet_pvc.py",
+      "sha256": "55b1319f08ab672e538dfe17dd562e8bb0405bece56aca0f8db9d89230f765f1"
+    },
+    {
+      "file": "petprep_workflows_pet_tacs.py",
+      "sha256": "a7e3512879ebdb932baeb8a0d7cb483f1af03e7f190ba22f6849751d6b1e9d96"
+    },
+    {
+      "file": "petprep_workflows_pet_hmc.py",
+      "sha256": "ba4df931a4ad3c40ed80fd81dd927a6238450e28e8f0e141039d53f82454ba63"
+    }
+  ],
+  "use": "Architecture and CLI reference only; no upstream implementation copied or executed in the native pipeline",
+  "license": "Apache-2.0 upstream; original PetKin implementation remains MIT"
+}

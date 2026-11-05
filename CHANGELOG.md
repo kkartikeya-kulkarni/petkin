@@ -1,3 +1,17 @@
+# 0.4.0.dev4 — native preprocessing
+
+- Add `preprocess-native`: N4 MRI bias correction, supplied or template-propagated
+  brain masks, candidate tissue probabilities, native motion/PET–MRI alignment,
+  affine/B-spline anatomical mappings and direct standard-space PET sampling.
+- Add anatomical region propagation/extraction, regional brain-overlap checks,
+  optional nonnegative GTM correction with explicit scanner PSF, and review reports.
+- Preserve original timing, raw regional curves, transform direction, failure
+  records and source provenance. No PETPrep implementation is copied or executed.
+- Add known-truth synthetic checks and a downsampled measured-data development
+  execution covering all 27 frames and 48 regions of PSBB01 baseline.
+- Full independent kinetic and measured-human registration qualification remains
+  incomplete. No claim of equivalence or superiority to PETPrep is made.
+
 # 0.4.0.dev3 — PS13 anatomical audit and input compatibility
 
 - Accept the explicit legacy DICOM concentration alias BQML consistently during

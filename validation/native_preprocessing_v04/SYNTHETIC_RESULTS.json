@@ -1,0 +1,13 @@
+{
+  "scope": "Synthetic development checks only; not independent human validation",
+  "seed": 620,
+  "tissue_voxel_accuracy": 1.0,
+  "n4_within_tissue_cv_before": 0.0854395404458046,
+  "n4_within_tissue_cv_after": 0.012341380569969428,
+  "gtm_maximum_absolute_error": 2.4575668895465697e-06,
+  "gtm_uncorrected_maximum_absolute_error": 4.863258361816406,
+  "affine_landmark_maximum_error_mm": 0.6925846323614974,
+  "rigid_motion_landmark_maximum_error_mm": 0.15449873692772217,
+  "native_status": "completed",
+  "registration_note": "Motion and affine tests use known synthetic transforms; not measured human truth"
+}

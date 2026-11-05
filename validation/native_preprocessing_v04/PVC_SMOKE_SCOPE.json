@@ -1,0 +1,16 @@
+{
+  "scope": "Three-frame downsampled measured API smoke test only",
+  "frames": [
+    8,
+    17,
+    26
+  ],
+  "regions": 48,
+  "pvc_fwhm_xyz_mm": [
+    5,
+    5,
+    5
+  ],
+  "psf_status": "Illustrative assumed PSF, not measured scanner resolution; no quantitative kinetic claim",
+  "full_qualification": false
+}
