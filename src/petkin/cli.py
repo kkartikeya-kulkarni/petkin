@@ -56,7 +56,29 @@ def main():
     q.add_argument('--starts',type=int,default=8);q.add_argument('--seed',type=int,default=0);q.add_argument('--hold-every',type=int,default=5)
     q=sub.add_parser('preprocess');q.add_argument('pet');q.add_argument('mri');q.add_argument('timing');q.add_argument('output_dir')
     q.add_argument('--reference',type=int);q.add_argument('--preserve-blank',action='store_true')
+    q=sub.add_parser('preprocess-native',help='Native MRI bias correction, segmentation, PET motion/registration, normalization and optional regional PVC')
+    q.add_argument('pet');q.add_argument('mri');q.add_argument('timing');q.add_argument('output_dir')
+    q.add_argument('--brain-mask',help='Reviewed binary mask on the source MRI grid')
+    q.add_argument('--labels',help='Integer regional labels on the source MRI grid')
+    q.add_argument('--template',help='Anatomical template image')
+    q.add_argument('--template-mask',help='Binary brain mask on the template grid')
+    q.add_argument('--atlas-labels',help='Integer atlas labels on the template grid')
+    q.add_argument('--normalize',action='store_true',help='Also output PET directly on the template grid')
+    q.add_argument('--affine-only',action='store_true',help='Use affine anatomical mappings without B-spline deformation')
+    q.add_argument('--reference',type=int);q.add_argument('--preserve-blank',action='store_true')
+    q.add_argument('--pvc-fwhm',type=float,nargs=3,metavar=('X','Y','Z'),help='GTM correction using scanner PSF FWHM in x,y,z mm')
     args=parser.parse_args()
+    if args.command=='preprocess-native':
+        from .preprocessing import preprocess_native
+        try:
+            result=preprocess_native(args.pet,args.mri,args.timing,args.output_dir,
+                brain_mask=args.brain_mask,labels=args.labels,template=args.template,
+                template_mask=args.template_mask,atlas_labels=args.atlas_labels,
+                normalize=args.normalize,affine_only=args.affine_only,reference_index=args.reference,
+                preserve_blank=args.preserve_blank,pvc_fwhm=args.pvc_fwhm)
+        except (ValueError,RuntimeError,OSError,KeyError) as exc:parser.exit(2,str(exc)+'\n')
+        print(f"Native preprocessing {result['status']}. Review {args.output_dir}/index.html before modeling.")
+        return
     if args.command in ('bids-input','petprep-import','snapshot-lock','snapshot-fetch'):
         try:
             if args.command=='bids-input':

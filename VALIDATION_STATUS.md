@@ -34,6 +34,14 @@ PETPrep is an optional comparison pipeline, not a requirement to use PetKin.
 
 ## Outstanding EXT-01: external kinetic qualification
 
+The v0.4.0.dev4 native preprocessing implementation adds N4 correction, candidate
+tissue segmentation, template-mask propagation, anatomical normalization, motion
+correction and optional regional GTM correction. These additions have their own
+component and integration tests in `tests/test_preprocessing.py`; they do not
+inherit full anatomical qualification from the older rigid-registration tests.
+PETPrep was reviewed as a workflow reference, not copied or executed as a backend.
+See `validation/native_preprocessing_v04/` for implementation and execution scope.
+
 A reviewer independent of development must verify the source records supporting
 PET–blood calibration, decay reference, input/tissue timing, parent correction,
 vascular assumptions, and anatomical ROI geometry. Existing raw estimates and

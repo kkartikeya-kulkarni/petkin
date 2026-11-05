@@ -16,6 +16,10 @@ the example manifests and validation records.
   or reference transforms are represented as included or tested.
 - NumPy, SciPy, SimpleITK, matplotlib, nibabel, kinfitr and NiftyPAD are separate
   dependencies or comparison tools governed by their upstream licenses.
+- PETPrep (Apache-2.0) was inspected as an architectural reference for native
+  preprocessing. No PETPrep source implementation is bundled or called by the
+  native pipeline. Reviewed commit and file hashes are recorded under
+  `validation/native_preprocessing_v04/UPSTREAM_REVIEW.json`.
 
 There is no endorsement or independent certification by the dataset authors.
 Do not assign collaborator identities, institutional affiliations or reviewers

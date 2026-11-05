@@ -7,23 +7,20 @@ def run():
  base=ROOT/'validation/v03';freeze=json.loads((base/'IMPLEMENTATION_FREEZE.json').read_text());amendments={}
  for filename,key in [('REGISTRATION_GENERATOR_AMENDMENT.json','sha256'),('VERSION_METADATA_AMENDMENT.json','current_sha256')]:
   entry=json.loads((base/filename).read_text());amendments[entry['file']]=entry[key]
- addendum=ROOT/'validation/workflow_v04/IMPLEMENTATION_ADDENDUM.json'
- if addendum.exists():
-  for item in json.loads(addendum.read_text())['files']:
-   if item['path'] in ['src/petkin/cli.py','src/petkin/__init__.py']:amendments[item['path']]=item['sha256']
- interop=ROOT/'validation/bids_interop_v04/IMPLEMENTATION_ADDENDUM.json'
- if interop.exists():
-  for item in json.loads(interop.read_text())['files']:
-   actual=hashlib.sha256((ROOT/item['path']).read_bytes()).hexdigest()
-   newer=ROOT/'validation/ps13_anatomical_fsl/IMPLEMENTATION_ADDENDUM.json'
-   allowed={x['path']:x['sha256'] for x in json.loads(newer.read_text())['files']} if newer.exists() else {}
-   if actual not in {item['sha256'],allowed.get(item['path'])}:raise ValueError('Interop implementation differs: '+item['path'])
-   amendments[item['path']]=item['sha256']
- anatomical=ROOT/'validation/ps13_anatomical_fsl/IMPLEMENTATION_ADDENDUM.json'
- if anatomical.exists():
-  for item in json.loads(anatomical.read_text())['files']:
-   if hashlib.sha256((ROOT/item['path']).read_bytes()).hexdigest()!=item['sha256']:raise ValueError('Anatomical audit implementation differs: '+item['path'])
-   amendments[item['path']]=item['sha256']
+ # Explicit chronological amendments retain historical records. Every path must
+ # match its most recent documented hash; numerical engines remain frozen below.
+ documented={}
+ for folder in ('workflow_v04','bids_interop_v04','ps13_anatomical_fsl','native_preprocessing_v04'):
+  addendum=ROOT/'validation'/folder/'IMPLEMENTATION_ADDENDUM.json'
+  if addendum.exists():
+   for item in json.loads(addendum.read_text())['files']:
+    # The dev1 record froze only these two version/entry-point amendments;
+    # its other entries are historical snapshots, not current source freezes.
+    if folder=='workflow_v04' and item['path'] not in ('src/petkin/cli.py','src/petkin/__init__.py'):continue
+    documented[item['path']]=item['sha256']
+ for path,expected in documented.items():
+  if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=expected:raise ValueError('Documented implementation differs: '+path)
+  amendments[path]=expected
  for entry in freeze['files']:
   actual=hashlib.sha256((ROOT/entry['path']).read_bytes()).hexdigest()
   if actual not in {entry['sha256'],amendments.get(entry['path'])}:raise ValueError('Frozen implementation changed: '+entry['path'])

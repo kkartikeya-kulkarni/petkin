@@ -1,0 +1,31 @@
+{
+  "version": "0.4.0.dev4",
+  "scope": "Original native anatomical preprocessing, normalization and regional GTM; no PETPrep backend; frozen kinetic engines and scientific qualification thresholds unchanged",
+  "not_new_independent_qualification": true,
+  "files": [
+    {
+      "path": "src/petkin/__init__.py",
+      "sha256": "fbf064a1dc76139e3062621634d0e060a3f4a1812dda6a8eb400a77ab4bd32f9"
+    },
+    {
+      "path": "src/petkin/cli.py",
+      "sha256": "fe54e39e31d51657c551c40827074f1bd717c1539f58507d6a403dc64d707ae2"
+    },
+    {
+      "path": "src/petkin/preprocessing.py",
+      "sha256": "5fb73305f7942cb2c1b3ff8626617a42611dc7b104e7f8a2476826b30b421f3c"
+    },
+    {
+      "path": "tests/test_preprocessing.py",
+      "sha256": "6091e2f948a2f9de07d68ee6be0945173cead4a87603e29565964724fe6c4bea"
+    },
+    {
+      "path": "examples/validate_native_preprocessing.py",
+      "sha256": "207fef03a394c6a3d3b36759bfffe35679943e707afb3b3f3ecaee7c66550dbb"
+    },
+    {
+      "path": "scripts/check_release.py",
+      "sha256": "05044cb900636cdf22e494c767192bb310553b75e5ccedaedbc58b3e65f34f53"
+    }
+  ]
+}
