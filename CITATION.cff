@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "Cite the version and validation records used in your analysis."
-title: "petkin: auditable dynamic PET research toolkit"
-version: "0.4.0.dev3"
+title: "PetKin: PET Preprocessing and Tracer Kinetic Modeling"
+version: "0.4.0.dev4"
 type: software
 license: MIT
-abstract: "Research qualification candidate for PET kinetics and rigid preprocessing. Full independent research validation remains incomplete."
+abstract: "Python research toolkit for native PET/MRI preprocessing and tracer kinetic modeling. Full independent research validation remains incomplete."
 authors:
   - name: "petkin contributors"
 repository-code: "https://github.com/kkartikeya-kulkarni/petkin"

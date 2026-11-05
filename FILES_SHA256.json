@@ -16,8 +16,8 @@
   },
   {
     "path": "CITATION.cff",
-    "bytes": 502,
-    "sha256": "ff324322c6cc44265232abe3dbf3a0d25196703698555b0513554ad17235e4aa"
+    "bytes": 520,
+    "sha256": "bb344ebc737613473140ff8b1db288944f9da8fb5cd292c2893348aa25893065"
   },
   {
     "path": "LICENSE",
@@ -41,8 +41,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 13618,
-    "sha256": "68437c0458401962af32847a3bff611e1def95554e58e7369f752196737b91a8"
+    "bytes": 7391,
+    "sha256": "3630ce91682b9334b0c4a328d41982859b07bfd5386d40d409e04d55c8eb424b"
   },
   {
     "path": "REVIEW_HANDOFF.md",
@@ -68,6 +68,11 @@
     "path": "docs/NATIVE_PREPROCESSING.md",
     "bytes": 6151,
     "sha256": "7d4b32ef26fdda16e40b8c05fcdc9260ca432478290619fb23d3215ed8c767b7"
+  },
+  {
+    "path": "docs/USAGE.md",
+    "bytes": 13700,
+    "sha256": "5f9aa293d3f0fb4817dc269bd4ac1f1fcdc4c6df77819938d972deabc4795dc4"
   },
   {
     "path": "examples/QUALIFICATION_REPRODUCE.md",
