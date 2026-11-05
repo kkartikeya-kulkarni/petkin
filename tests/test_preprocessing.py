@@ -94,7 +94,7 @@ def sources(tmp_path):
 def test_full_native_pipeline_and_original_metadata(tmp_path):
     paths = sources(tmp_path); original = paths[2].read_bytes(); out = tmp_path/'out'
     result = preprocess_native(*paths, out, brain_mask=tmp_path/'mask.nii.gz',
-                               labels=tmp_path/'labels.nii.gz', pvc_fwhm=[5, 5, 5], n4_iterations=(5,))
+                               labels=tmp_path/'labels.nii.gz', pvc_fwhm=np.array([5, 5, 5]), n4_iterations=(5,))
     assert result['status'] == 'completed' and not result['fully_validated']
     assert result['regions'] == 3 and result['final_interpolations_per_frame_per_output'] == 1
     assert (out/'source_pet.json').read_bytes() == original == paths[2].read_bytes()

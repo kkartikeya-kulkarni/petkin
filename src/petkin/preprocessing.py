@@ -227,6 +227,7 @@ def preprocess_native(pet_path, mri_path, timing_path, output_dir, *, brain_mask
         raise ValueError('Output directory must not contain source inputs')
     if out.exists() and (not out.is_dir() or any(out.iterdir())): raise ValueError('Output directory must be empty')
     pet = sitk.ReadImage(str(pet_path)); mri = sitk.ReadImage(str(mri_path)); _check_image(mri, 'MRI')
+    if pet.GetNumberOfComponentsPerPixel() != 1: raise ValueError('PET must be a scalar 4D image')
     metadata = json.loads(Path(timing_path).read_text()); checked = validate_pet_metadata(metadata)
     parts = split_dynamic(pet)
     if len(parts) != len(checked['frames'].start): raise ValueError('PET frame count does not match timing')
@@ -246,7 +247,7 @@ def preprocess_native(pet_path, mri_path, timing_path, output_dir, *, brain_mask
     qc = dict(status='running', fully_validated=False, provenance=file_manifest(inputs),
               software=dict(petkin=__version__, numpy=np.__version__, scipy=scipy.__version__, SimpleITK=sitk.Version_VersionString()),
               settings=dict(normalize=normalize, affine_only=affine_only, reference_index=reference_index,
-                            preserve_blank=preserve_blank, pvc_fwhm=pvc_fwhm, n4_iterations=list(n4_iterations)),
+                            preserve_blank=preserve_blank, pvc_fwhm=None if pvc_fwhm is None else psf.tolist(), n4_iterations=list(n4_iterations)),
               backend='Native NumPy/SciPy/SimpleITK; no PETPrep execution',
               limitations=['Rigid interframe correction; no intraframe or attenuation-map correction',
                            'Brain masks, tissue classes, parcellations and alignments require review',
